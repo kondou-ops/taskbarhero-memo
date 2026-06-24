@@ -1,0 +1,627 @@
+﻿id,key,ja,en
+60714139914,ItemName_110001,スモールルビー,Minor Ruby
+60714139916,ItemName_110002,マイナーサファイア,Minor Sapphire
+60714139918,ItemName_110003,マイナートパーズ,Minor Topaz
+60714139920,ItemName_110004,スモールエメラルド,Minor Emerald
+60714139922,ItemName_110005,マイナーアメジスト,Minor Amethyst
+60714139924,ItemName_111001,黒曜石の破片,Obsidian Shard
+60714139926,ItemName_111002,珊瑚の欠片,Coral Piece
+60714139928,ItemName_111003,翡翠石,Jade Stone
+60714139930,ItemName_111004,アンバージェム,Amber Gem
+60714139932,ItemName_112001,ルビー,Ruby
+60714139934,ItemName_112002,サファイア,Sapphire
+60714139936,ItemName_112003,トパーズ,Topaz
+60714139938,ItemName_112004,エメラルド,Emerald
+60714139940,ItemName_112005,アメジスト,Amethyst
+60714139942,ItemName_113001,クリスタルクォーツ,Crystal Quartz
+60714139944,ItemName_113002,真珠,Pearl
+60714139946,ItemName_113003,ターコイズ,Turquoise
+60714139948,ItemName_113004,ガーネット,Garnet
+60714139950,ItemName_114001,ダイヤモンド,Diamond
+60714139952,ItemName_114002,オパール,Opal
+60714139954,ItemName_114003,ラピスラズリ,Lapis Lazuli
+60714139956,ItemName_114004,ブラックパール,Black Pearl
+60714139958,ItemName_115001,アーケインクリスタル,Arcane Crystal
+60714139960,ItemName_115002,ミスティックトパーズ,Mystic Topaz
+60714139962,ItemName_115003,エンチャントルビー,Enchanted Ruby
+60714139964,ItemName_115004,星光のサファイア,Starlight Sapphire
+60714139966,ItemName_116001,虚空のオパール,Void Opal
+60714139968,ItemName_116002,アストラルダイヤ,Astral Diamond
+60714139970,ItemName_116003,ファントムエメラルド,Phantom Emerald
+60714139972,ItemName_116004,トワイライトアメジスト,Twilight Amethyst
+60714139974,ItemName_117001,セレスティアルパール,Celestial Pearl
+60714139976,ItemName_117002,ドラゴナイトクリスタル,Dragonite Crystal
+60714139978,ItemName_118001,ヴォイドクリスタル,Void Crystal
+60714139980,ItemName_118002,深淵の真珠,Abyssal Pearl
+60714139982,ItemName_119001,エーテルジェム,Ethereal Gem
+60714139984,ItemName_119002,混沌のダイヤモンド,Chaos Diamond
+60546367488,ItemName_120001,ゴブリンの皮,Goblin Hide
+60688973824,ItemName_120002,スケルトンボーン,Skeleton Bone
+60714139986,ItemName_120003,スライムゼリー,Slime Jelly
+60688973825,ItemName_121001,ウルフファング,Wolf Fang
+60688973826,ItemName_121002,スパイダーシルク,Spider Silk
+60714139988,ItemName_121003,毒草,Poisonous Herb
+60714139990,ItemName_121004,癒しの薬草,Healing Herb
+60693168128,ItemName_122001,コウモリの翼膜,Bat Wing Membrane
+60693168129,ItemName_122002,オーガブラッド,Ogre Blood
+60693168130,ItemName_122003,キノコの胞子,Mushroom Spore
+60693168131,ItemName_122004,古代樹の樹液,Ancient Tree Sap
+60714139992,ItemName_123001,スカル,Skull
+60714139994,ItemName_123002,ハーピーの羽,Harpy Feather
+60714139996,ItemName_123003,マンドレイクの根,Mandrake Root
+60714139998,ItemName_123004,ナイトシェードエキス,Nightshade Extract
+60714140000,ItemName_124001,バジリスクの鱗,Basilisk Scale
+60714140002,ItemName_124002,ワイバーンの爪,Wyvern Claw
+60714140004,ItemName_124003,ダイス,Dice
+60714140006,ItemName_124004,デーモンブラッド,Demon Blood
+60714140008,ItemName_125001,ミノタウロスの角,Minotaur Horn
+60714140010,ItemName_125002,グリフィンのくちばし,Griffin Beak
+60714140012,ItemName_125003,フェニックスの灰,Phoenix Ash
+60714140014,ItemName_125004,ドラゴンの胆汁,Dragon Bile
+60714140016,ItemName_126001,レイスの精髄,Wraith Essence
+60714140018,ItemName_126002,クラーケンインク,Kraken Ink
+60714140020,ItemName_126003,タイタンマロウ,Titan Marrow
+60714140022,ItemName_126004,ヴォイドの精髄,Void Ichor
+60714140024,ItemName_127001,深淵の粘液,Abyssal Mucus
+60714140026,ItemName_127002,カオススポア,Chaos Spore
+60714140028,ItemName_128001,原初の樹液,Primordial Sap
+60714140030,ItemName_128002,異界の毒,Eldritch Venom
+60714140032,ItemName_129001,チャソダイス,Chaso Dice
+60714140034,ItemName_129002,ヴォイドの触手,Void Tendril
+60693168134,ItemName_130001,一般刻文の巻物,Scroll of Common Inscription
+60693168136,ItemName_131001,アンコモン刻印の巻物,Scroll of Uncommon Inscription
+60714140036,ItemName_132001,レア刻印の巻物,Scroll of Rare Inscription
+60714140038,ItemName_133001,伝説の刻印の巻物,Scroll of Legendary Inscription
+60714140040,ItemName_134001,不滅の刻文の巻物,Scroll of Immortal Inscription
+60714140042,ItemName_135001,アルカナ刻印の巻物,Scroll of Arcana Inscription
+60714140044,ItemName_136001,超越銘文の巻物,Scroll of Beyond Inscription
+60714140046,ItemName_137001,天界文字の巻物,Scroll of Celestial Inscription
+60714140048,ItemName_138001,神聖刻印の巻物,Scroll of Divine Inscription
+60714140050,ItemName_139001,宇宙刻文の巻物,Scroll of Cosmic Inscription
+60693168137,ItemName_140001,木材,Wood
+60714140052,ItemName_140002,ストーン,Stone
+60714140054,ItemName_140003,レザー,Leather
+60714140056,ItemName_140004,銅の塊,Copper Nugget
+60693168138,ItemName_141001,ブロンズインゴット,Bronze Ingot
+60714140058,ItemName_141002,鉄のインゴット,Iron Ingot
+60693168139,ItemName_142001,銀のインゴット,Silver Ingot
+60714140060,ItemName_142002,金のインゴット,Gold Ingot
+60714140062,ItemName_143001,スターダストインゴット,Stardust Ingot
+60714140064,ItemName_143002,ヴォイドアイアン,Void Iron
+60714140066,ItemName_144001,ブラッドストーン,Bloodstone
+60714140068,ItemName_144002,サンダーストーン,Thunderstone
+7302398099456,ItemName_145001,カオスシャード,Chaos Shard
+7302427459584,ItemName_145002,アーケイン鉱石,Arcane Ore
+60714140070,ItemName_146001,ダークスチールインゴット,Darksteel Ingot
+60714140072,ItemName_146002,オリハルコン鉱石,Orichalcum Ore
+60714140074,ItemName_147001,月長石,Moonstone
+60714140076,ItemName_147002,サンストーン,Sunstone
+60714140078,ItemName_148001,ミスリル鉱石,Mithril Ore
+60714140080,ItemName_148002,エーテルインゴット,Ethereal Ingot
+60714140082,ItemName_149001,アダマンティウム鉱石,Adamantium Ore
+60714140084,ItemName_149002,エオンインゴット,Aeon Ingot
+60693168140,ItemName_160001,王国1周年記念コイン,Kingdom 1st Anniversary Coin
+60693168141,ItemName_160002,帝国建国1周年記念コイン,Empire 1st Anniversary Coin
+7302427459585,ItemName_160003,王国10周年記念コイン,Kingdom 10th Anniversary Coin
+7302427459586,ItemName_160004,帝国建国10周年記念コイン,Empire 10th Anniversary Coin
+7302427459587,ItemName_160005,王国50周年記念コイン,Kingdom 50th Anniversary Coin
+7302427459588,ItemName_160006,帝国建国50周年記念コイン,Empire 50th Anniversary Coin
+7302427459589,ItemName_160007,王国100周年記念コイン,Kingdom 100th Anniversary Coin
+7302427459590,ItemName_160008,帝国百周年記念コイン,Empire 100th Anniversary Coin
+7302427459591,ItemName_160009,聖王国1000周年記念コイン,Sacred Kingdom 1000th Anniversary Coin
+7302427459592,ItemName_160010,永遠帝国1000周年記念コイン,Eternal Empire 1000th Anniversary Coin
+60693168142,ItemName_190001,ソウルストーン - ノーマル,Soulstone - Normal
+60693168143,ItemName_190002,ソウルストーン - ナイトメア,Soulstone - Nightmare
+60693168144,ItemName_190003,ソウルストーン - ヘル,Soulstone - Hell
+60693168145,ItemName_190004,ソウルストーン - トーメント,Soulstone - Torment
+60693168146,ItemName_300001,ロングソード,Long Sword
+60693168147,ItemName_300002,カトラス,Cutlas
+60693168148,ItemName_300003,レイピア,Rapier
+60693168149,ItemName_300004,バスタードソード,Bastard Sword
+60693168150,ItemName_300005,グレートソード,Great Sword
+60693168151,ItemName_300006,ヘビーブレード,Heavy Blade
+60693168152,ItemName_300007,ナイトソード,Knight Sword
+60697362432,ItemName_300008,司令官の剣,Commander's Sword
+60697362433,ItemName_300009,ルーンソード,Rune Sword
+60697362434,ItemName_300010,レジェンドソード,Legend Sword
+60697362435,ItemName_300011,フェイトソード,Fate Sword
+60697362436,ItemName_300012,ヒーローソード,Hero Sword
+60714139662,ItemName_300013,ストームソード,Storm Sword
+60714139663,ItemName_300014,ヴェンジェンスソード,Vengeance Sword
+60714139664,ItemName_300015,ヴォイドブレード,Void Blade
+60714139665,ItemName_300016,クリスタルブレード,Crystal Blade
+60714139666,ItemName_300017,次元の剣,Dimensional Sword
+60714139667,ItemName_300018,シャドウブレード,Shadow Blade
+60714139668,ItemName_300019,エターナルソード,Eternal Sword
+60714139669,ItemName_300020,レイディアントソード,Radiant Sword
+60697362437,ItemName_310001,ショートボウ,Short Bow
+60697362438,ItemName_310002,ハンティングボウ,Hunting Bow
+60697362439,ItemName_310003,ロングボウ,Long Bow
+60697362440,ItemName_310004,コンポジットボウ,Composite Bow
+60697362441,ItemName_310005,ウォーボウ,War Bow
+60697362442,ItemName_310006,スカーレットボウ,Scarlet Bow
+60697362443,ItemName_310007,ダスクボウ,Dusk Bow
+60697362444,ItemName_310008,ジェイドボウ,Jade Bow
+60697362445,ItemName_310009,エリートボウ,Elite Bow
+60697362446,ItemName_310010,ルーンボウ,Rune Bow
+60697362447,ItemName_310011,ミスティックボウ,Mystic Bow
+60697362448,ItemName_310012,スウィフトボウ,Swift Bow
+60714139670,ItemName_310013,エンシェントボウ,Ancient Bow
+60714139671,ItemName_310014,リミットレスボウ,Limitless Bow
+60714139672,ItemName_310015,混沌の弓,Chaos Bow
+60714139673,ItemName_310016,ストームボウ,Storm Bow
+60714139674,ItemName_310017,シャドウボウ,Shadow Bow
+60714139675,ItemName_310018,テンペストボウ,Tempest Bow
+60714139676,ItemName_310019,エターナルボウ,Eternal Bow
+60714139677,ItemName_310020,レイディアントボウ,Radiant Bow
+60697362449,ItemName_320001,ウッドスタッフ,Wooden Staff
+60697362450,ItemName_320002,伝令のスタッフ,Herald Staff
+60697362451,ItemName_320003,ロングスタッフ,Long Staff
+60697362452,ItemName_320004,ウィッチスタッフ,Witch Staff
+60697362453,ItemName_320005,アズールスタッフ,Azure Staff
+60697362454,ItemName_320006,エルダースタッフ,Elder Staff
+60697362455,ItemName_320007,セージスタッフ,Sage Staff
+60697362456,ItemName_320008,ミスティックスタッフ,Mystic Staff
+60697362457,ItemName_320009,コメットスタッフ,Comet Staff
+60697362458,ItemName_320010,クリスタルスタッフ,Crystal Staff
+60697362459,ItemName_320011,ヴォイドスタッフ,Void Staff
+60697362460,ItemName_320012,コンカラースタッフ,Conqueror Staff
+60714139678,ItemName_320013,エンシェントスタッフ,Ancient Staff
+60714139679,ItemName_320014,セイクリッドスタッフ,Sacred Staff
+60714139680,ItemName_320015,深淵の杖,Abyssal Staff
+60714139681,ItemName_320016,カオススタッフ,Chaos Staff
+60714139682,ItemName_320017,テンペストスタッフ,Tempest Staff
+60714139683,ItemName_320018,ノヴァスタッフ,Nova Staff
+60714139684,ItemName_320019,エターナルスタッフ,Eternal Staff
+60714139685,ItemName_320020,レイディアントスタッフ,Radiant Staff
+60697362461,ItemName_330001,ノービスセプター,Novice Scepter
+60697362462,ItemName_330002,アイアンセプター,Iron Scepter
+60697362463,ItemName_330003,ブレスドセプター,Blessed Scepter
+60697362464,ItemName_330004,スチールセプター,Steel Scepter
+60697362465,ItemName_330005,聖なる笏,Sacred Scepter
+60697362466,ItemName_330006,ビショップのセプター,Bishop's Scepter
+60697362467,ItemName_330007,ディヴァウトセプター,Devout Scepter
+60697362468,ItemName_330008,ヘビーセプター,Heavy Scepter
+60697362469,ItemName_330009,ルーンセプター,Rune Scepter
+60697362470,ItemName_330010,レジェンドセプター,Legend Scepter
+60697362471,ItemName_330011,フェイトセプター,Fate Scepter
+60697362472,ItemName_330012,ヒーローセプター,Hero Scepter
+60714139686,ItemName_330013,ストームセプター,Storm Scepter
+60714139687,ItemName_330014,リミットレスセプター,Limitless Scepter
+60714139688,ItemName_330015,混沌の笏,Chaos Scepter
+60714139689,ItemName_330016,パワーセプター,Power Scepter
+60714139690,ItemName_330017,次元のセプター,Dimensional Scepter
+60714139691,ItemName_330018,シャドウセプター,Shadow Scepter
+60714139692,ItemName_330019,エターナルセプター,Eternal Scepter
+60714139693,ItemName_330020,レイディアントセプター,Radiant Scepter
+60697362473,ItemName_340001,ショートクロスボウ,Short Crossbow
+60697362474,ItemName_340002,レザークロスボウ,Leather Crossbow
+60697362475,ItemName_340003,ロングクロスボウ,Long Crossbow
+60697362476,ItemName_340004,コンプリートクロスボウ,Complete Crossbow
+60697362477,ItemName_340005,卓越のクロスボウ,Exceptional Crossbow
+60697362478,ItemName_340006,強化クロスボウ,Reinforced Crossbow
+60697362479,ItemName_340007,アイアンクロスボウ,Iron Crossbow
+60697362480,ItemName_340008,ウィングクロスボウ,Wing Crossbow
+60697362481,ItemName_340009,エリートクロスボウ,Elite Crossbow
+60697362482,ItemName_340010,ラージクロスボウ,Large Crossbow
+60697362483,ItemName_340011,ミスティッククロスボウ,Mystic Crossbow
+60697362484,ItemName_340012,ファストクロスボウ,Fast Crossbow
+60714139694,ItemName_340013,エンシェントクロスボウ,Ancient Crossbow
+60714139695,ItemName_340014,リミットレスクロスボウ,Limitless Crossbow
+60714139696,ItemName_340015,混沌のクロスボウ,Chaos Crossbow
+60714139697,ItemName_340016,パワークロスボウ,Power Crossbow
+60714139698,ItemName_340017,次元のクロスボウ,Dimensional Crossbow
+60714139699,ItemName_340018,シャドウクロスボウ,Shadow Crossbow
+60714139700,ItemName_340019,エターナルクロスボウ,Eternal Crossbow
+60714139701,ItemName_340020,レイディアントクロスボウ,Radiant Crossbow
+60697362485,ItemName_350001,ウッドアックス,Wooden Axe
+60697362486,ItemName_350002,アイアンアックス,Iron Axe
+60697362487,ItemName_350003,バトルアックス,Battle Axe
+60697362488,ItemName_350004,スチールアックス,Steel Axe
+60697362489,ItemName_350005,ウォーアックス,War Axe
+60697362490,ItemName_350006,ナイトのアックス,Knight's Axe
+60697362491,ItemName_350007,グレートアックス,Great Axe
+60697362492,ItemName_350008,ヘビーアックス,Heavy Axe
+60697362493,ItemName_350009,ルーンアックス,Rune Axe
+60697362494,ItemName_350010,レジェンドアックス,Legend Axe
+60697362495,ItemName_350011,フェイトアックス,Fate Axe
+60697362496,ItemName_350012,ヒーローアックス,Hero Axe
+60714139702,ItemName_350013,ストームアックス,Storm Axe
+60714139703,ItemName_350014,リミットレスアックス,Limitless Axe
+60714139704,ItemName_350015,混沌の斧,Chaos Axe
+60714139705,ItemName_350016,パワーアックス,Power Axe
+60714139706,ItemName_350017,次元の斧,Dimensional Axe
+60714139707,ItemName_350018,シャドウアックス,Shadow Axe
+60714139708,ItemName_350019,エターナルアックス,Eternal Axe
+60714139709,ItemName_350020,レイディアントアックス,Radiant Axe
+60697362497,ItemName_400001,バックラー,Buckler
+60697362498,ItemName_400002,ウッデンシールド,Wooden Shield
+60697362499,ItemName_400003,アイアンシールド,Iron Shield
+60697362500,ItemName_400004,ヒータシールド,Heater Shield
+60701556736,ItemName_400005,ヘビーシールド,Heavy Shield
+60701556737,ItemName_400006,フォレストシールド,Forest Shield
+60701556738,ItemName_400007,ウォーシールド,War Shield
+60701556739,ItemName_400008,バリアシールド,Barrier Shield
+60701556740,ItemName_400009,エリートシールド,Elite Shield
+60701556741,ItemName_400010,クリムゾンシールド,Crimson Shield
+60701556742,ItemName_400011,ミスティックシールド,Mystic Shield
+60701556743,ItemName_400012,グランドシールド,Grand Shield
+60714139790,ItemName_400013,エンシェントシールド,Ancient Shield
+60714139791,ItemName_400014,レイディアントシールド,Radiant Shield
+60714139792,ItemName_400015,ヴォイドシールド,Void Shield
+60714139793,ItemName_400016,ディバインシールド,Divine Shield
+60714139794,ItemName_400017,次元の盾,Dimensional Shield
+60714139795,ItemName_400018,シャドウシールド,Shadow Shield
+60714139796,ItemName_400019,エターナルシールド,Eternal Shield
+60714139797,ItemName_400020,ドラゴンシールド,Dragon Shield
+60701556744,ItemName_410001,ウッドアロー,Wooden Arrow
+60701556745,ItemName_410002,アイアンアロー,Iron Arrow
+60701556746,ItemName_410003,ハンターアロー,Hunter's Arrow
+60701556747,ItemName_410004,バーブドアロー,Barbed Arrow
+60701556748,ItemName_410005,アズールアロー,Azure Arrow
+60701556749,ItemName_410006,ブルータルアロー,Brutal Arrow
+60701556750,ItemName_410007,ゲイルアロー,Gale Arrow
+60701556751,ItemName_410008,サーペントアロー,Serpent Arrow
+60701556752,ItemName_410009,ルーンアロー,Rune Arrow
+60701556753,ItemName_410010,トライバルアロー,Tribal Arrow
+60701556754,ItemName_410011,フェイトアロー,Fate Arrow
+60701556755,ItemName_410012,ストームアロー,Storm Arrow
+60714139798,ItemName_410013,オブシディアンアロー,Obsidian Arrow
+60714139799,ItemName_410014,ヘイストアロー,Haste Arrow
+60714139800,ItemName_410015,ヴォイドアロー,Void Arrow
+60714139801,ItemName_410016,ポイズンアロー,Poison Arrow
+60714139802,ItemName_410017,次元の矢,Dimensional Arrow
+60714139803,ItemName_410018,シャドウアロー,Shadow Arrow
+60714139804,ItemName_410019,エンシェントアロー,Ancient Arrow
+60714139805,ItemName_410020,エグザルテッドアロー,Exalted Arrow
+60701556756,ItemName_420001,マジックオーブ,Magic Orb
+60701556757,ItemName_420002,エルダーオーブ,Elder Orb
+60701556758,ItemName_420003,ブリリアントオーブ,Brilliant Orb
+60701556759,ItemName_420004,フローズンオーブ,Frozen Orb
+60701556760,ItemName_420005,予言のオーブ,Prophecy Orb
+60701556761,ItemName_420006,ダークオーブ,Dark Orb
+60701556762,ItemName_420007,ルーンオーブ,Rune Orb
+60701556763,ItemName_420008,シャイニングオーブ,Shining Orb
+60701556764,ItemName_420009,アルケインオーブ,Arcane Orb
+60701556765,ItemName_420010,フェイトオーブ,Fate Orb
+60701556766,ItemName_420011,ミスティックオーブ,Mystic Orb
+60701556767,ItemName_420012,スカイオーブ,Sky Orb
+7302435848192,ItemName_420013,スピリットオーブ,Spirit Orb
+7302435848193,ItemName_420014,エンシェントオーブ,Ancient Orb
+7302440042496,ItemName_420015,深淵のオーブ,Abyssal Orb
+7302440042497,ItemName_420016,ヴォイドオーブ,Void Orb
+7302440042498,ItemName_420017,次元のオーブ,Dimensional Orb
+7302440042499,ItemName_420018,シャドウオーブ,Shadow Orb
+7302440042500,ItemName_420019,エターナルオーブ,Eternal Orb
+7302440042501,ItemName_420020,オーレートオーブ,Aureate Orb
+60701556768,ItemName_430001,プレイヤートーム,Prayer Tome
+60701556769,ItemName_430002,帝国の魔導書,Empire Tome
+60701556770,ItemName_430003,アイアントーム,Iron Tome
+60701556771,ItemName_430004,ナイトのトーム,Knight's Tome
+60701556772,ItemName_430005,祝福の魔法書,Blessed Tome
+60701556773,ItemName_430006,コマンダーの魔導書,Commander's Tome
+60701556774,ItemName_430007,ウォートーム,War Tome
+60701556775,ItemName_430008,皇帝の魔導書,Emperor's Tome
+60701556776,ItemName_430009,ルーントーム,Rune Tome
+60701556777,ItemName_430010,クリムゾントーム,Crimson Tome
+60701556778,ItemName_430011,フェイトトーム,Fate Tome
+60701556779,ItemName_430012,グランドトーム,Grand Tome
+7302440042502,ItemName_430013,ストームトーム,Storm Tome
+7302440042503,ItemName_430014,ウォリアーのトーム,Warrior's Tome
+7302440042504,ItemName_430015,ヴォイドトーム,Void Tome
+7302440042505,ItemName_430016,クリスタルの魔導書,Crystal Tome
+7302440042506,ItemName_430017,次元のトーム,Dimensional Tome
+7302440042507,ItemName_430018,シャドウトーム,Shadow Tome
+7302440042508,ItemName_430019,エターナルトーム,Eternal Tome
+7302440042509,ItemName_430020,エンピリアントーム,Empyrean Tome
+60701556780,ItemName_440001,ショートボルト,Short Bolt
+60701556781,ItemName_440002,フィアーボルト,Fear Bolt
+60701556782,ItemName_440003,ハンターボルト,Hunter's Bolt
+60701556783,ItemName_440004,バーブドボルト,Barbed Bolt
+60701556784,ItemName_440005,ビーストボルト,Beast Bolt
+60701556785,ItemName_440006,スウィフトボルト,Swift Bolt
+60701556786,ItemName_440007,アイアンボルト,Iron Bolt
+60701556787,ItemName_440008,ヘビーボルト,Heavy Bolt
+60701556788,ItemName_440009,ルーンボルト,Rune Bolt
+60701556789,ItemName_440010,ヒーローボルト,Hero Bolt
+60701556790,ItemName_440011,フェイトボルト,Fate Bolt
+60701556791,ItemName_440012,ストームボルト,Storm Bolt
+7302440042510,ItemName_440013,サンダーボルト,Thunder Bolt
+7302440042511,ItemName_440014,ヘイストボルト,Haste Bolt
+7302440042512,ItemName_440015,ヴォイドボルト,Void Bolt
+7302440042513,ItemName_440016,ポイズンボルト,Poison Bolt
+7302440042514,ItemName_440017,次元のボルト,Dimensional Bolt
+7302440042515,ItemName_440018,シャドウボルト,Shadow Bolt
+7302440042516,ItemName_440019,エンシェントボルト,Ancient Bolt
+7302440042517,ItemName_440020,サンクティファイドボルト,Sanctified Bolt
+60701556792,ItemName_450001,ショートハチェット,Short Hatchet
+60701556793,ItemName_450002,レザーハチェット,Leather Hatchet
+60701556794,ItemName_450003,ロングハチェット,Long Hatchet
+60701556795,ItemName_450004,スチールハチェット,Steel Hatchet
+60701556796,ItemName_450005,ウォーハチェット,War Hatchet
+60701556797,ItemName_450006,コンポジットハチェット,Composite Hatchet
+60701556798,ItemName_450007,バトルハチェット,Battle Hatchet
+60701556799,ItemName_450008,ウィングハチェット,Wing Hatchet
+60701556800,ItemName_450009,エリートハチェット,Elite Hatchet
+60701556801,ItemName_450010,ラージハチェット,Large Hatchet
+60701556802,ItemName_450011,ミスティックハチェット,Mystic Hatchet
+60701556803,ItemName_450012,スウィフトハチェット,Swift Hatchet
+7302440042518,ItemName_450013,エンシェントハチェット,Ancient Hatchet
+7302440042519,ItemName_450014,リミットレスハチェット,Limitless Hatchet
+7302440042520,ItemName_450015,混沌のハチェット,Chaos Hatchet
+7302440042521,ItemName_450016,パワーハチェット,Power Hatchet
+7302440042522,ItemName_450017,次元のハチェット,Dimensional Hatchet
+7302440042523,ItemName_450018,シャドウハチェット,Shadow Hatchet
+7302440042524,ItemName_450019,エターナルハチェット,Eternal Hatchet
+7302440042525,ItemName_450020,エグザルテッドハチェット,Exalted Hatchet
+60701556804,ItemName_500001,ウッドヘルメット,Wooden Helmet
+60701556805,ItemName_500002,帝国のヘルメット,Empire Helmet
+60701556806,ItemName_500003,アイアンヘルメット,Iron Helmet
+60701556807,ItemName_500004,ナイトヘルメット,Knight Helmet
+60705751040,ItemName_500005,チェインヘルム,Chain Helmet
+60705751041,ItemName_500006,ミディアムヘルメット,Medium Helmet
+60705751042,ItemName_500007,ウォーヘルメット,War Helmet
+60705751043,ItemName_500008,皇帝のヘルメット,Emperor Helmet
+60705751044,ItemName_500009,ルーンヘルメット,Rune Helmet
+60705751045,ItemName_500010,レッドヘルメット,Red Helmet
+60705751046,ItemName_500011,フェイトヘルメット,Fate Helmet
+60705751047,ItemName_500012,グレートヘルメット,Great Helmet
+60714139806,ItemName_500013,ストームヘルメット,Storm Helmet
+60714139807,ItemName_500014,ファイターズヘルメット,Fighter's Helmet
+60714139808,ItemName_500015,ヴォイドヘルム,Void Helmet
+60714139809,ItemName_500016,クリスタルヘルメット,Crystal Helmet
+60714139810,ItemName_500017,次元のヘルメット,Dimensional Helmet
+60714139811,ItemName_500018,シャドウヘルメット,Shadow Helmet
+60714139812,ItemName_500019,エターナルヘルメット,Eternal Helmet
+60714139813,ItemName_500020,レイディアントヘルメット,Radiant Helmet
+60705751048,ItemName_510001,ウッドアーマー,Wooden Armor
+60705751049,ItemName_510002,帝国のアーマー,Empire Armor
+60705751050,ItemName_510003,アイアンプレート,Iron Plate
+60705751051,ItemName_510004,チェインメイル,Chain Mail
+60705751052,ItemName_510005,ナイトアーマー,Knight's Armor
+60705751053,ItemName_510006,フェイトアーマー,Fate Armor
+60705751054,ItemName_510007,ウォーアーマー,War Armor
+60705751055,ItemName_510008,ヘビーアーマー,Heavy Armor
+60709945344,ItemName_510009,ルーンプレート,Rune Plate
+60709945345,ItemName_510010,ドラゴンスケールアーマー,Dragon Scale Armor
+60709945346,ItemName_510011,ミスティックアーマー,Mystic Armor
+60709945347,ItemName_510012,グレートアーマー,Great Armor
+60714139814,ItemName_510013,エンシェントアーマー,Ancient Armor
+60714139815,ItemName_510014,シャインアーマー,Shine Armor
+60714139816,ItemName_510015,ヴォイドアーマー,Void Armor
+60714139817,ItemName_510016,ドラゴンアーマー,Dragon Armor
+60714139818,ItemName_510017,次元のアーマー,Dimensional Armor
+60714139819,ItemName_510018,シャドウアーマー,Shadow Armor
+60714139820,ItemName_510019,エターナルアーマー,Eternal Armor
+60714139821,ItemName_510020,レイディアントアーマー,Radiant Armor
+60709945348,ItemName_520001,レザーグローブ,Leather Gloves
+60709945349,ItemName_520002,帝国のグローブ,Empire Gloves
+60709945350,ItemName_520003,アイアングローブ,Iron Gloves
+60709945351,ItemName_520004,ナイトグローブ,Knight Gloves
+60709945352,ItemName_520005,チェイングローブ,Chain Gloves
+60709945353,ItemName_520006,フェイトグローブ,Fate Gloves
+60709945354,ItemName_520007,ウォーグローブ,War Gloves
+60709945355,ItemName_520008,ヘビーグローブ,Heavy Gloves
+60709945356,ItemName_520009,ルーングローブ,Rune Gloves
+60709945357,ItemName_520010,プレートグローブ,Plate Gloves
+60709945358,ItemName_520011,ミスティックグローブ,Mystic Gloves
+60709945359,ItemName_520012,グレートグローブ,Great Gloves
+60714139822,ItemName_520013,エンシェントグローブ,Ancient Gloves
+60714139823,ItemName_520014,シャイングローブ,Shine Gloves
+60714139824,ItemName_520015,ヴォイドグローブ,Void Gloves
+60714139825,ItemName_520016,ドラゴングローブ,Dragon Gloves
+60714139826,ItemName_520017,次元のグローブ,Dimensional Gloves
+60714139827,ItemName_520018,シャドウグローブ,Shadow Gloves
+60714139828,ItemName_520019,エターナルグローブ,Eternal Gloves
+60714139829,ItemName_520020,レイディアントグローブ,Radiant Gloves
+60709945360,ItemName_530001,ウッドブーツ,Wooden Boots
+60709945361,ItemName_530002,帝国のブーツ,Empire Boots
+60709945362,ItemName_530003,アイアンブーツ,Iron Boots
+60709945363,ItemName_530004,ナイトブーツ,Knight Boots
+60709945364,ItemName_530005,チェインブーツ,Chain Boots
+60709945365,ItemName_530006,フェイトブーツ,Fate Boots
+60709945366,ItemName_530007,ウォーブーツ,War Boots
+60709945367,ItemName_530008,ヘビーブーツ,Heavy Boots
+60709945368,ItemName_530009,ルーンブーツ,Rune Boots
+60709945369,ItemName_530010,プレートブーツ,Plate Boots
+60709945370,ItemName_530011,ミスティックブーツ,Mystic Boots
+60709945371,ItemName_530012,グレートブーツ,Great Boots
+60714139830,ItemName_530013,エンシェントブーツ,Ancient Boots
+60714139831,ItemName_530014,シャインブーツ,Shine Boots
+60714139832,ItemName_530015,ヴォイドブーツ,Void Boots
+60714139833,ItemName_530016,クリスタルブーツ,Crystal Boots
+60714139834,ItemName_530017,次元のブーツ,Dimensional Boots
+60714139835,ItemName_530018,シャドウブーツ,Shadow Boots
+60714139836,ItemName_530019,エターナルブーツ,Eternal Boots
+60714139837,ItemName_530020,レイディアントブーツ,Radiant Boots
+60714139838,ItemName_600001,コッパーアミュレット,Copper Amulet
+60714139839,ItemName_600002,ブロンズアミュレット,Bronze Amulet
+60714139840,ItemName_600003,シルバーアミュレット,Silver Amulet
+60714139841,ItemName_600004,ゴールドアミュレット,Gold Amulet
+60714139842,ItemName_600005,プラチナのアミュレット,Platinum Amulet
+60714139843,ItemName_600006,クリスタルアミュレット,Crystal Amulet
+60714139844,ItemName_600007,ムーンストーンペンダント,Moonstone Pendant
+60714139845,ItemName_600008,アンバーペンダント,Amber Pendant
+60714139846,ItemName_600009,ルビーペンダント,Ruby Pendant
+60714139847,ItemName_600010,アメジストペンダント,Amethyst Pendant
+60714139848,ItemName_600011,エメラルドアミュレット,Emerald Amulet
+60714139849,ItemName_600012,ダイヤモンドアミュレット,Diamond Amulet
+60714139850,ItemName_600013,スターダストアミュレット,Stardust Amulet
+60714139851,ItemName_600014,エクリプスアミュレット,Eclipse Amulet
+60714139852,ItemName_600015,セレスティアルアミュレット,Celestial Amulet
+60714139853,ItemName_600016,アストラルアミュレット,Astral Amulet
+60714139854,ItemName_600017,エーテリアルアミュレット,Ethereal Amulet
+60714139855,ItemName_600018,ヴォイドアミュレット,Void Amulet
+60714139856,ItemName_600019,アビスアミュレット,Abyss Amulet
+60714139857,ItemName_610001,コッパーイヤリング,Copper Earring
+60714139858,ItemName_610002,ブロンズイヤリング,Bronze Earring
+60714139859,ItemName_610003,シルバーイヤリング,Silver Earring
+60714139860,ItemName_610004,ゴールドイヤリング,Gold Earring
+60714139861,ItemName_610005,プラチナイヤリング,Platinum Earring
+60714139862,ItemName_610006,クリスタルのイヤリング,Crystal Earring
+60714139863,ItemName_610007,エメラルドイヤリング,Emerald Earring
+60714139864,ItemName_610008,翡翠のイヤリング,Jade Earring
+60714139865,ItemName_610009,タイガーアイピアス,Tiger Eye Earring
+60714139866,ItemName_610010,ガーネットイヤリング,Garnet Earring
+60714139867,ItemName_610011,サファイアイヤリング,Sapphire Earring
+60714139868,ItemName_610012,ダイヤモンドイヤリング,Diamond Earring
+60714139869,ItemName_610013,ムーンストーンイヤリング,Moonstone Earring
+60714139870,ItemName_610014,セレスティアルイヤリング,Celestial Earring
+60714139871,ItemName_610015,エクリプスイヤリング,Eclipse Earring
+60714139872,ItemName_610016,アストラルイヤリング,Astral Earring
+60714139873,ItemName_610017,エーテルイヤリング,Ethereal Earring
+60714139874,ItemName_610018,ヴォイドイヤリング,Void Earring
+60714139875,ItemName_610019,アビスピアス,Abyss Earring
+60714139876,ItemName_620001,コッパーリング,Copper Ring
+60714139877,ItemName_620002,ブロンズリング,Bronze Ring
+60714139878,ItemName_620003,シルバーリング,Silver Ring
+60714139879,ItemName_620004,ゴールドリング,Gold Ring
+60714139880,ItemName_620005,プラチナリング,Platinum Ring
+60714139881,ItemName_620006,クリスタルリング,Crystal Ring
+60714139882,ItemName_620007,アンバーリング,Amber Ring
+60714139883,ItemName_620008,トパーズリング,Topaz Ring
+60714139884,ItemName_620009,アメジストリング,Amethyst Ring
+60714139885,ItemName_620010,ガーネットリング,Garnet Ring
+60714139886,ItemName_620011,エメラルドリング,Emerald Ring
+60714139887,ItemName_620012,ダイヤモンドリング,Diamond Ring
+60714139888,ItemName_620013,ムーンストーンリング,Moonstone Ring
+60714139889,ItemName_620014,エクリプスリング,Eclipse Ring
+60714139890,ItemName_620015,セレスティアルリング,Celestial Ring
+60714139891,ItemName_620016,アストラルリング,Astral Ring
+60714139892,ItemName_620017,エーテルリング,Ethereal Ring
+60714139893,ItemName_620018,ヴォイドリング,Void Ring
+60714139894,ItemName_620019,アビスリング,Abyss Ring
+60714139895,ItemName_630001,コパーブレーサー,Copper Bracer
+60714139896,ItemName_630002,ブロンズブレーサー,Bronze Bracer
+60714139897,ItemName_630003,シルバーブレイサー,Silver Bracer
+60714139898,ItemName_630004,ゴールドブレーサー,Gold Bracer
+60714139899,ItemName_630005,プラチナブレイサー,Platinum Bracer
+60714139900,ItemName_630006,クリスタルブレイサー,Crystal Bracer
+60714139901,ItemName_630007,オブシディアンブレーサー,Obsidian Bracer
+60714139902,ItemName_630008,シャドウブレーサー,Shadow Bracer
+60714139903,ItemName_630009,クリムゾンブレーサー,Crimson Bracer
+60714139904,ItemName_630010,ブラッドストーンブレーサー,Bloodstone Bracer
+60714139905,ItemName_630011,エメラルドブレーサー,Emerald Bracer
+60714139906,ItemName_630012,ダイヤモンドブレーサー,Diamond Bracer
+60714139907,ItemName_630013,スターダストブレイサー,Stardust Bracer
+60714139908,ItemName_630014,エクリプスブレーサー,Eclipse Bracer
+60714139909,ItemName_630015,セレスティアルブレイサー,Celestial Bracer
+60714139910,ItemName_630016,アストラルブレイサー,Astral Bracer
+60714139911,ItemName_630017,エーテルブレーサー,Ethereal Bracer
+60714139912,ItemName_630018,ヴォイドブレーサー,Void Bracer
+60714139913,ItemName_630019,アビスブレーサー,Abyss Bracer
+60714139915,ItemDescription_110001,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139917,ItemDescription_110002,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139919,ItemDescription_110003,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139921,ItemDescription_110004,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139923,ItemDescription_110005,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139925,ItemDescription_111001,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139927,ItemDescription_111002,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139929,ItemDescription_111003,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139931,ItemDescription_111004,ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。,"Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+60714139933,ItemDescription_112001,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139935,ItemDescription_112002,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139937,ItemDescription_112003,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139939,ItemDescription_112004,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139941,ItemDescription_112005,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139943,ItemDescription_113001,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139945,ItemDescription_113002,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139947,ItemDescription_113003,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139949,ItemDescription_113004,基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。,"Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+60714139951,ItemDescription_114001,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139953,ItemDescription_114002,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139955,ItemDescription_114003,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139957,ItemDescription_114004,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139959,ItemDescription_115001,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139961,ItemDescription_115002,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139963,ItemDescription_115003,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139965,ItemDescription_115004,中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。,"Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+60714139967,ItemDescription_116001,高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。,"Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+60714139969,ItemDescription_116002,高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。,"Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+60714139971,ItemDescription_116003,高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。,"Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+60714139973,ItemDescription_116004,高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。,"Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+60714139975,ItemDescription_117001,高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。,"Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+60714139977,ItemDescription_117002,高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。,"Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+60714139979,ItemDescription_118001,最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。,"Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+60714139981,ItemDescription_118002,最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。,"Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+60714139983,ItemDescription_119001,最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。,"Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+60714139985,ItemDescription_119002,最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。,"Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+60709945372,ItemDescription_120001,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60709945373,ItemDescription_120002,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60714139987,ItemDescription_120003,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60709945374,ItemDescription_121001,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60709945375,ItemDescription_121002,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60714139989,ItemDescription_121003,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60714139991,ItemDescription_121004,ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。,"Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+60709945376,ItemDescription_122001,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60709945377,ItemDescription_122002,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60709945378,ItemDescription_122003,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60709945379,ItemDescription_122004,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60714139993,ItemDescription_123001,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60714139995,ItemDescription_123002,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60714139997,ItemDescription_123003,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60714139999,ItemDescription_123004,基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。,"Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+60714140001,ItemDescription_124001,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140003,ItemDescription_124002,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140005,ItemDescription_124003,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140007,ItemDescription_124004,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140009,ItemDescription_125001,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140011,ItemDescription_125002,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140013,ItemDescription_125003,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140015,ItemDescription_125004,中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。,"Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+60714140017,ItemDescription_126001,高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。,"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+60714140019,ItemDescription_126002,高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。,"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+60714140021,ItemDescription_126003,高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。,"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+60714140023,ItemDescription_126004,高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。,"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+60714140025,ItemDescription_127001,高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。,"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+60714140027,ItemDescription_127002,高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。,"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+60714140029,ItemDescription_128001,最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。,"Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+60714140031,ItemDescription_128002,最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。,"Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+60714140033,ItemDescription_129001,最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。,"Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+60714140035,ItemDescription_129002,最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。,"Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+60714139650,ItemDescription_130001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714139652,ItemDescription_131001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140037,ItemDescription_132001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140039,ItemDescription_133001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140041,ItemDescription_134001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140043,ItemDescription_135001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140045,ItemDescription_136001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140047,ItemDescription_137001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140049,ItemDescription_138001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714140051,ItemDescription_139001,特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。,A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.
+60714139653,ItemDescription_140001,何かを作るためのありふれた素材。,A common material that can be used to craft something.
+60714140053,ItemDescription_140002,何かを作るための一般的な素材。,A common material used to create something.
+60714140055,ItemDescription_140003,何かを作ることができるありふれた素材。,A common material that can be used to craft something.
+60714140057,ItemDescription_140004,何かを作るのに使えるよくある素材。,A common material that can be used to craft something.
+60714139654,ItemDescription_141001,何かを作るために使う、ありふれた素材。,A common crafting material used to make something.
+60714140059,ItemDescription_141002,何かを作るためのありふれた素材。,A common material that can be used to craft something.
+60714139655,ItemDescription_142001,何かを作るための素材。,A material used to create something.
+60714140061,ItemDescription_142002,何かを作ることができる素材。,A material that can be used to craft something.
+60714140063,ItemDescription_143001,何かを作るのに使える素材。,A material that can be used to craft something.
+60714140065,ItemDescription_143002,何かを作るために使う素材。,A crafting material used to make something.
+60714140067,ItemDescription_144001,何かを作るための中級素材。,An intermediate material that can be used to craft something.
+60714140069,ItemDescription_144002,何かを作るための中級素材。,An intermediate material used to create something.
+7302456819712,ItemDescription_145001,何かを作ることができる中級素材。,An intermediate material that can be used to craft something.
+7302456819713,ItemDescription_145002,何かを作るのに使える中級の素材。,An intermediate material that can be used to craft something.
+60714140071,ItemDescription_146001,何かを作るために使う、高級な素材。,An advanced crafting material used to make something.
+60714140073,ItemDescription_146002,何かを作るための高級素材。,A high-quality material that can be used to craft something.
+60714140075,ItemDescription_147001,何かを作るための高級素材。,An advanced material used to create something.
+60714140077,ItemDescription_147002,何かを作ることができる高級素材。,A high-grade material that can be used to craft something.
+60714140079,ItemDescription_148001,何かを作るのに使える最高級の素材。,A premium material that can be used to craft something.
+60714140081,ItemDescription_148002,何かを作るために使う、最高級の素材。,A premium crafting material used to make something.
+60714140083,ItemDescription_149001,何かを作るための最高級素材。,A premium material that can be used to craft something.
+60714140085,ItemDescription_149002,何かを作るための最高級素材。,A premium material used to create something.
+60714139656,ItemDescription_160001,記念コイン。切なる願いを込めて、キューブに投げ入れよう。,A commemorative coin. Toss it into the Cube with a heartfelt wish.
+60714139657,ItemDescription_160002,記念コイン。切なる願いを込めてキューブに投げ入れよう。,A commemorative coin. Toss it into the Cube with a heartfelt wish.
+7302456819714,ItemDescription_160003,記念コイン。願いを込めてキューブに投げ入れよう。,A commemorative coin. Toss it into the cube with all your wishes.
+7302456819715,ItemDescription_160004,記念コイン。切なる想いを込めてキューブに投げ込もう。,A commemorative coin. Toss it into the Cube with a heartfelt wish.
+7302456819716,ItemDescription_160005,記念コイン。切なる想いを込めてキューブに投げ込もう。,A commemorative coin. Toss it into the Cube with all your heart's desire.
+7302456819717,ItemDescription_160006,記念コイン。切なる願いを込めて、キューブに投げ入れよう。,A commemorative coin. Toss it into the Cube with a heartfelt wish.
+7302456819718,ItemDescription_160007,記念コイン。切なる願いを込めてキューブに投げ入れよう。,A commemorative coin. Toss it into the Cube with a heartfelt wish.
+7302456819719,ItemDescription_160008,記念コイン。願いを込めてキューブに投げ入れよう。,A commemorative coin. Toss it into the cube with all your wishes.
+7302456819720,ItemDescription_160009,記念コイン。切なる想いを込めてキューブに投げ込もう。,A commemorative coin. Toss it into the Cube with a heartfelt wish.
+7302456819721,ItemDescription_160010,記念コイン。切なる想いを込めてキューブに投げ込もう。,A commemorative coin. Toss it into the Cube with all your heart's desire.
+60714139658,ItemDescription_190001,ノーマル難易度のボス召喚に必要な素材。,Material required to summon Normal difficulty bosses.
+60714139659,ItemDescription_190002,ナイトメア難易度のボス召喚に必要な素材。,Material required to summon Nightmare difficulty bosses.
+60714139660,ItemDescription_190003,ヘル難易度のボス召喚に必要な素材。,Material required to summon Hell difficulty bosses.
+60714139661,ItemDescription_190004,トーメント難易度のボス召喚に必要な素材。,Material required to summon Torment difficulty bosses.

@@ -1,0 +1,3 @@
+.chrome-verify/
+tools/__pycache__/
+screenshot*.png

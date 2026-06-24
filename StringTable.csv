@@ -1,0 +1,2666 @@
+﻿id,key,ja,en
+3811124920320,GameName,TBH: タスクバーヒーロー,TBH: Task Bar Hero
+3811296886784,GameName_Demo,TBH: タスクバーヒーロー (体験版),TBH: Task Bar Hero (Demo)
+3811296886785,Setting,設定,Settings
+3811296886786,Language,言語,Language
+3811301081088,Confirm,確認,Confirm
+3811301081089,ExitGame,ゲーム終了,Exit Game
+3811301081090,Popup_Cancel,キャンセル,Cancel
+53031585400803328,AlwaysOnTop,常に最前面,Always on Top
+3811301081092,AlwaysOnTop(Off),常に最前面（オフ）,Always on Top (Off)
+3811301081093,AlwaysOnTop(ON),常に最前面（オン）,Always on Top (On)
+120046677468454912,Mute_On,ミュート (オン),Mute (On)
+120046677497815040,Mute_Off,ミュート (オフ),Mute (Off)
+120046677497815041,OpenStore,ショップ,Store
+53205179800014848,LaunchAtStartup,デスクトップ起動時に実行,Launch at Desktop Startup
+53205179938426880,Version,バージョン {0},Version {0}
+3811301081094,General,一般,General
+3811301081095,Graphic,グラフィック,Graphic
+3811301081096,Audio,オーディオ,Audio
+53205179942621184,Other,その他,Others
+3811301081097,Control,コントロール,Controls
+53208443606061056,Setting_Credits,クレジット,Credits
+53208443606061057,Setting_MaxFPS,最大FPS,Max FPS
+53208443606061058,Setting_Zoom,ウィンドウスケール,Window Scale
+53208443606061059,Setting_RestoreTransparentWindow,透明ウィンドウを復元,Restore Transparent Window
+53208443606061060,Setting_ResetWindowPosition,"ウィンドウ位置を復元
+(Shift + F12)","Restore Window Position
+(Shift + F12)"
+59416870724358144,Setting_ResetWindowScale,"ウィンドウスケールを復元
+(Shift + F11)","Restore Window Scale
+(Shift + F11)"
+53206922931785728,Restore,復元,Restore
+53206922931785729,Reset,リセット,Reset
+53211012122333184,Report,報告,Report
+53211012126527488,Open,開く,Open
+53211012126527489,View,表示,View
+3811301081100,StartGame,ゲーム開始,Start Game
+56885621279477760,SteamTradeShip,Steam交易船,SteamTradeShip
+15232910148091904,Bag,インベントリ,Inventory
+15232910303281152,Arrange,編成,Formation
+15321506674753536,Menu,メニュー [Tab],Menu [Tab]
+15321506674753537,Chest,倉庫,Stash
+15321506674753538,Status,ステータス,Status
+15321506674753539,Cube,キューブ,Cube
+15321506674753540,Rune,ルーン,Rune
+15321506674753541,Portal,ポータル,Portal
+52997715154489344,Mailbox,メールボックス,Mailbox
+52998296438886400,SteamInventory,Steam インベントリ,Steam Inventory
+52998296438886401,SteamMarket,Steam マーケット,Steam Market
+56847898535579648,Inventory,インベントリ,Inventory
+56847898673991680,Market,マーケット,Market
+52997715154489345,BattleRecords,戦闘記録,Battle Record
+79070331375128576,Price,価格,Price
+15321506674753542,Close,閉じる,Close
+15321506674753543,Details,詳細,Details
+15321506674753544,Class,クラス,Class
+15321506674753545,Level,レベル,Level
+15321506674753546,Exp,経験値,Exp
+120046677502009344,HoldDirectMoveRudder_Title,移動位置,Move Position
+15232910303281153,SYNTHESIS,合成,Synthesis
+52559540686737408,DECORATION,装飾,Decoration
+52559540867092480,ENGRAVING,彫刻,Engraving
+52559540867092481,INSCRIPTION,碑文,Inscription
+15232910303281154,ALCHEMY,錬金術,Alchemy
+15232910303281155,CRAFTING,クラフト,Crafting
+121399032823091200,OFFERING,祈願,Offering
+121399032852451328,EXTRACTION,除去,Removal
+53218383418675200,Difficulty_NORMAL,ノーマル,Normal
+53218383418675201,Difficulty_NIGHTMARE,ナイトメア,Nightmare
+53218383418675202,Difficulty_HELL,ヘル,Hell
+53218383418675203,Difficulty_TORMENT,トーメント,Torment
+53223622809014272,StashItemFilterType_ALL,すべての種類,All Types
+53223622809014273,StashItemFilterType_WEAPON,武器,Weapon
+126535985234780160,StashItemFilterType_ARMOR,防具,Armor
+53223622809014275,StashItemFilterType_ACCESSORY,アクセサリー,Accessories
+53223622809014276,StashItemFilterType_MATERIAL,素材,Materials
+53223622809014277,StashItemFilterType_CLASS_KNIGHT,クラス - ナイト,Class - Knight
+53223622813208576,StashItemFilterType_CLASS_ARCHER,クラス - レンジャー,Class - Ranger
+53223622813208577,StashItemFilterType_CLASS_SORCERER,クラス - ソーサラー,Class - Sorcerer
+53223622813208578,Grade_ALL,すべてのグレード,All Grades
+15268876971786240,Grade_COMMON,コモン,Common
+15268876971786241,Grade_UNCOMMON,アンコモン,Uncommon
+15268876975980544,Grade_RARE,レア,Rare
+15268876975980545,Grade_LEGENDARY,レジェンダリー,Legendary
+15268876975980546,Grade_IMMORTAL,イモータル,Immortal
+15268876975980547,Grade_ARCANA,アルカナ,Arcana
+15268876975980548,Grade_BEYOND,ビヨンド,Beyond
+15268876975980549,Grade_CELESTIAL,セレスティアル,Celestial
+15268876975980550,Grade_DIVINE,ディバイン,Divine
+15268876975980551,Grade_COSMIC,コズミック,Cosmic
+38788477192556544,ItemType_GEAR,装備,Equipment
+38788477326774272,ItemType_STAGEBOX,ステージボックス,Stage Box
+38788477326774273,ItemType_MATERIAL,素材,Materials
+15268876975980552,ItemParts_MAIN_WEAPON,メイン武器,Main Weapon
+15268876975980553,ItemParts_SUB_WEAPON,サブ武器,Sub Weapon
+103698125396578304,TreasureChest_Normal,一般宝箱,Common Treasure Chest
+103698125396578305,TreasureChest_StageBoss,ステージ宝箱,Stage Treasure Chest
+103698125396578306,TreasureChest_ActBoss,アクトボス宝箱,Act Boss Treasure Chest
+15268876975980554,GearType_HELMET,ヘルメット,Helmet
+121399032856645632,GearType_ARMOR,アーマー,Armor
+15268876975980556,GearType_GLOVES,グローブ,Gloves
+15268876975980557,GearType_BOOTS,ブーツ,Boots
+15268876975980558,GearType_AMULET,アミュレット,Amulet
+15268876975980559,GearType_EARING,イヤリング,Earing
+15268876975980560,GearType_RING,リング,Ring
+15268876980174848,GearType_BRACER,ブレイサー,Bracer
+15268876980174849,GearType_SWORD,ソード,Sword
+15268876980174850,GearType_BOW,弓,Bow
+15268876980174851,GearType_STAFF,スタッフ,Staff
+120083558491037696,GearType_SCEPTER,セプター,Scepter
+103698125396578309,GearType_CROSSBOW,クロスボウ,Crossbow
+103698125396578310,GearType_AXE,斧,Axe
+15268876980174852,GearType_SHIELD,シールド,Shield
+15268876980174853,GearType_ARROW,矢,Arrow
+121399032856645633,GearType_ORB,オーブ,Orb
+121399032856645634,GearType_TOME,古書,Tome
+103698125396578312,GearType_BOLT,クロスボウボルト,Bolt
+121399032856645635,GearType_HATCHET,手斧,Hatchet
+103698125396578314,BaseStatName_AttackSpeed,秒間攻撃力,Attack Per Second
+103698125396578315,StatName_AttackDamage,攻撃力,Attack Damage
+103698125396578316,StatName_AttackSpeed,攻撃速度,Attack Speed
+103698125396578317,StatName_CriticalChance,クリティカル率,Critical Chance
+103698125396578318,StatName_CriticalDamage,クリティカルダメージ,Critical Damage
+103698126365462528,StatName_SkillAttackReduction,基本攻撃要求減少,Basic Attack Requirement Reduction
+103698126365462529,StatName_CooldownReduction,クールタイム短縮,Cooldown Reduction
+103698126365462530,StatName_SkillRangeExpansion,スキル射程,Skill Range
+103698126365462531,StatName_MaxHp,最大HP,Max HP
+103698126365462532,StatName_Armor,防御力,Armor
+103698126365462533,StatName_FireResistance,火炎耐性,Fire Resistance
+103698126365462534,StatName_ColdResistance,氷冷耐性,Cold Resistance
+103698126365462535,StatName_LightningResistance,雷電耐性,Lightning Resistance
+103698126365462536,StatName_PoisonResistance,カオス耐性,Chaos Resistance
+103698126369656832,StatName_DodgeChance,回避率,Dodge Chance
+103698126369656833,StatName_BlockChance,ブロック率,Block Chance
+103698126369656834,StatName_Toughness,靭性,Toughness
+103698126369656835,StatName_HealthRegen,毎秒HP回復,HP Regen Per Sec
+103698126369656836,StatName_DamageAbsorption,ダメージ吸収,Damage Absorption
+103698126369656837,StatName_MovementSpeed,移動速度,Movement Speed
+103698126369656838,StatName_CourageMaxStack,勇気最大スタック,Courage Max Stack
+103698126369656839,StatName_CourageStackChance,勇気スタック確率,Courage Stack Chance
+103698126369656840,StatName_FeralMaxStack,野性最大スタック,Feral Max Stack
+103698126369656841,StatName_FeralStackChance,野性スタック確率,Feral Stack Chance
+103698126369656842,StatName_FocusMaxStack,集中最大スタック,Focus Max Stack
+103698126369656843,StatName_FocusStackChance,集中スタック確率,Focus Stack Chance
+103698126369656844,StatName_IncreaseGoldAmount,ゴールド量増加,Increase Gold Amount
+103698126369656845,StatName_AdditionalGold,追加ゴールド,Additional Gold
+103698126369656846,StatName_ChestUpgradeChance,チェスト数量増加,Increased Chest Quantity
+103698126369656847,StatName_StageWaveReduction,ステージウェーブ減少,Stage Wave Reduction
+103698126369656848,ShortStatName_AttackDamage,攻撃ダメージ,Attack Dmg.
+103698126369656849,ShortStatName_MaxHp,最大HP,Max HP
+103698126369656850,ShortStatName_AttackSpeed,攻撃速度,Attack Spd.
+120037184860921856,ShortStatName_CastSpeed,詠唱速度,Cast Speed
+103698126369656851,ShortStatName_CriticalChance,クリティカル%,Critical %
+103698126369656852,ShortStatName_CriticalDamage,クリティカルダメージ,Critical Dmg.
+103698126369656853,ShortStatName_CooldownReduction,クールダウン短縮,Cooldown Red.
+103698126369656854,ShortStatName_MovementSpeed,移動速度,Move Speed
+103698126369656855,ShortStatName_Armor,装甲,Armor
+63840524035100672,AttributeName_ActiveSkillSlot,スキルスロット,Skill Slot
+63840524072849408,AttributeDescription_ActiveSkillSlot,スキルスロットを1つ追加します。,Add 1 skill slot.
+121403056871903232,AccountStatName_AllHeroAttackDamage,全ヒーロー攻撃ダメージ,All Hero Attack Damage
+121403056871903233,AccountStatName_AllHeroAttackDamagePercent,全ヒーロー攻撃ダメージ,All Hero Attack Damage
+121403056871903234,AccountStatName_AllHeroAttackSpeed,全ヒーロー攻撃速度,All Hero Attack Speed
+121403056871903235,AccountStatName_AllHeroArmor,全ヒーロー防御,All Hero Armor
+121403056871903236,AccountStatName_AllHeroArmorPercent,全ヒーロー防御,All Hero Armor
+121403056871903237,AccountStatName_AllHeroMoveSpeed,全ヒーロー移動速度,All Hero Movement Speed
+121403056871903238,AccountStatName_IncreaseExpAmount,経験値増加,Increase Exp Amount
+121403056871903239,AccountStatName_AdditionalExp,追加経験値,Additional Exp
+121403056871903240,AccountStatName_DropChanceNormalChest,通常宝箱ドロップ率,Common Chest Drop Chance
+121403056871903241,AccountStatName_DropChanceStageBossChest,ステージボス宝箱ドロップ率,Stage Boss Chest Drop Chance
+130186729142292480,AccountStatName_DropChanceNormalChestPercent,通常宝箱のドロップ率,Common Chest Drop Chance
+130186729175846912,AccountStatName_DropChanceStageBossChestPercent,ステージボス宝箱のドロップ率,Stage Boss Chest Drop Chance
+121403056871903242,AccountStatName_WaveCountReduction,総ウェーブ数減少,Total Wave Count Reduction
+121403056871903243,AccountStatName_WaveMonsterAmount,ウェーブごとのモンスター数,Monsters Per Wave
+121403056871903244,AccountStatName_IncreaseGoldAmount,モンスター討伐ゴールド,Gold Per Monster Kill
+121403056871903245,AccountStatName_AdditionalGold,追加ゴールド,Additional Gold
+121403056871903246,AccountStatName_CubeExpPercent,キューブ獲得経験値,Exp From Cube
+121403056871903247,AccountStatName_CubeAlchemyGoldPercent,キューブ錬金術ゴールド,Gold From Cube Alchemy
+121403056871903248,AccountStatName_MaxAmountNormalChest,通常宝箱最大保管,Common Chest Max Capacity
+121403056871903249,AccountStatName_MaxAmountStageBossChest,ステージボス宝箱最大保管,Stage Boss Chest Max Capacity
+121403056871903250,AccountStatName_MaxAmountActBossChest,アクトボス宝箱最大保管,Act Boss Chest Max Capacity
+121403056871903251,AccountStatName_AdditionalGoldStageBoss,ステージボスゴールド,Gold From Stage Boss
+121403056871903252,AccountStatName_AdditionalGoldActBoss,アクトボスゴールド,Gold From Act Boss
+121403056871903253,AccountStatName_AdditionalGoldNormalMonster,通常モンスターゴールド,Gold From Normal Monster
+121403056871903254,AccountStatName_AdditionalExpStageBoss,ステージボス経験値,Exp From Stage Boss
+121403056871903255,AccountStatName_AdditionalExpActBoss,アクトボス経験値,Exp From Act Boss
+121403056871903256,AccountStatName_AdditionalExpNormalMonster,通常モンスター経験値,Exp From Normal Monster
+121403056871903257,AccountStatName_MaxInventorySlot,インベントリ枠数,Inventory Slot Count
+126535985272528896,AccountStatName_UnlockStashPageCount,倉庫ページ数,Stash Page Count
+126535985272528897,AccountStatName_UnlockArrangeSlotCount,ヒーロー配置枠,Hero Formation Slot
+126535985272528898,AccountStatName_UnlockSkillSlotCount,スキル枠（全ヒーロー）,Skill Slot (All Heroes)
+121403056871903260,AccountStat_AllHeroAttackDamage,全ヒーロー攻撃ダメージ +{0},All Hero Attack Damage +{0}
+121403056871903261,AccountStat_AllHeroAttackDamagePercent,全ヒーロー攻撃ダメージ{0}%増加,{0}% Increased All Hero Attack Damage
+121403056876097536,AccountStat_AllHeroAttackSpeed,全ヒーロー攻撃速度{0}%増加,{0}% Increased All Hero Attack Speed
+121403056876097537,AccountStat_AllHeroArmor,全ヒーロー防御 +{0},All Hero Armor +{0}
+121403056876097538,AccountStat_AllHeroArmorPercent,全ヒーロー防御{0}%増加,{0}% Increased All Hero Armor
+121403056876097539,AccountStat_AllHeroMoveSpeed,全ヒーロー移動速度{0}%増加,{0}% Increased All Hero Movement Speed
+121403056876097540,AccountStat_IncreaseExpAmount,経験値獲得{0}%増加,{0}% Increased Exp Gain
+121403056876097541,AccountStat_AdditionalExp,追加経験値 +{0},Additional Exp +{0}
+121403056876097542,AccountStat_DropChanceNormalChest,通常宝箱のドロップ率 +{0}%,Common Chest Drop Chance +{0}%
+121403056876097543,AccountStat_DropChanceStageBossChest,ステージボス宝箱のドロップ率 +{0}%,Stage Boss Chest Drop Chance +{0}%
+130186729175846913,AccountStat_DropChanceNormalChestPercent,通常宝箱ドロップ率係数{0}%増加,{0}% Increased Common Chest Drop Chance Multiplier
+130186729175846914,AccountStat_DropChanceStageBossChestPercent,ステージボス宝箱ドロップ率係数{0}%増加,{0}% Increased Stage Boss Chest Drop Chance Multiplier
+121403056876097544,AccountStat_WaveCountReduction,ステージのウェーブ数 -{0},Stage Wave Count -{0}
+121403056876097545,AccountStat_WaveMonsterAmount,ウェーブごとのモンスター数 +{0},Monsters Per Wave +{0}
+121403056876097546,AccountStat_IncreaseGoldAmount,撃破時のゴールド獲得量 +{0}%,{0}% Increased Gold Per Kill
+121403056876097547,AccountStat_AdditionalGold,追加ゴールド +{0},Additional Gold +{0}
+121403056876097548,AccountStat_CubeExpPercent,キューブ経験値{0}%増加,{0}% Increased Cube Exp
+121403056876097549,AccountStat_CubeAlchemyGoldPercent,キューブ錬金術ゴールド{0}%増加,{0}% Increased Gold From Cube Alchemy
+121403056876097550,AccountStat_MaxAmountNormalChest,通常宝箱最大保管 +{0},Common Chest Max Capacity +{0}
+121403056876097551,AccountStat_MaxAmountStageBossChest,ステージボス宝箱最大保管 +{0},Stage Boss Chest Max Capacity +{0}
+121403056876097552,AccountStat_MaxAmountActBossChest,アクトボス宝箱最大保管 +{0},Act Boss Chest Max Capacity +{0}
+121403056876097553,AccountStat_AdditionalGoldStageBoss,ステージボスゴールド +{0},Gold From Stage Boss Kill +{0}
+121403056876097554,AccountStat_AdditionalGoldActBoss,アクトボスゴールド +{0},Gold From Act Boss Kill +{0}
+121403056876097555,AccountStat_AdditionalGoldNormalMonster,通常モンスターゴールド +{0},Gold From Normal Monster Kill +{0}
+121403056876097556,AccountStat_AdditionalExpStageBoss,ステージボス経験値 +{0},Exp From Stage Boss Kill +{0}
+121403056876097557,AccountStat_AdditionalExpActBoss,アクトボス経験値 +{0},Exp From Act Boss Kill +{0}
+121403056876097558,AccountStat_AdditionalExpNormalMonster,通常モンスター経験値 +{0},Exp From Normal Monster Kill +{0}
+121403056876097559,AccountStat_MaxInventorySlot,インベントリ枠数 +{0},Inventory Slot Count +{0}
+126535985272528899,AccountStat_UnlockStashPageCount,倉庫ページ +{0},Stash Page +{0}
+126535985272528900,AccountStat_UnlockArrangeSlotCount,ヒーロー枠 +{0},Hero Slot +{0}
+126535985272528901,AccountStat_UnlockSkillSlotCount,スキル枠（全ヒーロー） +{0},Skill Slot (All Heroes) +{0}
+140317250983370752,AccountStat_UnlockAutoOpenNormalChest,通常チェスト自動開封解放,Unlock Auto-Open Normal Chest
+140317250983370753,AccountStat_ReduceAutoOpenNormalChestTime,通常チェスト自動開封時間 -{0}秒,Auto-Open Normal Chest Time -{0}s
+140317250983370754,AccountStat_UnlockAutoOpenStageBossChest,ステージボスチェスト自動開封解放,Unlock Auto-Open Stage Boss Chest
+140317250987565056,AccountStat_ReduceAutoOpenStageBossChestTime,ステージボスチェスト自動開封時間 -{0}秒,Auto-Open Stage Boss Chest Time -{0}s
+140317250987565057,AccountStat_UnlockAutoOpenActBossChest,アクトボスチェスト自動開封解放,Unlock Auto-Open Act Boss Chest
+140317250987565058,AccountStat_ReduceAutoOpenActBossChestTime,アクトボスチェスト自動開封時間 -{0}秒,Auto-Open Act Boss Chest Time -{0}s
+140317250987565059,AccountStat_OpenOneTypeChestAllAtOnce,右クリックでチェストを一括開封,Right-click to Open Chests at Once
+140317250987565060,AccountStat_OpenAllTypeChestAllAtOnce,スペースキーで全タイプのチェストを一括開封,Press Space to Open All Chest Types at Once
+140317250987565061,AccountStat_UnlockOfflineReward,オフライン報酬解放(オフライン時にゴールドと経験値獲得可能),Unlock Offline Reward (gain gold and EXP while offline)
+140317250987565062,AccountStat_OfflineRewardGoldPercent,オフライン報酬ゴールド +{0}%,Offline Reward Gold +{0}%
+140317250987565063,AccountStat_OfflineRewardExpPercent,オフライン報酬経験値 +{0}%,Offline Reward EXP +{0}%
+97094174282813440,CannotDeArrange_StageNotStarted,ステージを終了しています。少々お待ちください。,Ending stage. Please wait.
+79070331408683008,CannotArrange_StageNotStarted,ステージを終了しています。少々お待ちください。,Ending stage. Please wait.
+59980789415202816,SteamServer_Disconnected_CannotClickAnything,Steam接続が切れました。<br>ゲームを再起動してください。,Steam connection lost.<br>Please restart the game.
+121768745907957760,Toast_LockedHeroSlot,ロック中:ルーンで解除してください。,Locked: Unlock from Rune.
+121768745945706496,Toast_LockedSkillSlot,スキル枠はまだ解放されていません。,Skill slot not yet unlocked.
+3811301081104,Demo_LockedContents,製品版で利用可能です。,Available in the full version.
+59818077922054144,TryAddItem_Failed_InventoryFull,インベントリが満杯です。メールボックスに送ります。,Inventory is full. Sending to mailbox.
+59980789570392064,Skill_Reduce_Failed_KeepNextGroup,上位グループのポイントを回収してから再試行してください。,Reclaim upper group points and try again.
+58836845348311040,Demo_Wishlist,ウィッシュリストに追加,Add to Wishlist
+60221376622022656,Cube_Recipe_Auto_Change,{0}レシピ用に自動選択されました。,Auto-selected for {0} recipe.
+59818077922054145,Cube_SynthesisTry_InventoryFull,インベントリが満杯です。,Inventory is full.
+58032714022965248,Cube_Decoration_Failed_EnchantAmount,空いている装飾スロットがありません。,No empty Decoration slots available.
+56847898678185984,Cube_RecipeIsRunning,キューブが作動中です。,The cube is in operation.
+148279997457436672,Toast_MailRunning,別のメールを受け取り中です。,Receiving another mail.
+57311863749267456,Cube_RecipeTooltip_Synthesis,"同じ等級の装備9個を合成して、
+より高い等級の装備を獲得できます。",Synthesize 9 items of the same grade<br>into one of a higher grade.
+57311863883485184,Cube_RecipeTooltip_Decoration,装備に特別なステータスを付与します。<br>- <color=#F5D958>素材</color>：装飾スロット付き装備 x1<br>+ 装飾素材 x1<br>- <color=#30FF63>結果</color>：素材に応じたランダムステータス,Grants special stats to equipment.<br>- <color=#F5D958>Materials</color> : Equipment with a Decoration slot x1<br>+ Decoration Material x1<br>- <color=#30FF63>Result</color> : Random stat based on material
+120032774713843712,Cube_RecipeTooltip_Engraving,装備に特別なステータスを付与します。<br>- <color=#F5D958>素材</color>：彫刻スロット付き装備 x1<br>+ 彫刻素材 x1<br>- <color=#30FF63>結果</color>：素材に応じたランダムステータス,Grants special stats to equipment.<br>- <color=#F5D958>Materials</color> : Equipment with an Engraving slot x1<br>+ Engraving Material x1<br>- <color=#30FF63>Result</color> : Random stat based on material
+120032774713843713,Cube_RecipeTooltip_Inscription,装備に特別なステータスを付与します。<br>- <color=#F5D958>素材</color>：刻印スロット付き装備 x1<br>+ 刻印素材 x1<br>- <color=#30FF63>結果</color>：素材に応じたランダムステータス,Grants special stats to equipment.<br>- <color=#F5D958>Materials</color> : Equipment with an Inscription slot x1<br>+ Inscription Material x1<br>- <color=#30FF63>Result</color> : Random stat based on material
+59805325736333312,Cube_Synthesis_Celestial_Level_Less,セレスティアルグレードの合成はキューブレベル50から可能です。,Celestial grade synthesis is available from Cube Level 50.
+59805325878939648,Cube_Synthesis_Immortal_Level_Less,イモータルグレードの合成はキューブレベル10から可能です。,Immortal grade synthesis is available from Cube Level 10.
+57311863883485185,Cube_RecipeTooltip_Alchemy,任意のアイテムをゴールドに変換します。<br><br>- <color=#F5D958>素材</color>：任意のアイテム1~9個<br>- <color=#30FF63>結果</color>：アイテム消失、ゴールド獲得,"Convert any item into gold.<br><br>- <color=#F5D958>Materials</color> : Any 1~9 items<br>- <color=#30FF63>Result</color> : Items consumed, gold obtained"
+126811218336358400,Cube_RecipeTooltip_Crafting,特定のアイテム種類を製作します。<br>種類を指定してから必要な素材を投入してください。,"Craft specific item types. <br>Select an item type,<br>then add the required materials."
+126811218336358401,Cube_RecipeTooltip_Offering,記念コインを捧げてランダムアイテムを獲得します。,Offer commemorative coins to<br>obtain random items.
+126811218336358402,Cube_RecipeTooltip_Extraction,"装備に付与された能力値を除去します。
+※ ステータス付与に使用した素材は返却されません。","Removes stats applied to equipment.
+※ Materials used to grant stats will not be returned."
+121399032860839936,Cube_DecorationInfo,装飾効果,Decoration Effect
+121399032860839937,Cube_EngravingInfo,彫刻効果リスト,Engraving Effect List
+121399032860839938,Cube_InscriptionInfo,刻印効果リスト,Inscription Effect List
+79070331408683009,Toast_ForceResetWindow,ウィンドウ位置をリセットしています。,Resetting window position.
+56847898682380288,Toast_ContentLock_BecauseLevel,Lv.{0}でコンテンツが解放されます。,Content unlocks at Lv.{0}.
+3811301081107,Demo_ExitPopupWishlist,ウィッシュリストに追加,Add to Wishlist
+3811301081108,Popup_ExitPopupDesc,ゲームを終了しますか？,Do you want to exit the game?
+59472149386153984,Popup_CompleteDemoPopupDesc,体験版をプレイしていただき、ありがとうございます!<br>この小さな旅が、日常のちょっとした楽しみになれば幸いです。<br><br><color=#F49E2C>TBH : Task Bar Hero</color> は2025年第4四半期にリリース予定です。より完成度の高い姿でお会いしましょう。<br><br>ウィッシュリストに追加して応援してください!<br>ありがとうございます :),Thank you for playing the demo!<br>We hope this little journey brought some joy to your day.<br><br><color=#F49E2C>TBH : Task Bar Hero</color> will be released in Q4 2025. We'll return with a more polished experience.<br><br>Add it to your wishlist and support us!<br>Thank you :)
+61704714489892864,Popup_WindowScalePopupDesc,ウィンドウスケールが変更されました。この変更を適用しますか?<br>(問題が発生した場合は、<color=#F49E2C>Shift + F11</color>を押すと以前のスケールに戻せます。),"Window scale has been changed. Apply these changes?<br>(If issues occur, press <color=#F49E2C>Shift + F11</color> to reset to the previous scale.)"
+63502296950181888,Popup_WindowScalePopupDesc_ResetWarning,まもなく以前のスケールに戻ります。,Reverting to previous scale shortly.
+121403056876097562,Toast_CannotInputEnchantedItem,エンチャントされたアイテムは追加できません。,Enchanted items cannot be added.
+122431994012307456,Toast_RemoveInCubeSoulStone,アクトボスに必要なソウルストーンをキューブから除去します。,Removing Soulstones required for Act Boss from the cube.
+98564059575816192,Toast_AlreadyEquipItemInCube_DuplicateMaterial,キューブに装備中アイテムあり。,Cannot add more because the cube contains equipped items.
+97094174328950784,Toast_AlreadyEquipItemInCube,装備中のアイテムはキューブに追加できません。,Cannot add equipped items to the cube.
+97094174328950785,Toast_CannotInputInCubeEquipItem,この状態では装備中のアイテムを追加できません。,Equipped items cannot be added in this state.
+122431994037473280,Toast_EquipFailedClassTypeNotMatch,このクラスに適さない装備です。,Equipment not suited for this class.
+122431994037473281,Toast_EquipFailedLowLevel,装備可能レベルではありません。,Level too low to equip.
+15321506678947843,Toast_Demo_NotAvailable,正式版で利用可能です。,Available in the full version.
+54044118563737600,Toast_Cannot_DeArrange,ユニットを取り除けません。,Cannot remove unit.
+54044118718926848,Toast_Synthesis_Fail,同じグレードの装備が9個必要です。,9 equipment of the same grade are required.
+124248511118487552,Toast_CubeRecipe_NotUnlocked,関連レシピはまだ解放されていません。,Recipe not yet unlocked.
+124248511152041984,Toast_SoulStone_NoClearedActBoss,入場可能なアクトボスステージがありません。,No available Act Boss stage to enter.
+54044118718926849,Toast_Decoration_Fail,装備と装飾素材が必要です。,Equipment and decoration materials are required.
+122431994037473282,Toast_CannotEquipableItem,この装備は着用できません。,Item cannot be equipped.
+54044118718926850,Toast_NotValidItem,無効なアイテムです。,Invalid item.
+54044118718926851,Toast_CannotRefundEquippedSkill,スキルは現在装備中です。,Skill is currently equipped.
+54048054414725120,Toast_No_Inventory_Space,インベントリに空きスペースがありません。,No empty space in inventory.
+57366645172129792,Toast_Item_CannotMove,そこには移動できません。,Cannot move there.
+60670397881978880,Toast_TradeShip_SoldItem,交易船が運び去ったアイテムを整理しています。,Organizing items carried away by the trade ship.
+91748774457839616,Toast_Item_ExhangeCooltime,交易品を処理中です。,Processing trade goods.
+61264142063046656,Toast_Cube_NotValidItem,無効なアイテムを整理しています。,Clearing invalid items.
+56847898682380289,Stage_SoulStone_Lack,ソウルストーンがないため報酬を受け取れません。,Cannot receive rewards due to lack of soulstones.
+56847898682380290,Stage_ActBossChest_MaxCount,箱を保管するスペースがないため入場できません。,Cannot enter due to lack of space to store boxes.
+56877953903022080,TradeShip_TopNotice,アイテムを交易船に積み込むと<br>Steamマーケットで取引できます。,Load items onto the trade ship<br>to sell them on the Steam Market.
+121399032865034240,TradeShip_UploadItemConditionNotice,※ 注意：装飾 / 彫刻 / 碑文が付いたアイテムは取引できません。ただし、キューブの除去により装飾 / 彫刻 / 碑文を取り外すことができます。,"※ Note: Items with Decoration / Engraving / Inscription cannot be traded. However, you can remove Decoration / Engraving / Inscription through the Cube's Removal."
+103698126369656856,Stat_AttackDamage_FLAT,攻撃力 +{0},Attack Damage +{0}
+103698126369656857,Stat_AttackSpeed_FLAT,攻撃速度 +{0},Attack Speed +{0}
+103698126369656858,Stat_CriticalChance_FLAT,クリティカル率 +{0}%,Critical Chance +{0}%
+103698126369656859,Stat_CriticalDamage_FLAT,クリティカル威力 +{0}%,Critical Damage +{0}%
+103698126369656860,Stat_MaxHp_FLAT,最大HP +{0},Max HP +{0}
+103698126369656863,Stat_Armor_FLAT,防御力 +{0},Armor +{0}
+103698126369656862,Stat_MovementSpeed_FLAT,移動速度 +{0},Movement Speed +{0}
+126576174007132160,Stat_AreaOfEffect_FLAT,効果範囲 +{0},Area of Effect +{0}
+126576174032297984,Stat_BaseAttackCountReduction_FLAT,基本攻撃要求減少 +{0},Basic Attack Requirement Reduction +{0}
+103698126369656861,Stat_CooldownReduction_FLAT,クールダウン短縮 +{0}%,Cooldown Reduction +{0}%
+126576174032297985,Stat_SkillRangeExpansion_FLAT,スキル射程 +{0},Skill Range +{0}
+131180547341361152,Stat_SkillDurationIncrease_FLAT,スキル持続時間増加 +{0}%,Skill Duration Increase +{0}%
+126576174032297986,Stat_FireResistance_FLAT,火炎耐性 +{0}%,Fire Resistance +{0}%
+126576174032297987,Stat_ColdResistance_FLAT,冷気耐性 +{0}%,Cold Resistance +{0}%
+126576174032297988,Stat_LightningResistance_FLAT,雷耐性 +{0}%,Lightning Resistance +{0}%
+126576174032297989,Stat_ChaosResistance_FLAT,カオス耐性 +{0}%,Chaos Resistance +{0}%
+126576174032297990,Stat_DodgeChance_FLAT,回避率 +{0}%,Dodge Chance +{0}%
+126576174032297991,Stat_BlockChance_FLAT,ブロック率 +{0}%,Block Chance +{0}%
+126576174032297992,Stat_MaxDodgeChance_FLAT,最大回避率 +{0}%,Max Dodge Chance +{0}%
+126576174032297993,Stat_MaxBlockChance_FLAT,最大ブロック率 +{0}%,Max Block Chance +{0}%
+129069264421195776,Stat_ElementalDodgeChance_FLAT,属性回避 +{0}%,Elemental Dodge Chance +{0}%
+129069264425390080,Stat_ElementalBlockChance_FLAT,属性ブロック +{0}%,Elemental Block Chance +{0}%
+129069264425390081,Stat_MaxElementalDodgeChance_FLAT,最大属性回避 +{0}%,Max Elemental Dodge Chance +{0}%
+129069264425390082,Stat_MaxElementalBlockChance_FLAT,最大属性ブロック +{0}%,Max Elemental Block Chance +{0}%
+126576174032297994,Stat_Multistrike_FLAT,マルチストライク +{0},Multistrike +{0}
+126576174032297995,Stat_HpLeech_FLAT,ライフ吸収 +{0}%,Life Leech +{0}%
+126576174032297996,Stat_ProjectileCount_FLAT,投射物数 +{0},Projectile Count +{0}
+126576174032297997,Stat_HpRegenPerSec_FLAT,毎秒HP回復 +{0},HP Regen Per Sec +{0}
+126576174032297998,Stat_PhysicalDamagePercent_FLAT,物理ダメージ +{0}%,Physical Damage +{0}%
+126576174032297999,Stat_FireDamagePercent_FLAT,火炎ダメージ +{0}%,Fire Damage +{0}%
+126576174032298000,Stat_ColdDamagePercent_FLAT,冷気ダメージ +{0}%,Cold Damage +{0}%
+126576174032298001,Stat_LightningDamagePercent_FLAT,雷ダメージ +{0}%,Lightning Damage +{0}%
+126576174032298002,Stat_ChaosDamagePercent_FLAT,カオスダメージ +{0}%,Chaos Damage +{0}%
+126576174032298003,Stat_MaxFireResistance_FLAT,最大火炎耐性 +{0}%,Max Fire Resistance +{0}%
+126576174032298004,Stat_MaxColdResistance_FLAT,最大冷気耐性 +{0}%,Max Cold Resistance +{0}%
+126576174032298005,Stat_MaxLightningResistance_FLAT,最大雷耐性 +{0}%,Max Lightning Resistance +{0}%
+126576174032298006,Stat_MaxChaosResistance_FLAT,最大カオス耐性 +{0}%,Max Chaos Resistance +{0}%
+126576174032298007,Stat_AddHpPerHit_FLAT,命中毎HP回復 +{0},HP Per Hit +{0}
+130856018774003712,Stat_AddHpPerKill_FLAT,キルごとにHP追加 +{0},Add Hp Per Kill +{0}
+126576174032298008,Stat_DamageReduction_FLAT,ダメージ軽減 +{0}%,Damage Reduction +{0}%
+126576174032298009,Stat_PhysicalDamageReduction_FLAT,物理ダメージ軽減 +{0}%,Physical Damage Reduction +{0}%
+126576174032298010,Stat_FireDamageReduction_FLAT,火炎ダメージ軽減 +{0}%,Fire Damage Reduction +{0}%
+126576174032298011,Stat_ColdDamageReduction_FLAT,冷気ダメージ軽減 +{0}%,Cold Damage Reduction +{0}%
+126576174032298012,Stat_LightningDamageReduction_FLAT,雷ダメージ軽減 +{0}%,Lightning Damage Reduction +{0}%
+126576174032298013,Stat_ChaosDamageReduction_FLAT,カオスダメージ軽減 +{0}%,Chaos Damage Reduction +{0}%
+126576174032298014,Stat_DamageAbsorption_FLAT,ダメージ吸収 +{0},Damage Absorption +{0}
+126576174032298015,Stat_DamageAddition_FLAT,追加ダメージ +{0},Additional Damage +{0}
+126576174032298016,Stat_PhysicalDamageAddition_FLAT,追加物理ダメージ +{0},Additional Physical Damage +{0}
+126576174032298017,Stat_FireDamageAddition_FLAT,追加火炎ダメージ +{0},Additional Fire Damage+{0}
+126576174032298018,Stat_ColdDamageAddition_FLAT,追加冷気ダメージ +{0},Additional Cold Damage+{0}
+126576174032298019,Stat_LightningDamageAddition_FLAT,追加雷ダメージ +{0},Additional Lightning Damage+{0}
+126576174032298020,Stat_ChaosDamageAddition_FLAT,追加カオスダメージ +{0},Additional Chaos Damage +{0}
+126576174032298021,Stat_IncreaseExpAmount_FLAT,経験値獲得{0}%増加,{0}% Increased Exp Gain
+126576174032298022,Stat_AdditionalExp_FLAT,追加経験値 +{0},Additional Exp +{0}
+126576174032298023,Stat_CastSpeed_FLAT,詠唱速度 +{0},Cast Speed +{0}
+131251845115875328,Stat_AllElementalResistance_FLAT,全属性耐性 +{0}%,All Elemental Resistance +{0}%
+131251845141041152,Stat_IncreaseProjectileSpeed_FLAT,投射物速度 +{0}%,Projectile Speed +{0}%
+131251845141041153,Stat_IncreaseProjectileDamage_FLAT,投射物ダメージ +{0}%,Projectile Damage +{0}%
+131271172653256704,Stat_SkillHealIncrease_FLAT,スキル回復量 +{0}%,Skill Heal +{0}%
+139899326120792064,Stat_AddAllSkillLevel_FLAT,全スキルレベル +{0},All Skill Level +{0}
+103698126369656864,Stat_AttackDamage_FLAT_MinMax,攻撃力 +{0}~{1},Attack Damage +{0}~{1}
+103698126369656865,Stat_AttackSpeed_FLAT_MinMax,攻撃速度 +{0}~{1},Attack Speed +{0}~{1}
+103698126369656866,Stat_CriticalChance_FLAT_MinMax,クリティカル率 +{0}~{1}%,Critical Chance +{0}~{1}%
+103698126369656867,Stat_CriticalDamage_FLAT_MinMax,クリティカルダメージ +{0}~{1}%,Critical Damage +{0}~{1}%
+103698126369656868,Stat_MaxHp_FLAT_MinMax,最大HP +{0}~{1},Max HP +{0}~{1}
+103698126369656871,Stat_Armor_FLAT_MinMax,防御 +{0}~{1},Armor +{0}~{1}
+103698126369656870,Stat_MovementSpeed_FLAT_MinMax,移動速度 +{0}~{1},Movement Speed +{0}~{1}
+126576174032298024,Stat_AreaOfEffect_FLAT_MinMax,効果範囲 +{0}~{1},Area of Effect +{0}~{1}
+126576174032298025,Stat_BaseAttackCountReduction_FLAT_MinMax,基本攻撃要求減少 +{0}~{1},Basic Attack Requirement Reduction +{0}~{1}
+103698126369656869,Stat_CooldownReduction_FLAT_MinMax,クールダウン短縮 +{0}~{1}%,Cooldown Reduction +{0}~{1}%
+126576174032298026,Stat_SkillRangeExpansion_FLAT_MinMax,スキル射程 +{0}~{1},Skill Range +{0}~{1}
+126576174032298027,Stat_FireResistance_FLAT_MinMax,火炎耐性 +{0}~{1}%,Fire Resistance +{0}~{1}%
+126576174036492288,Stat_ColdResistance_FLAT_MinMax,冷気耐性 +{0}~{1}%,Cold Resistance +{0}~{1}%
+126576174036492289,Stat_LightningResistance_FLAT_MinMax,雷耐性 +{0}~{1}%,Lightning Resistance +{0}~{1}%
+126576174036492290,Stat_ChaosResistance_FLAT_MinMax,カオス耐性 +{0}~{1}%,Chaos Resistance +{0}~{1}%
+126576174036492291,Stat_DodgeChance_FLAT_MinMax,回避率 +{0}~{1}%,Dodge Chance +{0}~{1}%
+126576174036492292,Stat_BlockChance_FLAT_MinMax,ブロック率 +{0}~{1}%,Block Chance +{0}~{1}%
+126576174036492293,Stat_MaxDodgeChance_FLAT_MinMax,最大回避率 +{0}~{1}%,Max Dodge Chance +{0}~{1}%
+126576174036492294,Stat_MaxBlockChance_FLAT_MinMax,最大ブロック率 +{0}~{1}%,Max Block Chance +{0}~{1}%
+129069264425390083,Stat_ElementalDodgeChance_FLAT_MinMax,属性回避 +{0}~{1}%,Elemental Dodge Chance +{0}~{1}%
+129069264425390084,Stat_ElementalBlockChance_FLAT_MinMax,属性ブロック +{0}~{1}%,Elemental Block Chance +{0}~{1}%
+129069264425390085,Stat_MaxElementalDodgeChance_FLAT_MinMax,最大属性回避 +{0}~{1}%,Max Elemental Dodge Chance +{0}~{1}%
+129069264425390086,Stat_MaxElementalBlockChance_FLAT_MinMax,最大属性ブロック +{0}~{1}%,Max Elemental Block Chance +{0}~{1}%
+126576174036492295,Stat_Multistrike_FLAT_MinMax,マルチストライク +{0}~{1},Multistrike +{0}~{1}
+126576174036492296,Stat_HpLeech_FLAT_MinMax,ライフ吸収 +{0}~{1}%,Life Leech +{0}~{1}%
+126576174036492297,Stat_ProjectileCount_FLAT_MinMax,投射物数 +{0}~{1},Projectile Count +{0}~{1}
+126576174036492298,Stat_HpRegenPerSec_FLAT_MinMax,毎秒HP回復 +{0}~{1},HP Regen Per Sec +{0}~{1}
+126576174036492299,Stat_PhysicalDamagePercent_FLAT_MinMax,物理ダメージ +{0}~{1}%,Physical Damage +{0}~{1}%
+126576174036492300,Stat_FireDamagePercent_FLAT_MinMax,火炎ダメージ +{0}~{1}%,Fire Damage +{0}~{1}%
+126576174036492301,Stat_ColdDamagePercent_FLAT_MinMax,冷気ダメージ +{0}~{1}%,Cold Damage +{0}~{1}%
+126576174036492302,Stat_LightningDamagePercent_FLAT_MinMax,雷ダメージ +{0}~{1}%,Lightning Damage +{0}~{1}%
+126576174036492303,Stat_ChaosDamagePercent_FLAT_MinMax,カオスダメージ +{0}~{1}%,Chaos Damage +{0}~{1}%
+126576174036492304,Stat_MaxFireResistance_FLAT_MinMax,最大火炎耐性 +{0}~{1}%,Max Fire Resistance +{0}~{1}%
+126576174036492305,Stat_MaxColdResistance_FLAT_MinMax,最大冷気耐性 +{0}~{1}%,Max Cold Resistance +{0}~{1}%
+126576174036492306,Stat_MaxLightningResistance_FLAT_MinMax,最大雷耐性 +{0}~{1}%,Max Lightning Resistance +{0}~{1}%
+126576174036492307,Stat_MaxChaosResistance_FLAT_MinMax,最大カオス耐性 +{0}~{1}%,Max Chaos Resistance +{0}~{1}%
+126576174036492308,Stat_AddHpPerHit_FLAT_MinMax,命中毎HP回復 +{0}~{1},HP Per Hit +{0}~{1}
+130856018811752448,Stat_AddHpPerKill_FLAT_MinMax,キルごとにHP追加 +{0}~{1},Add Hp Per Kill +{0}~{1}
+126576174036492309,Stat_DamageReduction_FLAT_MinMax,ダメージ軽減 +{0}~{1}%,Damage Reduction +{0}~{1}%
+126576174036492310,Stat_PhysicalDamageReduction_FLAT_MinMax,物理ダメージ軽減 +{0}~{1}%,Physical Damage Reduction +{0}~{1}%
+126576174036492311,Stat_FireDamageReduction_FLAT_MinMax,火炎ダメージ軽減 +{0}~{1}%,Fire Damage Reduction +{0}~{1}%
+126576174036492312,Stat_ColdDamageReduction_FLAT_MinMax,冷気ダメージ軽減 +{0}~{1}%,Cold Damage Reduction +{0}~{1}%
+126576174036492313,Stat_LightningDamageReduction_FLAT_MinMax,雷ダメージ軽減 +{0}~{1}%,Lightning Damage Reduction +{0}~{1}%
+126576174036492314,Stat_ChaosDamageReduction_FLAT_MinMax,カオスダメージ軽減 +{0}~{1}%,Chaos Damage Reduction +{0}~{1}%
+126576174036492315,Stat_DamageAbsorption_FLAT_MinMax,ダメージ吸収 +{0}~{1},Damage Absorption +{0}~{1}
+126576174036492316,Stat_DamageAddition_FLAT_MinMax,追加ダメージ +{0}~{1},Additional Damage +{0}~{1}
+126576174036492317,Stat_PhysicalDamageAddition_FLAT_MinMax,追加物理ダメージ +{0}~{1},Additional Physical Damage +{0}~{1}
+126576174036492318,Stat_FireDamageAddition_FLAT_MinMax,追加火炎ダメージ +{0}~{1},Additional Fire Damage +{0}~{1}
+126576174036492319,Stat_ColdDamageAddition_FLAT_MinMax,追加冷気ダメージ +{0}~{1},Additional Cold Damage +{0}~{1}
+126576174036492320,Stat_LightningDamageAddition_FLAT_MinMax,追加雷ダメージ +{0}~{1},Additional Lightning Damage +{0}~{1}
+126576174036492321,Stat_ChaosDamageAddition_FLAT_MinMax,追加カオスダメージ +{0}~{1},Additional Chaos Damage +{0}~{1}
+126576174036492322,Stat_IncreaseExpAmount_FLAT_MinMax,経験値獲得{0}~{1}%増加,{0}~{1}% Increased Exp Gain
+126576174036492323,Stat_AdditionalExp_FLAT_MinMax,追加経験値 +{0}~{1},Additional Exp +{0}~{1}
+126576174036492324,Stat_CastSpeed_FLAT_MinMax,詠唱速度 +{0}~{1},Cast Speed +{0}~{1}
+131251845145235456,Stat_AllElementalResistance_FLAT_MinMax,全属性耐性 +{0}~{1}%,All Elemental Resistance +{0}~{1}%
+131251845145235457,Stat_SkillDurationIncrease_FLAT_MinMax,スキル持続時間 +{0}~{1}%,Skill Duration +{0}~{1}%
+131251845145235458,Stat_IncreaseProjectileSpeed_FLAT_MinMax,投射物速度 +{0}~{1}%,Projectile Speed +{0}~{1}%
+131251845145235459,Stat_IncreaseProjectileDamage_FLAT_MinMax,投射物ダメージ +{0}~{1}%,Projectile Damage +{0}~{1}%
+131271172678422528,Stat_SkillHealIncrease_FLAT_MinMax,スキル回復量 +{0}~{1}%,Skill Heal +{0}~{1}%
+139899326158540800,Stat_AddAllSkillLevel_FLAT_MinMax,全スキルレベル +{0}~{1},All Skill Level +{0}~{1}
+103698126373851136,Stat_AttackDamage_ADDITIVE,攻撃力{0}%増加,{0}% Increased Attack Damage
+103698126373851137,Stat_AttackSpeed_ADDITIVE,攻撃速度{0}%増加,{0}% Increased Attack Speed
+103698126373851138,Stat_CriticalChance_ADDITIVE,クリティカル率係数{0}%増加,{0}% Increased Critical Chance Multiplier
+103698126373851139,Stat_CriticalDamage_ADDITIVE,クリティカル威力{0}%増加,{0}% Increased Critical Damage
+103698126373851140,Stat_MaxHp_ADDITIVE,最大HP{0}%増加,{0}% Increased Max HP
+103698126373851143,Stat_Armor_ADDITIVE,防御力{0}%増加,{0}% Increased Armor
+103698126373851142,Stat_MovementSpeed_ADDITIVE,移動速度{0}%増加,{0}% Increased Movement Speed
+126576174036492325,Stat_AreaOfEffect_ADDITIVE,効果範囲{0}%増加,{0}% Increased Area of Effect
+126576174036492326,Stat_SkillRangeExpansion_ADDITIVE,スキル射程{0}%増加,{0}% Increased Skill Range
+131180547379109888,Stat_SkillDurationIncrease_ADDITIVE,{0}% 増加したスキル持続時間,{0}% Increased Skill Duration
+126576174036492329,Stat_HpRegenPerSec_ADDITIVE,毎秒HP回復{0}%増加,{0}% Increased HP Regen Per Sec
+126576174036492330,Stat_CastSpeed_ADDITIVE,詠唱速度{0}%増加,{0}% Increased Cast Speed
+131251845149429760,Stat_IncreaseAreaOfEffectDamage_ADDITIVE,範囲ダメージ{0}%増加,{0}% Increased Area of Effect Damage
+131271172678422529,Stat_SkillHealIncrease_ADDITIVE,スキル回復量{0}%増加,{0}% Increased Skill Heal
+132268333935300608,Stat_IncreaseProjectileDamage_ADDITIVE,投射物ダメージ{0}%増加,{0}% Increased Projectile Damage
+132268333968855040,Stat_IncreaseMeleeDamage_ADDITIVE,近接ダメージ{0}%増加,{0}% Increased Melee Damage
+132268333968855041,Stat_IncreaseSummonDamage_ADDITIVE,召喚ダメージ{0}%増加,{0}% Increased Summon Damage
+132268333968855042,Stat_IncreaseProjectileSpeed_ADDITIVE,投射物速度{0}%増加,{0}% Increased Projectile Speed
+132268333968855043,Stat_IncreaseExpAmount_ADDITIVE,経験値獲得量{0}%増加,{0}% Increased Exp Gain
+103698126373851144,Stat_AttackDamage_ADDITIVE_MinMax,攻撃力{0}~{1}%増加,{0}~{1}% Increased Attack Damage
+103698126373851145,Stat_AttackSpeed_ADDITIVE_MinMax,攻撃速度{0}~{1}%増加,{0}~{1}% Increased Attack Speed
+103698126373851146,Stat_CriticalChance_ADDITIVE_MinMax,クリティカル率係数{0}~{1}%増加,{0}~{1}% Increased Critical Chance Multiplier
+103698126373851147,Stat_CriticalDamage_ADDITIVE_MinMax,クリティカル威力{0}~{1}%増加,{0}~{1}% Increased Critical Damage
+103698126373851148,Stat_MaxHp_ADDITIVE_MinMax,最大HP{0}~{1}%増加,{0}~{1}% Increased Max HP
+103698126373851151,Stat_Armor_ADDITIVE_MinMax,防御力{0}~{1}%増加,{0}~{1}% Increased Armor
+103698126373851150,Stat_MovementSpeed_ADDITIVE_MinMax,移動速度{0}~{1}%増加,{0}~{1}% Increased Movement Speed
+126576174036492331,Stat_AreaOfEffect_ADDITIVE_MinMax,効果範囲{0}~{1}%増加,{0}~{1}% Increased Area of Effect
+126576174036492332,Stat_SkillRangeExpansion_ADDITIVE_MinMax,スキル射程{0}~{1}%増加,{0}~{1}% Increased Skill Range
+131180547383304192,Stat_SkillDurationIncrease_ADDITIVE_MinMax,{0}~{1}% 増加したスキル持続時間,{0}~{1}% Increased Skill Duration
+130441450679635968,Stat_DodgeChance_ADDITIVE_MinMax,回避率{0}~{1}%増加,{0}~{1}% Increased Dodge Chance
+130441450713190400,Stat_BlockChance_ADDITIVE_MinMax,ブロック率{0}~{1}%増加,{0}~{1}% Increased Block Chance
+126576174036492335,Stat_HpRegenPerSec_ADDITIVE_MinMax,毎秒HP回復{0}~{1}%増加,{0}~{1}% Increased HP Regen Per Sec
+126576174036492336,Stat_CastSpeed_ADDITIVE_MinMax,詠唱速度{0}~{1}%増加,{0}~{1}% Increased Cast Speed
+131251845153624064,Stat_IncreaseAreaOfEffectDamage_ADDITIVE_MinMax,範囲ダメージ{0}~{1}%増加,{0}~{1}% Increased Area of Effect Damage
+131271172678422530,Stat_SkillHealIncrease_ADDITIVE_MinMax,スキル回復量{0}~{1}%増加,{0}~{1}% Increased Skill Heal
+132268333968855044,Stat_IncreaseProjectileDamage_ADDITIVE_MinMax,投射物ダメージ{0}~{1}%増加,{0}~{1}% Increased Projectile Damage
+132268333968855045,Stat_IncreaseMeleeDamage_ADDITIVE_MinMax,近接ダメージ{0}~{1}%増加,{0}~{1}% Increased Melee Damage
+132268333968855046,Stat_IncreaseSummonDamage_ADDITIVE_MinMax,召喚ダメージ{0}~{1}%増加,{0}~{1}% Increased Summon Damage
+132268333973049344,Stat_IncreaseProjectileSpeed_ADDITIVE_MinMax,投射物速度{0}~{1}%増加,{0}~{1}% Increased Projectile Speed
+132268333973049345,Stat_IncreaseExpAmount_ADDITIVE_MinMax,経験値獲得量{0}~{1}%増加,{0}~{1}% Increased Exp Gain
+103698126373851152,Stat_AttackDamage_MULTIPLICATIVE,攻撃力{0}%より多く,{0}% More Attack Damage
+103698126373851153,Stat_AttackSpeed_MULTIPLICATIVE,攻撃速度{0}%より多く,{0}% More Attack Speed
+103698126373851154,Stat_CriticalChance_MULTIPLICATIVE,クリティカル率{0}%より多く,{0}% More Critical Chance
+103698126373851155,Stat_CriticalDamage_MULTIPLICATIVE,クリティカル威力{0}%より多く,{0}% More Critical Damage
+103698126373851156,Stat_MaxHp_MULTIPLICATIVE,最大HP{0}%より多く,{0}% More Max HP
+103698126373851159,Stat_Armor_MULTIPLICATIVE,防御力{0}%より多く,{0}% More Armor
+103698126373851158,Stat_MovementSpeed_MULTIPLICATIVE,移動速度{0}%より多く,{0}% More Movement Speed
+126576174036492337,Stat_AreaOfEffect_MULTIPLICATIVE,効果範囲{0}%追加増加,{0}% More Area of Effect
+126576174036492338,Stat_SkillRangeExpansion_MULTIPLICATIVE,スキル射程{0}%追加増加,{0}% More Skill Range
+126576174040686594,Stat_HpRegenPerSec_MULTIPLICATIVE,毎秒HP回復{0}%追加増加,{0}% More HP Regen Per Sec
+126576174040686595,Stat_CastSpeed_MULTIPLICATIVE,詠唱速度{0}%追加増加,{0}% More Cast Speed
+103698126373851160,Stat_AttackDamage_MULTIPLICATIVE_MinMax,攻撃力{0}~{1}%より多く,{0}~{1}% More Attack Damage
+103698126373851161,Stat_AttackSpeed_MULTIPLICATIVE_MinMax,攻撃速度{0}~{1}%より多く,{0}~{1}% More Attack Speed
+103698126373851162,Stat_CriticalChance_MULTIPLICATIVE_MinMax,クリティカル率{0}~{1}%より多く,{0}~{1}% More Critical Chance
+103698126373851163,Stat_CriticalDamage_MULTIPLICATIVE_MinMax,クリティカル威力{0}~{1}%より多く,{0}~{1}% More Critical Damage
+103698126373851164,Stat_MaxHp_MULTIPLICATIVE_MinMax,最大HP{0}~{1}%より多く,{0}~{1}% More Max HP
+103698126373851167,Stat_Armor_MULTIPLICATIVE_MinMax,防御力{0}~{1}%より多く,{0}~{1}% More Armor
+103698126373851166,Stat_MovementSpeed_MULTIPLICATIVE_MinMax,移動速度{0}~{1}%より多く,{0}~{1}% More Movement Speed
+126576174040686596,Stat_AreaOfEffect_MULTIPLICATIVE_MinMax,効果範囲{0}~{1}%追加増加,{0}~{1}% More Area of Effect
+126576174040686597,Stat_SkillRangeExpansion_MULTIPLICATIVE_MinMax,スキル射程{0}~{1}%追加増加,{0}~{1}% More Skill Range
+130441450713190401,Stat_DodgeChance_MULTIPLICATIVE_MinMax,回避率{0}~{1}%追加増加,{0}~{1}% More Dodge Chance
+130441450713190402,Stat_BlockChance_MULTIPLICATIVE_MinMax,ブロック率{0}~{1}%追加増加,{0}~{1}% More Block Chance
+126576174040686600,Stat_HpRegenPerSec_MULTIPLICATIVE_MinMax,毎秒HP回復{0}~{1}%追加増加,{0}~{1}% More HP Regen Per Sec
+126576174040686601,Stat_CastSpeed_MULTIPLICATIVE_MinMax,詠唱速度{0}~{1}%追加増加,{0}~{1}% More Cast Speed
+59818077926248448,Stage_MoveStage,{0}-{1}に移動,Move {0}-{1}
+54369252315025408,FirstSetting_PressToStart,何かキーを押してスタート,Press Any Key to Start
+15001962911481856,FirstSetting_Next,次へ,Next
+54371537862578176,FirstSetting_GuideMessage_CanSetting,※ これは「設定」でいつでも変更できます。,※ You can always change it in ‘Settings’.
+54371537862578177,FirstSetting_GuideMessage_PositionChange,※ ドラッグ＆ドロップで位置変更可能。,※ Can be repositioned anytime with drag & drop.
+54371537862578178,FirstSetting_GuideMessage_SelectCharacter,※ キャラクターを選択するとゲームを開始できます。,※ You can start the game by selecting a character.
+54371537862578179,FirstSetting_MonitorOption_Title,どのモニターでプレイしますか？,Which monitor would you like to play on?
+54371537862578180,FirstSetting_WindowPositionOption_Title,ゲームを表示する位置を選択してください。,Please select where to display the game.
+129391519839752192,FirstSetting_Notice_Playtest_Description2,- 正式版と連動しません。データは初期化されます。,- Not linked to the full release version. Save data will be reset.
+54371537862578181,FirstSetting_SettingOption_Title,お好みのゲーム環境を設定してください。,Please set up your desired game environment.
+129391519839752193,FirstSetting_Notice_Playtest_Description1,- プレイテスト中は DLC 無料。後で有料になります。,- DLC is temporarily free during playtest. Will become paid later.
+54371537862578182,FirstSetting_NoticeOption_Title,※ 注意事項 ※,※ Caution ※
+54371537862578183,FirstSetting_NoticeOption_Description,- プレイテスト版のデータは<color=red>正式版と連動しません。</color>正式版リリース時に<color=red>すべてのデータがリセット</color>される予定です。<br>- プレイテスト版ではDLCコンテンツが一時的に提供されます。<color=red>正式版ではDLCをご購入いただく必要があり、DLC関連のすべてのデータもリセットされる予定</color>です。,"- Data from the playtest version <color=red>will not carry over to the official release.</color> Upon the official release, <color=red>all data will be reset.</color><br>- DLC content is temporarily available in the playtest version. <color=red>In the official release, you must purchase the DLC to access it, and all DLC-related data will also be reset.</color>"
+54373807459192832,FirstSetting_SelectCharacterOption_Title,英雄選択,Select your hero
+54846756939157504,FirstSetting_SelectCharacterOption_LockDemo,ロック中,Locked
+15001963054088192,FirstSetting_CompleteSetting,ゲーム開始,Start Game
+15580537066733568,InventorySlot_Buy,購入,Buy
+15580537234505728,InventorySlot_Class,クラス,Class
+58836845356699648,Inventory_ItemSort,アイテム整理,Sort Items
+15232910303281157,RequiredCubeLevel,キューブ Lv.{0},Cube Lv.{0}
+15232910303281158,Cube_AutoFill,自動入力,Auto Fill
+15232910307475456,Cube_Trigger,トリガー,Trigger
+15232910307475457,Cube_IncludeStorageItems,倉庫アイテムを含む,Include Stash Items
+58824117577633792,Stage_NextStage,次のステージ,Next Stage
+15354645941960704,Status_RemainedSkillPoint,スキルポイント: {0},Skill Points: {0}
+53208443618643968,Setting_MasterVolume,全体音量,Master Volume
+54371537862578184,Mailbox_RefreshButtonCoolTime,しばらく後にもう一度お試しください。,Please try again in a moment.
+54369252461826048,Mailbox_BlockAnotherScreen,メールボックスを閉じてから再度お試しください。,Please close the mailbox and try again.
+3811305275393,Setting_BGM,背景音 (BGM),Background Music (BGM)
+53208443618643969,Setting_GameSFX,戦闘エフェクト,Battle Effects
+53208443618643970,Setting_UISFX,UI効果音,UI Sound Effects
+53208443618643971,Setting_BattleLogSFX,探検記録エフェクト,Exploration Records Effects
+3811305275394,Setting_Ambience,環境音,Ambient Sound
+53211012139110400,Setting_BugReport,"バグレポート
+(Steam ディスカッション)",Bug Report (Steam Discussion)
+53211012139110401,Setting_OpenLogFolder,"ログフォルダを開く
+(バグレポート用)",Open Log Folder (For Bug Report)
+53211012139110402,Setting_ResetAccountSaveData,アカウントセーブデータをリセット,Reset Account Save Data
+55126493871788032,Stage_ActBossEnterFail_Amount,ソウルストーンが足りません。,Not enough Soulstones.
+41675913526562816,UI_DetailedStat_Attack,攻撃,Attack
+41675913526562817,UI_DetailedStat_Armor,防御,Defense
+41675913526562818,UI_DetailedStat_Misc,その他,Others
+50715967322378240,UI_StageSlot_StageLevel,地域レベル {0},Region Level {0}
+51821884998733824,UI_ItemTooltip_Tradable,取引可能,Tradable
+51821884998733825,UI_ItemTooltip_Untradable,取引不可,Untradable
+51821884998733826,UI_ItemTooltip_RequiresLevel,Lv.{0}必要,Requires Lv.{0}
+51821884998733827,UI_ItemTooltip_ClassOnly,{0}専用,{0} Only
+51821884998733828,UI_ItemTooltip_Equip,装備,Equip
+51821884998733829,UI_ItemTooltip_Alt,ALT +,ALT +
+51821884998733830,UI_ItemTooltip_Lock,：ロック,: Lock
+55166041318281216,UI_ItemTooltip_DecorationMaterial,装飾素材,Decoration Material
+59027934168535040,UI_ItemTooltip_SoulstoneMaterial,ソウルストーン,Soulstone
+15268876980174855,ItemTooltip_RequiredLevel,必要レベル：{0},Required Lv.{0}
+38788477326774274,ItemTooltip_GradeAndItemType,{0}等級,{0} Grade
+57324482094747648,ItemTooltip_InherentSlot,固有ステータス,Inherent Stats
+126804562550530048,ItemTooltip_UniqueMod,特殊ステータス,Unique Stats
+57324482094747649,ItemTooltip_DecorationSlot,装飾スロット,Decoration Slot
+57324482094747650,ItemTooltip_EngravingSlot,彫刻スロット,Engraving Slot
+57324482094747651,ItemTooltip_InscriptionSlot,碑文スロット,Inscription Slot
+57366645176324096,ItemTooltip_DecorationSlot_EmptySlot,空きスロット (装飾可能),Empty Slot (Can Decorate)
+57366645176324097,ItemTooltip_EngravingSlot_EmptySlot,空きスロット（彫刻可）,Empty Slot (Can Engrave)
+57366645176324098,ItemTooltip_InscriptionSlot_EmptySlot,空きスロット (碑文可能),Empty Slot (Can Inscribe)
+57353772395974656,ItemTooltip_Material_DecorationStat_Weapon,武器装飾効果,Weapon Decoration Effect
+57353772530192384,ItemTooltip_Material_DecorationStat_Armor,防具装飾効果,Armor Decoration Effect
+57353772530192385,ItemTooltip_Material_DecorationStat_Accessory,アクセサリー装飾効果,Accessory Decoration Effect
+52996620248207360,UI_Cube_IncludeStashOption,倉庫アイテムを含む,Include Stash Items
+52998765538234368,UI_Mailbox_ClaimAll,すべて受取,Receive All
+52998765538234369,UI_Mailbox_Refresh,更新,Refresh
+52999241021313024,UI_Status_SelectSlotDesc,装備するスロットを選択してください。,Select a slot to equip.
+53000429666095104,UI_Status_LevelUp,レベルアップ,Level Up
+53000429666095105,UI_Status_Refund,返還,Refund
+53000429666095106,UI_Status_Equip,装備,Equip
+53010390748024832,UI_Status_Unequip,装備解除,Unequip
+53011597247959040,UI_Status_RequiredPoints,必要ポイント : {0},Required Points : {0}
+53214980084912128,UI_Status_DetailedStats,詳細ステータス,Detailed Stats
+53004457124876288,UI_Hero_Previewing,プレビュー中,Previewing
+53004457124876289,UI_Hero_Deploy,配置,Deploy
+53004457124876290,UI_Hero_Cooldown,クールダウン,Cooldown
+53004457124876291,UI_Hero_BossBattle,ボス戦闘中,Boss Battle
+53004457124876292,UI_Hero_Cannot Deploy,配置不可,Cannot Deploy
+53005643727032320,UI_Stash_StashAll,倉庫 < インベントリ,Stash All
+53005643727032321,UI_Stash_TakeAll,倉庫 > インベントリ,Take All
+53014304910266368,UI_BattleLog_ObtainItem,<color=#{0}>{1}</color><color=#{2}> を獲得。</color>,<color=#{0}>{1}</color><color=#{2}> obtained.</color>
+53014304914460672,UI_Stage_ActAndNo,ステージ {0}-{1},Stage {0}-{1}
+53015954710384640,UI_Portal_Act,第{0}幕,Act {0}
+53015954714578944,UI_Portal_Enter,入る,Enter
+53214980084912129,UI_Portal_Locked,ロック中,Locked
+53699093959069696,UI_Log_Pin,ピン,Pin
+53699094235893760,UI_Log_Unpin,ピン解除,Unpin
+53699094235893761,UI_Log_Expand,展開,Expand
+53699094235893762,UI_Log_Shrink,縮小,Shrink
+120027023689719808,UI_Log_Clear,すべて消去,Clear All
+99979785612234752,UI_Log_Setting_ShowLogTime,ログ記録時間を表示,Show Log Timestamp
+120030274665390080,UI_Log_Setting_ShowMessage,メッセージを表示,Show Message
+120030274665390081,UI_Log_Setting_ShowMessage_StageClear,ステージクリア,Stage Clear
+120030274665390082,UI_Log_Setting_ShowMessage_GetItemWithBoxOpen,宝箱開封結果,Chest Opening Result
+120030274665390083,UI_Log_Setting_ShowMessage_GetBox,宝箱獲得,Chest Obtained
+120030274665390084,UI_Log_Setting_ShowMessage_HeroDie,英雄死亡,Hero Death
+120030274665390085,UI_Log_Setting_ShowMessage_HeroResurrection,英雄復活,Hero Revival
+120030274665390086,UI_Log_Setting_ShowMessage_HeroLevelUp,英雄レベルアップ,Hero Level Up
+120030274665390087,UI_Log_Setting_ShowMessage_StageFailed,ステージ失敗,Stage Failure
+120030274665390088,UI_Log_Setting_ShowMessage_SynthesisResult,キューブ - 合成結果,Cube - Synthesis Result
+120030274665390089,UI_Log_Setting_ShowMessage_AlchemyResult,キューブ - 錬金結果,Cube - Alchemy Result
+120030274669584384,UI_Log_Setting_ShowMessage_DecorationResult,キューブ - 装飾,Cube - Decoration
+120030274669584385,UI_Log_Setting_ShowMessage_EngravingResult,キューブ - 彫刻,Cube - Engraving
+132687149685215232,UI_Log_Setting_ShowMessage_OfferingResult,キューブ - 祈願,Cube - Offering
+132687149718769664,UI_Log_Setting_ShowMessage_CraftingResult,キューブ - 製作,Cube - Crafting
+132687149718769665,UI_Log_Setting_ShowMessage_ExtractionResult,キューブ - 除去,Cube - Removal
+120030274669584386,UI_Log_Setting_ShowMessage_InscriptionResult,キューブ - 碑文,Cube - Inscription
+53031585417580544,HeroName_101,ナイト,Knight
+53031585417580545,HeroName_201,レンジャー,Ranger
+53031585417580546,HeroName_301,ソーサラー,Sorcerer
+53031585417580547,HeroName_401,プリースト,Priest
+53031585417580548,HeroName_501,ハンター,Hunter
+53031585417580549,HeroName_601,スレイヤー,Slayer
+54056035822915584,HeroDescription_101,"強い防御力と盾装備を持つ
+タンク系近接戦士。","A tanky melee fighter
+with strong defense
+and shields equipment."
+54056035822915585,HeroDescription_201,"正確な遠距離攻撃を得意とする
+俊敏な弓使い。","An agile archer specializing in precise
+ranged attacks with bow."
+54056035822915586,HeroDescription_301,"広範囲に破壊的魔法ダメージを
+与える強力な魔法使い。","A powerful mage dealing
+devastating area
+magic damage."
+54056035822915587,HeroDescription_401,"回復魔法で仲間を支援する
+神聖なヒーラー。","A holy healer who supports allies
+with restoration magic."
+54056035822915588,HeroDescription_501,"トラップとクロスボウを使いこなす
+戦術の専門家。","A tactical expert using traps
+and crossbow."
+54056035822915589,HeroDescription_601,"怒りで近接破壊ダメージを
+与える野生のバーサーカー。","A wild berserker
+dealing devastating melee
+damage through rage."
+53031585417580550,SkillName_10101,貫通突き,Piercing Thrust
+53031585417580551,SkillName_10201,シールドチャージ,Shield Charge
+53031585417580552,SkillName_10301,応報の打撃,Retribution Strike
+112314120482787328,SkillName_10401,イージスフィールド,Aegis Field
+112314120482787329,SkillName_10501,セイクリッドブレード,Sacred Blade
+112314120482787330,SkillName_10601,不屈の意志,Unyielding Will
+53031585417580553,SkillName_20101,連射,Rapid Fire
+112314120482787331,SkillName_20201,散弾射撃,Scatter Shot
+112314120482787332,SkillName_20301,矢の雨,Arrow Rain
+112314120482787333,SkillName_20401,スウィフトサージ,Swift Surge
+112314120486981632,SkillName_20501,ピアシングアロー,Piercing Arrow
+112314120486981633,SkillName_20601,スキュワーショット,Skewer Shot
+53031585417580556,SkillName_30101,ファイアボール,Fireball
+53031585417580557,SkillName_30201,アイスオーブ,Ice Orb
+53031585417580558,SkillName_30301,ライトニング,Lightning
+112314120486981634,SkillName_30401,フレイムヒュドラ,Flame Hydra
+112314120486981635,SkillName_30501,スノーストーム,Snowstorm
+112314120486981636,SkillName_30601,メテオストライク,Meteor Strike
+112314120486981637,SkillName_40101,ヒール,Heal
+112314120486981638,SkillName_40201,力の祝福,Blessing Of Might
+112314120486981639,SkillName_40301,天上の怒り,Wrath of Heaven
+112314120486981640,SkillName_40401,サンクチュアリ,Sanctuary
+112314120486981641,SkillName_40501,守護の祝福,Blessing of Warding
+112314120486981642,SkillName_40601,リザレクション,Resurrection
+112314120486981643,SkillName_50101,エクスプロージョンボルト,Explosive Bolt
+112314120486981644,SkillName_50201,フロストボルト,Frost Bolt
+112314120486981645,SkillName_50301,クイックローダー,Quick Loader
+112314120486981646,SkillName_50401,チャージトラップ,Charge Trap
+112314120486981647,SkillName_50501,クロスボウタレット,Crossbow Turret
+112314120486981648,SkillName_50601,ショックボルト,Shock Bolt
+112314120486981649,SkillName_60101,スラムジャンプ,Slam Jump
+112314120486981650,SkillName_60201,クラッシングブロー,Crushing Blow
+112314120486981651,SkillName_60301,コマンダーズクライ,Commander’s Cry
+112314120486981652,SkillName_60401,グラウンドスラム,Ground Slam
+112314120486981653,SkillName_60501,アックススピン,Axe Spin
+112314120486981654,SkillName_60601,ブラッドラスト,Bloodlust
+53031585417580559,SkillDescription_10101,剣を前方に深く突き刺し、範囲内の敵に{0}%の物理ダメージを与える。,"Thrust your sword deeply forward, dealing {0}% physical damage to enemies in range."
+53031585417580560,SkillDescription_10201,盾を構えて前方に突進する。衝突した敵に{0}%の物理ダメージを与える。,Raise your shield and charge forward. Deal {0}% physical damage to enemies you collide with.
+53031585417580561,SkillDescription_10301,敵を複数回攻撃し、1打撃ごとに{0}%の物理ダメージを与える。ヒーローのHPが低いほど打撃回数が増える。,"Strike enemies multiple times, dealing {0}% physical damage per hit. The lower the hero's HP, the more strikes."
+120083558532980736,SkillDescription_10401,守護の領域を展開し、領域内の味方が受けるダメージを{0}分阻止します。,Deploy a protective aura that blocks {0} damage for allies within the area.
+120083558532980737,SkillDescription_10501,剣に聖なる力を宿す。バフ中は攻撃力+50%、攻撃時に{0}のHPを回復する。,"Imbue your sword with holy power. While buffed, attack damage increases by 50% and attacks restore {0} HP."
+120083558532980738,SkillDescription_10601,ステージにつき1回、瀕死時に精神を集中し{0}%のHPで再び起き上がります。,"Once per stage, when near-death, focus your mind to rise again with {0}% HP."
+53031585417580562,SkillDescription_20101,矢を連続して複数発射し、1本ごとに{0}%の物理ダメージを与える。,"Fire multiple arrows in succession, dealing {0}% physical damage per arrow."
+124248511173013504,SkillDescription_20201,敵を追尾する矢を複数発射する。1本ごとに{0}%の物理ダメージを与える。,Fire multiple homing arrows. Deal {0}% physical damage per arrow.
+124248511173013505,SkillDescription_20301,空に向けて複数の矢を放ち、広範囲の敵に{0}%の物理ダメージを与える。,"Fire multiple arrows into the sky, dealing {0}% physical damage to enemies in a wide area."
+120083558532980739,SkillDescription_20401,身体の代謝を一時的に加速。持続時間中、攻撃速度が+{0}%増加する。,Temporarily accelerate your metabolism. Attack speed increases by {0}% for the duration.
+120083558532980740,SkillDescription_20501,貫通する矢を放ち、命中した敵に{0}%の物理ダメージを与える。,Fire a piercing arrow that deals {0}% physical damage to enemies hit.
+120083558532980741,SkillDescription_20601,深く刺さる矢を放つ。刺さった矢ごとにダメージ+{0}%、3本以上で出血を発生させる。,Fire a deep-wounding arrow. Damage increases by {0}% per lodged arrow; 3+ arrows cause bleeding.
+53031585417580565,SkillDescription_30101,敵に触れると爆発し、{0}%の範囲火炎ダメージを与える火球。,"A fireball that explodes on impact, dealing {0}% AoE fire damage."
+53031585417580566,SkillDescription_30201,氷の球体を召喚して敵に投げつける。衝突した敵の速度を低下させ、{0}%の多段冷気ダメージを与える。,Summon an ice orb and hurl it at enemies. Slows enemies hit and deals {0}% multi-hit cold damage.
+53031585417580567,SkillDescription_30301,前方に電撃を放ち、敵に{0}%の雷ダメージを与える。,"Unleash electricity forward, dealing {0}% lightning damage to enemies."
+120083558532980742,SkillDescription_30401,ヒドラを召喚する。ヒドラは{0}%のダメージの火球を発射する。,Summon a hydra that fires fireballs dealing {0}% damage.
+120083558532980743,SkillDescription_30501,大量の氷塊を召喚して敵に降り注ぐ。範囲内の敵に毎秒{0}%の冷気ダメージを与え、冷却状態にする。,Summon a mass of ice shards raining on enemies. Deals {0}% cold damage per second and chills enemies in the area.
+120083558532980744,SkillDescription_30601,隕石を召喚し、広範囲の敵に{0}%のダメージを与える。,"Summon a meteor, dealing {0}% damage to enemies in a wide area."
+120083558532980745,SkillDescription_40101,味方1人の体力を最大HPの{0}%分回復する。,Restore one ally's HP by an amount equal to {0}% of their maximum HP.
+120083558532980746,SkillDescription_40201,装着時に発動する祝福。自身と周囲の味方の攻撃力+{0}%。,A blessing active while equipped. Increases attack damage of self and nearby party members by {0}%.
+120083558532980747,SkillDescription_40301,セプターに聖なる雷の力を宿す。持続時間中、攻撃時に{0}%の雷広域ダメージを与える。,"Imbue your scepter with divine lightning. For the duration, attacks deal {0}% lightning area damage."
+120083558532980748,SkillDescription_40401,戦場を覆う神聖な領域を展開する。持続時間中、領域内の全味方は毎秒{0}のHPを回復する。,"Deploy a holy sanctuary across the battlefield. For the duration, all allies inside regenerate {0} HP per second."
+120083558532980749,SkillDescription_40501,装着時に発動する祝福。自身と周囲の味方の属性耐性+{0}。,A blessing active while equipped. Increases elemental resistance of self and nearby party members by {0}.
+120083558532980750,SkillDescription_40601,倒れた味方1人を最大HPの{0}%で復活させる。,Revive a fallen party member with {0}% of their max HP.
+120083558532980751,SkillDescription_50101,命中時に爆発し、{0}%の範囲火炎ダメージを与えるクロスボウボルトを発射する。,"Fire a crossbow bolt that explodes on impact, dealing {0}% area fire damage."
+120083558532980752,SkillDescription_50201,命中時に爆発し{0}%の範囲冷気ダメージを与え、当たった敵を凍結させるクロスボウボルト。,"Fire a crossbow bolt that explodes on impact, dealing {0}% area cold damage and freezing enemies hit."
+120083558532980753,SkillDescription_50301,クロスボウボルトを素早く装填。{0}回の攻撃の間、攻撃速度+50%。,Rapidly reload crossbow bolts. Attack speed increases by 50% for {0} attacks.
+120083558532980754,SkillDescription_50401,属性ダメージを受けると爆発する罠を{0}個発射します。,Launch {0} traps that explode when struck by elemental damage.
+120083558532980755,SkillDescription_50501,自動クロスボウを設置し、{0}%の物理ダメージを与えるボルトを発射する。,Deploy an automated crossbow that fires bolts dealing {0}% physical damage.
+120083558532980756,SkillDescription_50601,敵に刺さって一定時間雷を放つクロスボウボルトを発射します。刺さったボルトは周囲の敵に{0}%の電撃ダメージを与える電流を放出します。,Fire a crossbow bolt that lodges in an enemy and emits lightning for a time. The bolt releases currents dealing {0}% lightning damage to nearby enemies.
+120083558532980757,SkillDescription_60101,敵に跳躍し、着地時に周囲の敵へ{0}%の物理ダメージの衝撃波を発生させます。,"Gather strength and smash an enemy for {0}% physical damage. If it kills the enemy, a shockwave deals 350% damage to nearby enemies."
+120083558532980758,SkillDescription_60201,力を溜めて敵を強打し{0}%の物理ダメージを与えます。このスキルで敵を倒すと衝撃波が発生し周囲に350%のダメージを与えます。,"Gather strength and smash an enemy for {0}% physical damage. If it kills the enemy, a shockwave deals 350% damage to nearby enemies."
+120083558532980759,SkillDescription_60301,咆哮を上げて周囲の敵をスタンさせ、パーティの致命率係数を{0}%上昇させます。,Let out a cry that stuns nearby enemies and increases party critical chance multiplier by {0}%.
+120083558532980760,SkillDescription_60401,地面を強く叩きつけて地震を起こし、敵に{0}%の物理ダメージを与える。地震で生じた岩は範囲物理攻撃を受けると爆発する。,"Smash the ground hard, causing an earthquake that deals {0}% physical damage to enemies. Rocks created by the earthquake explode when hit by AoE physical attacks."
+120083558532980761,SkillDescription_60501,斧を持って回転し、周囲の敵に毎秒{0}%の物理ダメージを与え、一定確率で出血させる。出血中の敵を攻撃すると追加ダメージを与える。,"Spin with an axe, dealing {0}% physical damage per second to nearby enemies and a chance to apply bleeding. Attacks against bleeding enemies deal bonus damage."
+120083558532980762,SkillDescription_60601,現在HPの半分を消費し、一定時間攻撃ダメージが{0}%増加します。,Consume half of current HP to increase attack damage by {0}% for a time.
+57608919239938048,Passive_AttackDamage,攻撃力強化,Attack Damage Enhancement
+57608919244132354,Passive_AttackSpeed,攻撃速度強化,Attack Speed Enhancement
+57608919244132355,Passive_CriticalChance,クリティカル率強化,Critical Chance Enhancement
+57608919244132356,Passive_CriticalDamage,クリティカルダメージ強化,Critical Damage Enhancement
+57608919244132352,Passive_MaxHp,体力強化,Health Enhancement
+57608919244132353,Passive_Armor,防御力強化,Armor Enhancement
+126578407960551424,Passive_MovementSpeed,移動速度強化,Movement Speed Enhancement
+126578407960551425,Passive_AreaOfEffect,効果範囲強化,Area of Effect Enhancement
+126578407964745728,Passive_BaseAttackCountReduction,攻撃スキル強化,Attack Skill Enhancement
+57608919244132357,Passive_CooldownReduction,クールダウン短縮,Cooldown Reduction
+126578407964745729,Passive_SkillRangeExpansion,スキル射程強化,Skill Range Enhancement
+126578407964745730,Passive_FireResistance,火炎耐性強化,Fire Resistance Enhancement
+126578407964745731,Passive_ColdResistance,冷気耐性強化,Cold Resistance Enhancement
+126578407964745732,Passive_LightningResistance,雷耐性強化,Lightning Resistance Enhancement
+126578407964745733,Passive_ChaosResistance,カオス耐性強化,Chaos Resistance Enhancement
+126578407964745734,Passive_DodgeChance,回避率強化,Dodge Chance Enhancement
+126578407964745735,Passive_BlockChance,ブロック率強化,Block Chance Enhancement
+126578407964745736,Passive_MaxDodgeChance,最大回避率強化,Max Dodge Chance Enhancement
+126578407964745737,Passive_MaxBlockChance,最大ブロック率強化,Max Block Chance Enhancement
+126578407964745738,Passive_Multistrike,マルチストライク強化,Multistrike Enhancement
+126578407964745739,Passive_HpLeech,ライフ吸収強化,Life Leech Enhancement
+126578407964745740,Passive_ProjectileCount,投射物数強化,Projectile Count Enhancement
+126578407964745741,Passive_HpRegenPerSec,毎秒HP回復強化,HP Regen Enhancement
+126578407964745742,Passive_PhysicalDamagePercent,物理ダメージ強化,Physical Damage Enhancement
+126578407964745743,Passive_FireDamagePercent,火炎ダメージ強化,Fire Damage Enhancement
+126578407964745744,Passive_ColdDamagePercent,冷気ダメージ強化,Cold Damage Enhancement
+126578407964745745,Passive_LightningDamagePercent,雷ダメージ強化,Lightning Damage Enhancement
+126578407964745746,Passive_ChaosDamagePercent,カオスダメージ強化,Chaos Damage Enhancement
+126578407964745747,Passive_MaxFireResistance,最大火炎耐性強化,Max Fire Resistance Enhancement
+126578407964745748,Passive_MaxColdResistance,最大冷気耐性強化,Max Cold Resistance Enhancement
+126578407964745749,Passive_MaxLightningResistance,最大雷耐性強化,Max Lightning Resistance Enhancement
+126578407964745750,Passive_MaxChaosResistance,最大カオス耐性強化,Max Chaos Resistance Enhancement
+126578407964745751,Passive_AddHpPerHit,命中毎HP回復強化,HP Per Hit Enhancement
+131251845166206976,Passive_AddHpPerKill,撃破毎HP回復強化,HP Per Kill Enhancement
+126578407964745752,Passive_DamageReduction,ダメージ軽減強化,Damage Reduction Enhancement
+126578407964745753,Passive_PhysicalDamageReduction,物理ダメージ軽減強化,Physical Damage Reduction Enhancement
+126578407964745754,Passive_FireDamageReduction,火炎ダメージ軽減強化,Fire Damage Reduction Enhancement
+126578407964745755,Passive_ColdDamageReduction,冷気ダメージ軽減強化,Cold Damage Reduction Enhancement
+126578407964745756,Passive_LightningDamageReduction,雷ダメージ軽減強化,Lightning Damage Reduction Enhancement
+126578407964745757,Passive_ChaosDamageReduction,カオスダメージ軽減強化,Chaos Damage Reduction Enhancement
+126578407964745758,Passive_DamageAbsorption,ダメージ吸収強化,Damage Absorption Enhancement
+126578407964745759,Passive_DamageAddition,追加ダメージ強化,Added Damage Enhancement
+126578407964745760,Passive_PhysicalDamageAddition,追加物理ダメージ強化,Added Physical Damage Enhancement
+126578407964745761,Passive_FireDamageAddition,追加火炎ダメージ強化,Added Fire Damage Enhancement
+126578407964745762,Passive_ColdDamageAddition,追加冷気ダメージ強化,Added Cold Damage Enhancement
+126578407964745763,Passive_LightningDamageAddition,追加雷ダメージ強化,Added Lightning Damage Enhancement
+126578407964745764,Passive_ChaosDamageAddition,追加カオスダメージ強化,Added Chaos Damage Enhancement
+126578407964745765,Passive_IncreaseExpAmount,経験値獲得強化,Exp Gain Enhancement
+126578407964745766,Passive_AdditionalExp,追加経験値強化,Additional Exp Enhancement
+126578407964745767,Passive_CastSpeed,詠唱速度強化,Cast Speed Enhancement
+131251845170401280,Passive_AllElementalResistance,全属性耐性強化,All Elemental Resistance Enhancement
+131251845170401281,Passive_IncreaseProjectileDamage,投射物ダメージ強化,Projectile Damage Enhancement
+131251845170401282,Passive_IncreaseProjectileSpeed,投射物速度強化,Projectile Speed Enhancement
+131251845170401283,Passive_AreaOfEffectDamage,範囲ダメージ強化,Area of Effect Damage Enhancement
+131271172691005440,Passive_SkillHealIncrease,スキル回復量強化,Skill Heal Enhancement
+131251845170401284,Passive_Duration,持続時間強化,Duration Enhancement
+53229811068358656,StageName_1101,牧草地,Pasture
+53229811068358657,StageName_1102,影の草原,Shadow Meadow
+53229811068358658,StageName_1103,荒れ地,Wasteland
+53229811068358659,StageName_1104,不気味な峡谷,Eerie Canyon
+53229811068358660,StageName_1105,燃える村の入口,Burning Village Entrance
+53229811068358661,StageName_1106,ラムストリート広場,Rumstreet Square
+53229811068358662,StageName_1107,街の外れ,City Outskirts
+53229811068358663,StageName_1108,墓地,Cemetery
+53229811068358664,StageName_1109,呪われた大地,Cursed Land
+53229811068358665,StageName_1110,闇の玉座,Throne of Darkness
+53229811068358666,StageName_1201,オアシスの道,Oasis Road
+53229811068358667,StageName_1202,砂嵐の谷,Sandstorm Valley
+53229811068358668,StageName_1203,砂漠地下洞窟,Desert Underground Cave
+53229811068358669,StageName_1204,虫の巣,Bug Nest
+53229811068358670,StageName_1205,灼熱の砂丘,Scorching Dunes
+53229811068358671,StageName_1206,夕暮れの廃墟,Sunset Ruins
+53229811068358672,StageName_1207,真夜中の砂漠,Midnight Sands
+53229811068358673,StageName_1208,神聖なる墓,Sacred Tomb
+53229811068358674,StageName_1209,ファラオの墓室,Pharaoh's Crypt
+53229811068358675,StageName_1210,ファラオの地下水路,Pharaoh's Underchannel
+53229811068358676,StageName_1301,雪原の前哨地,Snowbound Outpost
+53229811068358677,StageName_1302,凍結した戦場,Frozen Battlefield
+53229811068358678,StageName_1303,氷河洞窟の入口,Glacial Cave Entrance
+53229811068358679,StageName_1304,凍りつく氷河洞窟,Frozen Glacier Cavern
+53229811068358680,StageName_1305,地獄の関門,Hell Gate
+53229811068358681,StageName_1306,燃える峡谷,Burning Ravine
+53229811068358682,StageName_1307,苦痛の平原,Plains of Torment
+53229811068358683,StageName_1308,破滅の要塞,Citadel of Ruin
+53229811068358684,StageName_1309,深淵の中心,Core of the Abyss
+53229811072552960,StageName_1310,地獄の執務室,Hell Command Chamber
+126966437917564928,RuneName_AllHeroAttackDamage,戦争のルーン,Rune of War
+126966437946925056,RuneName_AdditionalGoldStageBoss,富のルーン,Rune of Wealth
+126966437946925057,RuneName_AdditionalExpStageBoss,成長のルーン,Rune of Growth
+126966437946925058,RuneName_MaxInventorySlot,拡張のルーン,Rune of Expansion
+126966437946925059,RuneName_UnlockStashPageCount,保管のルーン,Rune of Storage
+126966437946925060,RuneName_UnlockArrangeSlotCount,指揮のルーン,Rune of Command
+126966437946925061,RuneName_UnlockSkillSlotCount,覚醒のルーン,Rune of Awakening
+126966437946925062,RuneName_DropChanceNormalChest,探索のルーン,Rune of Exploration
+126966437946925063,RuneName_DropChanceStageBossChest,征服のルーン,Rune of Conquest
+126966437946925064,RuneName_MaxAmountNormalChest,収納のルーン,Rune of Containment
+126966437946925065,RuneName_MaxAmountStageBossChest,金庫のルーン,Rune of the Vault
+126966437946925066,RuneName_AdditionalGold,富のルーン,Rune of Wealth
+126966437946925067,RuneName_IncreaseGoldAmount,富のルーン,Rune of Wealth
+126966437946925068,RuneName_AdditionalGoldNormalMonster,富のルーン,Rune of Wealth
+126966437946925069,RuneName_AdditionalGoldActBoss,富のルーン,Rune of Wealth
+126966437946925070,RuneName_AdditionalExp,成長のルーン,Rune of Growth
+126966437946925071,RuneName_IncreaseExpAmount,成長のルーン,Rune of Growth
+126966437946925072,RuneName_AdditionalExpNormalMonster,成長のルーン,Rune of Growth
+126966437946925073,RuneName_AdditionalExpActBoss,成長のルーン,Rune of Growth
+130856018832723968,RuneName_AllHeroAttackDamagePercent,戦争のルーン,Rune of War
+126966437946925074,RuneName_AllHeroMoveSpeed,疾風のルーン,Rune of the Gale
+126966437946925075,RuneName_AllHeroArmor,盾のルーン,Rune of the Shield
+130856018832723969,RuneName_AllHeroArmorPercent,盾のルーン,Rune of the Shield
+130856018832723970,RuneName_AllHeroAttackSpeed,狂乱のルーン,Rune of Frenzy
+126966437946925076,RuneName_CubeExpPercent,組合のルーン,Rune of Forging
+126966437946925077,RuneName_CubeAlchemyGoldPercent,錬金のルーン,Rune of Alchemy
+133366150766465024,RuneName_WaveCountReduction,短縮のルーン,Rune of Brevity
+133366150804213760,RuneName_WaveMonsterAmount,殲滅のルーン,Rune of Annihilation
+140317251012730880,RuneName_OpenOneTypeChestAllAtOnce,開放のルーン,Rune of Opening
+140317251012730881,RuneName_OpenAllTypeChestAllAtOnce,開放のルーン,Rune of Opening
+140317251012730882,RuneName_UnlockAutoOpenNormalChest,ぜんまいのルーン,Rune of the Mainspring
+140317251012730883,RuneName_UnlockAutoOpenStageBossChest,ぜんまいのルーン,Rune of the Mainspring
+140317251012730884,RuneName_UnlockAutoOpenActBossChest,ぜんまいのルーン,Rune of the Mainspring
+140317251012730885,RuneName_ReduceAutoOpenNormalChestTime,潤滑のルーン,Rune of Lubrication
+140317251012730886,RuneName_ReduceAutoOpenStageBossChestTime,潤滑のルーン,Rune of Lubrication
+140317251012730887,RuneName_ReduceAutoOpenActBossChestTime,潤滑のルーン,Rune of Lubrication
+140317251012730888,RuneName_UnlockOfflineReward,安息のルーン,Rune of Repose
+140317251012730889,RuneName_OfflineRewardGoldPercent,蓄積のルーン,Rune of Hoarding
+140317251012730890,RuneName_OfflineRewardExpPercent,修練のルーン,Rune of Training
+98564059630342144,MonsterName_10011,スライム,Slime
+98564059630342145,MonsterName_10021,ゴブリン,Goblin
+98564059630342146,MonsterName_10022,ゴブリンシーフ,Goblin Thief
+98564059630342147,MonsterName_10023,ゴブリンシャーマン,Goblin Shaman
+98564059630342148,MonsterName_10031,コウモリ,Bat
+98564059630342149,MonsterName_10041,オーク,Orc
+98564059630342150,MonsterName_10042,オークウォリアー,Orc Warrior
+98564059630342151,MonsterName_10043,エリートオーク,Elite Orc
+98564059630342152,MonsterName_10051,スケルトン,Skeleton
+98564059630342153,MonsterName_10052,スケルトンアーチャー,Skeleton Archer
+98564059630342154,MonsterName_10053,スケルトンウォリアー,Skeleton Warrior
+98564059630342155,MonsterName_10901,スケルトンキング,Skeleton King
+125153389963714560,MonsterName_20011,サソリ,Scorpion
+125153389997268992,MonsterName_20021,ラット族戦士,Ratfolk Warrior
+125153389997268993,MonsterName_20022,ラット族弓兵,Ratfolk Archer
+125153389997268994,MonsterName_20023,疫病ネズミ,Plague Rat
+125153389997268995,MonsterName_20024,ラット族バーサーカー,Ratfolk Berserker
+125153389997268996,MonsterName_20031,コブラ,Cobra
+125153389997268997,MonsterName_20041,毒虫,Venom Insect
+125153389997268998,MonsterName_20042,猛毒の君主,Venom Lord
+125153389997268999,MonsterName_20051,巨大バエ,Giant Fly
+125153389997269000,MonsterName_20061,コボルト衛兵,Kobold Guard
+125153389997269001,MonsterName_20062,コボルト投石兵,Kobold Slinger
+125153389997269002,MonsterName_20071,ホムンクルス,Homunculus
+125153389997269003,MonsterName_20081,グール,Ghoul
+125153389997269004,MonsterName_20091,火の精霊,Fire Elemental
+130441450729967616,MonsterName_20121,ダニ,Tick
+125153389997269006,MonsterName_20111,ミイラ,Mummy
+125153389997269007,MonsterName_20901,砂漠の支配者,Desert Overlord
+125153389997269008,MonsterName_30011,グレムリン,Gremlin
+125153389997269009,MonsterName_30012,ジオニド,Geonid
+125153389997269010,MonsterName_30013,堕天使の兜,Fallen Angel's Helm
+125153389997269011,MonsterName_30021,イエティ,Yeti
+125153389997269012,MonsterName_30031,ドラゴンハッチリング,Dragon Hatchling
+125153389997269013,MonsterName_30041,雪山戦士,Snow Mountain Warrior
+125153389997269014,MonsterName_30042,雪山の弓兵,Snow Mountain Archer
+125153389997269015,MonsterName_30043,雪山衛兵,Snow Mountain Guard
+125153389997269016,MonsterName_30044,雪山の魔法使い,Snow Mountain Mage
+125153389997269017,MonsterName_30051,幽霊,Ghost
+125153389997269018,MonsterName_30061,溶岩の化身,Lava Being
+125153389997269019,MonsterName_30071,血の聖職者,Blood Priest
+125153389997269020,MonsterName_30081,デーモン兵,Demon Soldier
+125153389997269021,MonsterName_30082,デーモン軍団長,Demon Legion Commander
+125153389997269022,MonsterName_30083,デーモン突撃兵,Demon Shocktrooper
+125153389997269023,MonsterName_30084,燃える子豚,Burning Piglet
+125153389997269024,MonsterName_30091,地獄のゴーレム,Hell Golem
+125153389997269025,MonsterName_30101,燃える地獄の神官,Burning Hell Priest
+125153389997269026,MonsterName_30102,凍る地獄の神官,Frozen Hell Priest
+125153389997269027,MonsterName_30103,雷電の地獄の神官,Electric Hell Priest
+125153389997269028,MonsterName_30104,カオスの地獄の神官,Chaos Hell Priest
+125153389997269029,MonsterName_30111,死の指,Finger of Death
+125153389997269030,MonsterName_30901,モルカル執政官,Archon Morkar
+120027023723274240,LogMessage_StageClear,{0}をクリアしました。({1}秒),Cleared {0}. ({1}s)
+120027023723274241,LogMessage_GetItemWithBoxOpen,{0}を獲得。,Obtained {0}.
+120027023723274242,LogMessage_GetBox,{0}を獲得。({1}),Obtained {0}. ({1})
+120027023723274243,LogMessage_HeroDie,{0}が戦闘不能になりました。({1}),{0} has been defeated. ({1})
+120027023723274244,LogMessage_HeroResurrection,{0}が復活しました。,{0} has revived.
+120027023723274245,LogMessage_HeroLevelUp,{0}のレベルが{1}になりました。,{0} reached level {1}.
+120027023723274246,LogMessage_StageFailed,{0}の挑戦に失敗しました。({1}/{2}),Failed to clear {0}. ({1}/{2})
+120027023723274247,LogMessage_SynthesisResult,{0}グレード消費、{1}グレード獲得,"Consumed {0} grade, obtained {1} grade"
+120027023723274248,LogMessage_AlchemyResult,{0}消費、{1}獲得,"Consumed {0}, obtained {1}"
+120027023723274249,LogMessage_DecorationResult,{0}を{1}で装飾しました。,Decorated {0} with {1}.
+120027023723274250,LogMessage_EngravingResult,{0}を{1}で彫刻しました。,Engraved {0} with {1}.
+120027023723274251,LogMessage_InscriptionResult,{0}に{1}を使用して碑文を刻みました。,Inscribed {0} using {1}.
+132687149735546880,LogMessage_OfferingResult,祈願結果：{0} 獲得,Offering result: Obtained {0}
+120027023723274252,LogMessage_CraftingResult,製作結果：{0} 獲得,Crafting result: Obtained {0}
+120027023723274253,LogMessage_ExtractionResult,{0}の{1}効果を除去しました。,{1} effect removed from {0}.
+120054520800157697,CurrencyName_100001,ゴールド,Gold
+103698126386434048,Tutorial_CannotOpenAnyUI,チュートリアル中は開けません。,Cannot open during tutorial.
+103698126386434049,Tutorial_DragWindow,ドラッグで\n画面移動,Drag to\n move the screen
+120027023723274254,Tutorial_FirstKillMonster,<ステージ進行度>ゲージが満タンになるとボスが召喚されます。,"When the <Stage Progress> gauge is full, the boss is summoned."
+120027023723274255,Tutorial_EquipGear,ドラッグまたは右クリックで装着してください。,Drag or right-click to equip.
+120027023723274256,Tutorial_CanLearnSkill,レベルアップでスキルポイントを獲得。ステータス画面でスキルを習得できます。,You earned a skill point by leveling up. Open the Status window to learn skills.
+120027023723274257,Tutorial_UnlockCube1,キューブが解放されました。,The Cube is now unlocked.
+120027023723274258,Tutorial_UnlockCube2,レシピを選択して様々なアイテムを組み合わせられます。,Select recipes to combine various items.
+120027023723274259,Tutorial_Synthesis1,合成が可能になりました。,Synthesis is now available.
+120027023723274260,Tutorial_Synthesis2,9個のアイテムを合成して新しいアイテムを獲得しましょう。,Synthesize 9 items to obtain new ones.
+112314120499564544,Toast_NotMatchAlchemy,このアイテムは登録できません。,This item cannot be registered.
+112314120499564545,Toast_NotMatchSynthesis,レシピに合うアイテムを登録してください。,Register items matching the recipe.
+112314120499564546,Toast_NotMatchCrafting,レシピに合うアイテムを登録してください。,Register items matching the recipe.
+112314120499564547,Toast_NotMatchForging,フォージングタイプに合わないアイテム。,Item does not match the Forging type.
+112314120499564548,Toast_NotMatchDecoration,空いている装飾スロットが必要です。,An empty Decoration slot is required.
+112314120499564549,Toast_NotMatchEngraving,空いている彫刻スロットが必要です。,An empty Engraving slot is required.
+112314120499564550,Toast_NotMatchInscription,空いている刻印スロットが必要です。,An empty Inscription slot is required.
+112314120499564551,Toast_NotMatchOffering,レシピに合うアイテムを登録してください。,Register items matching the recipe.
+112314120499564552,Toast_NotMatchExtraction,除去可能なステータスがありません。,No stats available to remove.
+112314120499564641,SubRecipeName_100011,Lv.1~10,Lv.1~10
+112314120499564642,SubRecipeName_100021,Lv.10~20,Lv.10~20
+112314120499564643,SubRecipeName_100031,Lv.15~30,Lv.15~30
+112314120499564644,SubRecipeName_100041,Lv.20~40,Lv.20~40
+112314120499564645,SubRecipeName_100051,Lv.30~50,Lv.30~50
+112314120499564646,SubRecipeName_100061,Lv.40~65,Lv.40~65
+112314120499564647,SubRecipeName_100071,Lv.50~65,Lv.50~65
+112314120499564648,SubRecipeName_100081,Lv.65~80,Lv.65~80
+112314120499564649,SubRecipeName_100091,Lv.70~90,Lv.70~90
+112314120499564650,SubRecipeName_200011,-,-
+112314120499564651,SubRecipeName_300011,-,-
+112314120499564652,SubRecipeName_400011,-,-
+112314120499564653,SubRecipeName_500011,-,-
+112314120499564654,SubRecipeName_600011,Lv.1~10,Lv.1~10
+112314120499564655,SubRecipeName_600021,Lv.10~20,Lv.10~20
+112314120499564656,SubRecipeName_600031,Lv.20~30,Lv.20~30
+112314120499564657,SubRecipeName_600041,Lv.30~40,Lv.30~40
+112314120499564658,SubRecipeName_600051,Lv.40~50,Lv.40~50
+112314120499564659,SubRecipeName_600061,Lv.50~65,Lv.50~65
+112314120499564660,SubRecipeName_600071,Lv.65~80,Lv.65~80
+112314120499564661,SubRecipeName_600081,Lv.80,Lv.80
+112314120503758848,SubRecipeName_600091,Lv.80~90,Lv.80~90
+112314120503758849,SubRecipeName_700011,Coin 1,Coin 1
+112314120503758850,SubRecipeName_700021,Coin 2,Coin 2
+112314120503758851,SubRecipeName_700031,Coin 3,Coin 3
+112314120503758852,SubRecipeName_700041,Coin 4,Coin 4
+112314120503758853,SubRecipeName_700051,Coin 5,Coin 5
+112314120503758854,SubRecipeName_700061,Coin 6,Coin 6
+112314120503758855,SubRecipeName_700071,Coin 7,Coin 7
+112314120503758856,SubRecipeName_700081,Coin 8,Coin 8
+112314120503758857,SubRecipeName_700091,Coin 9,Coin 9
+112314120503758858,SubRecipeName_700101,Coin 10,Coin 10
+112314120503758859,SubRecipeName_700111,Coin 11,Coin 11
+112314120503758860,SubRecipeName_900011,-,-
+112314120503758861,SynthesisResultPreviewTextSameGrade,同等級 [{0}] の確率：{1:F1}%,Chance of same grade [{0}] : {1:F1}%
+112314120503758862,SynthesisResultPreviewTextUpGrade,上位等級 [{0}] の確率：{1:F1}%,Chance of higher grade [{0}] : {1:F1}%
+112314120503758863,SynthesisResultPreviewTextDoubleUpGrade,2段階上位 [{0}] の確率：{1:F1}%,Chance of 2-grade higher [{0}] : {1:F1}%
+112314120503758864,SynthesisResultPreviewItemLevel,合成結果アイテムレベル範囲：{0} ~ {1},Synthesis result item level range : {0} ~ {1}
+112314120503758865,SynthesisWarningHighLevelItemIn,選択したレシピのティアより高いアイテムが含まれています。,An item above the selected recipe's tier is included.
+112314120503758866,CraftingTitleDescription,ランダム {0} ({1}) 製作,Random {0} ({1}) Crafting
+112314120503758867,CraftingMaterialDescription,- {0} x {1},- {0} x {1}
+112435569902161920,DefaultStageRepeatOff,ステージ失敗時自動再挑戦：オフ,Auto-retry on stage failure: Off
+112435569944104960,DefaultStageRepeatOn,ステージ失敗時自動再挑戦：オン,Auto-retry on stage failure: On
+112435569944104961,ActBossStageRepeatOn,魂石所持時自動再挑戦：オン,Auto-retry while holding Soulstone: On
+112435569944104962,ActBossStageRepeatOff,魂石所持時自動再挑戦：オフ,Auto-retry while holding Soulstone: Off
+113776975476363264,MoveCount,{0}回,{0} times
+113776975509917696,Maintain,持続,Duration
+113776975509917697,Auto,自動,Auto
+114228330868236288,GearUniqueMod,特殊ステータス,Unique Stats
+114228330926956544,UniqueMod_FlameHydraBerserk,ヒドラの攻撃速度+200%。,Hydra's attack speed increases by 200%.
+114228330926956545,UniqueMod_ExplosiveBoltHalf,爆発ボルト：ダメージと攻撃回数-50%.,Explosive Bolt damage and attack count decrease by 50%.
+114228330926956546,UniqueMod_ChargeTrapExplosiveCooldown,Explosive Boltで敵を倒すたびにCharge TrapのCD-1秒。,"Each time Explosive Bolt kills a monster, Charge Trap cooldown is reduced by 1 second."
+114228330926956547,UniqueMod_SkewerShotBleedingStrike,Skewer Shotは出血中の敵に2倍ダメージ。,Skewer Shot deals double damage to bleeding enemies.
+114228330926956548,UniqueMod_AxeSpinBleedingChance,Axe Spinの出血確率+50%。,Axe Spin's chance to cause bleeding increases to 50%.
+114228330926956549,UniqueMod_ArrowRainCriticalCooldown,基本攻撃のクリティカル時Arrow RainのCD-0.5秒。,"When a basic attack critically hits, Arrow Rain cooldown is reduced by 0.5 seconds."
+114228330926956550,UniqueMod_ShieldChargeKillCooldown,Shield Chargeで敵を倒すとCDリセット。,Killing an enemy with Shield Charge resets its cooldown.
+114228330926956551,UniqueMod_CrossbowTurretCooldown,Crossbow TurretのCD-50%。,Crossbow Turret cooldown is reduced by 50%.
+114228330926956552,UniqueMod_IceOrbFreezeToCold,Ice Orbが冷却状態の敵に命中時30%で凍結。,Ice Orb has a 30% chance to freeze chilled enemies on hit.
+114228330926956553,UniqueMod_SnowstormEnhanceFrozenEnemy,Snowstormは凍結中の敵に+100%ダメージ。,Snowstorm deals 100% additional damage to frozen enemies.
+114228330926956554,UniqueMod_CrossbowTurretAddAmount,Crossbow Turretの最大召喚数+1。,Maximum number of Crossbow Turrets summoned is increased by 1.
+114228330926956555,UniqueMod_WrathOfHeavenHeal,Wrath of Heavenのバフ中、敵への攻撃時に味方にもHealが発動。,"While under Wrath of Heaven buff, attacking enemies also casts Heal on allies."
+114228330926956556,NeedSelectExtractionTarget,除去するオプションを選択してください。,Select an option to remove.
+114228330926956557,SelectedExtractionTargetPreview,除去される{0}オプション：{1},{0} option to remove : {1}
+115302477907300352,StatCategory_Compensation,報酬,Reward
+115301852956004352,StatCategory_Battle,戦闘,Combat
+115301852956004353,StatCategory_Exploration,探索,Exploration
+117024668747239424,Toast_CannotSynthesisCosmic,コズミック等級は合成できません。,Cosmic grade cannot be synthesized.
+117024668780793856,Character,キャラクター,Character
+117024740444672000,Pet,ペット,Pet
+117357269378863104,HowToObtain,入手方法,How to Obtain
+117357269412417536,PetName_1001,コウモリ,Bat
+117357269412417537,PetName_1002,監視者,Watcher
+117357269412417538,PetName_1003,燃える骸骨,Burning Skeleton
+117357269412417539,PetName_1004,"ブルー
+ゴーレム",Blue Golem
+117357269412417540,PetName_1005,闇の精霊,Dark Spirit
+117357269412417541,PetName_6001,剣,Sword
+117357269412417542,PetName_6002,蝶,Butterfly
+117357269412417543,PetName_6003,ドラゴン,Dragon
+117358205853700096,Abilities,能力,Abilities
+119331136330022925,ResetData_Notice1Text1,"すべてのプレイデータを削除します。
+同意して進む場合、すべてのデータが完全にリセットされ、元に戻すことはできません。
+
+- TBHはSteamのサーバーデータを使用しているため、リセット後の復元は不可能です。
+- お客様が直接同意して削除されたデータについて、開発会社は責任を負いません。","Deletes all play data.
+If you proceed with consent, all data will be completely reset and this cannot be undone.
+
+- Since TBH uses Steam server data, recovery after reset is impossible.
+- The developer is not responsible for any data you directly consent to delete."
+119331136330022926,ResetData_Notice1Text2,削除されたデータは復元できません。,Deleted data cannot be recovered.
+119331136330022927,ResetData_NeedCheckNotice,上記の内容をすべてご確認ください。,Please review all of the above.
+119331136330022928,ResetData_AgreeResetData,"すべてのデータを削除する
+ことに同意します。",I agree to delete all data.
+119331136330022929,ResetData_RuningReset,データをリセット中,Resetting Data
+119331136330022930,ResetData_WarningGameQuit,"※ 注意：データを削除中です。
+ゲームを終了しないでください。","※ Warning: Data is being deleted.
+Do not close the game."
+119331136330022931,ResetData_ReallyWantReset,"本当にリセットする場合は、リセットボタンを
+5秒間長押ししてください。
+
+※ 注意：リセット後、最大1時間アカウントを再作成できません。","If you really want to reset, press and hold the reset button
+for 5 seconds.
+
+※ Note: After resetting, you cannot recreate your account for up to 1 hour."
+119331136330022932,ShowDetail,詳細を見る,View Details
+119331136330022933,Description_Hero101,剣と盾で前線を守る近接守護者。高い体力と防御力で敵の攻勢を正面から受け止める。,A melee guardian holding the line with sword and shield. Takes enemy onslaught head-on with high HP and defense.
+119331136330022934,Description_Hero201,素早い身のこなしと鋭い弓術の遠距離射手。安全な距離から敵の急所を狙う。,A ranged marksman with nimble footwork and sharp archery. Strikes vital points from a safe distance.
+119331136330022935,Description_Hero301,杖とオーブでマナを操り戦場を焼き尽くすAoEディーラー。押し寄せる敵を一瞬で薙ぎ払う。,An AoE dealer who channels mana through staff and orb to ignite the battlefield. Wipes out swarms in an instant.
+119331136330022936,Description_Hero401,神聖な力で味方を癒やし守るサポーター。戦闘が長引くほど真価を発揮する。,A supporter who heals and protects allies with holy power. Shines in drawn-out battles.
+119331136330022937,Description_Hero501,クロスボウと罠を操る戦術型ハンター。地形と距離を支配し、強敵をも執拗に追い詰める。,A tactical hunter wielding crossbow and traps. Dominates terrain and distance to relentlessly pressure even strong foes.
+119331136330022938,Description_Hero601,斧で全てを薙ぎ払うバーサーカー。危険な状況ほど攻撃が激しくなる。,A berserker who cleaves everything with an axe. Attacks grow fiercer the greater the danger.
+120027023723274261,SimpleDescription_Hero101,剣と盾で前線を守る近接守護者。,A melee guardian holding the line<br>with sword and shield. 
+120027023723274262,SimpleDescription_Hero201,素早い身のこなしと鋭い弓術の遠距離射手。,A ranged marksman with nimble footwork<br>and sharp archery. 
+120027023723274263,SimpleDescription_Hero301,杖とオーブでマナを操り戦場を焼き尽くすAoEディーラー。,An AoE dealer who channels mana through staff<br>and orb to ignite the battlefield.
+120027023723274264,SimpleDescription_Hero401,神聖な力で味方を癒やし守るサポーター。,A supporter who heals and protects allies<br>with holy power. 
+120027023723274265,SimpleDescription_Hero501,クロスボウと罠を操る戦術型ハンター。,A tactical hunter wielding crossbow and traps. 
+120027023723274266,SimpleDescription_Hero601,斧で全てを薙ぎ払うバーサーカー。,A berserker who cleaves everything with an axe.
+121399032886005760,Toast_BlockedItem,ロック済みのアイテムです。,Item is locked.
+121414182877179904,Toast_FailTradeInsert_BlockedItem,ロックされたアイテムは交易船に載せられません。,Locked items cannot be loaded on the trade ship.
+121768745966678016,Toast_ReservedSoulStone,特定のステージに占有されて使用できません。,Reserved by a specific stage and cannot be used.
+122431994054250497,Popup_AskAgain,二度と聞かない,Don't ask again
+122431994054250498,Setting_ShowAlchemyWarning,錬金術実行時に確認表示,Show confirmation for Alchemy
+124248511181402112,Tooltip_Skill_Alt_Detail,ALT : 詳細,ALT : Details
+124248511181402113,Tooltip_Skill_BaseAttack_Detail,基本攻撃：{0}回,Basic Attack : {0} times
+124248511181402114,Tooltip_Skill_CoolTime_Detail,クールダウン：{0}秒,Cooldown : {0}s
+124248511181402115,Skill_Aura, オーラ, Aura
+124248511181402116,Tooltip_Skill_DetailTooltip_CoolDown,* スキル使用速度は<color=#00B6FF>詠唱速度</color>の影響を受けます。,* Skill usage rate is affected by <color=#00B6FF>Cast Speed</color>.
+124248511181402117,Tooltip_Skill_DetailTooltip_Aura,* オーラスキルは装着時に即座に発動します。,* Aura skills activate immediately when equipped.
+124248511181402118,Tooltip_Skill_DetailTooltip_BaseAttack,* スキル使用速度は<color=#FFA600>攻撃速度</color>の影響を受けます。,* Skill usage rate is affected by <color=#FFA600>Attack Speed</color>.
+124248511181402119,Tooltip_EmptySkillSlot,空のスキルスロット\n(クリック:スキル装備画面を開く),Empty Skill Slot\n(Click: Open skill equip screen)
+124248511181402120,Tooltip_LockSkillSlot,スキル枠：ロック,Skill Slot: Locked
+124248511181402121,Tooltip_Empty,空,Empty
+124248511181402122,UI_ChangeSkill,スキル変更,Change Skill
+124248511181402123,UI_ShowSkillDetail,スキル詳細,Skill Details
+124248511181402124,Tooltip_EquipSkillClick,クリック：スキル装着,Click : Equip skill
+124248511181402125,SynthesisResultPreview_SameGrade,同等級 [{0}] の確率：{1:F1}%,Chance of same grade [{0}] : {1:F1}%
+124248511181402126,SynthesisResultPreview_NextGrade,上位等級 [{0}] の確率：{1:F1}%,Chance of higher grade [{0}] : {1:F1}%
+124248511181402127,SynthesisResultPreview_NextNextGrade,2段階上位 [{0}] の確率：{1:F1}%,Chance of 2-grade higher [{0}] : {1:F1}%
+124248511181402128,SynthesisResultPreview_ResultLevel,合成結果アイテムレベル範囲：{0} ~ {1},Synthesis result item level range : {0} ~ {1}
+124248511185596416,UI_ItemTooltip_EngravingMaterial,彫刻素材,Engraving Material
+124248511185596417,UI_ItemTooltip_InscriptionMaterial,刻印素材,Inscription Material
+124248511185596418,UI_ItemTooltip_CraftingMaterial,製作素材,Crafting Material
+124248511185596419,UI_ItemTooltip_OfferingMaterial,祈願素材,Offering Material
+124253190707654656,ItemTooltip_Material_EngravingStatList_Weapon,武器彫刻効果リスト,Weapon Engraving Effect List
+124253190707654657,ItemTooltip_Material_EngravingStatList_Armor,防具彫刻効果リスト,Armor Engraving Effect List
+124276755536457728,ItemTooltip_Material_EngravingStatList_Accessory,アクセサリー彫刻効果リスト,Accessory Engraving Effect List
+124253190707654658,ItemTooltip_Material_InscriptionStatList,刻印効果リスト,Inscription Effect List
+124654588922343424,Tooltip_CharSlotLocked,ロック中:ルーンで解除してください。,Locked: Unlock from Rune.
+124654588947509248,Tooltip_CharSlotEmpty,空キャラクター枠\n(クリック：編成画面を開く),Empty Character Slot\n(Click : Open formation screen)
+124654588947509249,UI_FreeDLC,無料DLC,Free DLC
+124654588947509250,UI_PaidDLC,有料DLC,Paid DLC
+124655081878892544,UI_PurchaseDLC,購入,Purchase
+125153390001463296,DLC,DLC,DLC
+125153390001463297,UI_PetUnlock,入手,Obtain
+125153390001463298,UI_PetAvailable,入手可能,Available
+125153390001463299,UI_PetLock,未入手,Not Obtained
+125153390001463300,Tooltip_PetSlotEmpty,空のペット枠：装着可能,Empty Pet Slot : Can Equip
+125153390001463301,Pet_AcquisitionProgress,※ 進行度 ※\n[{0} / {1}],※ Progress ※\n[{0} / {1}]
+125288378728361984,UI_Opening_SelectCharacter,キャラクターを選択,Choose Your Character
+127203627207405568,Notice_Delete_OnlyInventoryItem,サーバーに保有していないアイテムを整理しました。,Items not held on the server have been cleaned up.
+127203627236765696,Shop_Bundle,バンドル,Bundle
+127203627236765697,Shop_Package,パッケージ,Package
+127203627236765698,Shop_Owned,所持済み,Owned
+127203627236765699,Shop_FullPackageBundle,フルパッケージバンドル,Full Package Bundle
+127203627236765700,Shop_ClassBundle,クラスバンドル,Class Bundle
+127203627236765701,Shop_SupporterBundle,サポーターバンドル,Supporter Bundle
+127203627236765702,Shop_PriestPack,[無料] プリースト（クラス）,[Free] Priest (Class)
+127203627236765703,Shop_HunterPack,ハンター（クラス）,Hunter (Class)
+127203627236765704,Shop_SlayerPack,スレイヤー（クラス）,Slayer (Class)
+127203627236765705,Shop_SupporterPack,サポーターパック,Supporter Pack
+127203627236765706,Shop_SoundTrack,オリジナルサウンドトラック,Original Soundtrack
+127456645232373760,Option_SettingBoxAlpha,戦利品箱の透明度,Loot Box Transparency
+127456645257539584,Option_FixingLog,旅の日誌を固定,Pin Travel Log
+127456645257539585,Option_ToggleBoxOption,マウスオーバーで戦利品箱表示,Show Loot Box on Mouse Over
+127456645257539586,Tooltip_ClickBuy,クリック：購入,Click : Buy
+127899135458586624,UI_Portal_Normal,通常ステージ,Normal Stage
+127899135483752448,UI_Portal_ActBoss,アクトボスステージ,Act Boss Stage
+127899135483752449,UI_Portal_ReEnter,再入場,Re-enter
+128615254836842496,Setting_OpenAllBox,戦利品箱をまとめて開く（右クリック）,Open all loot boxes at once (Right-click)
+128615254866202624,UI_Stash_Tab1,1,1
+128615254866202625,UI_Stash_Tab2,2,2
+128615254866202626,UI_Stash_Tab3,3,3
+128615254866202627,UI_Stash_Tab4,4,4
+128970442185576448,Max_Level,最大レベル,Max Level
+128970442202353664,Notice_Delete_OnlyInventoryItem_Why,なぜこのようなことが起きるのですか？,Why does this happen?
+128972440490414080,Notice_Delete_OnlyInventoryItem_Delete,削除されたアイテム,Deleted Items
+128974508483612672,Notice_Delete_OnlyInventoryItem_PopUpText1,TBHはすべてのアイテムをSteamマーケットで取引できるサーバー型ゲームです。,TBH is a server-based game where all items can be traded on the Steam Market.
+128974508483612673,Notice_Delete_OnlyInventoryItem_PopUpText2,サーバー上のアイテムとローカル保存ファイルが以下のエラーや操作で一致しない場合、自動同期が行われます。,"When server items and local save files do not match due to errors or manipulation below, automatic sync is triggered."
+128974508483612674,Notice_Delete_OnlyInventoryItem_PopUpText3,1. クラウドセーブ同期エラー\n2. ネットワーク問題による応答遅延\n3. 不正な経路でのアイテム生成,1. Cloud save sync error\n2. Response delay due to network issues\n3. Items created through abnormal means
+128974508483612675,Notice_Delete_OnlyInventoryItem_PopUpText4,セーブファイルを最新の状態に保つため、Steamクラウドセーブを必ず有効にしてください。,Please keep Steam Cloud Save enabled so that your save file stays up to date.
+128974508483612676,Notice_Delete_OnlyInventoryItem_PopUpText5,ネットワーク問題で不具合が発生した場合、ゲームを再起動してメールボックスをご確認ください。,"If an issue occurs due to network problems, please restart the game and check your mailbox."
+128974508483612677,Notice_Delete_OnlyInventoryItem_PopUpText6,その他の予期せぬ問題が発生した場合、公式Discordまたはhelp@nugemstudio.comまでお問い合わせください。,"For any other unexpected issues, please contact us on the official Discord or at help@nugemstudio.com."
+129000560773763072,CannotClickAnything_ResetPanelOn,初期化パネルが開いています。,The reset panel is open.
+129069264450555904,TermsOfService_Title,データの収集・利用に関するお知らせ,Data Collection & Use Notice
+148279997545517056,TermsOfService_RevisionTitle,利用規約,Terms of Service
+148279997545517057,TermsOfService_Content,"TBH: Task Bar Hero
+利用規約およびプライバシーポリシー
+【日本語訳——正文は英語版です。解釈に相違がある場合は、英語版が優先します。】
+
+開発元：Nugem Studio & Tesseract Studio
+お問い合わせ：help@nugemstudio.com
+
+適用範囲
+本バージョンの規約は、クライアント内の同意手続を通じて本バージョンに同意したユーザーに適用されます。
+本バージョンは、サーバーベースのクライアント（Ver 1.00.12 以降）に対応します。本バージョンに同意して
+いないユーザーは、本バージョンに同意するまで、最後に同意した規約のバージョンが引き続き適用されます。
+いずれのバージョンにも同意記録がないユーザーは、本ゲームを利用するために、その時点の最新バージョンに
+同意する必要があります。
+
+重要なお知らせ
+TBH: Task Bar Hero をプレイする前に、本規約を注意深くお読みください。本バージョンを必要とするクライ
+アントを初めて起動する際、本規約の確認と同意を求められます。オンライン（サーバーベース）機能の利用には
+同意が必要です。同意したバージョンはアカウントに記録されます。同意しない場合でも、最後に同意した条件に
+基づきオフライン機能または以前のバージョンの機能を引き続き利用できますが、最新バージョンを必要とする
+オンライン機能は利用できません。
+
+=================
+利用規約
+=================
+
+第1条（目的）
+
+本利用規約（以下「本規約」）は、TBH: Task Bar Hero（以下「本ゲーム」）の利用に関する Nugem Studio および
+Tesseract Studio（以下「当社」）とユーザーとの間の権利、義務、責任、ならびに個人データの取扱いを定めるもの
+です。
+
+--------------------------------------------------------------------------------
+
+第2条（定義）
+
+本規約で使用する用語は、以下のとおり定義します。
+
+1.  「本ゲーム」とは、TBH: Task Bar Hero および当社が提供する関連するすべてのサービスをいいます。
+
+2.  「ユーザー」とは、同意手続を通じて本規約に明示的に同意し、本ゲームを利用するすべての者をいいます。
+
+3.  「未成年者」とは、大韓民国の法令上18歳未満の者をいいます。欧州連合（EU）のユーザーについては、「未成年者」
+    はさらに16歳未満の者（または該当するEU加盟国の法令が認めるより低い年齢。ただし13歳を下回らない）を含み
+    ます。その他の法域のユーザーについては、適用される現地法令が定める年齢基準が適用されます。
+
+4.  「法定代理人」とは、未成年者の親権者または法定後見人をいいます。
+
+5.  「ゲームアイテム」とは、本ゲームのネットワーク機能を通じて生成または取得されるデジタルコンテンツをいいます。
+
+6.  「マーケットプレイス」とは、ユーザーが Steam ウォレット残高（Steam Wallet）を使用してゲームアイテムを
+    取引できる Steam コミュニティマーケット（Steam Community Market）をいいます。
+
+7.  「ゲームデータ」とは、ゲームログ、所持アイテム、取引履歴を含む、プレイ中に生成されるすべてのデータをいい
+    ます。
+
+8.  「ライセンス」とは、本ゲームを利用するための限定的・非独占的かつ取消可能な権利をいいます。
+
+9.  「個人データ」とは、自然人を識別する、または識別可能とする情報をいいます。
+
+10. 「プラットフォーム」とは、Valve Corporation が運営する Steam サービスをいいます。
+
+--------------------------------------------------------------------------------
+
+第3条（規約の効力および変更）
+
+1.  本規約は、ユーザーが本ゲームの起動時に同意チェックボックスにチェックを入れ、確認ボタンをクリックして明示的
+    に同意した時点で効力を生じます。同意しないユーザーは、本ゲームのオンライン（サーバーベース）機能を利用できま
+    せん。
+
+2.  本規約は、最初の公表後直ちに効力を生じます。当社は、適用法令が認める範囲内で本規約を変更することができます。
+    再同意を得ずに実施される以後の変更については、施行日の少なくとも7日前に、ゲーム内通知または Steam のお知ら
+    せを通じて告知します。
+
+3.  ユーザーが変更後の規約に同意しない場合、本ゲームの利用を中止することができます。変更の告知後も利用を継続した
+    場合、変更後の規約に同意したものとみなされます。
+
+4.  同意バージョンに基づく適用：本バージョンの規約は、クライアント内の同意手続を通じて本バージョンに同意した
+    ユーザーに適用されます。ユーザーが同意したバージョンは、当該ユーザーのアカウントに記録されます。オンライン
+    （サーバーベース）機能の利用には、その時点の最新バージョンへの同意が必要です。記録された同意バージョンが最新
+    バージョンでないユーザーは、オンライン機能を利用する前に、次回のオンラインログイン時に最新バージョンの確認
+    および同意を求められます。同意しないユーザーは、以前に同意した条件に基づきオフライン機能または以前のバージョン
+    の機能を引き続き利用できますが、最新バージョンを必要とするオンライン機能は利用できません。いずれのバージョン
+    にも同意記録がないユーザーは、本ゲームを利用するために、その時点の最新バージョンに同意する必要があります。
+    特定のクライアントバージョン（Ver 1.00.12 以降）への言及は情報提供のみを目的とし、本バージョンの規約が対応
+    するクライアントを示すものであって、それ自体がユーザーにいずれの規約バージョンが適用されるかを決定するもので
+    はありません。
+
+5.  告知期間との関係：第3条第2項の事前告知期間は、当社が再同意を得ずに実施する変更にのみ適用されます。新しい
+    バージョンがユーザーのクライアント内での能動的な同意を通じて適用される場合、当該バージョンは同意の時点で当該
+    ユーザーに対して効力を生じ、第3条第2項の告知期間はこのような同意に基づく変更には適用されず、その効力発生を
+    遅らせるものではありません。
+
+6.  同意拒否の効果：オンライン機能——サーバーに保存されるインベントリ、アイテム生成、マーケットプレイス関連機能
+    を含む——は、その時点の最新バージョンの規約に同意したユーザーにのみ提供されます。同意を拒否したユーザーは、
+    オフライン機能または以前のバージョンの機能のみを利用でき、サーバーに保存されたアイテムやオンライン機能には
+    アクセスできません。拒否する前に、ユーザーはプライバシーポリシー第6条に従い、当社が保有する自己の個人データの
+    写しを請求することができます。
+
+--------------------------------------------------------------------------------
+
+第4条（未成年者の利用）
+
+1.  未成年者は、本ゲームを利用する前に法定代理人の同意を得る必要があります。EU/EEA のユーザーについては、上記
+    第2条第3項に定める年齢基準が適用されます。
+
+2.  未成年者が法定代理人の同意なく本ゲームを利用した場合、法定代理人は当該利用を取り消すことができます。ただし、
+    未成年者が成人と偽った場合、取消しが制限されることがあります。
+
+3.  法定代理人は、未成年者の本ゲーム利用履歴の確認および利用制限の適用を当社に請求することができます。
+
+4.  当社は、青少年保護に関する規制、および該当する場合は GDPR（EU/EEA のユーザー向け）を含む適用法令に従い、
+    未成年者保護のための措置を講じます。
+
+--------------------------------------------------------------------------------
+
+第5条（ライセンスおよび知的財産権）
+
+1.  当社は、ユーザーに対し、本ゲームを個人的かつ非商業的な目的で利用するための限定的・非独占的かつ譲渡不能な
+    ライセンスを付与します。本ライセンスは、譲渡、販売、貸与、またはサブライセンスすることはできません。
+
+2.  ユーザーは、本ゲームを改変、リバースエンジニアリング、複製、または配布することはできません。
+
+3.  本ゲームのコンテンツ（グラフィック、音楽、音響、コード、キャラクター、ストーリー、ユーザーインターフェース
+    を含む）に関するすべての著作権および知的財産権は、当社に帰属します。
+
+4.  ユーザーは、本ゲームに関連して作成したコンテンツ（スクリーンショットや動画など）を非商業的な目的で共有する
+    ことができます。商業的な利用には、当社の事前の書面による同意が必要です。
+
+5.  当社は、規約違反があった場合、ユーザーに通知のうえライセンスを終了することができます。
+
+--------------------------------------------------------------------------------
+
+第6条（サービスの提供および変更）
+
+1.  当社は、運営上の必要に応じて、ゲームのコンテンツ、システム、アイテム構造を変更することができます。
+
+2.  アップデートにより既存アイテムの性能または価値が変更されることがあり、そのような変更について別途の補償は
+    提供されません。ただし、当社は重要な変更について事前に告知します。適用される強行法規（消費者保護法など）に
+    よりユーザーに保障される権利は、本項によって制限されません。
+
+3.  本ゲームの一部の機能には、ネットワーク（インターネット）接続が必要です。
+
+--------------------------------------------------------------------------------
+
+第7条（Steam アカウントおよびプラットフォーム）
+
+1.  本ゲームは、Valve Corporation が運営する Steam プラットフォームを通じて提供されます。
+
+2.  ユーザーは、自己の Steam アカウントのセキュリティについて責任を負います。当社は、当社自身の過失による場合を
+    除き、アカウントの盗難またはハッキングに起因する損害について責任を負いません。
+
+3.  Steam プラットフォームのポリシーに関しては、Valve Corporation の利用規約が優先します。
+
+--------------------------------------------------------------------------------
+
+第8条（ネットワーク機能およびゲームアイテムの生成）
+
+1.  本ゲームは、オンライン機能のためにネットワーク（インターネット）接続を使用します。オンライン機能——アカウント
+    ログイン、インベントリ、アイテム生成、アイテム取引を含む——は、受託者を通じて運営される当社の専用ゲームサー
+    バー上で処理および保存されます（プライバシーポリシー第3条参照）。
+
+2.  ネットワークを通じて生成されたゲームアイテムは、本ゲーム内のデジタルコンテンツであり、現実世界の資産または
+    投資商品を表すものではありません。
+
+3.  当社は、不安定なネットワーク接続、サーバーメンテナンス、または不可抗力により生じたアイテム生成の失敗について
+    責任を負いません。
+
+4.  ユーザーは、アイテム生成中に許可されていない方法（チート、マクロ、第三者プログラムなど）を使用してはなりませ
+    ん。
+
+--------------------------------------------------------------------------------
+
+第9条（マーケットプレイス取引）
+
+1.  ゲームアイテムは、Steam ウォレット残高を使用して Steam マーケットプレイス（Steam Community Market）で取引
+    することができます。
+
+2.  マーケットプレイス取引は、Steam 利用規約および Valve Corporation の Marketplace ポリシーに従います。当社は、
+    Steam プラットフォームの取引ポリシーに直接関与しません。
+
+3.  当社は、取引から生じる利益、損失、または紛争について責任を負わず、これらは Steam プラットフォームのポリシー
+    に従って処理されます。
+
+4.  異常な取引、意図的な価格操作、不正行為は厳格に禁止されており、検出された場合は利用制限につながることがあり
+    ます。
+
+5.  当社は、経済バランスのためにアイテムの属性を変更することができ、そのような変更に起因する取引価値の変動について
+    責任を負いません。適用される強行法規によりユーザーに保障される権利は、本項によって制限されません。
+
+--------------------------------------------------------------------------------
+
+第10条（返金ポリシー）
+
+1.  本ゲームは無料で提供され、返金は本ゲーム自体には適用されません。
+
+2.  DLC（ダウンロードコンテンツ）の返金は、すべて Valve Corporation の Steam 返金ポリシーに従って処理され、当社
+    は返金を直接処理する権限を有しません。
+
+3.  DLC の返金を希望するユーザーは、store.steampowered.com/support から Steam カスタマーサポートに直接申請して
+    ください。
+
+4.  Steam マーケットプレイスでの Steam ウォレット取引も Valve Corporation のポリシーに従い、当社はそのような取引
+    の返金を処理する権限を有しません。
+
+5.  適用される強行法規（消費者保護法および EU 消費者権利指令など）により保障される消費者の権利は、本規約にかか
+    わらず保持されます。
+
+--------------------------------------------------------------------------------
+
+第11条（ユーザーの義務）
+
+1.  ユーザーは、以下の行為を行ってはなりません。
+    - チート、マクロ、自動化プログラムなどの許可されていない方法を使用すること
+    - ゲームのバグや脆弱性を悪用すること
+    - マーケットプレイスでの価格操作、詐欺、または異常な取引
+    - 当社の知的財産権を侵害すること
+    - 本ゲームのコンテンツを許可されていない商業目的で使用すること
+    - 適用される法令に違反すること
+
+2.  当社は、不正行為を検出するために自動化システムを運用することがあります。
+
+3.  違反が確認された場合、当社は以下の措置を講じることができます。
+    - 警告および事前通知
+    - ゲームへのアクセスの一時的な停止
+    - アイテムの回収
+    - 本ゲームからの永久的な利用禁止
+
+4.  ユーザーは、help@nugemstudio.com に申請を提出することにより、当社の制裁に対して異議を申し立てることができま
+    す。当社は、受領後14日以内にユーザーに結果を通知します。
+
+--------------------------------------------------------------------------------
+
+第12条（サービスの変更および中断）
+
+1.  当社は、運営上または技術上の必要に応じて、サービス内容を変更または中断することができます。
+
+2.  サービスを中断する場合、当社は Steam のお知らせを通じて少なくとも30日前に通知します。ただし、不可抗力の場合
+    は事後の通知となることがあります。
+
+3.  サービスを終了する場合、当社はゲーム内および Steam のお知らせを通じて少なくとも30日前に通知します。この通知
+    期間中、ユーザーは help@nugemstudio.com に連絡することにより、当社が直接保有する自己の個人データの写しを請求
+    することができます。
+
+4.  ゲームアイテムおよびゲームデータは、サービス終了時に削除されます。適用される強行法規に別段の定めがある場合を
+    除き、当社はそのような削除について補償する義務を負いません。
+
+--------------------------------------------------------------------------------
+
+第13条（免責事項）
+
+1.  当社は、自然災害、戦争、ハッキング、サーバー障害などの不可抗力事由により生じたサービスの中断について責任を
+    負いません。
+
+2.  当社は、ユーザー自身の過失により生じた損害について責任を負いません。
+
+3.  当社は、Steam または Valve Corporation のポリシー変更に起因するサービスの変更について責任を負いません。
+
+4.  損害に対する当社の責任は、適用法令が認める最大限の範囲に制限されます。
+
+--------------------------------------------------------------------------------
+
+第14条（準拠法および紛争解決）
+
+1.  本規約は、大韓民国の法令に従って解釈および適用されます。
+
+2.  本ゲームの利用に起因する紛争が生じた場合、当社とユーザーは、原則として相互の協議により解決するよう努めます。
+
+3.  合意に至らない場合、管轄裁判所は民事訴訟法に従って決定されます。
+
+4.  国際ユーザーについては、EU 消費者保護法を含む適用される強行的な現地法令が本規約に優先することがあります。
+
+--------------------------------------------------------------------------------
+
+第15条（雑則）
+
+1.  本規約に定めのない事項は、適用法令および Steam プラットフォームの利用規約に従います。
+
+2.  本規約のいずれかの条項が適用法令の下で無効と判断された場合でも、残りの条項は引き続き完全に効力を有します。
+
+3.  当社は、本ゲーム内で広告 Cookie や行動分析 SDK を使用しません。オンラインサービスの運営およびセキュリティに
+    必要な技術的データは、プライバシーポリシーに記載のとおり処理されます。Steam に組み込まれたプラットフォーム
+    テレメトリは、Valve Corporation のプライバシーポリシーに従います。
+
+4.  言語：本規約は複数の言語で提供されます。翻訳版間で解釈に相違がある場合は、英語版が優先します。
+
+5.  過去のバージョン：本規約およびプライバシーポリシーの過去のバージョンはアーカイブされ、引き続き以下の URL で
+    ユーザーが閲覧できます。
+    https://docs.google.com/document/d/1b9wt29PHDeek6lXvZSwF0wjZZs2LY1xXMMa6w8q2ZxQ/edit?usp=sharing
+
+=================
+プライバシーポリシー
+=================
+
+適用範囲：クライアント内の同意手続を通じて本バージョンに同意したユーザー。本バージョンは、サーバーベースの
+クライアント（Ver 1.00.12 以降）に対応します。本バージョンに同意していないユーザーは、本バージョンに同意する
+まで、最後に同意したプライバシーポリシーのバージョンが引き続き適用されます。
+
+--------------------------------------------------------------------------------
+
+第1条（収集する情報および法的根拠）
+
+TBH: Task Bar Hero はデータ最小化の方針を採用しています。当社は、ゲームのオンライン機能の運営、ユーザーアカウント
+の保護、不正利用の防止に必要なデータのみを収集します。当社は広告 Cookie や行動分析 SDK を使用しません。オンライン
+サービスの運営およびセキュリティに必要な技術的データは、本プライバシーポリシーに記載のとおり処理されます。
+
+専用ゲームサーバー（受託者を通じて運営。第3条参照）の導入に伴い、アカウントログイン、インベントリ、アイテム取引
+などのオンライン機能はサーバー上で処理および保存されます。以下のデータがそれに応じて収集されます。
+
+【1. アカウントログイン／初回アクセス時に収集——すべてのオンラインユーザーに適用】
+  項目        ：- Steam ID
+              - App ID
+              - Steam 認証セッションチケット（使い捨てログイントークン）
+  目的        ：アカウントの識別およびログイン認証。
+  法的根拠    ：契約の履行（GDPR 第6条1項(b)）
+
+【2. オンライン機能の利用時にゲームサーバーが自動的に収集】
+  本ゲームがサーバーに接続するたびに、以下の情報がゲームサーバー（受託者の SDK を通じて）により自動的に記録され
+  ます。
+  項目        ：- IP アドレスおよび IP に基づく国情報
+              - デバイス情報およびデバイスに基づく言語
+              - オペレーティングシステム情報
+              - ニックネーム
+              - ログインを含むアクセス（呼び出し）日時
+  目的        ：オンラインサービスの運営および安定性、アカウントのセキュリティ、不正利用および不正アクセスの防止。
+  法的根拠    ：契約の履行（GDPR 第6条1項(b)）、ならびにセキュリティおよび不正利用防止における正当な利益
+              （GDPR 第6条1項(f)）
+
+【3. ゲームデータ——オンライン機能を提供するために収集】
+  項目        ：- インベントリデータ（アイテム識別子、アイテムインスタンスキー、宝箱のクールダウン時間）
+              - アイテムの取得・消費・交換（合成／開封）リクエストの履歴
+              - ゲームクライアントバージョン（互換性確認のため）
+              - ゲーム進行データ：ユーザーの保存されたゲーム状態を構成するデータ（例：キャラクターレベル、ゲーム内
+                通貨の残高、ステージ進行度）。本カテゴリの項目は、ゲームコンテンツの進化に応じて追加または変更される
+                ことがあり、本カテゴリのデータはゲーム進行の保存および検証の範囲内でのみ処理されます。当社が性質の
+                異なる新たなカテゴリのデータの収集を開始する場合は、本プライバシーポリシーの改定を通じて告知します。
+  目的        ：ゲーム進行のサーバー側での保存、アイテム付与および交換のサーバー側での検証、クライアントバージョン
+              の互換性。
+  法的根拠    ：契約の履行（GDPR 第6条1項(b)）
+
+【4. チート検出時にのみ収集】
+  アンチチートシステムがチートソフトウェアの使用の可能性その他の異常な活動を検出した場合にのみ収集されます。通常の
+  プレイ中は収集されません。
+  項目        ：- Steam ID およびゲームバージョン
+              - 現在および到達した最高ステージ進行度、累計プレイ時間
+              - 検出時点のゲーム進行データ（例：キャラクターレベル、ゲーム内通貨の残高）
+              - 検出ルール ID および関連する検出パラメータ
+  目的        ：チートの検出および公正なゲーム環境の維持。
+  法的根拠    ：正当な利益——不正防止および公正なプレイ（GDPR 第6条1項(f)）
+
+注：第1項のデータの提供は、オンラインサービスの利用に必要です。Steam ID およびログイン認証がなければ、サーバーへの
+ログインはできず、オンライン機能を提供することはできません。
+
+注：Steam マーケットプレイスの取引は Steam プラットフォーム上で処理されます。関連する取引記録は当社ではなく Valve
+Corporation が保持します。（第5条参照。）
+
+--------------------------------------------------------------------------------
+
+第2条（収集の目的）
+
+収集された情報は、以下の目的にのみ使用されます。
+  - アカウントの識別およびログイン認証
+  - オンライン機能の提供および安定的な運営（インベントリ、アイテム取引、ゲーム進行の保存）
+  - アイテム付与および交換のサーバー側での検証
+  - アカウントのセキュリティおよび不正利用／不正アクセスの防止
+  - チートの検出および公正なゲーム環境の維持
+  - クライアントバージョンの互換性の確認
+  - 制裁に関連する異議申立ておよび法的紛争への対応
+
+--------------------------------------------------------------------------------
+
+第3条（処理の委託）
+
+オンラインサービスを運営するため、当社は個人データの処理を以下の受託者に委託します。当社は、GDPR 第28条の要求に
+従い、各受託者との間でデータ処理契約を締結します。
+
+【受託者1】
+  委託先      ：AFI Inc.（Backnd、thebackend.io）——大韓民国
+  業務        ：ゲームアカウントの認証、インベントリおよびゲームデータの保存、サーバー側での計算。
+
+【受託者2】
+  委託先      ：Google LLC（Google Apps Script）——アメリカ合衆国
+  業務        ：ユーザー統計およびチート検出ログ記録のための、当社のデータ収集エンドポイントの運営。
+
+--------------------------------------------------------------------------------
+
+第4条（保有期間および破棄）
+
+個人データは、データ最小化の原則（GDPR 第5条1項(e)）に従い、必要な期間のみ保有され、以下のとおり破棄されます。
+
+【アカウントおよびゲームデータ】
+  保有        ：アカウントが有効である間保有されます。ユーザーがアカウントを退会（リセット）した場合、ゲーム／
+              ユーザーデータは直ちに削除され、個人データは退会後7日以内に削除されます。
+
+【退会後の残存記録】
+  項目        ：UUID、登録日、最終アクセス日、および最終アクセス時のオペレーティングシステム／デバイス情報。
+  保有        ：退会後、少なくとも90日ごとに実施される当社の定期削除処理において削除されるまでの間のみ保有されます。
+
+【サーバーリクエストログ】
+  保有        ：リクエスト日から30日後に自動的に削除されます。
+
+【チート検出データ】
+  保有        ：チート検出時にのみ収集されます。検出日から最長1年間、当該制裁および関連する異議申立ての処理のみを
+              目的として保有され、その後遅滞なく削除されます。
+  注          ：この保有期間中、削除権（GDPR 第17条）は、制裁および関連する法的請求の確立・行使・防御に関する
+              GDPR 第17条3項(e)および当社の正当な利益（GDPR 第6条1項(f)）に基づき制限されることがあります。
+              その他の権利——アクセス、処理の制限、異議を含む——は引き続き行使できます。（第6条参照。）
+
+【Steam ID（アカウント識別子）】
+  保有        ：サービスの有効な利用期間中保有され、サービス終了後30日以内に削除されます。
+
+--------------------------------------------------------------------------------
+
+第5条（第三者提供および国際移転）
+
+1.  当社は、適用法令により要求される場合を除き、ユーザーの同意なく個人データを第三者に提供しません。（第3条に定める
+    処理の委託は、第三者提供とは区別されます。）
+
+2.  Steam プラットフォームとの統合のため、Steam ID およびゲームセッション認証データは Valve Corporation（自社の
+    プライバシーポリシーに基づく独立した管理者として行動）と共有されます。プラットフォームの運営に技術的に必要な範囲
+    を超えて、その他の個人データが Valve に移転されることはありません。
+
+3.  Steam マーケットプレイスの取引は Steam プラットフォーム上で処理されます。関連する取引記録は、当社ではなく、
+    Valve Corporation が自社のプライバシーポリシーに基づき収集・保持します。
+
+4.  国際移転：
+    - AFI Inc.（Backnd）が処理するデータは、大韓民国に保存されます。EU/EEA のユーザーについては、大韓民国への移転は、
+      韓国が十分な水準のデータ保護を確保していると認める欧州委員会の十分性決定（2021年）によりカバーされます。
+    - Google LLC が処理するデータは、GDPR 第5章で認められるとおり、EU・米国データプライバシーフレームワーク
+      （Data Privacy Framework）および／または標準契約条項に基づき、アメリカ合衆国に移転されます。
+    - Valve Corporation（米国）への移転は、Valve の標準契約条項または同等の仕組みに基づいて行われます。
+
+--------------------------------------------------------------------------------
+
+第6条（ユーザーの権利）
+
+【6-1. 当社が直接保有するデータに関する権利】
+
+当社が直接保有する個人データ（Steam ID、アカウントおよびゲームデータ、ならびにチート検出時に収集されたあらゆる
+データを含む）について、ユーザーは help@nugemstudio.com に連絡することにより、以下の権利を行使できます。
+
+  - アクセス権（GDPR 第15条）
+    当社が保有する自己の個人データの写しを請求すること。
+
+  - 訂正権（GDPR 第16条）
+    不正確な個人データの訂正を請求すること。
+
+  - 削除権／「忘れられる権利」（GDPR 第17条）
+    自己の個人データの削除を請求すること。ユーザーは、ゲーム内のアカウント退会（リセット）機能を通じて、直接
+    アカウントを削除することもできます。
+    例外：チート検出データが収集されている場合、当該データの削除は、GDPR 第17条3項(e)および制裁の執行・防御に
+    おける当社の正当な利益に基づき、検出日から最長1年間制限されることがあります。当該目的が消滅した時点で、データ
+    は削除されます。
+
+  - 処理の制限権（GDPR 第18条）
+    一定の状況において、処理の制限を請求すること。
+
+  - データポータビリティ権（GDPR 第20条）
+    自己のデータを機械可読な形式で請求すること。
+
+  - 異議権（GDPR 第21条）
+    正当な利益に基づく処理に異議を述べること。
+
+当社は、有効な請求の受領後30日以内に回答します。
+
+【6-2. Valve Corporation（Steam プラットフォーム）が保有するデータに関する権利】
+
+Steam インベントリデータおよび Steam アカウントデータは、独立した管理者として Valve Corporation が保存・管理して
+います。これらのデータについて、ユーザーは以下に直接請求を提出してください。store.steampowered.com/contact
+
+【6-3. 苦情を申し立てる権利】
+
+EU/EEA のユーザーは、自己のデータ保護の権利が侵害されたと考える場合、現地の監督機関（データ保護機関）に苦情を
+申し立てる権利を有します。
+EU のデータ保護機関の一覧は、以下で確認できます。
+edpb.europa.eu/about-edpb/about-edpb/members_en
+
+--------------------------------------------------------------------------------
+
+第7条（国際ユーザー）
+
+1.  EU/EEA のユーザー：GDPR（規則（EU）2016/679）に基づくすべての権利が保障されます。各データ処理カテゴリの法的
+    根拠は、上記第1条に記載されています。国際移転は、第5条に記載のとおり、十分性決定または適切な保護措置がある場合
+    にのみ行われます。
+
+2.  カリフォルニア州（米国）のユーザー：知る権利、削除権、個人データの販売を拒否する権利を含む、CCPA に基づく権利が
+    保障されます。当社は、ユーザーの個人データを第三者に販売しません。
+
+3.  その他の地域のユーザー：該当する現地の個人データ保護法令が適用されることがあります。
+
+--------------------------------------------------------------------------------
+
+第8条（共同管理者およびデータ保護責任者）
+
+【8-1. 共同管理者（GDPR 第26条）】
+
+Nugem Studio および Tesseract Studio は、本ゲームの共同開発元であり、本プライバシーポリシーに基づく個人データの
+処理の目的および手段を共同で決定する、GDPR 第26条にいう共同管理者（joint controllers）に該当します。両社の役割
+分担は以下のとおりです。
+
+  - Nugem Studio     ：本ゲームの配信および運営、ユーザーの連絡窓口、データ主体の権利行使請求への対応を担当します。
+  - Tesseract Studio ：共同開発元として、ゲーム開発の過程で処理の目的および手段の決定に共同で関与します。
+
+GDPR 第26条3項に従い、ユーザーは、上記の役割分担にかかわらず、両社のいずれに対しても権利を行使できます。迅速な
+対応のための指定連絡窓口は Nugem Studio です。
+
+【8-2. データ保護責任者】
+
+個人データの処理に関するお問い合わせは、以下までご連絡ください。
+
+  データ保護責任者 ：データ保護部門、Nugem Studio
+  メール            ：help@nugemstudio.com
+  対応時間          ：平日 10:00～18:00（KST）
+  回答期限          ：有効な請求の受領後30日以内
+
+--------------------------------------------------------------------------------
+
+第9条（プライバシーポリシーの変更）
+
+本プライバシーポリシーは、適用法令またはサービスの変更に応じて改定されることがあります。再同意を得ずに実施される
+改定については、施行日の少なくとも7日前に、ゲーム内通知または Steam のお知らせを通じて告知します。
+
+
+=================
+ドキュメント変更履歴
+=================
+
+v1.5 — 2026年6月13日告知／サーバーベースのクライアント Ver 1.00.12 以降に対応
+  v1.4 の訂正および同意バージョンに基づく適用への移行：
+  - 変更の事前告知期間を3日から7日に復元し、これは再同意を得ずに実施される変更にのみ適用され、同意に基づくバージョン
+    変更を遅らせないことを明確化（利用規約第3条2項・5項、プライバシーポリシー第9条）
+  - 適用の基準を、クライアントのビルドから、ユーザーが同意した（アカウントに記録された）バージョンに変更。クライアント
+    バージョンへの言及は情報提供のみ。本バージョンに同意していないユーザーは最後に同意したバージョンが引き続き適用され、
+    同意記録のないユーザーは本ゲームを利用するために最新バージョンに同意する必要がある（利用規約第3条4項）
+  - 明示的な「同意拒否の効果」条項を追加：拒否した場合、利用はオフライン／以前のバージョンの機能に限定され、サーバーに
+    保存されたアイテムおよびオンライン機能は利用不可。拒否前に個人データの写しを請求できる旨の案内を含む（利用規約第3条
+    6項）
+  - マーケットプレイスの定義および取引手段を、Steam コミュニティマーケットの Steam ウォレット残高に訂正（利用規約第2条
+    6号、第9条1項、第10条4項）
+  - GDPR 第26条に基づく共同管理者条項を追加：Nugem Studio（配信・運営・連絡窓口）と Tesseract Studio（共同開発）の
+    役割を明記（プライバシーポリシー第8条）
+  - SDK に関する記載を実態に合わせて整合：「広告 Cookie または行動分析 SDK を使用しない」に限定し、運営およびセキュリ
+    ティに必要な技術的自動収集を開示（プライバシーポリシー第1条、利用規約第15条3項）
+  - 収集項目のうち、目的により範囲を画定した「ゲーム進行データ」カテゴリを定義し、代表的な例（キャラクターレベル、ゲーム
+    内通貨、進行度）を明記。性質の異なる新カテゴリはポリシー改定により告知（プライバシーポリシー第1条）
+  - アイテム価値変更条項に消費者の権利保全に関する文言を追加（利用規約第6条2項、第9条5項）
+  - 正文言語条項（英語が優先）および過去バージョンのアーカイブリンクを追加（利用規約第15条）
+
+v1.4 — 2026年6月11日告知／2026年6月15日施行（v1.5 により置換）
+  専用ゲームサーバー（Backnd）への移行——データ処理の更新：
+  - 受託者の追加：AFI Inc.（Backnd、韓国）および Google LLC（Apps Script、米国）（プライバシーポリシー第3条）
+  - ゲームサーバーが新たに処理するデータの開示：Steam ID／App ID／認証チケット、IP および国、デバイスおよび言語、OS、
+    ニックネーム、アクセス日時、インベントリおよびアイテム取引データ、クライアントバージョン（プライバシーポリシー第1条）
+  - チート検出データ項目を実際のログ記録に合わせて具体化（プライバシーポリシー第1条）
+  - 退会を含む保有・破棄規則を追加（データの即時削除、個人データは7日以内）、残存記録の定期削除、30日間のサーバー
+    リクエストログ（プライバシーポリシー第4条）
+  - 削除権（GDPR 第17条）が、チート検出データについて検出から最長1年間、第17条3項(e)および正当な利益に基づき制限される
+    ことがある一方、アクセス／制限／異議の権利は引き続き行使できることを明確化（プライバシーポリシー第4条、第6条）
+  - 国際移転の根拠を追加：韓国の十分性決定、EU・米国 DPF／標準契約条項（プライバシーポリシー第5条）
+  - 利用規約第8条を、オンライン機能の専用サーバー処理を反映するよう更新
+  - オンラインサービスログインのための必須収集の告知を追加（プライバシーポリシー第1条）
+  - 変更の事前告知期間を7日から3日に短縮（v1.5 で復元）
+
+v1.3 — 2026年5月29日告知／2026年6月6日施行
+  実際のデータ最小化の運用を反映するため、データ収集の開示を訂正：
+  - 「収集する情報」の節を二層モデルに書き換え：初回アクセス時は Steam ID のみ収集、追加データはチート検出時にのみ収集
+    （プライバシーポリシー第1条）
+  - 実際には収集していないデータカテゴリを削除：マーケットプレイス取引記録、デバイス／アクセス情報、バグ報告および
+    エラーログ（プライバシーポリシー第1条、第3条）
+  - これに応じて処理目的を縮小（プライバシーポリシー第2条）
+  - 対応する保有期間を更新（プライバシーポリシー第3条）
+  - Steam マーケットプレイスの記録は当社ではなく Valve が保持することを明確化（プライバシーポリシー第4条）
+
+v1.2 — 2026年5月28日告知／2026年6月5日施行
+  - 連絡先メールアドレスを help@nugemstudio.com に変更
+  - 規約は最初の公表後直ちに効力を生じる。以後の変更は告知後7日で効力を生じる（利用規約第3条、プライバシーポリシー第8条）
+
+v1.1 — 2026年5月28日
+  GDPR 対応の更新：
+  - データの種類ごとの法的根拠を追加（プライバシーポリシー第1条）
+  - 同意の仕組みを明確化（チェックボックス＋確認ボタン）（利用規約第3条）
+  - 種類ごとのデータ保有を改訂（プライバシーポリシー第3条）
+  - GDPR 条項の参照を付したデータ主体の権利を追加（プライバシーポリシー第5条）
+  - Valve とのデータ共有の範囲および標準契約条項を明確化（プライバシーポリシー第4条）
+  - EU のデータ保護機関への苦情申立権を追加（プライバシーポリシー第5-3条）
+  - 未成年者の定義を EU の年齢基準に合わせて更新（利用規約第2条）
+  - サービス終了時のデータエクスポートの告知を追加（利用規約第12条）
+  - トラッキング／分析 SDK 不使用の条項を追加（利用規約第15条）
+
+v1.0 — 2026年5月27日
+  初版。
+
+=================","TBH: Task Bar Hero
+Terms of Service & Privacy Policy
+
+Applies to
+This version of the Terms applies to Users who have consented to this version
+through the in-client consent process. This version corresponds to the
+server-based client (Ver 1.00.12 and later). Users who have not consented to
+this version remain governed by the version of the Terms to which they last
+consented, until they consent to this version. Users with no recorded consent
+to any version must consent to the then-current version in order to use the
+Game.
+Developer: Nugem Studio & Tesseract Studio
+Contact: help@nugemstudio.com
+
+IMPORTANT NOTICE
+Please read these Terms carefully before playing TBH: Task Bar Hero.
+When you first launch a client that requires this version, you will be asked to
+review and consent to these Terms. Consent is required to use the online
+(server-based) features. The version you consent to is recorded on your account.
+If you do not consent, you may continue to use offline features or
+previous-version features under the terms to which you last consented, but you
+may not use online features that require the current version.
+
+=================
+TERMS OF SERVICE
+=================
+
+Article 1 (Purpose)
+
+These Terms of Service (hereinafter ""Terms"") govern the rights, obligations,
+responsibilities, and personal data processing between Nugem Studio and
+Tesseract Studio (hereinafter ""Company"") and users in connection with the use of
+TBH: Task Bar Hero (hereinafter ""Game"").
+
+--------------------------------------------------------------------------------
+
+Article 2 (Definitions)
+
+The terms used in these Terms are defined as follows.
+
+1.  ""Game"" refers to TBH: Task Bar Hero and all related services provided by the
+    Company.
+
+2.  ""User"" refers to any person who explicitly agrees to these Terms via the
+    consent process and uses the Game.
+
+3.  ""Minor"" refers to any person under the age of 18 under the laws of the
+    Republic of Korea. For users in the European Union, ""Minor"" additionally
+    refers to any person under the age of 16 (or such lower age as permitted by
+    the applicable EU Member State law, but no lower than 13). For users in
+    other jurisdictions, the age threshold defined by applicable local law shall
+    apply.
+
+4.  ""Legal Guardian"" refers to a parent or legal guardian of a Minor.
+
+5.  ""Game Item"" refers to digital content generated or acquired through the
+    in-game network features.
+
+6.  ""Marketplace"" refers to the Steam Community Market, where users may trade
+    Game Items using Steam Wallet funds.
+
+7.  ""Game Data"" refers to all data generated during gameplay, including play
+    logs, item holdings, and transaction history.
+
+8.  ""License"" refers to the limited, non-exclusive, revocable right to use the
+    Game.
+
+9.  ""Personal Information"" refers to information that identifies or can identify
+    an individual.
+
+10. ""Platform"" refers to the Steam service operated by Valve Corporation.
+
+--------------------------------------------------------------------------------
+
+Article 3 (Effectiveness and Amendment of Terms)
+
+1.  These Terms become effective when the User explicitly consents by checking
+    the consent checkbox and clicking the confirmation button upon launching the
+    Game. Users who do not consent may not proceed to use the online
+    (server-based) features of the Game.
+
+2.  These Terms become effective immediately upon first publication. The Company
+    may amend these Terms within the scope permitted by applicable laws. Any
+    subsequent amendments will be announced at least 7 days prior to the
+    effective date via in-game notices or Steam announcements.
+
+3.  If a User does not agree to the amended Terms, the User may discontinue use
+    of the Game. Continued use after the announcement of amendments shall be
+    deemed as consent to the amended Terms.
+
+4.  Consent-version-based application: This version of the Terms applies to
+    Users who have consented to this version through the in-client consent
+    process. The version a User consents to is recorded on the User's account.
+    Use of the online (server-based) features requires consent to the
+    then-current version. A User whose recorded consent version is not the
+    current version will be asked to review and consent to the current version
+    at the next online login, before using online features. A User who does not
+    consent may continue to use offline features or previous-version features
+    under the terms to which the User previously consented, but may not use
+    online features that require the current version. A User with no recorded
+    consent to any version must consent to the then-current version in order to
+    use the Game. References to a specific client version (Ver 1.00.12 and
+    later) are informational only, indicating the client to which this version
+    of the Terms corresponds, and do not by themselves determine which version
+    of the Terms applies to a User.
+
+5.  Relationship to the notice period: The advance-notice period in Article 3(2)
+    applies only to amendments that the Company implements without renewed
+    consent. Where a new version is applied through the User's active in-client
+    consent, that version takes effect for that User at the moment of consent,
+    and the notice period in Article 3(2) does not apply to, and does not delay,
+    such consent-based changes.
+
+6.  Effect of declining consent: Online features — including server-stored
+    inventory, item generation, and Marketplace-related features — are provided
+    only to Users who have consented to the then-current version of the Terms.
+    A User who declines may use only offline features or previous-version
+    features, and cannot access server-stored items or online features. Before
+    declining, a User may request a copy of their personal data held by the
+    Company in accordance with Article 6 of the Privacy Policy.
+
+--------------------------------------------------------------------------------
+
+Article 4 (Use by Minors)
+
+1.  Minors must obtain consent from their Legal Guardian prior to using the
+    Game. For EU/EEA users, the applicable age thresholds defined in
+    Article 2(3) above apply.
+
+2.  If a Minor uses the Game without the consent of their Legal Guardian, the
+    Legal Guardian may cancel such use. However, cancellation may be restricted
+    if the Minor misrepresented themselves as an adult.
+
+3.  Legal Guardians may request the Company to review a Minor's game usage
+    history and impose usage restrictions.
+
+4.  The Company implements measures to protect Minors in accordance with
+    applicable laws, including youth protection regulations and, where
+    applicable, the GDPR (for EU/EEA users).
+
+--------------------------------------------------------------------------------
+
+Article 5 (License and Intellectual Property)
+
+1.  The Company grants Users a limited, non-exclusive, non-transferable license
+    to use the Game for personal, non-commercial purposes. This license may not
+    be assigned, sold, leased, or sublicensed.
+
+2.  Users may not modify, reverse engineer, reproduce, or distribute the Game.
+
+3.  All copyrights and intellectual property rights to content within the Game
+    (including graphics, music, sound, code, characters, story, and UI) belong
+    to the Company.
+
+4.  Users are permitted to share content created in relation to the Game (such
+    as screenshots and videos) for non-commercial purposes. Commercial use
+    requires prior written consent from the Company.
+
+5.  The Company may terminate the License after notifying the User in the event
+    of a Terms violation.
+
+--------------------------------------------------------------------------------
+
+Article 6 (Service Provision and Changes)
+
+1.  The Company may modify game content, systems, and item structures as
+    operationally required.
+
+2.  Updates may change the performance or value of existing items, and no
+    separate compensation will be provided for such changes. However, the
+    Company will provide advance notice of significant changes. Rights
+    guaranteed to Users under applicable mandatory laws (such as consumer
+    protection laws) are not limited by this paragraph.
+
+3.  Some features of the Game require a network (internet) connection.
+
+--------------------------------------------------------------------------------
+
+Article 7 (Steam Account and Platform)
+
+1.  This Game is provided through the Steam platform operated by Valve
+    Corporation.
+
+2.  Users are responsible for the security of their Steam accounts. The Company
+    is not responsible for damages resulting from account theft or hacking,
+    unless caused by the Company's own fault.
+
+3.  Valve Corporation's terms of service take precedence with respect to Steam
+    platform policies.
+
+--------------------------------------------------------------------------------
+
+Article 8 (Network Features and Game Item Generation)
+
+1.  The Game uses a network (internet) connection for online features. Online
+    features — including account login, inventory, item generation, and item
+    transactions — are processed and stored on the Company's dedicated game
+    server, which is operated through a processor (see Privacy Policy Article 3).
+
+2.  Game Items generated through the network are digital content within the Game
+    and do not represent real-world assets or investment instruments.
+
+3.  The Company is not responsible for item generation failures caused by
+    unstable network connections, server maintenance, or force majeure events.
+
+4.  Users must not use unauthorized methods (such as hacks, macros, or
+    third-party programs) during item generation.
+
+--------------------------------------------------------------------------------
+
+Article 9 (Marketplace Transactions)
+
+1.  Game Items may be traded on the Steam Marketplace (Steam Community Market)
+    using Steam Wallet funds.
+
+2.  Marketplace transactions are governed by Valve Corporation's Steam Terms of
+    Service and Marketplace policies. The Company does not directly intervene in
+    Steam platform trading policies.
+
+3.  The Company is not responsible for profits, losses, or disputes arising from
+    transactions, which are handled under Steam platform policies.
+
+4.  Abnormal transactions, deliberate price manipulation, and fraudulent
+    activities are strictly prohibited and may result in usage restrictions upon
+    detection.
+
+5.  The Company may modify item attributes for economic balance purposes and is
+    not responsible for changes in trading value resulting from such
+    modifications. Rights guaranteed to Users under applicable mandatory laws
+    are not limited by this paragraph.
+
+--------------------------------------------------------------------------------
+
+Article 10 (Refund Policy)
+
+1.  The Game is provided free of charge, and refunds do not apply to the Game
+    itself.
+
+2.  Refunds for DLC (Downloadable Content) are handled entirely in accordance
+    with Valve Corporation's Steam Refund Policy, and the Company has no
+    authority to process refunds directly.
+
+3.  Users wishing to request a DLC refund should do so directly through Steam
+    Customer Support at store.steampowered.com/support.
+
+4.  Steam Wallet transactions on the Steam Marketplace are also subject to
+    Valve Corporation's policies, and the Company has no authority to process
+    refunds for such transactions.
+
+5.  Consumer rights guaranteed by applicable mandatory laws (such as consumer
+    protection laws and EU Consumer Rights Directive) are preserved regardless
+    of these Terms.
+
+--------------------------------------------------------------------------------
+
+Article 11 (User Obligations)
+
+1.  Users must not engage in the following activities:
+    - Using unauthorized methods such as hacks, macros, or auto programs
+    - Exploiting in-game bugs or vulnerabilities
+    - Price manipulation, fraud, or abnormal transactions in the Marketplace
+    - Infringing upon the Company's intellectual property rights
+    - Using Game content for unauthorized commercial purposes
+    - Violating applicable laws and regulations
+
+2.  The Company may operate automated systems to detect fraudulent activities.
+
+3.  Upon confirmation of a violation, the Company may take the following
+    actions:
+    - Warning and prior notice
+    - Temporary suspension of game access
+    - Item recovery
+    - Permanent ban from the Game
+
+4.  Users may appeal the Company's sanctions by submitting a request to
+    help@nugemstudio.com. The Company will notify the User of the outcome
+    within 14 days of receipt.
+
+--------------------------------------------------------------------------------
+
+Article 12 (Service Changes and Suspension)
+
+1.  The Company may modify or suspend service content as operationally or
+    technically required.
+
+2.  In the event of a service suspension, the Company will provide at least
+    30 days' advance notice via Steam announcements. However, post-hoc notice
+    may be given in cases of force majeure.
+
+3.  Upon service termination, the Company will provide at least 30 days' prior
+    notice via in-game announcements and Steam. During this notice period, users
+    may request a copy of their personal data held directly by the Company by
+    contacting help@nugemstudio.com.
+
+4.  Game Items and Game Data will be deleted upon service termination. The
+    Company bears no obligation to compensate for such deletion unless otherwise
+    required by applicable mandatory law.
+
+--------------------------------------------------------------------------------
+
+Article 13 (Disclaimer)
+
+1.  The Company is not liable for service interruptions caused by force majeure
+    events such as natural disasters, war, hacking, or server failures.
+
+2.  The Company is not liable for damages caused by the User's own fault.
+
+3.  The Company is not liable for service changes resulting from policy changes
+    by Steam or Valve Corporation.
+
+4.  The Company's liability for damages is limited to the maximum extent
+    permitted by applicable laws.
+
+--------------------------------------------------------------------------------
+
+Article 14 (Governing Law and Dispute Resolution)
+
+1.  These Terms shall be interpreted and applied in accordance with the laws of
+    the Republic of Korea.
+
+2.  In the event of a dispute arising from the use of the Game, the Company and
+    the User shall in principle resolve it through mutual consultation.
+
+3.  If no agreement is reached, the competent court shall be determined in
+    accordance with the Civil Procedure Act.
+
+4.  For international users, applicable mandatory local laws — including EU
+    consumer protection laws — may take precedence over these Terms.
+
+--------------------------------------------------------------------------------
+
+Article 15 (Miscellaneous)
+
+1.  Matters not specified in these Terms shall be governed by applicable laws
+    and the Steam platform's terms of service.
+
+2.  If any provision of these Terms is found to be invalid under applicable law,
+    the remaining provisions shall remain in full force and effect.
+
+3.  The Company does not use advertising cookies or behavioral-analytics SDKs
+    within the Game. Technical data necessary for the operation and security of
+    the online service is processed as described in the Privacy Policy. Steam's
+    built-in platform telemetry is governed by Valve Corporation's Privacy
+    Policy.
+
+4.  Language: These Terms are provided in multiple languages. In the event of any
+    discrepancy in interpretation between the translated versions, the English
+    version shall prevail.
+
+5.  Previous versions: Previous versions of these Terms and the Privacy Policy are
+    archived and remain available to Users at:
+    https://docs.google.com/document/d/1b9wt29PHDeek6lXvZSwF0wjZZs2LY1xXMMa6w8q2ZxQ/edit?usp=sharing
+
+=================
+PRIVACY POLICY
+=================
+
+Applies to: Users who have consented to this version through the in-client
+consent process. This version corresponds to the server-based client
+(Ver 1.00.12 and later). Users who have not consented to this version remain
+governed by the version of the Privacy Policy to which they last consented,
+until they consent to this version.
+
+--------------------------------------------------------------------------------
+
+Article 1 (Information We Collect and Legal Basis)
+
+TBH: Task Bar Hero follows a data minimization policy: the Company collects only
+the data necessary to operate the game's online features, secure user accounts,
+and prevent abuse. The Company does not use advertising cookies or
+behavioral-analytics SDKs; technical data necessary for the operation and
+security of the online service is processed as described in this Privacy Policy.
+
+With the introduction of a dedicated game server (operated through a processor;
+see Article 3), online features such as account login, inventory, and item
+transactions are processed and stored on the server. The data below is collected
+accordingly.
+
+[1. Collected on account login / first access — applies to all online users]
+  Items       : - Steam ID
+                - App ID
+                - Steam authentication session ticket (one-time login token)
+  Purpose     : Account identification and login authentication.
+  Legal Basis : Contract performance (GDPR Art. 6(1)(b))
+
+[2. Automatically collected by the game server when using online features]
+  The following is automatically recorded by the game server (via the processor's
+  SDK) each time the Game connects to the server.
+  Items       : - IP address and IP-based country information
+                - Device information and device-based language
+                - OS information
+                - Nickname
+                - Access (call) date and time, including login
+  Purpose     : Operation and stability of the online service; account security;
+                prevention of abuse and unauthorized access.
+  Legal Basis : Contract performance (GDPR Art. 6(1)(b)) and legitimate interests
+                in security and abuse prevention (GDPR Art. 6(1)(f))
+
+[3. Game data — collected to provide online features]
+  Items       : - Inventory data (item IDs, item instance keys, chest cooldown)
+                - Item acquisition, consumption, and exchange (synthesis / opening)
+                  request records
+                - Game client version (for compatibility verification)
+                - Game progress data: data constituting the User's saved game
+                  state (e.g., character level, in-game currency balances,
+                  stage progress). Items within this category may be added or
+                  changed as game content evolves, and data in this category
+                  is processed only within the scope of storing and validating
+                  game progress. If the Company begins to collect a new
+                  category of data of a different nature, this will be
+                  announced through an amendment to this Privacy Policy.
+  Purpose     : Server-side storage of game progress; server-side validation of
+                item grants and exchanges; client version compatibility.
+  Legal Basis : Contract performance (GDPR Art. 6(1)(b))
+
+[4. Collected only upon cheat detection]
+  Collected ONLY when the anti-cheat system detects the potential use of cheat
+  software or other abnormal activity. It is NOT collected during normal play.
+  Items       : - Steam ID and game version
+                - Current and highest stage progress
+                - Cumulative playtime
+                - Game progress data at the time of detection (e.g., character
+                  level, in-game currency balances)
+                - Detection rule ID and related detection parameters
+  Purpose     : Detection of cheating and maintaining a fair play environment.
+  Legal Basis : Legitimate interests — fraud prevention and fair play
+                (GDPR Art. 6(1)(f))
+
+Note: Providing the data in Section 1 is required to use the online service.
+Without a Steam ID and login authentication, server login is not possible and
+online features cannot be provided.
+
+Note: Steam Marketplace transactions are processed on the Steam platform; the
+related transaction records are held by Valve Corporation, not by the Company.
+(See Article 5.)
+
+--------------------------------------------------------------------------------
+
+Article 2 (Purpose of Collection)
+
+Collected information is used solely for the following purposes:
+  - Account identification and login authentication
+  - Provision and stable operation of online features (inventory, item
+    transactions, game progress storage)
+  - Server-side validation of item grants and exchanges
+  - Account security and prevention of abuse / unauthorized access
+  - Detection of cheating and maintaining a fair play environment
+  - Client version compatibility verification
+  - Responding to sanction-related appeals and legal disputes
+
+--------------------------------------------------------------------------------
+
+Article 3 (Processing Entrustment)
+
+To operate the online service, the Company entrusts the processing of personal
+data to the processors below. The Company enters into a data processing agreement
+with each processor as required under GDPR Art. 28.
+
+[Processor 1]
+  Entrusted to : AFI Inc. (Backnd, thebackend.io) — Republic of Korea
+  Tasks        : Game account authentication; storage of inventory and game data;
+                 server-side computation.
+
+[Processor 2]
+  Entrusted to : Google LLC (Google Apps Script) — United States
+  Tasks        : Operation of the Company's data-collection endpoint for user
+                 statistics and cheat-detection logging.
+
+--------------------------------------------------------------------------------
+
+Article 4 (Retention Period and Destruction)
+
+Personal information is retained only for the period necessary, in accordance with
+the data minimization principle (GDPR Art. 5(1)(e)), and is destroyed as follows.
+
+[Account and game data]
+  Retention : Retained while the account is active. When a User withdraws (resets)
+              their account, game / user data is deleted immediately, and personal
+              information is deleted within 7 days of withdrawal.
+
+[Residual withdrawal records]
+  Items     : UUID, sign-up date, last access date, and OS / device information at
+              last access.
+  Retention : Retained after withdrawal only until deleted during the Company's
+              periodic deletion process, which is carried out at least once every
+              90 days.
+
+[Server request logs]
+  Retention : Automatically deleted 30 days after the date of the request.
+
+[Cheat-detection data]
+  Retention : Collected only upon cheat detection. Retained for up to 1 year from
+              the date of detection, solely to process the resulting sanction and
+              any related appeal, after which it is deleted without delay.
+  Note      : During this retention period, the right to erasure (GDPR Art. 17)
+              may be restricted under GDPR Art. 17(3)(e) and the Company's
+              legitimate interests (GDPR Art. 6(1)(f)) in establishing,
+              exercising, or defending sanctions and related legal claims. Other
+              rights — including access, restriction of processing, and objection
+              — remain available. (See Article 6.)
+
+[Steam ID (account identifier)]
+  Retention : Retained for the duration of active service use; deleted within 30
+              days of service termination.
+
+--------------------------------------------------------------------------------
+
+Article 5 (Third-Party Disclosure and International Transfers)
+
+1.  The Company does not provide personal information to third parties without the
+    User's consent, except as required by applicable law. (Entrustment of
+    processing under Article 3 is distinct from third-party provision.)
+
+2.  For Steam platform integration, Steam ID and game session authentication data
+    are shared with Valve Corporation (acting as an independent data controller
+    under its own Privacy Policy). No additional personal data is transferred to
+    Valve beyond what is technically required for platform operation.
+
+3.  Steam Marketplace transactions are processed on the Steam platform; the related
+    transaction records are collected and held by Valve Corporation under its own
+    Privacy Policy, not by the Company.
+
+4.  International transfers:
+    - Data processed by AFI Inc. (Backnd) is stored in the Republic of Korea. For
+      EU/EEA users, transfers to the Republic of Korea are covered by the European
+      Commission's adequacy decision (2021), which recognizes Korea as ensuring an
+      adequate level of data protection.
+    - Data processed by Google LLC is transferred to the United States under the
+      EU-U.S. Data Privacy Framework and/or Standard Contractual Clauses, as
+      permitted under GDPR Chapter V.
+    - Transfers to Valve Corporation (US) are conducted under Valve's Standard
+      Contractual Clauses or equivalent mechanism.
+
+--------------------------------------------------------------------------------
+
+Article 6 (User Rights)
+
+[6-1. Rights regarding data held directly by the Company]
+
+For personal data held directly by the Company (including your Steam ID, account
+and game data, and any data collected upon cheat detection), Users may exercise
+the following rights by contacting help@nugemstudio.com:
+
+  - Right of Access (GDPR Art. 15)
+    Request a copy of your personal data held by the Company.
+
+  - Right to Rectification (GDPR Art. 16)
+    Request correction of inaccurate personal data.
+
+  - Right to Erasure / ""Right to be Forgotten"" (GDPR Art. 17)
+    Request deletion of your personal data. Users may also delete their account
+    directly through the in-game account withdrawal (reset) feature.
+    Exception: Where cheat-detection data has been collected, erasure of that
+    data may be restricted for up to 1 year from the date of detection, pursuant
+    to GDPR Art. 17(3)(e) and the Company's legitimate interests in enforcing and
+    defending sanctions. The data is deleted once this purpose no longer applies.
+
+  - Right to Restriction of Processing (GDPR Art. 18)
+    Request restriction of processing in certain circumstances.
+
+  - Right to Data Portability (GDPR Art. 20)
+    Request your data in a machine-readable format.
+
+  - Right to Object (GDPR Art. 21)
+    Object to processing based on legitimate interests.
+
+The Company will respond within 30 days of receipt of a valid request.
+
+[6-2. Rights regarding data held by Valve Corporation (Steam platform)]
+
+Steam Inventory data and Steam account data are stored and managed by Valve
+Corporation as an independent data controller. For these data, Users should
+submit requests directly to: store.steampowered.com/contact
+
+[6-3. Right to lodge a complaint]
+
+EU/EEA Users have the right to lodge a complaint with their local Data Protection
+Authority (DPA) if they believe their data protection rights have been violated.
+A list of EU DPAs is available at:
+edpb.europa.eu/about-edpb/about-edpb/members_en
+
+--------------------------------------------------------------------------------
+
+Article 7 (International Users)
+
+1.  EU/EEA Users: All rights under the GDPR (Regulation (EU) 2016/679) are
+    guaranteed. Legal bases for each category of data processing are specified in
+    Article 1 above. International transfers are conducted only where an adequacy
+    decision or appropriate safeguards are in place, as described in Article 5.
+
+2.  California (US) Users: Rights under the CCPA are guaranteed, including the
+    right to know, right to delete, and right to opt out of the sale of personal
+    information. The Company does not sell Users' personal information to third
+    parties.
+
+3.  Users in Other Regions: Applicable local personal data protection laws may
+    apply.
+
+--------------------------------------------------------------------------------
+
+Article 8 (Joint Controllers and Privacy Officer)
+
+[8-1. Joint Controllers (GDPR Art. 26)]
+
+Nugem Studio and Tesseract Studio are co-developers of the Game and jointly
+determine the purposes and means of the processing of personal data under this
+Privacy Policy, acting as joint controllers within the meaning of GDPR Art. 26.
+Their respective roles are as follows:
+
+  - Nugem Studio     : Responsible for the distribution and operation of the
+                       Game, serving as the contact point for Users, and
+                       handling data subject rights requests.
+  - Tesseract Studio : As co-developer, jointly participates in determining the
+                       purposes and means of processing in the course of game
+                       development.
+
+In accordance with GDPR Art. 26(3), Users may exercise their rights against
+either company, irrespective of the arrangement above. The designated contact
+point for prompt handling is Nugem Studio.
+
+[8-2. Privacy Officer]
+
+For inquiries regarding personal data processing, please contact us below.
+
+  Privacy Officer : Data Protection Division, Nugem Studio
+  Email           : help@nugemstudio.com
+  Response Hours  : Weekdays 10:00 AM - 6:00 PM (KST)
+  Response Time   : Within 30 days of receipt of a valid request
+
+--------------------------------------------------------------------------------
+
+Article 9 (Amendments to Privacy Policy)
+
+This Privacy Policy may be revised in accordance with changes in applicable law
+or service. Revisions implemented without renewed consent will be announced at
+least 7 days prior to the effective date via in-game notices or Steam
+announcements.
+
+
+=================
+DOCUMENT CHANGE LOG
+=================
+
+v1.5 — Announced June 13, 2026 / Corresponds to server-based client Ver 1.00.12 and later
+  Correction of v1.4 and move to consent-version-based application:
+  - Reverted the amendment notice period from 3 days back to 7 days, and
+    clarified that it applies only to amendments implemented without renewed
+    consent and does not delay consent-based version changes (ToS Art. 3(2),
+    3(5); Privacy Art. 9)
+  - Switched the application basis from the client build to the version the
+    User has consented to (recorded on the account); client version references
+    are informational only. Users who have not consented to this version remain
+    governed by the version to which they last consented; Users with no
+    recorded consent must consent to the then-current version to use the Game
+    (ToS Art. 3(4))
+  - Added an explicit ""Effect of declining consent"" clause: declining limits
+    use to offline / previous-version features, with server-stored items and
+    online features unavailable; includes guidance on requesting a copy of
+    personal data before declining (ToS Art. 3(6))
+  - Corrected the Marketplace definition and transaction medium to Steam Wallet
+    funds on the Steam Community Market (ToS Art. 2(6), 9(1), 10(4))
+  - Added a joint controllers clause under GDPR Art. 26: Nugem Studio
+    (distribution, operation, contact point) and Tesseract Studio
+    (co-development), with roles set out (Privacy Art. 8)
+  - Aligned SDK statements with actual practice: limited to ""no advertising
+    cookies or behavioral-analytics SDKs"" and disclosed technical automatic
+    collection necessary for operation and security (Privacy Art. 1; ToS
+    Art. 15(3))
+  - Defined a purpose-bounded ""game progress data"" category among game-data
+    and cheat-detection collection items, with representative examples
+    (character level, in-game currency balances, stage progress); new
+    categories of a different nature will be announced via policy amendment
+    (Privacy Art. 1)
+  - Added consumer-rights preservation language to the item-value-change
+    clauses (ToS Art. 6(2), 9(5))
+  - Added governing-language clause (English prevails) and a link to archived
+    previous versions (ToS Art. 15)
+
+v1.4 — Announced June 11, 2026 / Effective June 15, 2026  (superseded by v1.5)
+  Dedicated game server migration (Backnd) — data processing update:
+  - Added processors: AFI Inc. (Backnd, Korea) and Google LLC (Apps Script, US)
+    (Privacy Art. 3)
+  - Disclosed data newly processed by the game server: Steam ID / App ID / auth
+    ticket; IP & country, device & language, OS, nickname, access datetime;
+    inventory & item-transaction data; client version (Privacy Art. 1)
+  - Expanded cheat-detection data items to match actual logging (Privacy Art. 1)
+  - Added retention & destruction rules incl. account withdrawal (immediate data
+    deletion, personal info within 7 days), residual-record periodic deletion,
+    and 30-day server request logs (Privacy Art. 4)
+  - Clarified that the right to erasure (GDPR Art. 17) may be restricted for
+    cheat-detection data for up to 1 year from detection, under Art. 17(3)(e) and
+    legitimate interests, while access / restriction / objection rights remain
+    available (Privacy Art. 4, Art. 6)
+  - Added international transfer bases: Korea adequacy decision; EU-U.S. DPF / SCCs
+    (Privacy Art. 5)
+  - Updated ToS Art. 8 to reflect dedicated server processing of online features
+  - Added mandatory-collection notice for online service login (Privacy Art. 1)
+  - Shortened amendment notice period from 7 days to 3 days (reverted in v1.5)
+
+v1.3 — Announced May 29, 2026 / Effective June 6, 2026
+  Data collection disclosure corrected to reflect actual data minimization
+  practice:
+  - Rewrote ""Information We Collect"" to a two-tier model: only Steam ID is
+    collected on first access; additional data is collected solely upon cheat
+    detection (Privacy Art. 1)
+  - Removed data categories that are not actually collected: marketplace
+    transaction records, device/access information, bug reports & error logs
+    (Privacy Art. 1, 3)
+  - Narrowed processing purposes accordingly (Privacy Art. 2)
+  - Updated retention periods to match (Privacy Art. 3)
+  - Clarified that Steam Marketplace records are held by Valve, not the Company
+    (Privacy Art. 4)
+
+v1.2 — Announced May 28, 2026 / Effective June 5, 2026
+  - Changed contact email to help@nugemstudio.com
+  - Terms effective immediately upon first publication; subsequent amendments
+    effective 7 days after announcement (ToS Art. 3; Privacy Art. 8)
+
+v1.1 — May 28, 2026
+  GDPR compliance update:
+  - Added per-data-type legal bases (Privacy Art. 1)
+  - Clarified consent mechanism as checkbox + confirm button (ToS Art. 3)
+  - Revised data retention by data type (Privacy Art. 3)
+  - Added data subject rights with GDPR article references (Privacy Art. 5)
+  - Clarified Valve data-sharing scope and SCCs (Privacy Art. 4)
+  - Added EU DPA complaint right (Privacy Art. 5-3)
+  - Updated Minor definition for EU age thresholds (ToS Art. 2)
+  - Added service termination data export notice (ToS Art. 12)
+  - Added tracking/analytics SDK disclaimer (ToS Art. 15)
+
+v1.0 — May 27, 2026
+  Initial release.
+
+================="
+129069264450555906,Agree,同意,Agree
+129079765700120576,AgreeTerm_CheckText1,利用規約に同意します,I agree to the Terms of Service
+129079765700120577,AgreeTerm_CheckText2,プライバシーポリシーに同意します,I agree to the Privacy Policy
+129079765700120578,AgreeTerm_CheckText3,オンライン機能に必要なデータの処理に同意します, I agree to the processing of data required for online features
+129085393864691712,Warning_Linux_Title,※ Linux OS 未対応 ※,※ Linux OS Not Supported ※
+129085393864691713,Warning_Linux_ExplainText,"申し訳ありません。
+
+現在、Linux版には対応しておりません。
+背景が黒くなるなど、正常にプレイできない可能性があります。
+
+それでもゲームを続けますか?","Sorry.
+
+Linux is not currently supported.
+You may experience issues such as a black background that prevent normal gameplay.
+
+Do you still want to continue playing?"
+129331649362989056,StatName_ElementBlockChance,属性ブロック率,Elemental Block Chance
+129331649392349184,StatName_ElementDodgeChance,属性回避率,Elemental Dodge Chance
+129331649392349186,StatName_IncreaseMeleeDamage,近接ダメージ増加,Increase Melee Damage
+129331649392349187,StatName_IncreaseProjectileDamage,投射物ダメージ増加,Increase Projectile Damage
+129331649392349188,StatName_IncreaseAreaOfEffectDamage,範囲ダメージ増加,Increase Area Of Effect Damage
+129331649392349189,StatName_IncreaseProjectileSpeed,投射物速度増加,Increase Projectile Speed
+129331649392349190,StatName_IncreaseSummonDamage,召喚ダメージ増加,Increase Summon Damage
+129331649392349191,StatName_SkillDurationIncrease,スキル持続時間増加,Skill Duration Increase
+129331649392349192,StatName_AddHpPerKill,キルごとにHP追加,Add Hp Per Kill
+129331649392349193,StatName_SkillHealIncrease,スキル回復量増加,Skill Heal Increase
+129331649392349194,StatName_AddAllSkillLevel,全スキルレベル追加,Add All Skill Level
+129331649392349195,QuickMenu,<rotate=90>クイックメニュー</rotate>,<rotate=90>Quick Menu</rotate>
+129331649392349196,QuickMenu_AutoLayout,画面レイアウト（自動）,Screen Layout (Auto)
+129331649392349197,QuickMenu_ManualLayout,画面レイアウト（手動）,Screen Layout (Manual)
+129331649392349198,QuickMenu_FixWindow,画面固定 (オン),Lock Position (On)
+129331649392349199,QuickMenu_UnFixWindow,画面固定 (オフ),Lock Position (Off)
+129391519856529408,Option_FixLogUI,ログウィンドウを固定,Pin Log Window
+130034950102519808,PopUp_Warning_Alchemy,錬金術で削除されたアイテムは復元できません。<br>続行しますか?,Items will be removed by alchemy that cannot be recovered.<br>Proceed?
+130034950123491328,Toast_NotYetContent,まだ利用できないコンテンツです。,Content unavailable yet.
+130034950123491329,UI_StatList,ステータスリスト,Stat List
+130186729226178560,UI_OpenStatus,ステータス画面を開く,Open Status Window
+130186729226178561,RuneNode_PreviewModeText,前提ノードの習得が必要です。,Prerequisite node required.
+130186729226178562,RuneNode_PreviewModeCannotPurchase,購入不可,Cannot Purchase
+130441450746744832,PetDescription_1001,コウモリを撃破,Defeat Bat
+130441450746744833,PetDescription_1002,巨大ハエを撃破,Defeat Giant Fly
+130441450746744834,PetDescription_1003,炎の精霊を撃破,Defeat Fire Spirit
+130441450746744835,PetDescription_1004,地獄のゴーレムを撃破,Defeat Hell Golem
+130441450746744836,PetDescription_1005,幽霊を撃破,Defeat Ghost
+130441450746744837,Claim,受け取る,Claim
+130462354156990464,Pet_Collected ,※ ペットの効果は装備していなくても常に適用されます。,"※ Pet effects always apply, even when not equipped."
+130856018849501184,UI_Setting_UILayout,UIレイアウト,UI Layout
+130856018849501185,UI_Setting_UILayout_LeftTop,戦闘画面 左上,Combat Screen Top Left
+130856018849501186,UI_Setting_UILayout_CenterTop,戦闘画面 中央上,Combat Screen Top
+130856018849501187,UI_Setting_UILayout_RightTop,戦闘画面 右上,Combat Screen Top Right
+130856018849501188,UI_Setting_UILayout_LeftBottom,戦闘画面 左下,Combat Screen Bottom Left
+130856018849501189,UI_Setting_UILayout_CenterBottom,戦闘画面 中央下,Combat Screen Bottom
+130856018849501190,UI_Setting_UILayout_RightBottom,戦闘画面 右下,Combat Screen Bottom Right
+130856018849501191,UI_Setting_OpenQuickMenu,戦闘クイックメニューを開く<br>（右クリック）,Open Battle Quick Menu<br>(Right-click)
+130856018849501192,UI_Setting_LanguageChange_Notice,言語変更後はゲームを再起動してください。<br><br>再起動しない場合、一部の言語変更が<br>正しく適用されない可能性があります。,"Please restart the game<br>after changing the language.<br><br>Without a restart, some changes<br>may not apply correctly."
+131251845187178496,UI_Setting_FixingGameWindow,ゲーム画面をこの位置に固定,Pin game window at this position
+131251845187178497,UI_Setting_ShowQuickMenu,戦闘クイックメニューを開く<br>（右クリック）,Open Battle Quick Menu<br>(Right-click)
+131271172707782656,Toast_LowTierSynthesis,アイテムレベルが低すぎます。,Item level is too low.
+131271172707782657,Cube_NoticeLowMaterialLevelAndTier,必要アイテムレベル:Lv.{0}以上,Required item level: Lv.{0} or higher
+132687149748129792,CompleteObtain,獲得済み,Collected
+132704892606156800,UI_Setting_AlwaysSettingSynthesis,キューブを開く時、常に合成レシピを選択,Always select Synthesis recipe when opening Cube
+132723490192035840,NormalAttackDPS,通常攻撃DPS,Basic Attack DPS
+135073695391985664,UI_PopUp_NotMatchSteamId,セーブデータのアカウント情報が一致しません。バックアップを試行します。,Save data account info does not match. Attempting backup.
+135073695433928704,UI_OfflineMode_LastLogin,ㆍ 最終ログイン:,ㆍ Last Login:
+135073695433928705,UI_OfflineMode_OfflineTime,ㆍ オフライン時間:,ㆍ Offline Time:
+135545988952559616,UI_PopUp_SaveDataCheat,セーブデータの改ざんを検知しました。バックアップを試行します。,Save data tampering detected. Attempting backup.
+135545988977725440,UI_ItemTooltip_Shift,Shift +,Shift +
+135545988977725441,UI_ItemTooltip_Ctrl,Ctrl +,Ctrl +
+135545988977725442,UI_ItemTooltip_F3_Fold,[Q] ホットキー表示,[Q] Show Hotkeys
+135545988977725443,UI_ItemTooltip_F3_Open,[Q] ホットキー非表示,[Q] Hide Hotkeys
+135545988977725444,UI_Setting_AlwaysTryOnTop,常にタスクバー前面に表示,Always show in front of taskbar
+135546581360250880,UI_PopUp_AlwaysTryOnTop,"「常にタスクバー前面に表示」を有効にすると、他のゲームのフルスクリーン再生に問題が発生する可能性があります。
+それでも続行しますか?","Enabling 'Always show in front of taskbar' may cause issues with other games in fullscreen.
+Proceed anyway?"
+136257227580182528,CurrentHp,現在のHP,Current HP
+136971024171208704,UI_ItemTooltip_Action_Auto_Equip,自動 (装備),Auto (Equip)
+136971024200568832,UI_ItemTooltip_Action_Auto_Cube,自動 (キューブ),Auto (Cube)
+136971024200568833,UI_ItemTooltip_Action_Auto_Stash,自動 (倉庫),Auto (Stash)
+136971024200568834,UI_ItemTooltip_Action_Auto_Inventory,自動 (インベントリ),Auto (Inventory)
+136971024200568835,UI_ItemTooltip_Action_Auto_None,自動 (-),Auto (-)
+136971024200568836,UI_ItemTooltip_Action_Auto_Unequip,自動 (装備解除),Auto (Unequip)
+136971024200568837,UI_ItemTooltip_Action_Unlock,ロック解除,Unlock
+136971024200568838,UI_ItemTooltip_Action_None,-,-
+136971024200568839,UI_ItemTooltip_Action_Stash,倉庫,Stash
+136971024200568840,UI_ItemTooltip_Action_Cube,キューブ,Cube
+136971024200568841,UI_ItemTooltip_Action_Equip,装備,Equip
+136971024200568842,UI_ItemTooltip_Action_Z_Close,[Z] 情報ウィンドウを隠す,[Z] Hide info window
+136971024200568843,UI_ItemTooltip_Action_Auto_TradeIn,自動 (積込),Auto (Load)
+136971024200568844,UI_ItemTooltip_Action_Auto_TradeOut,自動 (積降),Auto (Unload)
+136971024200568845,UI_ItemTooltip_Action_Auto_UnCube,自動 (取り出す),Auto (Take Out)
+136971024200568846,Toast_NotAllowedEnchantedTrade,装飾/彫刻/碑文済みのアイテムは取引できません。,Decorated / Engraved / Inscribed items cannot be traded.
+136971024200568847,Toast_FullTradingStash,交易船が満杯です。,Trade Ship is full.
+136971024200568848,Tooltip_Stat_Armor,アーマー値に応じて物理ダメージが軽減されます。,Physical damage reduction applies based on Armor value.
+136971024200568849,Tooltip_Stat_DamageAbsorption,最終ダメージを一定量減少させます。,Reduces final damage by a fixed amount.
+136971024200568850,Tooltip_Stat_FireResistance,火炎ダメージを軽減します。\nステージ難易度に応じてペナルティが適用されます。\n現在のペナルティ: {0}%,Reduces Fire damage.\nA penalty applies based on stage difficulty.\nCurrent penalty: {0}%
+136971024200568851,Tooltip_Stat_ColdResistance,冷気ダメージを軽減します。\nステージ難易度に応じてペナルティが適用されます。\n現在のペナルティ: {0}%,Reduces Cold damage.\nA penalty applies based on stage difficulty.\nCurrent penalty: {0}%
+136971024200568852,Tooltip_Stat_LightningResistance,雷ダメージを軽減します。\nステージ難易度に応じてペナルティが適用されます。\n現在のペナルティ: {0}%,Reduces Lightning damage.\nA penalty applies based on stage difficulty.\nCurrent penalty: {0}%
+136971024200568853,Tooltip_Stat_PoisonResistance,"カオスダメージを軽減します。
+ステージ難易度に応じてペナルティが適用されます。
+現在のペナルティ: {0}%","Reduces Chaos damage.
+A penalty applies based on stage difficulty.
+Current penalty: {0}%"
+136971024200568854,Tooltip_Stat_DodgeChance,物理ダメージを回避する確率。\n最大値: {0}%,Chance to dodge physical damage.\nMax: {0}%
+136971024200568855,Tooltip_Stat_BlockChance,ブロック成功時、物理ダメージが半減します。\n最大値: {0}%,"On successful block, take half physical damage.\nMax: {0}%"
+136971024200568856,Tooltip_Stat_ElementDodgeChance,属性ダメージを回避する確率。\n最大値: {0}%,Chance to dodge elemental damage.\nMax: {0}%
+136971024200568857,Tooltip_Stat_ElementBlockChance,ブロック成功時、属性ダメージが半減します。\n最大値: {0}%,"On successful block, take half elemental damage.\nMax: {0}%"
+136971024200568858,Tooltip_Stat_CooldownReduction,スキルクールダウンを短縮します。\n最大値: {0}%,Reduces skill cooldown.\nMax: {0}%
+136971024200568859,Tooltip_Stat_DamageReduction,受けるすべてのダメージを軽減します。\n最大値: {0}%,Reduces all incoming damage.\nMax: {0}%
+136971024200568860,UI_Setting_AlwaysShowCooltime,クールダウンバーを常に表示,Always show cooldown bar
+137305080687693824,AutoOpenBoxOff,チェスト自動開封(Off),Auto Open Chest (Off)
+137305080712859648,AutoOpenBoxCooltime,チェスト自動開封(On)\n[残り {0}分{1}秒],Auto Open Chest (On)\n[{0}m {1}s left]
+139899326208872448,Warning_WindowScale_1_25,1.25倍スケールはピクセルが歪んで見える可能性があり推奨されません。\nそれでも適用しますか?,1.25x scale may cause pixel distortion and is not recommended.\nApply anyway?
+139899326208872449,Map_name,荒廃した砂漠,Desolated Desert
+139899326208872450,NoticeReconnect,再接続中...,Reconnecting...
+139966368576376832,Notice_WillGetAlchemyGoldText,錬金で獲得するゴールド: {0},Gold from Alchemy: {0}
+140196009601863680,Toast_CannotOpenCubeWhenTradingStashOn,交易船が開いている時はキューブを開けません。,Cannot open Cube while Trade Ship is open.
+140196009627029504,Toast_CannotOpenTradingStashWhenCubeOn,キューブが開いている時は交易船を開けません。,Cannot open Trade Ship while Cube is open.
+140293687509327872,ItemTooltip_BaseStat,基本ステータス,Base Stats
+140338754496696320,Toast_FullStash,倉庫が満杯です。,Stash is full.
+140338754530250752,Toast_TargetSlotNotEmpty,そのスロットは空ではありません。,That slot is not empty.
+140560310183333888,Toast_NotMatchSynthesisNowSynthesisType,現在の合成レシピのアイテムタイプと一致しません。,Does not match the current Synthesis recipe's item type.
+140560310221082624,Toast_NotMatchSynthesisItemGrade,現在入っているアイテムの等級と一致しません。,Grade does not match the currently inserted items.
+140605439837409280,Toast_AlreadyInCubeSoRemoved,すでにキューブに登録されています — 登録解除します。,Already in Cube — unregistering.
+140560310221082625,UniqueMod_WaveMoveSlowestPartyExcludeSelf,自分を除くパーティ内で最も遅い英雄の移動速度でウェーブ間を移動する。,"Move between waves at the speed of the slowest party member, excluding yourself."
+140560310221082626,UniqueMod_WaveMoveFastestPartyMember,パーティ内で最も速い英雄の移動速度でウェーブ間を移動する。,Move between waves at the speed of the fastest party member.
+140560310221082627,UniqueMod_SkillProjectileCountUp,装備したスキルの投射物数 +1。,Equipped skill's projectile count +1.
+140560310221082628,UniqueMod_SkillMultiStrikeCountUp,装備したスキルの連続攻撃回数 +1。,Equipped skill's multistrike count +1.
+140560310221082629,UniqueMod_SkillElementChange,装備したスキルのダメージ属性が変更される。,Equipped skill's damage element is changed.
+140560310221082630,UniqueMod_SkillBaseAttackCountReduce,装備したスキルの発動に必要な基本攻撃回数が 1 減少する。,Equipped skill requires 1 less basic attack to trigger.
+140560310221082631,UniqueMod_SkillCooldownReduce,装備したスキルのクールタイムが減少する。,Equipped skill's cooldown is reduced.
+140560310221082632,UniqueMod_SlayerLowHpAttackSpeed,失った HP 1% ごとに攻撃速度が 1% 増幅される。,Attack Speed is amplified by 1% per 1% missing HP.
+140560310221082633,UniqueMod_SorcererLightningShock,ライトニングスキルが敵に感電を発生させる。,Lightning skill shocks enemies on hit.
+140560310221082634,UniqueMod_WhirlwindFireIgnite,アックススピンのダメージが火属性に変わり、出血確率が点火確率に変わる。,"Axe Spin's damage is converted to fire, and bleeding chance becomes ignite chance."
+140624972765663232,Physical,物理,Physical
+140624972769857536,Fire,火炎,Fire
+140624972769857537,Cold,冷気,Cold
+140624972769857538,Lightning,雷,Lightning
+140624972769857539,Chaos,カオス,Chaos
+142063484845101056,RuneName_MaxAmountActBossChest,無限のルーン,Rune of Infinity
+142063484870266880,Toast_OpenBoxFail,箱を開けるのに失敗しました。しばらくしてからもう一度お試しください。,Failed to open the box. Please try again later.
+142063484870266881,Shop_StashPack,แพ็ค 3 คลังเก็บของ,3 Stash Pack
+142405463785279488,PetDescription_6001,サポーターパックを購入,Purchase the Supporter Pack
+142405463814639616,PetDescription_6002,サポーターパックを購入,Purchase the Supporter Pack
+142405463814639617,PetDescription_6003,サポーターパックを購入,Purchase the Supporter Pack
+142436761073553408,Notice_DetectAnticheat,不正プログラムの使用が検出されました。<br>ゲームを強制終了します。<br>検出履歴によっては、マーケットのご利用が永久に制限される場合があります。,"Unauthorized program usage has been detected.<br>The game will be force closed.<br>Depending on your detection history, access to the Market may be permanently restricted."
+142812785363849216,UI_TradingStash_Description_Title,マーケットで購入したアイテムはどのように受け取れますか？,How do I receive items purchased from the Market?
+142812785389015040,UI_TradingStash_Notice1,1.Steam マーケットのサーバー状態や通信状況によっては、購入完了後に受け取りまで少し時間がかかる場合があります。,"1.Depending on Steam Market server status and connectivity, delivery may take some time after purchase."
+142812785389015041,UI_TradingStash_Notice2,2.メニュー上部の「メールボックス」ボタンをクリック → 下部の「更新」ボタンを押して購入したアイテムを受け取ることができます。,2.Click the 'Mailbox' button at the top of the menu → press the 'Refresh' button at the bottom to receive your purchased items.
+142812785389015042,Toast_CannotSelectHero_FirstSetting,このキャラクターは最初は選択できません。,This character is not available at the start.
+143207423783665664,UI_DataCollect_Subject,データ収集・利用に関するご案内,Data Collection & Usage Notice
+143198994520276992,UI_DataCollectGuide_Context,"『TBH: Task Bar Hero』では、Steam マーケットのご利用と公正なゲーム環境の確保のため、以下の情報を収集しています。
+
+[初回アクセス時に収集する情報 | 目的：アカウントの識別およびログイン認証]
+- SteamID
+- App ID
+- Steam 認証セッションチケット（使い捨てログイントークン）
+
+[オンライン機能の利用時にゲームサーバーが自動的に収集する情報 | 目的：オンラインサービスの運営・安定性、アカウントのセキュリティ、不正行為および不正アクセスの防止]
+- IP アドレスおよび IP に基づく国情報
+- デバイス情報およびデバイスに基づく言語情報
+- OS 情報
+- ニックネーム
+- アクセス（接続）日時（ログインを含む）
+
+[オンライン機能の提供のために収集するゲームデータ | 目的：進行データのサーバー保管、アイテムの付与・交換のサーバー検証、クライアントバージョンの互換性確認]
+- インベントリデータ（アイテム ID、アイテムインスタンスキー、宝箱クールダウン）
+- アイテムの獲得・消費・交換（合成／開封）リクエスト履歴
+- ゲームクライアントバージョン（互換性確認用）
+- 進行データ：ユーザーのゲーム進行状態を構成するデータ（例：キャラクターレベル）
+
+[チート検知時のみ収集 | 目的：チートの検知および公正なゲーム環境の維持]
+- SteamID およびゲームバージョン
+- 現在および最高ステージ進行度、累計プレイ時間
+- 進行データ：ユーザーのゲーム進行状態を構成するデータ（例：キャラクターレベル）
+- 検知ルール ID および関連する検知パラメーター
+
+詳細は利用規約をご確認ください。
+(https://store.steampowered.com//eula/3678970_eula_1)
+
+ゲームのご利用を望まれない場合は、ゲームを終了してください。","In <TBH: Task Bar Hero>, the following information is collected to enable Steam Market use and to ensure a fair gameplay environment.
+
+[Information collected on first access | Purpose: account identification and login authentication]
+- SteamID
+- App ID
+- Steam authentication session ticket (one-time login token)
+
+[Information automatically collected by the game server when using online features | Purpose: operation and stability of online services, account security, and prevention of cheating and unauthorized access]
+- IP address and IP-based country information
+- Device information and device-based language information
+- OS information
+- Nickname
+- Access (connection) date and time (including logins)
+
+[Game data collected to provide online features | Purpose: server storage of game progress data, server-side verification of item grants and exchanges, and client version compatibility checks]
+- Inventory data (item ID, item instance key, chest cooldown)
+- Item acquisition, consumption, and exchange (synthesis / opening) request records
+- Game client version (for compatibility checks)
+- Game progress data: data that constitutes the user's game progress state (e.g., character level)
+
+[Collected only upon cheat detection | Purpose: detecting cheating and maintaining a fair gameplay environment]
+- SteamID and game version
+- Current and highest stage progress, cumulative playtime
+- Game progress data: data that constitutes the user's game progress state (e.g., character level)
+- Detection rule ID and related detection parameters
+
+For more details, please review our Terms of Service.
+(https://store.steampowered.com//eula/3678970_eula_1)
+
+If you do not wish to play the game, please exit the game."
+143551183335915520,UI_Mailbox_StatusText1,アイテムがありません。,No items available.
+143551183356887040,UI_Mailbox_StatusText2,下の「更新」ボタンを押して<br>メールボックスの状態を最新化できます。,Press the 'Refresh' button at the bottom<br>to update your Mailbox status.
+143551183356887041,UI_Mailbox_WarningText1,※ マーケットで購入したアイテムは、メールボックスの「更新」ボタンを押して入手できます。,※ Items purchased from the Market can be obtained by pressing the 'Refresh' button in the Mailbox.
+143551183356887042,UI_Mailbox_WarningText2,※ アイテムが突然なくなった場合は、メールボックスの「更新」ボタンを押してみてください。,"※ If an item has suddenly disappeared, try pressing the 'Refresh' button in the Mailbox."
+143551183356887043,Toast_LockedServerIssue,サーバー障害により一時的に利用できません。,Temporarily unavailable due to a server issue.
+143898373286465536,Toast_DeleteItemOnlyAlchemy,このアイテムは合成できません。,This item cannot be Synthesized.
+143898373307437056,Item_CannotTradeAndSynthesis,(X) 取引、合成,"(X) Trade, Synthesis"
+143898373307437057,Toast_DeletedServerBox,無効な宝箱です。,Invalid box.
+143898373307437058,Toast_CannotUseTradingStashLowCubeLevel,Steam交易船メニューは<br>キューブレベル10から使用できます。,The Steam Trade Ship menu<br>is available from Cube Level 10.
+144336722094657536,Setting_SteamInventoryFix,Steam インベントリの問題を解決しました,Steam Inventory Issue Resolved
+144336722136600576,Deleted_RemovedInventory,取引不可アイテムを Steam インベントリから削除しました。,Untradable items have been removed from your Steam Inventory.
+144344230007869440,Already_Running,すでに適用されています。,This is already in effect.
+144344230012063744,SteamInventoryFixingText,Steam インベントリの問題解決を開始します。<br> 処理中はゲームを終了したりウィンドウを閉じたりしないでください。,Starting Steam Inventory issue resolution.<br><br>Do not exit the game or close the window while this is in progress.
+144344230012063745,CannotDoSomethingFixingSteamInventory,動作中は他のボタンを押すことができません。,Other buttons cannot be pressed while it is running.
+144349440692391936,Start,開始,Start
+146474805531447296,Notice_NotMatchAppVersion,ゲームのバージョンが古くなっています。\nアップデートが必要です。\n\n ※ 自動アップデートの設定方法：Steam ライブラリ > TBH:Task Bar Hero を右クリック > プロパティ > アップデート > 自動アップデート >「起動時にのみこのゲームを更新」に変更,"Game version is outdated.\nAn update is required.\n\n ※ How to enable automatic updates: Steam Library > right-click TBH:Task Bar Hero > Properties > Updates > Automatic Updates > change to ""Only update this game when I launch it"""
+146474805556613120,Notice_Maintenance,サーバーメンテナンス中です。,Server is under maintenance.
+148279997558099968,Notice_ServerLoginFailed_Ticket,Steam ID の検証に失敗しました。,Failed to verify Steam ID.
+146474805556613122,PopUp_BoxDropError_WrongReport,エラーコード {0}\n不正なリクエストです。,Error code {0}\nInvalid request.
+146474805556613123,PopUp_BoxDropError_DisconnectServer,エラーコード {0}\nサーバーから応答がありません。,Error code {0}\nNo response from server.
+146474805556613124,PopUp_CannotUseTradingStash,サーバー障害により<br>交易船を一時的に閉鎖しました。<br><br>ご不便をおかけし申し訳ございません。,"Due to a server issue,<br>the Trade Ship is temporarily closed.<br><br>We apologize for any inconvenience."
+148279997558099969,Notice_ServerLoginFailed_Backend,ログインに失敗しました。,Login failed.
+148279997558099970,PopUp_DisconnectServer,サーバーから応答がありません。\nゲームを終了します。,No response from server.\nThe game will close.
+148279997558099971,PopUp_DisconnectServer_TryReconnect,サーバーから応答がありません。\n再試行中です。,No response from server.\nRetrying.
+148279997558099972,PopUp_CannotStartResetDataComplete,"アカウント初期化中のため、まだ開始できません。
+最大1時間以内に処理が完了します。","Cannot start yet — account reset in progress.
+It will complete within 1 hour at most."
+148279997558099973,Toast_MailClaimBoxOpen,チェストを開封しました。,Chest opened.
+148279997558099974,PopUp_ServerError,エラー: {0}\n{1}\n{2},Error: {0}\n{1}\n{2}
+148556996319055872,EntryQueue_Title,ゲームデータ\nサーバー登録待機中,Game Data\nWaiting for Server Registration
+148556996340027392,EntryQueue_Description,サーバーが混雑しています。\nゲームデータをサーバーに安全に登録するため\n待機しています。\n\n残り時間が0になったら「確認」ボタンを押して\nゲームをプレイできます。\n\nしばらくお待ちください。,"The server is busy.\nPlease wait while we register your game data\nto the server safely.\n\nWhen the remaining time reaches 0, press the ""Confirm""\nbutton to start playing.\n\nPlease wait a moment."
+148556996340027393,EntryQueue_RemailTime,残り時間: {0}分{1}秒,Time left: {0}m {1}s
+149295269286973440,PopUp_Function_DISABLED,サーバー障害により一時的に利用できません。,Temporarily unavailable due to a server issue.
+151184643196915712,PopUp_Alchemy_Unvalidated,錬金術の結果をサーバーと同期できませんでした。,Failed to sync the Alchemy result with the server.
+151184643226275840,TradingStash_PleaseCheckMailBox,メールボックスの「更新」ボタンを押してご確認ください。,Please press the 'Refresh' button in the Mailbox to check.
+151184643226275841,TradingStash_PleaseWaitBecauseItemMove,アイテムは現在移動中です。,The item is currently being moved.
+151184643226275842,Option_TradingStashWarning,交易船 - 確認表示,Trade Ship - Show confirmation
+151184643226275843,Notice_TradingStashSlotDescription,交易船に登録したアイテムは、一定時間の間、回収および登録解除ができません。,Items registered on the Trade Ship cannot be retrieved or unregistered for a certain period of time.
+151184643226275844,Server_Maintenance_Popup_Description,サーバーメンテナンス中です。<br>ご不便をおかけして申し訳ございません。<br>※ ストアページのお知らせをご確認ください ※,The server is under maintenance.<br>We apologize for any inconvenience.<br>※ Please check the announcements on the store page ※
+151184643226275845,UI_Portal_AbuseGuardNotice,頻繁なステージ変更により移動が制限されます。残り時間：{0}秒,Movement is restricted due to frequent stage changes. Time remaining: {0}s

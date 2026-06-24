@@ -1,0 +1,3758 @@
+[
+  {
+    "id": 60714139914,
+    "key": "ItemName_110001",
+    "ja": "スモールルビー",
+    "en": "Minor Ruby"
+  },
+  {
+    "id": 60714139916,
+    "key": "ItemName_110002",
+    "ja": "マイナーサファイア",
+    "en": "Minor Sapphire"
+  },
+  {
+    "id": 60714139918,
+    "key": "ItemName_110003",
+    "ja": "マイナートパーズ",
+    "en": "Minor Topaz"
+  },
+  {
+    "id": 60714139920,
+    "key": "ItemName_110004",
+    "ja": "スモールエメラルド",
+    "en": "Minor Emerald"
+  },
+  {
+    "id": 60714139922,
+    "key": "ItemName_110005",
+    "ja": "マイナーアメジスト",
+    "en": "Minor Amethyst"
+  },
+  {
+    "id": 60714139924,
+    "key": "ItemName_111001",
+    "ja": "黒曜石の破片",
+    "en": "Obsidian Shard"
+  },
+  {
+    "id": 60714139926,
+    "key": "ItemName_111002",
+    "ja": "珊瑚の欠片",
+    "en": "Coral Piece"
+  },
+  {
+    "id": 60714139928,
+    "key": "ItemName_111003",
+    "ja": "翡翠石",
+    "en": "Jade Stone"
+  },
+  {
+    "id": 60714139930,
+    "key": "ItemName_111004",
+    "ja": "アンバージェム",
+    "en": "Amber Gem"
+  },
+  {
+    "id": 60714139932,
+    "key": "ItemName_112001",
+    "ja": "ルビー",
+    "en": "Ruby"
+  },
+  {
+    "id": 60714139934,
+    "key": "ItemName_112002",
+    "ja": "サファイア",
+    "en": "Sapphire"
+  },
+  {
+    "id": 60714139936,
+    "key": "ItemName_112003",
+    "ja": "トパーズ",
+    "en": "Topaz"
+  },
+  {
+    "id": 60714139938,
+    "key": "ItemName_112004",
+    "ja": "エメラルド",
+    "en": "Emerald"
+  },
+  {
+    "id": 60714139940,
+    "key": "ItemName_112005",
+    "ja": "アメジスト",
+    "en": "Amethyst"
+  },
+  {
+    "id": 60714139942,
+    "key": "ItemName_113001",
+    "ja": "クリスタルクォーツ",
+    "en": "Crystal Quartz"
+  },
+  {
+    "id": 60714139944,
+    "key": "ItemName_113002",
+    "ja": "真珠",
+    "en": "Pearl"
+  },
+  {
+    "id": 60714139946,
+    "key": "ItemName_113003",
+    "ja": "ターコイズ",
+    "en": "Turquoise"
+  },
+  {
+    "id": 60714139948,
+    "key": "ItemName_113004",
+    "ja": "ガーネット",
+    "en": "Garnet"
+  },
+  {
+    "id": 60714139950,
+    "key": "ItemName_114001",
+    "ja": "ダイヤモンド",
+    "en": "Diamond"
+  },
+  {
+    "id": 60714139952,
+    "key": "ItemName_114002",
+    "ja": "オパール",
+    "en": "Opal"
+  },
+  {
+    "id": 60714139954,
+    "key": "ItemName_114003",
+    "ja": "ラピスラズリ",
+    "en": "Lapis Lazuli"
+  },
+  {
+    "id": 60714139956,
+    "key": "ItemName_114004",
+    "ja": "ブラックパール",
+    "en": "Black Pearl"
+  },
+  {
+    "id": 60714139958,
+    "key": "ItemName_115001",
+    "ja": "アーケインクリスタル",
+    "en": "Arcane Crystal"
+  },
+  {
+    "id": 60714139960,
+    "key": "ItemName_115002",
+    "ja": "ミスティックトパーズ",
+    "en": "Mystic Topaz"
+  },
+  {
+    "id": 60714139962,
+    "key": "ItemName_115003",
+    "ja": "エンチャントルビー",
+    "en": "Enchanted Ruby"
+  },
+  {
+    "id": 60714139964,
+    "key": "ItemName_115004",
+    "ja": "星光のサファイア",
+    "en": "Starlight Sapphire"
+  },
+  {
+    "id": 60714139966,
+    "key": "ItemName_116001",
+    "ja": "虚空のオパール",
+    "en": "Void Opal"
+  },
+  {
+    "id": 60714139968,
+    "key": "ItemName_116002",
+    "ja": "アストラルダイヤ",
+    "en": "Astral Diamond"
+  },
+  {
+    "id": 60714139970,
+    "key": "ItemName_116003",
+    "ja": "ファントムエメラルド",
+    "en": "Phantom Emerald"
+  },
+  {
+    "id": 60714139972,
+    "key": "ItemName_116004",
+    "ja": "トワイライトアメジスト",
+    "en": "Twilight Amethyst"
+  },
+  {
+    "id": 60714139974,
+    "key": "ItemName_117001",
+    "ja": "セレスティアルパール",
+    "en": "Celestial Pearl"
+  },
+  {
+    "id": 60714139976,
+    "key": "ItemName_117002",
+    "ja": "ドラゴナイトクリスタル",
+    "en": "Dragonite Crystal"
+  },
+  {
+    "id": 60714139978,
+    "key": "ItemName_118001",
+    "ja": "ヴォイドクリスタル",
+    "en": "Void Crystal"
+  },
+  {
+    "id": 60714139980,
+    "key": "ItemName_118002",
+    "ja": "深淵の真珠",
+    "en": "Abyssal Pearl"
+  },
+  {
+    "id": 60714139982,
+    "key": "ItemName_119001",
+    "ja": "エーテルジェム",
+    "en": "Ethereal Gem"
+  },
+  {
+    "id": 60714139984,
+    "key": "ItemName_119002",
+    "ja": "混沌のダイヤモンド",
+    "en": "Chaos Diamond"
+  },
+  {
+    "id": 60546367488,
+    "key": "ItemName_120001",
+    "ja": "ゴブリンの皮",
+    "en": "Goblin Hide"
+  },
+  {
+    "id": 60688973824,
+    "key": "ItemName_120002",
+    "ja": "スケルトンボーン",
+    "en": "Skeleton Bone"
+  },
+  {
+    "id": 60714139986,
+    "key": "ItemName_120003",
+    "ja": "スライムゼリー",
+    "en": "Slime Jelly"
+  },
+  {
+    "id": 60688973825,
+    "key": "ItemName_121001",
+    "ja": "ウルフファング",
+    "en": "Wolf Fang"
+  },
+  {
+    "id": 60688973826,
+    "key": "ItemName_121002",
+    "ja": "スパイダーシルク",
+    "en": "Spider Silk"
+  },
+  {
+    "id": 60714139988,
+    "key": "ItemName_121003",
+    "ja": "毒草",
+    "en": "Poisonous Herb"
+  },
+  {
+    "id": 60714139990,
+    "key": "ItemName_121004",
+    "ja": "癒しの薬草",
+    "en": "Healing Herb"
+  },
+  {
+    "id": 60693168128,
+    "key": "ItemName_122001",
+    "ja": "コウモリの翼膜",
+    "en": "Bat Wing Membrane"
+  },
+  {
+    "id": 60693168129,
+    "key": "ItemName_122002",
+    "ja": "オーガブラッド",
+    "en": "Ogre Blood"
+  },
+  {
+    "id": 60693168130,
+    "key": "ItemName_122003",
+    "ja": "キノコの胞子",
+    "en": "Mushroom Spore"
+  },
+  {
+    "id": 60693168131,
+    "key": "ItemName_122004",
+    "ja": "古代樹の樹液",
+    "en": "Ancient Tree Sap"
+  },
+  {
+    "id": 60714139992,
+    "key": "ItemName_123001",
+    "ja": "スカル",
+    "en": "Skull"
+  },
+  {
+    "id": 60714139994,
+    "key": "ItemName_123002",
+    "ja": "ハーピーの羽",
+    "en": "Harpy Feather"
+  },
+  {
+    "id": 60714139996,
+    "key": "ItemName_123003",
+    "ja": "マンドレイクの根",
+    "en": "Mandrake Root"
+  },
+  {
+    "id": 60714139998,
+    "key": "ItemName_123004",
+    "ja": "ナイトシェードエキス",
+    "en": "Nightshade Extract"
+  },
+  {
+    "id": 60714140000,
+    "key": "ItemName_124001",
+    "ja": "バジリスクの鱗",
+    "en": "Basilisk Scale"
+  },
+  {
+    "id": 60714140002,
+    "key": "ItemName_124002",
+    "ja": "ワイバーンの爪",
+    "en": "Wyvern Claw"
+  },
+  {
+    "id": 60714140004,
+    "key": "ItemName_124003",
+    "ja": "ダイス",
+    "en": "Dice"
+  },
+  {
+    "id": 60714140006,
+    "key": "ItemName_124004",
+    "ja": "デーモンブラッド",
+    "en": "Demon Blood"
+  },
+  {
+    "id": 60714140008,
+    "key": "ItemName_125001",
+    "ja": "ミノタウロスの角",
+    "en": "Minotaur Horn"
+  },
+  {
+    "id": 60714140010,
+    "key": "ItemName_125002",
+    "ja": "グリフィンのくちばし",
+    "en": "Griffin Beak"
+  },
+  {
+    "id": 60714140012,
+    "key": "ItemName_125003",
+    "ja": "フェニックスの灰",
+    "en": "Phoenix Ash"
+  },
+  {
+    "id": 60714140014,
+    "key": "ItemName_125004",
+    "ja": "ドラゴンの胆汁",
+    "en": "Dragon Bile"
+  },
+  {
+    "id": 60714140016,
+    "key": "ItemName_126001",
+    "ja": "レイスの精髄",
+    "en": "Wraith Essence"
+  },
+  {
+    "id": 60714140018,
+    "key": "ItemName_126002",
+    "ja": "クラーケンインク",
+    "en": "Kraken Ink"
+  },
+  {
+    "id": 60714140020,
+    "key": "ItemName_126003",
+    "ja": "タイタンマロウ",
+    "en": "Titan Marrow"
+  },
+  {
+    "id": 60714140022,
+    "key": "ItemName_126004",
+    "ja": "ヴォイドの精髄",
+    "en": "Void Ichor"
+  },
+  {
+    "id": 60714140024,
+    "key": "ItemName_127001",
+    "ja": "深淵の粘液",
+    "en": "Abyssal Mucus"
+  },
+  {
+    "id": 60714140026,
+    "key": "ItemName_127002",
+    "ja": "カオススポア",
+    "en": "Chaos Spore"
+  },
+  {
+    "id": 60714140028,
+    "key": "ItemName_128001",
+    "ja": "原初の樹液",
+    "en": "Primordial Sap"
+  },
+  {
+    "id": 60714140030,
+    "key": "ItemName_128002",
+    "ja": "異界の毒",
+    "en": "Eldritch Venom"
+  },
+  {
+    "id": 60714140032,
+    "key": "ItemName_129001",
+    "ja": "チャソダイス",
+    "en": "Chaso Dice"
+  },
+  {
+    "id": 60714140034,
+    "key": "ItemName_129002",
+    "ja": "ヴォイドの触手",
+    "en": "Void Tendril"
+  },
+  {
+    "id": 60693168134,
+    "key": "ItemName_130001",
+    "ja": "一般刻文の巻物",
+    "en": "Scroll of Common Inscription"
+  },
+  {
+    "id": 60693168136,
+    "key": "ItemName_131001",
+    "ja": "アンコモン刻印の巻物",
+    "en": "Scroll of Uncommon Inscription"
+  },
+  {
+    "id": 60714140036,
+    "key": "ItemName_132001",
+    "ja": "レア刻印の巻物",
+    "en": "Scroll of Rare Inscription"
+  },
+  {
+    "id": 60714140038,
+    "key": "ItemName_133001",
+    "ja": "伝説の刻印の巻物",
+    "en": "Scroll of Legendary Inscription"
+  },
+  {
+    "id": 60714140040,
+    "key": "ItemName_134001",
+    "ja": "不滅の刻文の巻物",
+    "en": "Scroll of Immortal Inscription"
+  },
+  {
+    "id": 60714140042,
+    "key": "ItemName_135001",
+    "ja": "アルカナ刻印の巻物",
+    "en": "Scroll of Arcana Inscription"
+  },
+  {
+    "id": 60714140044,
+    "key": "ItemName_136001",
+    "ja": "超越銘文の巻物",
+    "en": "Scroll of Beyond Inscription"
+  },
+  {
+    "id": 60714140046,
+    "key": "ItemName_137001",
+    "ja": "天界文字の巻物",
+    "en": "Scroll of Celestial Inscription"
+  },
+  {
+    "id": 60714140048,
+    "key": "ItemName_138001",
+    "ja": "神聖刻印の巻物",
+    "en": "Scroll of Divine Inscription"
+  },
+  {
+    "id": 60714140050,
+    "key": "ItemName_139001",
+    "ja": "宇宙刻文の巻物",
+    "en": "Scroll of Cosmic Inscription"
+  },
+  {
+    "id": 60693168137,
+    "key": "ItemName_140001",
+    "ja": "木材",
+    "en": "Wood"
+  },
+  {
+    "id": 60714140052,
+    "key": "ItemName_140002",
+    "ja": "ストーン",
+    "en": "Stone"
+  },
+  {
+    "id": 60714140054,
+    "key": "ItemName_140003",
+    "ja": "レザー",
+    "en": "Leather"
+  },
+  {
+    "id": 60714140056,
+    "key": "ItemName_140004",
+    "ja": "銅の塊",
+    "en": "Copper Nugget"
+  },
+  {
+    "id": 60693168138,
+    "key": "ItemName_141001",
+    "ja": "ブロンズインゴット",
+    "en": "Bronze Ingot"
+  },
+  {
+    "id": 60714140058,
+    "key": "ItemName_141002",
+    "ja": "鉄のインゴット",
+    "en": "Iron Ingot"
+  },
+  {
+    "id": 60693168139,
+    "key": "ItemName_142001",
+    "ja": "銀のインゴット",
+    "en": "Silver Ingot"
+  },
+  {
+    "id": 60714140060,
+    "key": "ItemName_142002",
+    "ja": "金のインゴット",
+    "en": "Gold Ingot"
+  },
+  {
+    "id": 60714140062,
+    "key": "ItemName_143001",
+    "ja": "スターダストインゴット",
+    "en": "Stardust Ingot"
+  },
+  {
+    "id": 60714140064,
+    "key": "ItemName_143002",
+    "ja": "ヴォイドアイアン",
+    "en": "Void Iron"
+  },
+  {
+    "id": 60714140066,
+    "key": "ItemName_144001",
+    "ja": "ブラッドストーン",
+    "en": "Bloodstone"
+  },
+  {
+    "id": 60714140068,
+    "key": "ItemName_144002",
+    "ja": "サンダーストーン",
+    "en": "Thunderstone"
+  },
+  {
+    "id": 7302398099456,
+    "key": "ItemName_145001",
+    "ja": "カオスシャード",
+    "en": "Chaos Shard"
+  },
+  {
+    "id": 7302427459584,
+    "key": "ItemName_145002",
+    "ja": "アーケイン鉱石",
+    "en": "Arcane Ore"
+  },
+  {
+    "id": 60714140070,
+    "key": "ItemName_146001",
+    "ja": "ダークスチールインゴット",
+    "en": "Darksteel Ingot"
+  },
+  {
+    "id": 60714140072,
+    "key": "ItemName_146002",
+    "ja": "オリハルコン鉱石",
+    "en": "Orichalcum Ore"
+  },
+  {
+    "id": 60714140074,
+    "key": "ItemName_147001",
+    "ja": "月長石",
+    "en": "Moonstone"
+  },
+  {
+    "id": 60714140076,
+    "key": "ItemName_147002",
+    "ja": "サンストーン",
+    "en": "Sunstone"
+  },
+  {
+    "id": 60714140078,
+    "key": "ItemName_148001",
+    "ja": "ミスリル鉱石",
+    "en": "Mithril Ore"
+  },
+  {
+    "id": 60714140080,
+    "key": "ItemName_148002",
+    "ja": "エーテルインゴット",
+    "en": "Ethereal Ingot"
+  },
+  {
+    "id": 60714140082,
+    "key": "ItemName_149001",
+    "ja": "アダマンティウム鉱石",
+    "en": "Adamantium Ore"
+  },
+  {
+    "id": 60714140084,
+    "key": "ItemName_149002",
+    "ja": "エオンインゴット",
+    "en": "Aeon Ingot"
+  },
+  {
+    "id": 60693168140,
+    "key": "ItemName_160001",
+    "ja": "王国1周年記念コイン",
+    "en": "Kingdom 1st Anniversary Coin"
+  },
+  {
+    "id": 60693168141,
+    "key": "ItemName_160002",
+    "ja": "帝国建国1周年記念コイン",
+    "en": "Empire 1st Anniversary Coin"
+  },
+  {
+    "id": 7302427459585,
+    "key": "ItemName_160003",
+    "ja": "王国10周年記念コイン",
+    "en": "Kingdom 10th Anniversary Coin"
+  },
+  {
+    "id": 7302427459586,
+    "key": "ItemName_160004",
+    "ja": "帝国建国10周年記念コイン",
+    "en": "Empire 10th Anniversary Coin"
+  },
+  {
+    "id": 7302427459587,
+    "key": "ItemName_160005",
+    "ja": "王国50周年記念コイン",
+    "en": "Kingdom 50th Anniversary Coin"
+  },
+  {
+    "id": 7302427459588,
+    "key": "ItemName_160006",
+    "ja": "帝国建国50周年記念コイン",
+    "en": "Empire 50th Anniversary Coin"
+  },
+  {
+    "id": 7302427459589,
+    "key": "ItemName_160007",
+    "ja": "王国100周年記念コイン",
+    "en": "Kingdom 100th Anniversary Coin"
+  },
+  {
+    "id": 7302427459590,
+    "key": "ItemName_160008",
+    "ja": "帝国百周年記念コイン",
+    "en": "Empire 100th Anniversary Coin"
+  },
+  {
+    "id": 7302427459591,
+    "key": "ItemName_160009",
+    "ja": "聖王国1000周年記念コイン",
+    "en": "Sacred Kingdom 1000th Anniversary Coin"
+  },
+  {
+    "id": 7302427459592,
+    "key": "ItemName_160010",
+    "ja": "永遠帝国1000周年記念コイン",
+    "en": "Eternal Empire 1000th Anniversary Coin"
+  },
+  {
+    "id": 60693168142,
+    "key": "ItemName_190001",
+    "ja": "ソウルストーン - ノーマル",
+    "en": "Soulstone - Normal"
+  },
+  {
+    "id": 60693168143,
+    "key": "ItemName_190002",
+    "ja": "ソウルストーン - ナイトメア",
+    "en": "Soulstone - Nightmare"
+  },
+  {
+    "id": 60693168144,
+    "key": "ItemName_190003",
+    "ja": "ソウルストーン - ヘル",
+    "en": "Soulstone - Hell"
+  },
+  {
+    "id": 60693168145,
+    "key": "ItemName_190004",
+    "ja": "ソウルストーン - トーメント",
+    "en": "Soulstone - Torment"
+  },
+  {
+    "id": 60693168146,
+    "key": "ItemName_300001",
+    "ja": "ロングソード",
+    "en": "Long Sword"
+  },
+  {
+    "id": 60693168147,
+    "key": "ItemName_300002",
+    "ja": "カトラス",
+    "en": "Cutlas"
+  },
+  {
+    "id": 60693168148,
+    "key": "ItemName_300003",
+    "ja": "レイピア",
+    "en": "Rapier"
+  },
+  {
+    "id": 60693168149,
+    "key": "ItemName_300004",
+    "ja": "バスタードソード",
+    "en": "Bastard Sword"
+  },
+  {
+    "id": 60693168150,
+    "key": "ItemName_300005",
+    "ja": "グレートソード",
+    "en": "Great Sword"
+  },
+  {
+    "id": 60693168151,
+    "key": "ItemName_300006",
+    "ja": "ヘビーブレード",
+    "en": "Heavy Blade"
+  },
+  {
+    "id": 60693168152,
+    "key": "ItemName_300007",
+    "ja": "ナイトソード",
+    "en": "Knight Sword"
+  },
+  {
+    "id": 60697362432,
+    "key": "ItemName_300008",
+    "ja": "司令官の剣",
+    "en": "Commander's Sword"
+  },
+  {
+    "id": 60697362433,
+    "key": "ItemName_300009",
+    "ja": "ルーンソード",
+    "en": "Rune Sword"
+  },
+  {
+    "id": 60697362434,
+    "key": "ItemName_300010",
+    "ja": "レジェンドソード",
+    "en": "Legend Sword"
+  },
+  {
+    "id": 60697362435,
+    "key": "ItemName_300011",
+    "ja": "フェイトソード",
+    "en": "Fate Sword"
+  },
+  {
+    "id": 60697362436,
+    "key": "ItemName_300012",
+    "ja": "ヒーローソード",
+    "en": "Hero Sword"
+  },
+  {
+    "id": 60714139662,
+    "key": "ItemName_300013",
+    "ja": "ストームソード",
+    "en": "Storm Sword"
+  },
+  {
+    "id": 60714139663,
+    "key": "ItemName_300014",
+    "ja": "ヴェンジェンスソード",
+    "en": "Vengeance Sword"
+  },
+  {
+    "id": 60714139664,
+    "key": "ItemName_300015",
+    "ja": "ヴォイドブレード",
+    "en": "Void Blade"
+  },
+  {
+    "id": 60714139665,
+    "key": "ItemName_300016",
+    "ja": "クリスタルブレード",
+    "en": "Crystal Blade"
+  },
+  {
+    "id": 60714139666,
+    "key": "ItemName_300017",
+    "ja": "次元の剣",
+    "en": "Dimensional Sword"
+  },
+  {
+    "id": 60714139667,
+    "key": "ItemName_300018",
+    "ja": "シャドウブレード",
+    "en": "Shadow Blade"
+  },
+  {
+    "id": 60714139668,
+    "key": "ItemName_300019",
+    "ja": "エターナルソード",
+    "en": "Eternal Sword"
+  },
+  {
+    "id": 60714139669,
+    "key": "ItemName_300020",
+    "ja": "レイディアントソード",
+    "en": "Radiant Sword"
+  },
+  {
+    "id": 60697362437,
+    "key": "ItemName_310001",
+    "ja": "ショートボウ",
+    "en": "Short Bow"
+  },
+  {
+    "id": 60697362438,
+    "key": "ItemName_310002",
+    "ja": "ハンティングボウ",
+    "en": "Hunting Bow"
+  },
+  {
+    "id": 60697362439,
+    "key": "ItemName_310003",
+    "ja": "ロングボウ",
+    "en": "Long Bow"
+  },
+  {
+    "id": 60697362440,
+    "key": "ItemName_310004",
+    "ja": "コンポジットボウ",
+    "en": "Composite Bow"
+  },
+  {
+    "id": 60697362441,
+    "key": "ItemName_310005",
+    "ja": "ウォーボウ",
+    "en": "War Bow"
+  },
+  {
+    "id": 60697362442,
+    "key": "ItemName_310006",
+    "ja": "スカーレットボウ",
+    "en": "Scarlet Bow"
+  },
+  {
+    "id": 60697362443,
+    "key": "ItemName_310007",
+    "ja": "ダスクボウ",
+    "en": "Dusk Bow"
+  },
+  {
+    "id": 60697362444,
+    "key": "ItemName_310008",
+    "ja": "ジェイドボウ",
+    "en": "Jade Bow"
+  },
+  {
+    "id": 60697362445,
+    "key": "ItemName_310009",
+    "ja": "エリートボウ",
+    "en": "Elite Bow"
+  },
+  {
+    "id": 60697362446,
+    "key": "ItemName_310010",
+    "ja": "ルーンボウ",
+    "en": "Rune Bow"
+  },
+  {
+    "id": 60697362447,
+    "key": "ItemName_310011",
+    "ja": "ミスティックボウ",
+    "en": "Mystic Bow"
+  },
+  {
+    "id": 60697362448,
+    "key": "ItemName_310012",
+    "ja": "スウィフトボウ",
+    "en": "Swift Bow"
+  },
+  {
+    "id": 60714139670,
+    "key": "ItemName_310013",
+    "ja": "エンシェントボウ",
+    "en": "Ancient Bow"
+  },
+  {
+    "id": 60714139671,
+    "key": "ItemName_310014",
+    "ja": "リミットレスボウ",
+    "en": "Limitless Bow"
+  },
+  {
+    "id": 60714139672,
+    "key": "ItemName_310015",
+    "ja": "混沌の弓",
+    "en": "Chaos Bow"
+  },
+  {
+    "id": 60714139673,
+    "key": "ItemName_310016",
+    "ja": "ストームボウ",
+    "en": "Storm Bow"
+  },
+  {
+    "id": 60714139674,
+    "key": "ItemName_310017",
+    "ja": "シャドウボウ",
+    "en": "Shadow Bow"
+  },
+  {
+    "id": 60714139675,
+    "key": "ItemName_310018",
+    "ja": "テンペストボウ",
+    "en": "Tempest Bow"
+  },
+  {
+    "id": 60714139676,
+    "key": "ItemName_310019",
+    "ja": "エターナルボウ",
+    "en": "Eternal Bow"
+  },
+  {
+    "id": 60714139677,
+    "key": "ItemName_310020",
+    "ja": "レイディアントボウ",
+    "en": "Radiant Bow"
+  },
+  {
+    "id": 60697362449,
+    "key": "ItemName_320001",
+    "ja": "ウッドスタッフ",
+    "en": "Wooden Staff"
+  },
+  {
+    "id": 60697362450,
+    "key": "ItemName_320002",
+    "ja": "伝令のスタッフ",
+    "en": "Herald Staff"
+  },
+  {
+    "id": 60697362451,
+    "key": "ItemName_320003",
+    "ja": "ロングスタッフ",
+    "en": "Long Staff"
+  },
+  {
+    "id": 60697362452,
+    "key": "ItemName_320004",
+    "ja": "ウィッチスタッフ",
+    "en": "Witch Staff"
+  },
+  {
+    "id": 60697362453,
+    "key": "ItemName_320005",
+    "ja": "アズールスタッフ",
+    "en": "Azure Staff"
+  },
+  {
+    "id": 60697362454,
+    "key": "ItemName_320006",
+    "ja": "エルダースタッフ",
+    "en": "Elder Staff"
+  },
+  {
+    "id": 60697362455,
+    "key": "ItemName_320007",
+    "ja": "セージスタッフ",
+    "en": "Sage Staff"
+  },
+  {
+    "id": 60697362456,
+    "key": "ItemName_320008",
+    "ja": "ミスティックスタッフ",
+    "en": "Mystic Staff"
+  },
+  {
+    "id": 60697362457,
+    "key": "ItemName_320009",
+    "ja": "コメットスタッフ",
+    "en": "Comet Staff"
+  },
+  {
+    "id": 60697362458,
+    "key": "ItemName_320010",
+    "ja": "クリスタルスタッフ",
+    "en": "Crystal Staff"
+  },
+  {
+    "id": 60697362459,
+    "key": "ItemName_320011",
+    "ja": "ヴォイドスタッフ",
+    "en": "Void Staff"
+  },
+  {
+    "id": 60697362460,
+    "key": "ItemName_320012",
+    "ja": "コンカラースタッフ",
+    "en": "Conqueror Staff"
+  },
+  {
+    "id": 60714139678,
+    "key": "ItemName_320013",
+    "ja": "エンシェントスタッフ",
+    "en": "Ancient Staff"
+  },
+  {
+    "id": 60714139679,
+    "key": "ItemName_320014",
+    "ja": "セイクリッドスタッフ",
+    "en": "Sacred Staff"
+  },
+  {
+    "id": 60714139680,
+    "key": "ItemName_320015",
+    "ja": "深淵の杖",
+    "en": "Abyssal Staff"
+  },
+  {
+    "id": 60714139681,
+    "key": "ItemName_320016",
+    "ja": "カオススタッフ",
+    "en": "Chaos Staff"
+  },
+  {
+    "id": 60714139682,
+    "key": "ItemName_320017",
+    "ja": "テンペストスタッフ",
+    "en": "Tempest Staff"
+  },
+  {
+    "id": 60714139683,
+    "key": "ItemName_320018",
+    "ja": "ノヴァスタッフ",
+    "en": "Nova Staff"
+  },
+  {
+    "id": 60714139684,
+    "key": "ItemName_320019",
+    "ja": "エターナルスタッフ",
+    "en": "Eternal Staff"
+  },
+  {
+    "id": 60714139685,
+    "key": "ItemName_320020",
+    "ja": "レイディアントスタッフ",
+    "en": "Radiant Staff"
+  },
+  {
+    "id": 60697362461,
+    "key": "ItemName_330001",
+    "ja": "ノービスセプター",
+    "en": "Novice Scepter"
+  },
+  {
+    "id": 60697362462,
+    "key": "ItemName_330002",
+    "ja": "アイアンセプター",
+    "en": "Iron Scepter"
+  },
+  {
+    "id": 60697362463,
+    "key": "ItemName_330003",
+    "ja": "ブレスドセプター",
+    "en": "Blessed Scepter"
+  },
+  {
+    "id": 60697362464,
+    "key": "ItemName_330004",
+    "ja": "スチールセプター",
+    "en": "Steel Scepter"
+  },
+  {
+    "id": 60697362465,
+    "key": "ItemName_330005",
+    "ja": "聖なる笏",
+    "en": "Sacred Scepter"
+  },
+  {
+    "id": 60697362466,
+    "key": "ItemName_330006",
+    "ja": "ビショップのセプター",
+    "en": "Bishop's Scepter"
+  },
+  {
+    "id": 60697362467,
+    "key": "ItemName_330007",
+    "ja": "ディヴァウトセプター",
+    "en": "Devout Scepter"
+  },
+  {
+    "id": 60697362468,
+    "key": "ItemName_330008",
+    "ja": "ヘビーセプター",
+    "en": "Heavy Scepter"
+  },
+  {
+    "id": 60697362469,
+    "key": "ItemName_330009",
+    "ja": "ルーンセプター",
+    "en": "Rune Scepter"
+  },
+  {
+    "id": 60697362470,
+    "key": "ItemName_330010",
+    "ja": "レジェンドセプター",
+    "en": "Legend Scepter"
+  },
+  {
+    "id": 60697362471,
+    "key": "ItemName_330011",
+    "ja": "フェイトセプター",
+    "en": "Fate Scepter"
+  },
+  {
+    "id": 60697362472,
+    "key": "ItemName_330012",
+    "ja": "ヒーローセプター",
+    "en": "Hero Scepter"
+  },
+  {
+    "id": 60714139686,
+    "key": "ItemName_330013",
+    "ja": "ストームセプター",
+    "en": "Storm Scepter"
+  },
+  {
+    "id": 60714139687,
+    "key": "ItemName_330014",
+    "ja": "リミットレスセプター",
+    "en": "Limitless Scepter"
+  },
+  {
+    "id": 60714139688,
+    "key": "ItemName_330015",
+    "ja": "混沌の笏",
+    "en": "Chaos Scepter"
+  },
+  {
+    "id": 60714139689,
+    "key": "ItemName_330016",
+    "ja": "パワーセプター",
+    "en": "Power Scepter"
+  },
+  {
+    "id": 60714139690,
+    "key": "ItemName_330017",
+    "ja": "次元のセプター",
+    "en": "Dimensional Scepter"
+  },
+  {
+    "id": 60714139691,
+    "key": "ItemName_330018",
+    "ja": "シャドウセプター",
+    "en": "Shadow Scepter"
+  },
+  {
+    "id": 60714139692,
+    "key": "ItemName_330019",
+    "ja": "エターナルセプター",
+    "en": "Eternal Scepter"
+  },
+  {
+    "id": 60714139693,
+    "key": "ItemName_330020",
+    "ja": "レイディアントセプター",
+    "en": "Radiant Scepter"
+  },
+  {
+    "id": 60697362473,
+    "key": "ItemName_340001",
+    "ja": "ショートクロスボウ",
+    "en": "Short Crossbow"
+  },
+  {
+    "id": 60697362474,
+    "key": "ItemName_340002",
+    "ja": "レザークロスボウ",
+    "en": "Leather Crossbow"
+  },
+  {
+    "id": 60697362475,
+    "key": "ItemName_340003",
+    "ja": "ロングクロスボウ",
+    "en": "Long Crossbow"
+  },
+  {
+    "id": 60697362476,
+    "key": "ItemName_340004",
+    "ja": "コンプリートクロスボウ",
+    "en": "Complete Crossbow"
+  },
+  {
+    "id": 60697362477,
+    "key": "ItemName_340005",
+    "ja": "卓越のクロスボウ",
+    "en": "Exceptional Crossbow"
+  },
+  {
+    "id": 60697362478,
+    "key": "ItemName_340006",
+    "ja": "強化クロスボウ",
+    "en": "Reinforced Crossbow"
+  },
+  {
+    "id": 60697362479,
+    "key": "ItemName_340007",
+    "ja": "アイアンクロスボウ",
+    "en": "Iron Crossbow"
+  },
+  {
+    "id": 60697362480,
+    "key": "ItemName_340008",
+    "ja": "ウィングクロスボウ",
+    "en": "Wing Crossbow"
+  },
+  {
+    "id": 60697362481,
+    "key": "ItemName_340009",
+    "ja": "エリートクロスボウ",
+    "en": "Elite Crossbow"
+  },
+  {
+    "id": 60697362482,
+    "key": "ItemName_340010",
+    "ja": "ラージクロスボウ",
+    "en": "Large Crossbow"
+  },
+  {
+    "id": 60697362483,
+    "key": "ItemName_340011",
+    "ja": "ミスティッククロスボウ",
+    "en": "Mystic Crossbow"
+  },
+  {
+    "id": 60697362484,
+    "key": "ItemName_340012",
+    "ja": "ファストクロスボウ",
+    "en": "Fast Crossbow"
+  },
+  {
+    "id": 60714139694,
+    "key": "ItemName_340013",
+    "ja": "エンシェントクロスボウ",
+    "en": "Ancient Crossbow"
+  },
+  {
+    "id": 60714139695,
+    "key": "ItemName_340014",
+    "ja": "リミットレスクロスボウ",
+    "en": "Limitless Crossbow"
+  },
+  {
+    "id": 60714139696,
+    "key": "ItemName_340015",
+    "ja": "混沌のクロスボウ",
+    "en": "Chaos Crossbow"
+  },
+  {
+    "id": 60714139697,
+    "key": "ItemName_340016",
+    "ja": "パワークロスボウ",
+    "en": "Power Crossbow"
+  },
+  {
+    "id": 60714139698,
+    "key": "ItemName_340017",
+    "ja": "次元のクロスボウ",
+    "en": "Dimensional Crossbow"
+  },
+  {
+    "id": 60714139699,
+    "key": "ItemName_340018",
+    "ja": "シャドウクロスボウ",
+    "en": "Shadow Crossbow"
+  },
+  {
+    "id": 60714139700,
+    "key": "ItemName_340019",
+    "ja": "エターナルクロスボウ",
+    "en": "Eternal Crossbow"
+  },
+  {
+    "id": 60714139701,
+    "key": "ItemName_340020",
+    "ja": "レイディアントクロスボウ",
+    "en": "Radiant Crossbow"
+  },
+  {
+    "id": 60697362485,
+    "key": "ItemName_350001",
+    "ja": "ウッドアックス",
+    "en": "Wooden Axe"
+  },
+  {
+    "id": 60697362486,
+    "key": "ItemName_350002",
+    "ja": "アイアンアックス",
+    "en": "Iron Axe"
+  },
+  {
+    "id": 60697362487,
+    "key": "ItemName_350003",
+    "ja": "バトルアックス",
+    "en": "Battle Axe"
+  },
+  {
+    "id": 60697362488,
+    "key": "ItemName_350004",
+    "ja": "スチールアックス",
+    "en": "Steel Axe"
+  },
+  {
+    "id": 60697362489,
+    "key": "ItemName_350005",
+    "ja": "ウォーアックス",
+    "en": "War Axe"
+  },
+  {
+    "id": 60697362490,
+    "key": "ItemName_350006",
+    "ja": "ナイトのアックス",
+    "en": "Knight's Axe"
+  },
+  {
+    "id": 60697362491,
+    "key": "ItemName_350007",
+    "ja": "グレートアックス",
+    "en": "Great Axe"
+  },
+  {
+    "id": 60697362492,
+    "key": "ItemName_350008",
+    "ja": "ヘビーアックス",
+    "en": "Heavy Axe"
+  },
+  {
+    "id": 60697362493,
+    "key": "ItemName_350009",
+    "ja": "ルーンアックス",
+    "en": "Rune Axe"
+  },
+  {
+    "id": 60697362494,
+    "key": "ItemName_350010",
+    "ja": "レジェンドアックス",
+    "en": "Legend Axe"
+  },
+  {
+    "id": 60697362495,
+    "key": "ItemName_350011",
+    "ja": "フェイトアックス",
+    "en": "Fate Axe"
+  },
+  {
+    "id": 60697362496,
+    "key": "ItemName_350012",
+    "ja": "ヒーローアックス",
+    "en": "Hero Axe"
+  },
+  {
+    "id": 60714139702,
+    "key": "ItemName_350013",
+    "ja": "ストームアックス",
+    "en": "Storm Axe"
+  },
+  {
+    "id": 60714139703,
+    "key": "ItemName_350014",
+    "ja": "リミットレスアックス",
+    "en": "Limitless Axe"
+  },
+  {
+    "id": 60714139704,
+    "key": "ItemName_350015",
+    "ja": "混沌の斧",
+    "en": "Chaos Axe"
+  },
+  {
+    "id": 60714139705,
+    "key": "ItemName_350016",
+    "ja": "パワーアックス",
+    "en": "Power Axe"
+  },
+  {
+    "id": 60714139706,
+    "key": "ItemName_350017",
+    "ja": "次元の斧",
+    "en": "Dimensional Axe"
+  },
+  {
+    "id": 60714139707,
+    "key": "ItemName_350018",
+    "ja": "シャドウアックス",
+    "en": "Shadow Axe"
+  },
+  {
+    "id": 60714139708,
+    "key": "ItemName_350019",
+    "ja": "エターナルアックス",
+    "en": "Eternal Axe"
+  },
+  {
+    "id": 60714139709,
+    "key": "ItemName_350020",
+    "ja": "レイディアントアックス",
+    "en": "Radiant Axe"
+  },
+  {
+    "id": 60697362497,
+    "key": "ItemName_400001",
+    "ja": "バックラー",
+    "en": "Buckler"
+  },
+  {
+    "id": 60697362498,
+    "key": "ItemName_400002",
+    "ja": "ウッデンシールド",
+    "en": "Wooden Shield"
+  },
+  {
+    "id": 60697362499,
+    "key": "ItemName_400003",
+    "ja": "アイアンシールド",
+    "en": "Iron Shield"
+  },
+  {
+    "id": 60697362500,
+    "key": "ItemName_400004",
+    "ja": "ヒータシールド",
+    "en": "Heater Shield"
+  },
+  {
+    "id": 60701556736,
+    "key": "ItemName_400005",
+    "ja": "ヘビーシールド",
+    "en": "Heavy Shield"
+  },
+  {
+    "id": 60701556737,
+    "key": "ItemName_400006",
+    "ja": "フォレストシールド",
+    "en": "Forest Shield"
+  },
+  {
+    "id": 60701556738,
+    "key": "ItemName_400007",
+    "ja": "ウォーシールド",
+    "en": "War Shield"
+  },
+  {
+    "id": 60701556739,
+    "key": "ItemName_400008",
+    "ja": "バリアシールド",
+    "en": "Barrier Shield"
+  },
+  {
+    "id": 60701556740,
+    "key": "ItemName_400009",
+    "ja": "エリートシールド",
+    "en": "Elite Shield"
+  },
+  {
+    "id": 60701556741,
+    "key": "ItemName_400010",
+    "ja": "クリムゾンシールド",
+    "en": "Crimson Shield"
+  },
+  {
+    "id": 60701556742,
+    "key": "ItemName_400011",
+    "ja": "ミスティックシールド",
+    "en": "Mystic Shield"
+  },
+  {
+    "id": 60701556743,
+    "key": "ItemName_400012",
+    "ja": "グランドシールド",
+    "en": "Grand Shield"
+  },
+  {
+    "id": 60714139790,
+    "key": "ItemName_400013",
+    "ja": "エンシェントシールド",
+    "en": "Ancient Shield"
+  },
+  {
+    "id": 60714139791,
+    "key": "ItemName_400014",
+    "ja": "レイディアントシールド",
+    "en": "Radiant Shield"
+  },
+  {
+    "id": 60714139792,
+    "key": "ItemName_400015",
+    "ja": "ヴォイドシールド",
+    "en": "Void Shield"
+  },
+  {
+    "id": 60714139793,
+    "key": "ItemName_400016",
+    "ja": "ディバインシールド",
+    "en": "Divine Shield"
+  },
+  {
+    "id": 60714139794,
+    "key": "ItemName_400017",
+    "ja": "次元の盾",
+    "en": "Dimensional Shield"
+  },
+  {
+    "id": 60714139795,
+    "key": "ItemName_400018",
+    "ja": "シャドウシールド",
+    "en": "Shadow Shield"
+  },
+  {
+    "id": 60714139796,
+    "key": "ItemName_400019",
+    "ja": "エターナルシールド",
+    "en": "Eternal Shield"
+  },
+  {
+    "id": 60714139797,
+    "key": "ItemName_400020",
+    "ja": "ドラゴンシールド",
+    "en": "Dragon Shield"
+  },
+  {
+    "id": 60701556744,
+    "key": "ItemName_410001",
+    "ja": "ウッドアロー",
+    "en": "Wooden Arrow"
+  },
+  {
+    "id": 60701556745,
+    "key": "ItemName_410002",
+    "ja": "アイアンアロー",
+    "en": "Iron Arrow"
+  },
+  {
+    "id": 60701556746,
+    "key": "ItemName_410003",
+    "ja": "ハンターアロー",
+    "en": "Hunter's Arrow"
+  },
+  {
+    "id": 60701556747,
+    "key": "ItemName_410004",
+    "ja": "バーブドアロー",
+    "en": "Barbed Arrow"
+  },
+  {
+    "id": 60701556748,
+    "key": "ItemName_410005",
+    "ja": "アズールアロー",
+    "en": "Azure Arrow"
+  },
+  {
+    "id": 60701556749,
+    "key": "ItemName_410006",
+    "ja": "ブルータルアロー",
+    "en": "Brutal Arrow"
+  },
+  {
+    "id": 60701556750,
+    "key": "ItemName_410007",
+    "ja": "ゲイルアロー",
+    "en": "Gale Arrow"
+  },
+  {
+    "id": 60701556751,
+    "key": "ItemName_410008",
+    "ja": "サーペントアロー",
+    "en": "Serpent Arrow"
+  },
+  {
+    "id": 60701556752,
+    "key": "ItemName_410009",
+    "ja": "ルーンアロー",
+    "en": "Rune Arrow"
+  },
+  {
+    "id": 60701556753,
+    "key": "ItemName_410010",
+    "ja": "トライバルアロー",
+    "en": "Tribal Arrow"
+  },
+  {
+    "id": 60701556754,
+    "key": "ItemName_410011",
+    "ja": "フェイトアロー",
+    "en": "Fate Arrow"
+  },
+  {
+    "id": 60701556755,
+    "key": "ItemName_410012",
+    "ja": "ストームアロー",
+    "en": "Storm Arrow"
+  },
+  {
+    "id": 60714139798,
+    "key": "ItemName_410013",
+    "ja": "オブシディアンアロー",
+    "en": "Obsidian Arrow"
+  },
+  {
+    "id": 60714139799,
+    "key": "ItemName_410014",
+    "ja": "ヘイストアロー",
+    "en": "Haste Arrow"
+  },
+  {
+    "id": 60714139800,
+    "key": "ItemName_410015",
+    "ja": "ヴォイドアロー",
+    "en": "Void Arrow"
+  },
+  {
+    "id": 60714139801,
+    "key": "ItemName_410016",
+    "ja": "ポイズンアロー",
+    "en": "Poison Arrow"
+  },
+  {
+    "id": 60714139802,
+    "key": "ItemName_410017",
+    "ja": "次元の矢",
+    "en": "Dimensional Arrow"
+  },
+  {
+    "id": 60714139803,
+    "key": "ItemName_410018",
+    "ja": "シャドウアロー",
+    "en": "Shadow Arrow"
+  },
+  {
+    "id": 60714139804,
+    "key": "ItemName_410019",
+    "ja": "エンシェントアロー",
+    "en": "Ancient Arrow"
+  },
+  {
+    "id": 60714139805,
+    "key": "ItemName_410020",
+    "ja": "エグザルテッドアロー",
+    "en": "Exalted Arrow"
+  },
+  {
+    "id": 60701556756,
+    "key": "ItemName_420001",
+    "ja": "マジックオーブ",
+    "en": "Magic Orb"
+  },
+  {
+    "id": 60701556757,
+    "key": "ItemName_420002",
+    "ja": "エルダーオーブ",
+    "en": "Elder Orb"
+  },
+  {
+    "id": 60701556758,
+    "key": "ItemName_420003",
+    "ja": "ブリリアントオーブ",
+    "en": "Brilliant Orb"
+  },
+  {
+    "id": 60701556759,
+    "key": "ItemName_420004",
+    "ja": "フローズンオーブ",
+    "en": "Frozen Orb"
+  },
+  {
+    "id": 60701556760,
+    "key": "ItemName_420005",
+    "ja": "予言のオーブ",
+    "en": "Prophecy Orb"
+  },
+  {
+    "id": 60701556761,
+    "key": "ItemName_420006",
+    "ja": "ダークオーブ",
+    "en": "Dark Orb"
+  },
+  {
+    "id": 60701556762,
+    "key": "ItemName_420007",
+    "ja": "ルーンオーブ",
+    "en": "Rune Orb"
+  },
+  {
+    "id": 60701556763,
+    "key": "ItemName_420008",
+    "ja": "シャイニングオーブ",
+    "en": "Shining Orb"
+  },
+  {
+    "id": 60701556764,
+    "key": "ItemName_420009",
+    "ja": "アルケインオーブ",
+    "en": "Arcane Orb"
+  },
+  {
+    "id": 60701556765,
+    "key": "ItemName_420010",
+    "ja": "フェイトオーブ",
+    "en": "Fate Orb"
+  },
+  {
+    "id": 60701556766,
+    "key": "ItemName_420011",
+    "ja": "ミスティックオーブ",
+    "en": "Mystic Orb"
+  },
+  {
+    "id": 60701556767,
+    "key": "ItemName_420012",
+    "ja": "スカイオーブ",
+    "en": "Sky Orb"
+  },
+  {
+    "id": 7302435848192,
+    "key": "ItemName_420013",
+    "ja": "スピリットオーブ",
+    "en": "Spirit Orb"
+  },
+  {
+    "id": 7302435848193,
+    "key": "ItemName_420014",
+    "ja": "エンシェントオーブ",
+    "en": "Ancient Orb"
+  },
+  {
+    "id": 7302440042496,
+    "key": "ItemName_420015",
+    "ja": "深淵のオーブ",
+    "en": "Abyssal Orb"
+  },
+  {
+    "id": 7302440042497,
+    "key": "ItemName_420016",
+    "ja": "ヴォイドオーブ",
+    "en": "Void Orb"
+  },
+  {
+    "id": 7302440042498,
+    "key": "ItemName_420017",
+    "ja": "次元のオーブ",
+    "en": "Dimensional Orb"
+  },
+  {
+    "id": 7302440042499,
+    "key": "ItemName_420018",
+    "ja": "シャドウオーブ",
+    "en": "Shadow Orb"
+  },
+  {
+    "id": 7302440042500,
+    "key": "ItemName_420019",
+    "ja": "エターナルオーブ",
+    "en": "Eternal Orb"
+  },
+  {
+    "id": 7302440042501,
+    "key": "ItemName_420020",
+    "ja": "オーレートオーブ",
+    "en": "Aureate Orb"
+  },
+  {
+    "id": 60701556768,
+    "key": "ItemName_430001",
+    "ja": "プレイヤートーム",
+    "en": "Prayer Tome"
+  },
+  {
+    "id": 60701556769,
+    "key": "ItemName_430002",
+    "ja": "帝国の魔導書",
+    "en": "Empire Tome"
+  },
+  {
+    "id": 60701556770,
+    "key": "ItemName_430003",
+    "ja": "アイアントーム",
+    "en": "Iron Tome"
+  },
+  {
+    "id": 60701556771,
+    "key": "ItemName_430004",
+    "ja": "ナイトのトーム",
+    "en": "Knight's Tome"
+  },
+  {
+    "id": 60701556772,
+    "key": "ItemName_430005",
+    "ja": "祝福の魔法書",
+    "en": "Blessed Tome"
+  },
+  {
+    "id": 60701556773,
+    "key": "ItemName_430006",
+    "ja": "コマンダーの魔導書",
+    "en": "Commander's Tome"
+  },
+  {
+    "id": 60701556774,
+    "key": "ItemName_430007",
+    "ja": "ウォートーム",
+    "en": "War Tome"
+  },
+  {
+    "id": 60701556775,
+    "key": "ItemName_430008",
+    "ja": "皇帝の魔導書",
+    "en": "Emperor's Tome"
+  },
+  {
+    "id": 60701556776,
+    "key": "ItemName_430009",
+    "ja": "ルーントーム",
+    "en": "Rune Tome"
+  },
+  {
+    "id": 60701556777,
+    "key": "ItemName_430010",
+    "ja": "クリムゾントーム",
+    "en": "Crimson Tome"
+  },
+  {
+    "id": 60701556778,
+    "key": "ItemName_430011",
+    "ja": "フェイトトーム",
+    "en": "Fate Tome"
+  },
+  {
+    "id": 60701556779,
+    "key": "ItemName_430012",
+    "ja": "グランドトーム",
+    "en": "Grand Tome"
+  },
+  {
+    "id": 7302440042502,
+    "key": "ItemName_430013",
+    "ja": "ストームトーム",
+    "en": "Storm Tome"
+  },
+  {
+    "id": 7302440042503,
+    "key": "ItemName_430014",
+    "ja": "ウォリアーのトーム",
+    "en": "Warrior's Tome"
+  },
+  {
+    "id": 7302440042504,
+    "key": "ItemName_430015",
+    "ja": "ヴォイドトーム",
+    "en": "Void Tome"
+  },
+  {
+    "id": 7302440042505,
+    "key": "ItemName_430016",
+    "ja": "クリスタルの魔導書",
+    "en": "Crystal Tome"
+  },
+  {
+    "id": 7302440042506,
+    "key": "ItemName_430017",
+    "ja": "次元のトーム",
+    "en": "Dimensional Tome"
+  },
+  {
+    "id": 7302440042507,
+    "key": "ItemName_430018",
+    "ja": "シャドウトーム",
+    "en": "Shadow Tome"
+  },
+  {
+    "id": 7302440042508,
+    "key": "ItemName_430019",
+    "ja": "エターナルトーム",
+    "en": "Eternal Tome"
+  },
+  {
+    "id": 7302440042509,
+    "key": "ItemName_430020",
+    "ja": "エンピリアントーム",
+    "en": "Empyrean Tome"
+  },
+  {
+    "id": 60701556780,
+    "key": "ItemName_440001",
+    "ja": "ショートボルト",
+    "en": "Short Bolt"
+  },
+  {
+    "id": 60701556781,
+    "key": "ItemName_440002",
+    "ja": "フィアーボルト",
+    "en": "Fear Bolt"
+  },
+  {
+    "id": 60701556782,
+    "key": "ItemName_440003",
+    "ja": "ハンターボルト",
+    "en": "Hunter's Bolt"
+  },
+  {
+    "id": 60701556783,
+    "key": "ItemName_440004",
+    "ja": "バーブドボルト",
+    "en": "Barbed Bolt"
+  },
+  {
+    "id": 60701556784,
+    "key": "ItemName_440005",
+    "ja": "ビーストボルト",
+    "en": "Beast Bolt"
+  },
+  {
+    "id": 60701556785,
+    "key": "ItemName_440006",
+    "ja": "スウィフトボルト",
+    "en": "Swift Bolt"
+  },
+  {
+    "id": 60701556786,
+    "key": "ItemName_440007",
+    "ja": "アイアンボルト",
+    "en": "Iron Bolt"
+  },
+  {
+    "id": 60701556787,
+    "key": "ItemName_440008",
+    "ja": "ヘビーボルト",
+    "en": "Heavy Bolt"
+  },
+  {
+    "id": 60701556788,
+    "key": "ItemName_440009",
+    "ja": "ルーンボルト",
+    "en": "Rune Bolt"
+  },
+  {
+    "id": 60701556789,
+    "key": "ItemName_440010",
+    "ja": "ヒーローボルト",
+    "en": "Hero Bolt"
+  },
+  {
+    "id": 60701556790,
+    "key": "ItemName_440011",
+    "ja": "フェイトボルト",
+    "en": "Fate Bolt"
+  },
+  {
+    "id": 60701556791,
+    "key": "ItemName_440012",
+    "ja": "ストームボルト",
+    "en": "Storm Bolt"
+  },
+  {
+    "id": 7302440042510,
+    "key": "ItemName_440013",
+    "ja": "サンダーボルト",
+    "en": "Thunder Bolt"
+  },
+  {
+    "id": 7302440042511,
+    "key": "ItemName_440014",
+    "ja": "ヘイストボルト",
+    "en": "Haste Bolt"
+  },
+  {
+    "id": 7302440042512,
+    "key": "ItemName_440015",
+    "ja": "ヴォイドボルト",
+    "en": "Void Bolt"
+  },
+  {
+    "id": 7302440042513,
+    "key": "ItemName_440016",
+    "ja": "ポイズンボルト",
+    "en": "Poison Bolt"
+  },
+  {
+    "id": 7302440042514,
+    "key": "ItemName_440017",
+    "ja": "次元のボルト",
+    "en": "Dimensional Bolt"
+  },
+  {
+    "id": 7302440042515,
+    "key": "ItemName_440018",
+    "ja": "シャドウボルト",
+    "en": "Shadow Bolt"
+  },
+  {
+    "id": 7302440042516,
+    "key": "ItemName_440019",
+    "ja": "エンシェントボルト",
+    "en": "Ancient Bolt"
+  },
+  {
+    "id": 7302440042517,
+    "key": "ItemName_440020",
+    "ja": "サンクティファイドボルト",
+    "en": "Sanctified Bolt"
+  },
+  {
+    "id": 60701556792,
+    "key": "ItemName_450001",
+    "ja": "ショートハチェット",
+    "en": "Short Hatchet"
+  },
+  {
+    "id": 60701556793,
+    "key": "ItemName_450002",
+    "ja": "レザーハチェット",
+    "en": "Leather Hatchet"
+  },
+  {
+    "id": 60701556794,
+    "key": "ItemName_450003",
+    "ja": "ロングハチェット",
+    "en": "Long Hatchet"
+  },
+  {
+    "id": 60701556795,
+    "key": "ItemName_450004",
+    "ja": "スチールハチェット",
+    "en": "Steel Hatchet"
+  },
+  {
+    "id": 60701556796,
+    "key": "ItemName_450005",
+    "ja": "ウォーハチェット",
+    "en": "War Hatchet"
+  },
+  {
+    "id": 60701556797,
+    "key": "ItemName_450006",
+    "ja": "コンポジットハチェット",
+    "en": "Composite Hatchet"
+  },
+  {
+    "id": 60701556798,
+    "key": "ItemName_450007",
+    "ja": "バトルハチェット",
+    "en": "Battle Hatchet"
+  },
+  {
+    "id": 60701556799,
+    "key": "ItemName_450008",
+    "ja": "ウィングハチェット",
+    "en": "Wing Hatchet"
+  },
+  {
+    "id": 60701556800,
+    "key": "ItemName_450009",
+    "ja": "エリートハチェット",
+    "en": "Elite Hatchet"
+  },
+  {
+    "id": 60701556801,
+    "key": "ItemName_450010",
+    "ja": "ラージハチェット",
+    "en": "Large Hatchet"
+  },
+  {
+    "id": 60701556802,
+    "key": "ItemName_450011",
+    "ja": "ミスティックハチェット",
+    "en": "Mystic Hatchet"
+  },
+  {
+    "id": 60701556803,
+    "key": "ItemName_450012",
+    "ja": "スウィフトハチェット",
+    "en": "Swift Hatchet"
+  },
+  {
+    "id": 7302440042518,
+    "key": "ItemName_450013",
+    "ja": "エンシェントハチェット",
+    "en": "Ancient Hatchet"
+  },
+  {
+    "id": 7302440042519,
+    "key": "ItemName_450014",
+    "ja": "リミットレスハチェット",
+    "en": "Limitless Hatchet"
+  },
+  {
+    "id": 7302440042520,
+    "key": "ItemName_450015",
+    "ja": "混沌のハチェット",
+    "en": "Chaos Hatchet"
+  },
+  {
+    "id": 7302440042521,
+    "key": "ItemName_450016",
+    "ja": "パワーハチェット",
+    "en": "Power Hatchet"
+  },
+  {
+    "id": 7302440042522,
+    "key": "ItemName_450017",
+    "ja": "次元のハチェット",
+    "en": "Dimensional Hatchet"
+  },
+  {
+    "id": 7302440042523,
+    "key": "ItemName_450018",
+    "ja": "シャドウハチェット",
+    "en": "Shadow Hatchet"
+  },
+  {
+    "id": 7302440042524,
+    "key": "ItemName_450019",
+    "ja": "エターナルハチェット",
+    "en": "Eternal Hatchet"
+  },
+  {
+    "id": 7302440042525,
+    "key": "ItemName_450020",
+    "ja": "エグザルテッドハチェット",
+    "en": "Exalted Hatchet"
+  },
+  {
+    "id": 60701556804,
+    "key": "ItemName_500001",
+    "ja": "ウッドヘルメット",
+    "en": "Wooden Helmet"
+  },
+  {
+    "id": 60701556805,
+    "key": "ItemName_500002",
+    "ja": "帝国のヘルメット",
+    "en": "Empire Helmet"
+  },
+  {
+    "id": 60701556806,
+    "key": "ItemName_500003",
+    "ja": "アイアンヘルメット",
+    "en": "Iron Helmet"
+  },
+  {
+    "id": 60701556807,
+    "key": "ItemName_500004",
+    "ja": "ナイトヘルメット",
+    "en": "Knight Helmet"
+  },
+  {
+    "id": 60705751040,
+    "key": "ItemName_500005",
+    "ja": "チェインヘルム",
+    "en": "Chain Helmet"
+  },
+  {
+    "id": 60705751041,
+    "key": "ItemName_500006",
+    "ja": "ミディアムヘルメット",
+    "en": "Medium Helmet"
+  },
+  {
+    "id": 60705751042,
+    "key": "ItemName_500007",
+    "ja": "ウォーヘルメット",
+    "en": "War Helmet"
+  },
+  {
+    "id": 60705751043,
+    "key": "ItemName_500008",
+    "ja": "皇帝のヘルメット",
+    "en": "Emperor Helmet"
+  },
+  {
+    "id": 60705751044,
+    "key": "ItemName_500009",
+    "ja": "ルーンヘルメット",
+    "en": "Rune Helmet"
+  },
+  {
+    "id": 60705751045,
+    "key": "ItemName_500010",
+    "ja": "レッドヘルメット",
+    "en": "Red Helmet"
+  },
+  {
+    "id": 60705751046,
+    "key": "ItemName_500011",
+    "ja": "フェイトヘルメット",
+    "en": "Fate Helmet"
+  },
+  {
+    "id": 60705751047,
+    "key": "ItemName_500012",
+    "ja": "グレートヘルメット",
+    "en": "Great Helmet"
+  },
+  {
+    "id": 60714139806,
+    "key": "ItemName_500013",
+    "ja": "ストームヘルメット",
+    "en": "Storm Helmet"
+  },
+  {
+    "id": 60714139807,
+    "key": "ItemName_500014",
+    "ja": "ファイターズヘルメット",
+    "en": "Fighter's Helmet"
+  },
+  {
+    "id": 60714139808,
+    "key": "ItemName_500015",
+    "ja": "ヴォイドヘルム",
+    "en": "Void Helmet"
+  },
+  {
+    "id": 60714139809,
+    "key": "ItemName_500016",
+    "ja": "クリスタルヘルメット",
+    "en": "Crystal Helmet"
+  },
+  {
+    "id": 60714139810,
+    "key": "ItemName_500017",
+    "ja": "次元のヘルメット",
+    "en": "Dimensional Helmet"
+  },
+  {
+    "id": 60714139811,
+    "key": "ItemName_500018",
+    "ja": "シャドウヘルメット",
+    "en": "Shadow Helmet"
+  },
+  {
+    "id": 60714139812,
+    "key": "ItemName_500019",
+    "ja": "エターナルヘルメット",
+    "en": "Eternal Helmet"
+  },
+  {
+    "id": 60714139813,
+    "key": "ItemName_500020",
+    "ja": "レイディアントヘルメット",
+    "en": "Radiant Helmet"
+  },
+  {
+    "id": 60705751048,
+    "key": "ItemName_510001",
+    "ja": "ウッドアーマー",
+    "en": "Wooden Armor"
+  },
+  {
+    "id": 60705751049,
+    "key": "ItemName_510002",
+    "ja": "帝国のアーマー",
+    "en": "Empire Armor"
+  },
+  {
+    "id": 60705751050,
+    "key": "ItemName_510003",
+    "ja": "アイアンプレート",
+    "en": "Iron Plate"
+  },
+  {
+    "id": 60705751051,
+    "key": "ItemName_510004",
+    "ja": "チェインメイル",
+    "en": "Chain Mail"
+  },
+  {
+    "id": 60705751052,
+    "key": "ItemName_510005",
+    "ja": "ナイトアーマー",
+    "en": "Knight's Armor"
+  },
+  {
+    "id": 60705751053,
+    "key": "ItemName_510006",
+    "ja": "フェイトアーマー",
+    "en": "Fate Armor"
+  },
+  {
+    "id": 60705751054,
+    "key": "ItemName_510007",
+    "ja": "ウォーアーマー",
+    "en": "War Armor"
+  },
+  {
+    "id": 60705751055,
+    "key": "ItemName_510008",
+    "ja": "ヘビーアーマー",
+    "en": "Heavy Armor"
+  },
+  {
+    "id": 60709945344,
+    "key": "ItemName_510009",
+    "ja": "ルーンプレート",
+    "en": "Rune Plate"
+  },
+  {
+    "id": 60709945345,
+    "key": "ItemName_510010",
+    "ja": "ドラゴンスケールアーマー",
+    "en": "Dragon Scale Armor"
+  },
+  {
+    "id": 60709945346,
+    "key": "ItemName_510011",
+    "ja": "ミスティックアーマー",
+    "en": "Mystic Armor"
+  },
+  {
+    "id": 60709945347,
+    "key": "ItemName_510012",
+    "ja": "グレートアーマー",
+    "en": "Great Armor"
+  },
+  {
+    "id": 60714139814,
+    "key": "ItemName_510013",
+    "ja": "エンシェントアーマー",
+    "en": "Ancient Armor"
+  },
+  {
+    "id": 60714139815,
+    "key": "ItemName_510014",
+    "ja": "シャインアーマー",
+    "en": "Shine Armor"
+  },
+  {
+    "id": 60714139816,
+    "key": "ItemName_510015",
+    "ja": "ヴォイドアーマー",
+    "en": "Void Armor"
+  },
+  {
+    "id": 60714139817,
+    "key": "ItemName_510016",
+    "ja": "ドラゴンアーマー",
+    "en": "Dragon Armor"
+  },
+  {
+    "id": 60714139818,
+    "key": "ItemName_510017",
+    "ja": "次元のアーマー",
+    "en": "Dimensional Armor"
+  },
+  {
+    "id": 60714139819,
+    "key": "ItemName_510018",
+    "ja": "シャドウアーマー",
+    "en": "Shadow Armor"
+  },
+  {
+    "id": 60714139820,
+    "key": "ItemName_510019",
+    "ja": "エターナルアーマー",
+    "en": "Eternal Armor"
+  },
+  {
+    "id": 60714139821,
+    "key": "ItemName_510020",
+    "ja": "レイディアントアーマー",
+    "en": "Radiant Armor"
+  },
+  {
+    "id": 60709945348,
+    "key": "ItemName_520001",
+    "ja": "レザーグローブ",
+    "en": "Leather Gloves"
+  },
+  {
+    "id": 60709945349,
+    "key": "ItemName_520002",
+    "ja": "帝国のグローブ",
+    "en": "Empire Gloves"
+  },
+  {
+    "id": 60709945350,
+    "key": "ItemName_520003",
+    "ja": "アイアングローブ",
+    "en": "Iron Gloves"
+  },
+  {
+    "id": 60709945351,
+    "key": "ItemName_520004",
+    "ja": "ナイトグローブ",
+    "en": "Knight Gloves"
+  },
+  {
+    "id": 60709945352,
+    "key": "ItemName_520005",
+    "ja": "チェイングローブ",
+    "en": "Chain Gloves"
+  },
+  {
+    "id": 60709945353,
+    "key": "ItemName_520006",
+    "ja": "フェイトグローブ",
+    "en": "Fate Gloves"
+  },
+  {
+    "id": 60709945354,
+    "key": "ItemName_520007",
+    "ja": "ウォーグローブ",
+    "en": "War Gloves"
+  },
+  {
+    "id": 60709945355,
+    "key": "ItemName_520008",
+    "ja": "ヘビーグローブ",
+    "en": "Heavy Gloves"
+  },
+  {
+    "id": 60709945356,
+    "key": "ItemName_520009",
+    "ja": "ルーングローブ",
+    "en": "Rune Gloves"
+  },
+  {
+    "id": 60709945357,
+    "key": "ItemName_520010",
+    "ja": "プレートグローブ",
+    "en": "Plate Gloves"
+  },
+  {
+    "id": 60709945358,
+    "key": "ItemName_520011",
+    "ja": "ミスティックグローブ",
+    "en": "Mystic Gloves"
+  },
+  {
+    "id": 60709945359,
+    "key": "ItemName_520012",
+    "ja": "グレートグローブ",
+    "en": "Great Gloves"
+  },
+  {
+    "id": 60714139822,
+    "key": "ItemName_520013",
+    "ja": "エンシェントグローブ",
+    "en": "Ancient Gloves"
+  },
+  {
+    "id": 60714139823,
+    "key": "ItemName_520014",
+    "ja": "シャイングローブ",
+    "en": "Shine Gloves"
+  },
+  {
+    "id": 60714139824,
+    "key": "ItemName_520015",
+    "ja": "ヴォイドグローブ",
+    "en": "Void Gloves"
+  },
+  {
+    "id": 60714139825,
+    "key": "ItemName_520016",
+    "ja": "ドラゴングローブ",
+    "en": "Dragon Gloves"
+  },
+  {
+    "id": 60714139826,
+    "key": "ItemName_520017",
+    "ja": "次元のグローブ",
+    "en": "Dimensional Gloves"
+  },
+  {
+    "id": 60714139827,
+    "key": "ItemName_520018",
+    "ja": "シャドウグローブ",
+    "en": "Shadow Gloves"
+  },
+  {
+    "id": 60714139828,
+    "key": "ItemName_520019",
+    "ja": "エターナルグローブ",
+    "en": "Eternal Gloves"
+  },
+  {
+    "id": 60714139829,
+    "key": "ItemName_520020",
+    "ja": "レイディアントグローブ",
+    "en": "Radiant Gloves"
+  },
+  {
+    "id": 60709945360,
+    "key": "ItemName_530001",
+    "ja": "ウッドブーツ",
+    "en": "Wooden Boots"
+  },
+  {
+    "id": 60709945361,
+    "key": "ItemName_530002",
+    "ja": "帝国のブーツ",
+    "en": "Empire Boots"
+  },
+  {
+    "id": 60709945362,
+    "key": "ItemName_530003",
+    "ja": "アイアンブーツ",
+    "en": "Iron Boots"
+  },
+  {
+    "id": 60709945363,
+    "key": "ItemName_530004",
+    "ja": "ナイトブーツ",
+    "en": "Knight Boots"
+  },
+  {
+    "id": 60709945364,
+    "key": "ItemName_530005",
+    "ja": "チェインブーツ",
+    "en": "Chain Boots"
+  },
+  {
+    "id": 60709945365,
+    "key": "ItemName_530006",
+    "ja": "フェイトブーツ",
+    "en": "Fate Boots"
+  },
+  {
+    "id": 60709945366,
+    "key": "ItemName_530007",
+    "ja": "ウォーブーツ",
+    "en": "War Boots"
+  },
+  {
+    "id": 60709945367,
+    "key": "ItemName_530008",
+    "ja": "ヘビーブーツ",
+    "en": "Heavy Boots"
+  },
+  {
+    "id": 60709945368,
+    "key": "ItemName_530009",
+    "ja": "ルーンブーツ",
+    "en": "Rune Boots"
+  },
+  {
+    "id": 60709945369,
+    "key": "ItemName_530010",
+    "ja": "プレートブーツ",
+    "en": "Plate Boots"
+  },
+  {
+    "id": 60709945370,
+    "key": "ItemName_530011",
+    "ja": "ミスティックブーツ",
+    "en": "Mystic Boots"
+  },
+  {
+    "id": 60709945371,
+    "key": "ItemName_530012",
+    "ja": "グレートブーツ",
+    "en": "Great Boots"
+  },
+  {
+    "id": 60714139830,
+    "key": "ItemName_530013",
+    "ja": "エンシェントブーツ",
+    "en": "Ancient Boots"
+  },
+  {
+    "id": 60714139831,
+    "key": "ItemName_530014",
+    "ja": "シャインブーツ",
+    "en": "Shine Boots"
+  },
+  {
+    "id": 60714139832,
+    "key": "ItemName_530015",
+    "ja": "ヴォイドブーツ",
+    "en": "Void Boots"
+  },
+  {
+    "id": 60714139833,
+    "key": "ItemName_530016",
+    "ja": "クリスタルブーツ",
+    "en": "Crystal Boots"
+  },
+  {
+    "id": 60714139834,
+    "key": "ItemName_530017",
+    "ja": "次元のブーツ",
+    "en": "Dimensional Boots"
+  },
+  {
+    "id": 60714139835,
+    "key": "ItemName_530018",
+    "ja": "シャドウブーツ",
+    "en": "Shadow Boots"
+  },
+  {
+    "id": 60714139836,
+    "key": "ItemName_530019",
+    "ja": "エターナルブーツ",
+    "en": "Eternal Boots"
+  },
+  {
+    "id": 60714139837,
+    "key": "ItemName_530020",
+    "ja": "レイディアントブーツ",
+    "en": "Radiant Boots"
+  },
+  {
+    "id": 60714139838,
+    "key": "ItemName_600001",
+    "ja": "コッパーアミュレット",
+    "en": "Copper Amulet"
+  },
+  {
+    "id": 60714139839,
+    "key": "ItemName_600002",
+    "ja": "ブロンズアミュレット",
+    "en": "Bronze Amulet"
+  },
+  {
+    "id": 60714139840,
+    "key": "ItemName_600003",
+    "ja": "シルバーアミュレット",
+    "en": "Silver Amulet"
+  },
+  {
+    "id": 60714139841,
+    "key": "ItemName_600004",
+    "ja": "ゴールドアミュレット",
+    "en": "Gold Amulet"
+  },
+  {
+    "id": 60714139842,
+    "key": "ItemName_600005",
+    "ja": "プラチナのアミュレット",
+    "en": "Platinum Amulet"
+  },
+  {
+    "id": 60714139843,
+    "key": "ItemName_600006",
+    "ja": "クリスタルアミュレット",
+    "en": "Crystal Amulet"
+  },
+  {
+    "id": 60714139844,
+    "key": "ItemName_600007",
+    "ja": "ムーンストーンペンダント",
+    "en": "Moonstone Pendant"
+  },
+  {
+    "id": 60714139845,
+    "key": "ItemName_600008",
+    "ja": "アンバーペンダント",
+    "en": "Amber Pendant"
+  },
+  {
+    "id": 60714139846,
+    "key": "ItemName_600009",
+    "ja": "ルビーペンダント",
+    "en": "Ruby Pendant"
+  },
+  {
+    "id": 60714139847,
+    "key": "ItemName_600010",
+    "ja": "アメジストペンダント",
+    "en": "Amethyst Pendant"
+  },
+  {
+    "id": 60714139848,
+    "key": "ItemName_600011",
+    "ja": "エメラルドアミュレット",
+    "en": "Emerald Amulet"
+  },
+  {
+    "id": 60714139849,
+    "key": "ItemName_600012",
+    "ja": "ダイヤモンドアミュレット",
+    "en": "Diamond Amulet"
+  },
+  {
+    "id": 60714139850,
+    "key": "ItemName_600013",
+    "ja": "スターダストアミュレット",
+    "en": "Stardust Amulet"
+  },
+  {
+    "id": 60714139851,
+    "key": "ItemName_600014",
+    "ja": "エクリプスアミュレット",
+    "en": "Eclipse Amulet"
+  },
+  {
+    "id": 60714139852,
+    "key": "ItemName_600015",
+    "ja": "セレスティアルアミュレット",
+    "en": "Celestial Amulet"
+  },
+  {
+    "id": 60714139853,
+    "key": "ItemName_600016",
+    "ja": "アストラルアミュレット",
+    "en": "Astral Amulet"
+  },
+  {
+    "id": 60714139854,
+    "key": "ItemName_600017",
+    "ja": "エーテリアルアミュレット",
+    "en": "Ethereal Amulet"
+  },
+  {
+    "id": 60714139855,
+    "key": "ItemName_600018",
+    "ja": "ヴォイドアミュレット",
+    "en": "Void Amulet"
+  },
+  {
+    "id": 60714139856,
+    "key": "ItemName_600019",
+    "ja": "アビスアミュレット",
+    "en": "Abyss Amulet"
+  },
+  {
+    "id": 60714139857,
+    "key": "ItemName_610001",
+    "ja": "コッパーイヤリング",
+    "en": "Copper Earring"
+  },
+  {
+    "id": 60714139858,
+    "key": "ItemName_610002",
+    "ja": "ブロンズイヤリング",
+    "en": "Bronze Earring"
+  },
+  {
+    "id": 60714139859,
+    "key": "ItemName_610003",
+    "ja": "シルバーイヤリング",
+    "en": "Silver Earring"
+  },
+  {
+    "id": 60714139860,
+    "key": "ItemName_610004",
+    "ja": "ゴールドイヤリング",
+    "en": "Gold Earring"
+  },
+  {
+    "id": 60714139861,
+    "key": "ItemName_610005",
+    "ja": "プラチナイヤリング",
+    "en": "Platinum Earring"
+  },
+  {
+    "id": 60714139862,
+    "key": "ItemName_610006",
+    "ja": "クリスタルのイヤリング",
+    "en": "Crystal Earring"
+  },
+  {
+    "id": 60714139863,
+    "key": "ItemName_610007",
+    "ja": "エメラルドイヤリング",
+    "en": "Emerald Earring"
+  },
+  {
+    "id": 60714139864,
+    "key": "ItemName_610008",
+    "ja": "翡翠のイヤリング",
+    "en": "Jade Earring"
+  },
+  {
+    "id": 60714139865,
+    "key": "ItemName_610009",
+    "ja": "タイガーアイピアス",
+    "en": "Tiger Eye Earring"
+  },
+  {
+    "id": 60714139866,
+    "key": "ItemName_610010",
+    "ja": "ガーネットイヤリング",
+    "en": "Garnet Earring"
+  },
+  {
+    "id": 60714139867,
+    "key": "ItemName_610011",
+    "ja": "サファイアイヤリング",
+    "en": "Sapphire Earring"
+  },
+  {
+    "id": 60714139868,
+    "key": "ItemName_610012",
+    "ja": "ダイヤモンドイヤリング",
+    "en": "Diamond Earring"
+  },
+  {
+    "id": 60714139869,
+    "key": "ItemName_610013",
+    "ja": "ムーンストーンイヤリング",
+    "en": "Moonstone Earring"
+  },
+  {
+    "id": 60714139870,
+    "key": "ItemName_610014",
+    "ja": "セレスティアルイヤリング",
+    "en": "Celestial Earring"
+  },
+  {
+    "id": 60714139871,
+    "key": "ItemName_610015",
+    "ja": "エクリプスイヤリング",
+    "en": "Eclipse Earring"
+  },
+  {
+    "id": 60714139872,
+    "key": "ItemName_610016",
+    "ja": "アストラルイヤリング",
+    "en": "Astral Earring"
+  },
+  {
+    "id": 60714139873,
+    "key": "ItemName_610017",
+    "ja": "エーテルイヤリング",
+    "en": "Ethereal Earring"
+  },
+  {
+    "id": 60714139874,
+    "key": "ItemName_610018",
+    "ja": "ヴォイドイヤリング",
+    "en": "Void Earring"
+  },
+  {
+    "id": 60714139875,
+    "key": "ItemName_610019",
+    "ja": "アビスピアス",
+    "en": "Abyss Earring"
+  },
+  {
+    "id": 60714139876,
+    "key": "ItemName_620001",
+    "ja": "コッパーリング",
+    "en": "Copper Ring"
+  },
+  {
+    "id": 60714139877,
+    "key": "ItemName_620002",
+    "ja": "ブロンズリング",
+    "en": "Bronze Ring"
+  },
+  {
+    "id": 60714139878,
+    "key": "ItemName_620003",
+    "ja": "シルバーリング",
+    "en": "Silver Ring"
+  },
+  {
+    "id": 60714139879,
+    "key": "ItemName_620004",
+    "ja": "ゴールドリング",
+    "en": "Gold Ring"
+  },
+  {
+    "id": 60714139880,
+    "key": "ItemName_620005",
+    "ja": "プラチナリング",
+    "en": "Platinum Ring"
+  },
+  {
+    "id": 60714139881,
+    "key": "ItemName_620006",
+    "ja": "クリスタルリング",
+    "en": "Crystal Ring"
+  },
+  {
+    "id": 60714139882,
+    "key": "ItemName_620007",
+    "ja": "アンバーリング",
+    "en": "Amber Ring"
+  },
+  {
+    "id": 60714139883,
+    "key": "ItemName_620008",
+    "ja": "トパーズリング",
+    "en": "Topaz Ring"
+  },
+  {
+    "id": 60714139884,
+    "key": "ItemName_620009",
+    "ja": "アメジストリング",
+    "en": "Amethyst Ring"
+  },
+  {
+    "id": 60714139885,
+    "key": "ItemName_620010",
+    "ja": "ガーネットリング",
+    "en": "Garnet Ring"
+  },
+  {
+    "id": 60714139886,
+    "key": "ItemName_620011",
+    "ja": "エメラルドリング",
+    "en": "Emerald Ring"
+  },
+  {
+    "id": 60714139887,
+    "key": "ItemName_620012",
+    "ja": "ダイヤモンドリング",
+    "en": "Diamond Ring"
+  },
+  {
+    "id": 60714139888,
+    "key": "ItemName_620013",
+    "ja": "ムーンストーンリング",
+    "en": "Moonstone Ring"
+  },
+  {
+    "id": 60714139889,
+    "key": "ItemName_620014",
+    "ja": "エクリプスリング",
+    "en": "Eclipse Ring"
+  },
+  {
+    "id": 60714139890,
+    "key": "ItemName_620015",
+    "ja": "セレスティアルリング",
+    "en": "Celestial Ring"
+  },
+  {
+    "id": 60714139891,
+    "key": "ItemName_620016",
+    "ja": "アストラルリング",
+    "en": "Astral Ring"
+  },
+  {
+    "id": 60714139892,
+    "key": "ItemName_620017",
+    "ja": "エーテルリング",
+    "en": "Ethereal Ring"
+  },
+  {
+    "id": 60714139893,
+    "key": "ItemName_620018",
+    "ja": "ヴォイドリング",
+    "en": "Void Ring"
+  },
+  {
+    "id": 60714139894,
+    "key": "ItemName_620019",
+    "ja": "アビスリング",
+    "en": "Abyss Ring"
+  },
+  {
+    "id": 60714139895,
+    "key": "ItemName_630001",
+    "ja": "コパーブレーサー",
+    "en": "Copper Bracer"
+  },
+  {
+    "id": 60714139896,
+    "key": "ItemName_630002",
+    "ja": "ブロンズブレーサー",
+    "en": "Bronze Bracer"
+  },
+  {
+    "id": 60714139897,
+    "key": "ItemName_630003",
+    "ja": "シルバーブレイサー",
+    "en": "Silver Bracer"
+  },
+  {
+    "id": 60714139898,
+    "key": "ItemName_630004",
+    "ja": "ゴールドブレーサー",
+    "en": "Gold Bracer"
+  },
+  {
+    "id": 60714139899,
+    "key": "ItemName_630005",
+    "ja": "プラチナブレイサー",
+    "en": "Platinum Bracer"
+  },
+  {
+    "id": 60714139900,
+    "key": "ItemName_630006",
+    "ja": "クリスタルブレイサー",
+    "en": "Crystal Bracer"
+  },
+  {
+    "id": 60714139901,
+    "key": "ItemName_630007",
+    "ja": "オブシディアンブレーサー",
+    "en": "Obsidian Bracer"
+  },
+  {
+    "id": 60714139902,
+    "key": "ItemName_630008",
+    "ja": "シャドウブレーサー",
+    "en": "Shadow Bracer"
+  },
+  {
+    "id": 60714139903,
+    "key": "ItemName_630009",
+    "ja": "クリムゾンブレーサー",
+    "en": "Crimson Bracer"
+  },
+  {
+    "id": 60714139904,
+    "key": "ItemName_630010",
+    "ja": "ブラッドストーンブレーサー",
+    "en": "Bloodstone Bracer"
+  },
+  {
+    "id": 60714139905,
+    "key": "ItemName_630011",
+    "ja": "エメラルドブレーサー",
+    "en": "Emerald Bracer"
+  },
+  {
+    "id": 60714139906,
+    "key": "ItemName_630012",
+    "ja": "ダイヤモンドブレーサー",
+    "en": "Diamond Bracer"
+  },
+  {
+    "id": 60714139907,
+    "key": "ItemName_630013",
+    "ja": "スターダストブレイサー",
+    "en": "Stardust Bracer"
+  },
+  {
+    "id": 60714139908,
+    "key": "ItemName_630014",
+    "ja": "エクリプスブレーサー",
+    "en": "Eclipse Bracer"
+  },
+  {
+    "id": 60714139909,
+    "key": "ItemName_630015",
+    "ja": "セレスティアルブレイサー",
+    "en": "Celestial Bracer"
+  },
+  {
+    "id": 60714139910,
+    "key": "ItemName_630016",
+    "ja": "アストラルブレイサー",
+    "en": "Astral Bracer"
+  },
+  {
+    "id": 60714139911,
+    "key": "ItemName_630017",
+    "ja": "エーテルブレーサー",
+    "en": "Ethereal Bracer"
+  },
+  {
+    "id": 60714139912,
+    "key": "ItemName_630018",
+    "ja": "ヴォイドブレーサー",
+    "en": "Void Bracer"
+  },
+  {
+    "id": 60714139913,
+    "key": "ItemName_630019",
+    "ja": "アビスブレーサー",
+    "en": "Abyss Bracer"
+  },
+  {
+    "id": 60714139915,
+    "key": "ItemDescription_110001",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139917,
+    "key": "ItemDescription_110002",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139919,
+    "key": "ItemDescription_110003",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139921,
+    "key": "ItemDescription_110004",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139923,
+    "key": "ItemDescription_110005",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139925,
+    "key": "ItemDescription_111001",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139927,
+    "key": "ItemDescription_111002",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139929,
+    "key": "ItemDescription_111003",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139931,
+    "key": "ItemDescription_111004",
+    "ja": "ありふれた基本の装飾材料。アイテムに装飾し、装備種類に応じた微弱な能力向上効果を付与する。",
+    "en": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139933,
+    "key": "ItemDescription_112001",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139935,
+    "key": "ItemDescription_112002",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139937,
+    "key": "ItemDescription_112003",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139939,
+    "key": "ItemDescription_112004",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139941,
+    "key": "ItemDescription_112005",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139943,
+    "key": "ItemDescription_113001",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139945,
+    "key": "ItemDescription_113002",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139947,
+    "key": "ItemDescription_113003",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139949,
+    "key": "ItemDescription_113004",
+    "ja": "基本の装飾材料。アイテムに装飾し、装備種類に応じた能力向上効果を付与する。",
+    "en": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139951,
+    "key": "ItemDescription_114001",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139953,
+    "key": "ItemDescription_114002",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139955,
+    "key": "ItemDescription_114003",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139957,
+    "key": "ItemDescription_114004",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139959,
+    "key": "ItemDescription_115001",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139961,
+    "key": "ItemDescription_115002",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139963,
+    "key": "ItemDescription_115003",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139965,
+    "key": "ItemDescription_115004",
+    "ja": "中級の装飾材料。アイテムに装飾し、装備種類に応じた特別な能力向上効果を付与する。",
+    "en": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139967,
+    "key": "ItemDescription_116001",
+    "ja": "高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。",
+    "en": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139969,
+    "key": "ItemDescription_116002",
+    "ja": "高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。",
+    "en": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139971,
+    "key": "ItemDescription_116003",
+    "ja": "高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。",
+    "en": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139973,
+    "key": "ItemDescription_116004",
+    "ja": "高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。",
+    "en": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139975,
+    "key": "ItemDescription_117001",
+    "ja": "高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。",
+    "en": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139977,
+    "key": "ItemDescription_117002",
+    "ja": "高級の装飾材料。アイテムに装飾し、装備種類に応じた強力な能力向上効果を付与する。",
+    "en": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139979,
+    "key": "ItemDescription_118001",
+    "ja": "最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。",
+    "en": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139981,
+    "key": "ItemDescription_118002",
+    "ja": "最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。",
+    "en": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139983,
+    "key": "ItemDescription_119001",
+    "ja": "最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。",
+    "en": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+  },
+  {
+    "id": 60714139985,
+    "key": "ItemDescription_119002",
+    "ja": "最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。",
+    "en": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type."
+  },
+  {
+    "id": 60709945372,
+    "key": "ItemDescription_120001",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945373,
+    "key": "ItemDescription_120002",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139987,
+    "key": "ItemDescription_120003",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945374,
+    "key": "ItemDescription_121001",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945375,
+    "key": "ItemDescription_121002",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139989,
+    "key": "ItemDescription_121003",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139991,
+    "key": "ItemDescription_121004",
+    "ja": "ありふれた基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの微弱な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945376,
+    "key": "ItemDescription_122001",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945377,
+    "key": "ItemDescription_122002",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945378,
+    "key": "ItemDescription_122003",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60709945379,
+    "key": "ItemDescription_122004",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139993,
+    "key": "ItemDescription_123001",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139995,
+    "key": "ItemDescription_123002",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139997,
+    "key": "ItemDescription_123003",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139999,
+    "key": "ItemDescription_123004",
+    "ja": "基本の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの能力向上効果のうち1つをランダムに付与する。",
+    "en": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140001,
+    "key": "ItemDescription_124001",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140003,
+    "key": "ItemDescription_124002",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140005,
+    "key": "ItemDescription_124003",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140007,
+    "key": "ItemDescription_124004",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140009,
+    "key": "ItemDescription_125001",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140011,
+    "key": "ItemDescription_125002",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140013,
+    "key": "ItemDescription_125003",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140015,
+    "key": "ItemDescription_125004",
+    "ja": "中級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの特別な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140017,
+    "key": "ItemDescription_126001",
+    "ja": "高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140019,
+    "key": "ItemDescription_126002",
+    "ja": "高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140021,
+    "key": "ItemDescription_126003",
+    "ja": "高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140023,
+    "key": "ItemDescription_126004",
+    "ja": "高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140025,
+    "key": "ItemDescription_127001",
+    "ja": "高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140027,
+    "key": "ItemDescription_127002",
+    "ja": "高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140029,
+    "key": "ItemDescription_128001",
+    "ja": "最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140031,
+    "key": "ItemDescription_128002",
+    "ja": "最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140033,
+    "key": "ItemDescription_129001",
+    "ja": "最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714140035,
+    "key": "ItemDescription_129002",
+    "ja": "最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。",
+    "en": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type."
+  },
+  {
+    "id": 60714139650,
+    "key": "ItemDescription_130001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714139652,
+    "key": "ItemDescription_131001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140037,
+    "key": "ItemDescription_132001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140039,
+    "key": "ItemDescription_133001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140041,
+    "key": "ItemDescription_134001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140043,
+    "key": "ItemDescription_135001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140045,
+    "key": "ItemDescription_136001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140047,
+    "key": "ItemDescription_137001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140049,
+    "key": "ItemDescription_138001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714140051,
+    "key": "ItemDescription_139001",
+    "ja": "特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。",
+    "en": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts."
+  },
+  {
+    "id": 60714139653,
+    "key": "ItemDescription_140001",
+    "ja": "何かを作るためのありふれた素材。",
+    "en": "A common material that can be used to craft something."
+  },
+  {
+    "id": 60714140053,
+    "key": "ItemDescription_140002",
+    "ja": "何かを作るための一般的な素材。",
+    "en": "A common material used to create something."
+  },
+  {
+    "id": 60714140055,
+    "key": "ItemDescription_140003",
+    "ja": "何かを作ることができるありふれた素材。",
+    "en": "A common material that can be used to craft something."
+  },
+  {
+    "id": 60714140057,
+    "key": "ItemDescription_140004",
+    "ja": "何かを作るのに使えるよくある素材。",
+    "en": "A common material that can be used to craft something."
+  },
+  {
+    "id": 60714139654,
+    "key": "ItemDescription_141001",
+    "ja": "何かを作るために使う、ありふれた素材。",
+    "en": "A common crafting material used to make something."
+  },
+  {
+    "id": 60714140059,
+    "key": "ItemDescription_141002",
+    "ja": "何かを作るためのありふれた素材。",
+    "en": "A common material that can be used to craft something."
+  },
+  {
+    "id": 60714139655,
+    "key": "ItemDescription_142001",
+    "ja": "何かを作るための素材。",
+    "en": "A material used to create something."
+  },
+  {
+    "id": 60714140061,
+    "key": "ItemDescription_142002",
+    "ja": "何かを作ることができる素材。",
+    "en": "A material that can be used to craft something."
+  },
+  {
+    "id": 60714140063,
+    "key": "ItemDescription_143001",
+    "ja": "何かを作るのに使える素材。",
+    "en": "A material that can be used to craft something."
+  },
+  {
+    "id": 60714140065,
+    "key": "ItemDescription_143002",
+    "ja": "何かを作るために使う素材。",
+    "en": "A crafting material used to make something."
+  },
+  {
+    "id": 60714140067,
+    "key": "ItemDescription_144001",
+    "ja": "何かを作るための中級素材。",
+    "en": "An intermediate material that can be used to craft something."
+  },
+  {
+    "id": 60714140069,
+    "key": "ItemDescription_144002",
+    "ja": "何かを作るための中級素材。",
+    "en": "An intermediate material used to create something."
+  },
+  {
+    "id": 7302456819712,
+    "key": "ItemDescription_145001",
+    "ja": "何かを作ることができる中級素材。",
+    "en": "An intermediate material that can be used to craft something."
+  },
+  {
+    "id": 7302456819713,
+    "key": "ItemDescription_145002",
+    "ja": "何かを作るのに使える中級の素材。",
+    "en": "An intermediate material that can be used to craft something."
+  },
+  {
+    "id": 60714140071,
+    "key": "ItemDescription_146001",
+    "ja": "何かを作るために使う、高級な素材。",
+    "en": "An advanced crafting material used to make something."
+  },
+  {
+    "id": 60714140073,
+    "key": "ItemDescription_146002",
+    "ja": "何かを作るための高級素材。",
+    "en": "A high-quality material that can be used to craft something."
+  },
+  {
+    "id": 60714140075,
+    "key": "ItemDescription_147001",
+    "ja": "何かを作るための高級素材。",
+    "en": "An advanced material used to create something."
+  },
+  {
+    "id": 60714140077,
+    "key": "ItemDescription_147002",
+    "ja": "何かを作ることができる高級素材。",
+    "en": "A high-grade material that can be used to craft something."
+  },
+  {
+    "id": 60714140079,
+    "key": "ItemDescription_148001",
+    "ja": "何かを作るのに使える最高級の素材。",
+    "en": "A premium material that can be used to craft something."
+  },
+  {
+    "id": 60714140081,
+    "key": "ItemDescription_148002",
+    "ja": "何かを作るために使う、最高級の素材。",
+    "en": "A premium crafting material used to make something."
+  },
+  {
+    "id": 60714140083,
+    "key": "ItemDescription_149001",
+    "ja": "何かを作るための最高級素材。",
+    "en": "A premium material that can be used to craft something."
+  },
+  {
+    "id": 60714140085,
+    "key": "ItemDescription_149002",
+    "ja": "何かを作るための最高級素材。",
+    "en": "A premium material used to create something."
+  },
+  {
+    "id": 60714139656,
+    "key": "ItemDescription_160001",
+    "ja": "記念コイン。切なる願いを込めて、キューブに投げ入れよう。",
+    "en": "A commemorative coin. Toss it into the Cube with a heartfelt wish."
+  },
+  {
+    "id": 60714139657,
+    "key": "ItemDescription_160002",
+    "ja": "記念コイン。切なる願いを込めてキューブに投げ入れよう。",
+    "en": "A commemorative coin. Toss it into the Cube with a heartfelt wish."
+  },
+  {
+    "id": 7302456819714,
+    "key": "ItemDescription_160003",
+    "ja": "記念コイン。願いを込めてキューブに投げ入れよう。",
+    "en": "A commemorative coin. Toss it into the cube with all your wishes."
+  },
+  {
+    "id": 7302456819715,
+    "key": "ItemDescription_160004",
+    "ja": "記念コイン。切なる想いを込めてキューブに投げ込もう。",
+    "en": "A commemorative coin. Toss it into the Cube with a heartfelt wish."
+  },
+  {
+    "id": 7302456819716,
+    "key": "ItemDescription_160005",
+    "ja": "記念コイン。切なる想いを込めてキューブに投げ込もう。",
+    "en": "A commemorative coin. Toss it into the Cube with all your heart's desire."
+  },
+  {
+    "id": 7302456819717,
+    "key": "ItemDescription_160006",
+    "ja": "記念コイン。切なる願いを込めて、キューブに投げ入れよう。",
+    "en": "A commemorative coin. Toss it into the Cube with a heartfelt wish."
+  },
+  {
+    "id": 7302456819718,
+    "key": "ItemDescription_160007",
+    "ja": "記念コイン。切なる願いを込めてキューブに投げ入れよう。",
+    "en": "A commemorative coin. Toss it into the Cube with a heartfelt wish."
+  },
+  {
+    "id": 7302456819719,
+    "key": "ItemDescription_160008",
+    "ja": "記念コイン。願いを込めてキューブに投げ入れよう。",
+    "en": "A commemorative coin. Toss it into the cube with all your wishes."
+  },
+  {
+    "id": 7302456819720,
+    "key": "ItemDescription_160009",
+    "ja": "記念コイン。切なる想いを込めてキューブに投げ込もう。",
+    "en": "A commemorative coin. Toss it into the Cube with a heartfelt wish."
+  },
+  {
+    "id": 7302456819721,
+    "key": "ItemDescription_160010",
+    "ja": "記念コイン。切なる想いを込めてキューブに投げ込もう。",
+    "en": "A commemorative coin. Toss it into the Cube with all your heart's desire."
+  },
+  {
+    "id": 60714139658,
+    "key": "ItemDescription_190001",
+    "ja": "ノーマル難易度のボス召喚に必要な素材。",
+    "en": "Material required to summon Normal difficulty bosses."
+  },
+  {
+    "id": 60714139659,
+    "key": "ItemDescription_190002",
+    "ja": "ナイトメア難易度のボス召喚に必要な素材。",
+    "en": "Material required to summon Nightmare difficulty bosses."
+  },
+  {
+    "id": 60714139660,
+    "key": "ItemDescription_190003",
+    "ja": "ヘル難易度のボス召喚に必要な素材。",
+    "en": "Material required to summon Hell difficulty bosses."
+  },
+  {
+    "id": 60714139661,
+    "key": "ItemDescription_190004",
+    "ja": "トーメント難易度のボス召喚に必要な素材。",
+    "en": "Material required to summon Torment difficulty bosses."
+  }
+]
