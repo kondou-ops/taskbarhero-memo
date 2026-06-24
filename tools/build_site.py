@@ -261,7 +261,7 @@ HERO_BUILD_NOTES = {
     201: {
         "role": "遠距離",
         "gear": "弓・矢・攻撃速度系アクセ",
-        "keep": "物理ダメージ%、攻撃速度%、投射物、クリティカル、攻撃力%",
+        "keep": "弓・矢の高等級品、エメラルド系、アメジスト系、翡翠石、スパイダーシルク、フェニックスの灰、タイタンマロウ、ヴォイドの精髄。",
         "sell": "詠唱速度や魔法属性だけの素材。防御不足なら耐久素材は残す。",
     },
     301: {
@@ -287,6 +287,39 @@ HERO_BUILD_NOTES = {
         "gear": "斧・ハチェット・耐久装備",
         "keep": "物理ダメージ%、攻撃速度%、近接/範囲、ライフ吸収、最大体力",
         "sell": "遠距離/魔法専用素材。高難度用の耐久素材は売りすぎない。",
+    },
+}
+
+HERO_AFFIX_TARGETS = {
+    "knight": {
+        "weapon": ["物理ダメージ", "攻撃力", "攻撃速度", "クリティカル", "近接ダメージ", "範囲ダメージ"],
+        "armor": ["最大体力", "防御力", "耐性", "ダメージ軽減", "ダメージ吸収", "ブロック率"],
+        "accessory": ["攻撃力", "攻撃速度", "ライフ吸収", "ヒット時体力回復", "移動速度"],
+    },
+    "ranger": {
+        "weapon": ["物理ダメージ", "攻撃速度", "攻撃力", "クリティカル", "投射物ダメージ", "範囲ダメージ"],
+        "armor": ["最大体力", "防御力", "耐性", "ダメージ軽減", "ダメージ吸収", "回避率"],
+        "accessory": ["移動速度", "攻撃速度", "攻撃力", "クリティカル", "クールダウン短縮", "効果範囲"],
+    },
+    "sorcerer": {
+        "weapon": ["火ダメージ", "冷気ダメージ", "雷ダメージ", "混沌ダメージ", "詠唱速度", "召喚ダメージ", "効果範囲"],
+        "armor": ["最大体力", "耐性", "防御力", "ダメージ軽減", "ダメージ吸収", "クールダウン短縮"],
+        "accessory": ["詠唱速度", "クールダウン短縮", "効果範囲", "最大体力", "召喚ダメージ"],
+    },
+    "priest": {
+        "weapon": ["詠唱速度", "クールダウン短縮", "攻撃力", "雷ダメージ", "火ダメージ"],
+        "armor": ["最大体力", "耐性", "防御力", "ダメージ軽減", "ダメージ吸収"],
+        "accessory": ["詠唱速度", "クールダウン短縮", "最大体力", "秒間体力回復", "ヒット時体力回復"],
+    },
+    "hunter": {
+        "weapon": ["物理ダメージ", "攻撃速度", "攻撃力", "クリティカル", "投射物ダメージ", "効果範囲"],
+        "armor": ["最大体力", "防御力", "耐性", "ダメージ軽減", "ダメージ吸収", "回避率"],
+        "accessory": ["移動速度", "攻撃速度", "攻撃力", "クリティカル", "クールダウン短縮", "効果範囲"],
+    },
+    "slayer": {
+        "weapon": ["物理ダメージ", "攻撃速度", "攻撃力", "クリティカル", "近接ダメージ", "範囲ダメージ", "ライフ吸収"],
+        "armor": ["最大体力", "防御力", "耐性", "ダメージ軽減", "ダメージ吸収", "回避率"],
+        "accessory": ["移動速度", "攻撃速度", "攻撃力", "クリティカル", "ライフ吸収", "ヒット時体力回復"],
     },
 }
 
@@ -1182,13 +1215,97 @@ def hero_special_rows(hero: dict, items: list[dict]) -> list[tuple[dict, dict]]:
     return rows
 
 
+AFFIX_SLOTS = [
+    ("weapon", "武器/サブ武器", "weaponJa"),
+    ("armor", "防具/ブーツ", "armorJa"),
+    ("accessory", "アクセ", "accessoryJa"),
+]
+
+
+def matched_keywords(text: str, keywords: list[str]) -> list[str]:
+    found = []
+    for keyword in keywords:
+        if keyword in text and keyword not in found:
+            found.append(keyword)
+    return found
+
+
+def hero_affix_items(hero: dict, items: list[dict]) -> list[dict]:
+    targets = HERO_AFFIX_TARGETS.get(hero["slug"], {})
+    rows = []
+    for item in items:
+        effect = item.get("effect")
+        if not effect or effect.get("kind") not in {"装飾", "彫刻"}:
+            continue
+        slot_matches = []
+        for slot_key, slot_label, effect_key in AFFIX_SLOTS:
+            text = effect.get(effect_key, "")
+            keywords = matched_keywords(text, targets.get(slot_key, []))
+            if keywords:
+                slot_matches.append({"slot": slot_label, "keywords": keywords, "text": text})
+        if slot_matches:
+            rows.append({"item": item, "matches": slot_matches, "score": sum(len(m["keywords"]) for m in slot_matches)})
+    return sorted(
+        rows,
+        key=lambda row: (
+            GRADE_ORDER.index(row["item"].get("grade")) if row["item"].get("grade") in GRADE_ORDER else 99,
+            0 if row["item"].get("effect", {}).get("kind") == "装飾" else 1,
+            row["item"].get("ja", ""),
+        ),
+    )
+
+
+def affix_reason(matches: list[dict]) -> str:
+    parts = []
+    for match in matches:
+        keywords = "・".join(match["keywords"][:3])
+        parts.append(f'{match["slot"]}: {keywords}')
+    return " / ".join(parts)
+
+
+def static_affix_rows(rows: list[dict]) -> str:
+    if not rows:
+        return '<tr><td colspan="7">該当する付与素材はまだ整理中です。</td></tr>'
+    return "\n".join(
+        f"""<tr>
+  <td><span class="table-item"><img src="{h('../' + row['item']['icon'])}" alt="{h(row['item']['ja'])}"><span><strong>{h(row['item']['ja'])}</strong></span></span></td>
+  <td>{h(row['item'].get('effect', {}).get('kind'))}</td>
+  <td>{grade_chip_static(row['item'].get('grade'))}</td>
+  <td>{h(affix_reason(row['matches']))}</td>
+  <td><div class="effect-cell">{h(row['item'].get('effect', {}).get('weaponJa'))}</div></td>
+  <td><div class="effect-cell">{h(row['item'].get('effect', {}).get('armorJa'))}</div></td>
+  <td><div class="effect-cell">{h(row['item'].get('effect', {}).get('accessoryJa'))}</div></td>
+</tr>"""
+        for row in rows
+    )
+
+
+def static_affix_summary(rows: list[dict], limit: int = 14) -> str:
+    chips = []
+    seen = set()
+    for row in rows:
+        name = row["item"].get("ja", "")
+        if not name or name in seen:
+            continue
+        seen.add(name)
+        chips.append(f'<span class="chip">{h(name)}</span>')
+        if len(chips) >= limit:
+            break
+    if not chips:
+        return '<p class="small">残す付与素材はまだ整理中です。</p>'
+    return f'<div class="chips keep-list">{"".join(chips)}</div>'
+
+
 def character_page_template(data: dict, hero: dict) -> str:
     items = data["items"]
     related = hero_related_items(hero, items)
     specials = hero_special_rows(hero, items)
+    affixes = hero_affix_items(hero, items)
     related_cards = "\n".join(static_item_card(item, "../") for item in related[:120])
     if not related_cards:
         related_cards = '<p class="small">関連アイテムはまだ整理中です。</p>'
+    affix_rows = static_affix_rows(affixes[:90])
+    affix_summary = static_affix_summary(affixes)
     special_rows = "\n".join(
         f"""<tr>
   <td><span class="table-item"><img src="{h('../' + item['icon'])}" alt="{h(item['ja'])}"><span><strong>{h(item['ja'])}</strong></span></span></td>
@@ -1216,7 +1333,7 @@ def character_page_template(data: dict, hero: dict) -> str:
     <h1>{h(hero["ja"])} メモ</h1>
     <p class="sub">装備、残す素材、特殊装備をキャラクター別に整理。</p>
     <nav class="nav">
-      <a href="../index.html">一覧へ戻る</a><a href="#specials">特殊装備</a><a href="#items">関連アイテム</a>
+      <a href="../index.html">一覧へ戻る</a><a href="#items">関連アイテム</a><a href="#affixes">残す付与素材</a><a href="#specials">特殊装備</a>
     </nav>
   </div>
 </header>
@@ -1232,16 +1349,21 @@ def character_page_template(data: dict, hero: dict) -> str:
     <div class="panel synth">
       <h2>残すもの</h2>
       <p>{h(hero["keep"])}</p>
+      {affix_summary}
       <h3 style="margin-top:14px">売却候補</h3>
       <p>{h(hero["sell"])}</p>
     </div>
   </section>
 
-  <h2 id="specials">特殊装備</h2>
-  <div class="scroll-table"><table><thead><tr><th>装備</th><th>レベル</th><th>必要等級</th><th>部位</th><th>効果</th></tr></thead><tbody>{special_rows}</tbody></table></div>
-
   <h2 id="items">関連アイテム</h2>
   <section class="cards">{related_cards}</section>
+
+  <h2 id="affixes">残す付与素材</h2>
+  <p class="small">装飾・彫刻素材を、付ける部位ごとの効果で整理。武器、防具、アクセのどこに付けると目的の数値が伸びるかを確認。</p>
+  <div class="scroll-table"><table><thead><tr><th>素材</th><th>種類</th><th>等級</th><th>残す理由</th><th>武器/サブ武器</th><th>防具/ブーツ</th><th>アクセ</th></tr></thead><tbody>{affix_rows}</tbody></table></div>
+
+  <h2 id="specials">特殊装備</h2>
+  <div class="scroll-table"><table><thead><tr><th>装備</th><th>レベル</th><th>必要等級</th><th>部位</th><th>効果</th></tr></thead><tbody>{special_rows}</tbody></table></div>
 
   <footer>データ: ゲーム内データ / 市場価格 / コミュニティガイド</footer>
 </main>
