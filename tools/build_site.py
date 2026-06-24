@@ -954,7 +954,7 @@ main{padding:18px 20px 46px}.section-note{color:var(--muted);font-size:13px;marg
 .panel,.status-card,.hero-card{min-width:0;background:var(--paper2);border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:0 2px 0 rgba(126,82,28,.08)}a.hero-card{display:block;color:var(--ink);text-decoration:none}.hero-card:hover,.hero-card:focus{outline:2px solid var(--teal);outline-offset:2px}.status-card{background:#21181f;color:#fff;border-color:#5b3a23}.status-card b{display:block;color:var(--gold);font-size:22px;line-height:1.1}.status-card span{display:block;color:#d9c7a9;font-size:12px;margin-top:4px}.panel.keep,.hero-card.keep{border-left:5px solid var(--green)}.panel.synth,.hero-card.synth{border-left:5px solid var(--blue)}.panel.sell{border-left:5px solid var(--gold2)}.panel.warn{border-left:5px solid var(--red)}.small{color:var(--muted);font-size:13px}.rank{display:inline-flex;margin-bottom:8px;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--chip);font-size:11px;color:#5c4328}ul{padding-left:18px;margin:8px 0 0}li{margin:3px 0}
 .toolbar{position:sticky;top:88px;z-index:5;background:rgba(248,240,223,.98);border:1px solid var(--line);border-radius:8px 8px 0 0;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0}input[type=search],select{border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:14px;background:#fffdf6;color:var(--ink)}input[type=search]{flex:1 1 270px}select{flex:0 1 160px}button{border:1px solid var(--line);background:#fff8e8;color:var(--ink);border-radius:6px;padding:9px 11px;font-size:13px;cursor:pointer}button.active{background:#261a13;color:#fff;border-color:#261a13}.count{color:var(--muted);font-size:13px;margin-left:auto}.item-workbench{border:1px solid var(--line);border-radius:8px;background:#f0dfc1;margin-top:16px}.item-scroll{max-height:min(72vh,860px);overflow:auto;overscroll-behavior:contain;padding:10px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}.card{--rarity:#9b8053;min-width:0;background:#fffaf0;border:1px solid var(--line);border-left:4px solid var(--rarity);border-radius:8px;padding:10px;display:block;text-align:left;width:100%;min-height:122px}.card:hover,.card:focus{outline:2px solid var(--teal);outline-offset:1px}.card-top{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:center}.card img,.dialog-head img,td img,.mini-item img{object-fit:contain;image-rendering:pixelated}.card img{width:52px;height:52px;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px}.name{display:block;font-weight:800;font-size:14px;overflow-wrap:anywhere}.en{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere}.card-note{display:block;margin-top:7px;color:#614b35;font-size:12px;min-height:18px;overflow-wrap:anywhere}.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}.chip{display:inline-flex;align-items:center;border-radius:999px;background:var(--chip);color:#4b3924;padding:2px 7px;font-size:11px;line-height:18px;white-space:nowrap}.chip.keep{background:#dff1e4;color:#1f643d}.chip.synth{background:#e2eafe;color:#244f9d}.chip.sell{background:#f8e6b8;color:#68470b}.chip.warn{background:#f8d9d5;color:#8b2d25}.market{color:#68470b;background:#f8e6b8}.special{background:#ead8ff;color:#5c2f84}.rarity{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px;border:1px solid rgba(0,0,0,.25)}
-table{width:100%;border-collapse:separate;border-spacing:0;background:#fffaf0;border:1px solid var(--line);border-radius:8px;overflow:hidden}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#ead8b7;color:#4c3928}tr:last-child td{border-bottom:0}td img{width:34px;height:34px;vertical-align:middle;margin-right:8px}.table-wrap{overflow:auto;margin-top:10px}.scroll-table{max-height:430px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0}.market-scroll{max-height:min(70vh,780px)}.scroll-table table{border:0;border-radius:0}.scroll-table thead th{position:sticky;top:0;z-index:2}.table-item{display:grid;grid-template-columns:38px minmax(0,1fr);gap:8px;align-items:center;min-width:180px}.table-item img{width:34px;height:34px;margin:0;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px;object-fit:contain;image-rendering:pixelated}.effect-cell{font-weight:700;color:#3f2b1a}.effect-cell .en{margin-top:2px}.mini-items{display:flex;flex-wrap:wrap;gap:5px}.mini-item{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:2px 7px;background:#fffaf0;font-size:12px;white-space:nowrap}.mini-item img{width:22px;height:22px;margin:0}.socket-lane{display:grid;grid-template-columns:repeat(8,minmax(120px,1fr));gap:10px;overflow:auto;overscroll-behavior-x:contain;padding-bottom:4px}.socket-card{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:12px;min-width:120px}.socket-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}.socket-stats span{background:var(--chip);border-radius:6px;padding:5px 6px;text-align:center;font-size:12px}.material-bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}.material-band{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:14px}.material-band h3{display:flex;justify-content:space-between;gap:8px;align-items:center}.material-row{margin-top:10px}.material-row b{display:block;margin-bottom:5px;color:#4c3928;font-size:12px}
+table{width:100%;border-collapse:separate;border-spacing:0;background:#fffaf0;border:1px solid var(--line);border-radius:8px;overflow:hidden}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#ead8b7;color:#4c3928}tr:last-child td{border-bottom:0}td img{width:34px;height:34px;vertical-align:middle;margin-right:8px}.table-wrap{overflow:auto;margin-top:10px}.scroll-table{max-height:430px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0}.market-scroll{max-height:min(70vh,780px)}.scroll-table table{border:0;border-radius:0}.scroll-table thead th{position:sticky;top:0;z-index:2}.table-item{display:grid;grid-template-columns:38px minmax(0,1fr);gap:8px;align-items:center;min-width:180px}.table-item img{width:34px;height:34px;margin:0;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px;object-fit:contain;image-rendering:pixelated}.effect-cell{font-weight:700;color:#3f2b1a}.effect-cell .en{margin-top:2px}.mini-items{display:flex;flex-wrap:wrap;gap:5px}.mini-item{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:2px 7px;background:#fffaf0;font-size:12px;white-space:nowrap}.mini-item img{width:22px;height:22px;margin:0}.keep-icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:9px;max-height:min(64vh,620px);overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0;padding:12px}.keep-icon{display:grid;place-items:center;aspect-ratio:1;border:1px solid var(--line);border-radius:8px;background:#f2e4c8}.keep-icon img{width:42px;height:42px;object-fit:contain;image-rendering:pixelated}.socket-lane{display:grid;grid-template-columns:repeat(8,minmax(120px,1fr));gap:10px;overflow:auto;overscroll-behavior-x:contain;padding-bottom:4px}.socket-card{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:12px;min-width:120px}.socket-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}.socket-stats span{background:var(--chip);border-radius:6px;padding:5px 6px;text-align:center;font-size:12px}.material-bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}.material-band{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:14px}.material-band h3{display:flex;justify-content:space-between;gap:8px;align-items:center}.material-row{margin-top:10px}.material-row b{display:block;margin-bottom:5px;color:#4c3928;font-size:12px}
 .hero-card .skill-line{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.hero-card .loadout{color:#5b4229;font-size:13px;margin-bottom:8px}.price-note{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:#21181f;color:#f2e3c6;border:1px solid #5b3a23;border-radius:8px;padding:12px 14px;margin:8px 0 12px}.price-note strong{color:var(--gold)}.price-note span{font-size:12px;color:#d5c0a0}
 .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(19,12,8,.64);z-index:20}.modal.open{display:flex}.dialog{width:min(820px,100%);max-height:90vh;overflow:auto;background:#fffaf0;border-radius:8px;box-shadow:var(--shadow);border:1px solid var(--line-dark)}.dialog-head{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:16px;border-bottom:1px solid var(--line);background:#f2dfbd}.dialog-head img{width:72px;height:72px;background:#eadbc0;border:1px solid #d1ba92;border-radius:8px}.dialog-body{padding:16px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.close{font-size:20px;line-height:1;width:36px;height:36px;padding:0}footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
 @media(max-width:980px){.grid4,.grid3,.hero-grid,.source-list,.audit-grid{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}}@media(max-width:640px){body{background:linear-gradient(180deg,#151017 0,#261a13 520px,#f0e5cf 521px)}header{padding:12px 16px}header .wrap{width:calc(100vw - 32px);max-width:calc(100vw - 32px);min-width:0;margin:0}.nav{display:grid;width:calc(100vw - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.nav a{min-width:0;text-align:center;font-size:12px;padding:6px 7px;white-space:nowrap}main{width:100vw;max-width:100vw;min-width:0;margin:0;padding:14px 16px 36px;overflow-x:hidden}.wide-title{display:none}.compact-title{display:inline}.grid4,.grid3,.hero-grid,.source-list,.audit-grid{width:calc(100vw - 32px);max-width:calc(100vw - 32px);grid-template-columns:minmax(0,1fr)}.panel,.status-card,.hero-card,.item-workbench,.price-note,.table-wrap,.scroll-table,.material-band{max-width:calc(100vw - 32px);min-width:0}.toolbar{position:static}.cards{grid-template-columns:minmax(0,1fr)}input[type=search],select{width:100%;flex:1 1 100%}.count{width:100%;margin-left:0}.price-note{grid-template-columns:1fr}.item-scroll{max-height:68vh}.dialog-head{grid-template-columns:56px 1fr auto}.dialog-head img{width:56px;height:56px}h1,.sub,p,li{word-break:break-all;line-break:anywhere}}
@@ -1331,77 +1331,84 @@ def keep_use_text(item: dict) -> str:
     return " / ".join(uses[:2]) if uses else "-"
 
 
-def keep_material_row(item: dict, reason: str) -> str:
-    return f"""<tr>
-  <td><span class="table-item"><img src="{h(item['icon'])}" alt="{h(item['ja'])}"><span><strong>{h(item['ja'])}</strong></span></span></td>
-  <td>{h(item.get('category'))}</td>
-  <td>{h(row_level_text(item))}</td>
-  <td>{grade_chip_static(item.get('grade')) or '-'}</td>
-  <td>{h(reason)}</td>
-  <td>{h(keep_use_text(item))}</td>
-  <td>{h(keep_price(item))}</td>
-</tr>"""
+def keep_material_icon(item: dict) -> str:
+    return f'<span class="keep-icon"><img src="{h(item["icon"])}" alt=""></span>'
+
+
+def unique_items(items: list[dict]) -> list[dict]:
+    seen = set()
+    result = []
+    for item in items:
+        if item["id"] in seen:
+            continue
+        seen.add(item["id"])
+        result.append(item)
+    return result
+
+
+def material_band_items(items_by_id: dict[int, dict], ranges: set[str], keys: tuple[str, ...]) -> list[dict]:
+    result = []
+    for band in MATERIAL_BANDS:
+        if band["range"] not in ranges:
+            continue
+        for key in keys:
+            result.extend(items_by_id[iid] for iid in band[key] if iid in items_by_id)
+    return result
 
 
 def keep_material_sections(items: list[dict]) -> list[dict]:
+    items_by_id = {item["id"]: item for item in items}
+    craft_items = sorted(
+        [item for item in items if item["id"] // 1000 in CRAFTING_MATERIAL_PREFIXES],
+        key=lambda item: item["id"],
+    )
+    low_items = material_band_items(items_by_id, {"レベル 1-10", "レベル 15-30"}, ("crafting",))
+    high_items = material_band_items(
+        items_by_id,
+        {"レベル 65", "レベル 80+"},
+        ("crafting", "deco", "engraving", "inscription"),
+    )
+    all_items = unique_items(craft_items + low_items + high_items)
     sections = [
         {
-            "id": "accessories",
-            "title": "アクセサリー作成用（全レベル）",
-            "note": "キューブでアクセサリーを作る時に使うクラフト素材と、合成素材として残すアクセ装備。",
-            "rows": [],
+            "id": "all",
+            "title": "残す素材",
+            "note": "対象素材を全部まとめた一覧。表示はアイコンだけです。",
+            "items": all_items,
         },
         {
-            "id": "sub-boots",
-            "title": "レベル10〜20 サブ武器/ブーツ",
-            "note": "序盤から作り直しやすい帯。サブ武器とブーツは合成素材として残す。",
-            "rows": [],
+            "id": "craft",
+            "title": "作成用（全レベル）",
+            "note": "キューブ作成用に残す素材。",
+            "items": craft_items,
+        },
+        {
+            "id": "low",
+            "title": "レベル10〜20 作成素材",
+            "note": "序盤の作成で残す素材。",
+            "items": low_items,
         },
         {
             "id": "high",
-            "title": "レベル65〜80+ 素材全部",
-            "note": "ビヨンド/セレスティアル以降と、ディバイン/コズミック帯の素材は全部残す。",
-            "rows": [],
+            "title": "レベル65〜80+",
+            "note": "高レベル帯で残す素材。",
+            "items": high_items,
         },
     ]
-    by_section = {section["id"]: section for section in sections}
-    for item in items:
-        prefix = item["id"] // 1000
-        level = level_value(item)
-        if prefix in CRAFTING_MATERIAL_PREFIXES:
-            by_section["accessories"]["rows"].append((item, "アクセサリー作成用として全レベル残す"))
-        if prefix in ACCESSORY_PREFIXES:
-            by_section["accessories"]["rows"].append((item, "アクセ装備は全レベルを合成素材として残す"))
-        if prefix in SUB_WEAPON_PREFIXES and level in {10, 15, 20}:
-            by_section["sub-boots"]["rows"].append((item, "レベル10〜20のサブ武器素材として残す"))
-        if prefix in BOOT_PREFIXES and level in {10, 15, 20}:
-            by_section["sub-boots"]["rows"].append((item, "レベル10〜20のブーツ素材として残す"))
-        if (prefix not in GEAR_PREFIX and item.get("tierBand", "").startswith(HIGH_KEEP_MATERIAL_BANDS)) or (
-            prefix in GEAR_PREFIX and level is not None and 65 <= level <= 80
-        ):
-            by_section["high"]["rows"].append((item, "レベル65〜80+の素材は全部残す"))
-    for section in sections:
-        section["rows"] = sorted(
-            section["rows"],
-            key=lambda row: (
-                level_value(row[0]) if level_value(row[0]) is not None else 999,
-                row[0]["id"],
-            ),
-        )
     return sections
 
 
 def keep_materials_page_template(data: dict) -> str:
     section_html = []
     for section in keep_material_sections(data["items"]):
-        rows = "\n".join(keep_material_row(item, reason) for item, reason in section["rows"])
-        if not rows:
-            rows = '<tr><td colspan="7">該当する素材はまだ整理中です。</td></tr>'
+        icons = "\n".join(keep_material_icon(item) for item in section["items"])
+        if not icons:
+            icons = '<p class="small">該当する素材はまだ整理中です。</p>'
         section_html.append(
             f"""
   <h2 id="{h(section['id'])}">{h(section['title'])}</h2>
   <p class="section-note">{h(section['note'])}</p>
-  <div class="scroll-table"><table><thead><tr><th>素材/装備</th><th>分類</th><th>レベル帯</th><th>等級</th><th>残す理由</th><th>用途</th><th>価格</th></tr></thead><tbody>{rows}</tbody></table></div>
+  <section class="keep-icon-grid">{icons}</section>
 """
         )
     body = f"""<!doctype html>
@@ -1416,17 +1423,17 @@ def keep_materials_page_template(data: dict) -> str:
 <header>
   <div class="wrap">
     <h1>残す素材一覧</h1>
-    <p class="sub">アクセ作成、レベル10〜20のサブ武器/ブーツ、高レベル素材を残すための一覧。</p>
+    <p class="sub">残す素材だけをアイコンでまとめた一覧。</p>
     <nav class="nav">
-      <a href="index.html">一覧へ戻る</a><a href="#accessories">アクセ素材</a><a href="#sub-boots">サブ/ブーツ</a><a href="#high">高レベル</a>
+      <a href="index.html">一覧へ戻る</a><a href="#all">全部</a><a href="#craft">作成用</a><a href="#low">10〜20</a><a href="#high">65〜80+</a>
     </nav>
   </div>
 </header>
 <main>
   <section class="grid3">
-    <div class="panel keep"><h3>アクセ</h3><p>作成素材とアクセ装備は全レベル残す。</p></div>
-    <div class="panel synth"><h3>サブ/ブーツ</h3><p>レベル10、15、20のサブ武器とブーツを残す。</p></div>
-    <div class="panel warn"><h3>高レベル</h3><p>レベル65〜80+の素材は全部残す。</p></div>
+    <div class="panel keep"><h3>全部</h3><p>残す対象をまとめて表示。</p></div>
+    <div class="panel synth"><h3>作成用</h3><p>全レベル分を残す。</p></div>
+    <div class="panel warn"><h3>高レベル</h3><p>65〜80+を残す。</p></div>
   </section>
   {''.join(section_html)}
   <footer>データ: ゲーム内データ / 市場価格 / コミュニティガイド</footer>
