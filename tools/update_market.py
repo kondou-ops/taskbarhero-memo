@@ -14,7 +14,7 @@ SEARCH_URL = "https://steamcommunity.com/market/search/render/"
 PRICE_URL = "https://steamcommunity.com/market/priceoverview/"
 IMAGE_URL = "https://community.steamstatic.com/economy/image/"
 USER_AGENT = "Mozilla/5.0 (compatible; taskbarhero-memo-price-updater/1.0)"
-HIGHEST_NOTE = "Steamの公開APIでは現在の最高売注文を安定取得できないため未取得"
+HIGHEST_NOTE = "公開データでは現在の最高売注文を安定取得できないため未取得"
 
 
 def fetch_bytes(url: str) -> bytes:

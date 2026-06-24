@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>レンジャー - TBH 素材・装備メモ</title>
+<style>
+:root{--bg:#151017;--bg2:#261a13;--paper:#f8f0df;--paper2:#fffaf0;--ink:#241a14;--muted:#76695c;--line:#d5c3a4;--line-dark:#4a3425;--gold:#e3b35c;--gold2:#8c6127;--teal:#1f9b8c;--green:#2f8f5b;--blue:#3267ba;--red:#b4483f;--chip:#efe1c5;--shadow:0 20px 50px rgba(16,11,8,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,"Noto Sans JP",Meiryo,system-ui,-apple-system,sans-serif;background:linear-gradient(180deg,#151017 0,#261a13 420px,#f0e5cf 421px);color:var(--ink);line-height:1.5;overflow-x:hidden}a{color:#6d4312;text-decoration:none}a:hover{text-decoration:underline}
+header{position:sticky;top:0;z-index:18;color:#fff;padding:16px 20px 14px;border-bottom:3px solid var(--gold);background:linear-gradient(135deg,rgba(23,17,28,.98) 0%,rgba(50,32,22,.98) 55%,rgba(16,43,40,.98) 100%);box-shadow:0 8px 24px rgba(20,12,8,.24);backdrop-filter:blur(10px)}header .wrap,main{max-width:1240px;margin:0 auto;width:100%}h1{margin:0 0 6px;font-size:clamp(20px,2.4vw,32px);letter-spacing:0;overflow-wrap:anywhere;line-break:anywhere}.compact-title{display:none}h2{margin:32px 0 12px;font-size:20px;letter-spacing:0;scroll-margin-top:122px}h3{margin:0 0 8px;font-size:15px}p,li,td,th{overflow-wrap:anywhere;word-break:break-word;line-break:anywhere}p{margin:0}.sub{color:#eadfc6;font-size:13px;max-width:940px;overflow-wrap:anywhere;line-break:anywhere}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.nav a{color:#fff;border:1px solid rgba(227,179,92,.5);background:rgba(0,0,0,.16);padding:6px 10px;border-radius:6px;font-size:13px}
+main{padding:18px 20px 46px}.section-note{color:var(--muted);font-size:13px;margin:-6px 0 12px}.grid4,.grid3,.hero-grid,.source-list,.audit-grid{display:grid;gap:12px}.grid4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.source-list,.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.panel,.status-card,.hero-card{min-width:0;background:var(--paper2);border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:0 2px 0 rgba(126,82,28,.08)}a.hero-card{display:block;color:var(--ink);text-decoration:none}.hero-card:hover,.hero-card:focus{outline:2px solid var(--teal);outline-offset:2px}.status-card{background:#21181f;color:#fff;border-color:#5b3a23}.status-card b{display:block;color:var(--gold);font-size:22px;line-height:1.1}.status-card span{display:block;color:#d9c7a9;font-size:12px;margin-top:4px}.panel.keep,.hero-card.keep{border-left:5px solid var(--green)}.panel.synth,.hero-card.synth{border-left:5px solid var(--blue)}.panel.sell{border-left:5px solid var(--gold2)}.panel.warn{border-left:5px solid var(--red)}.small{color:var(--muted);font-size:13px}.rank{display:inline-flex;margin-bottom:8px;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--chip);font-size:11px;color:#5c4328}ul{padding-left:18px;margin:8px 0 0}li{margin:3px 0}
+.toolbar{position:sticky;top:88px;z-index:5;background:rgba(248,240,223,.98);border:1px solid var(--line);border-radius:8px 8px 0 0;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0}input[type=search],select{border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:14px;background:#fffdf6;color:var(--ink)}input[type=search]{flex:1 1 270px}select{flex:0 1 160px}button{border:1px solid var(--line);background:#fff8e8;color:var(--ink);border-radius:6px;padding:9px 11px;font-size:13px;cursor:pointer}button.active{background:#261a13;color:#fff;border-color:#261a13}.count{color:var(--muted);font-size:13px;margin-left:auto}.item-workbench{border:1px solid var(--line);border-radius:8px;background:#f0dfc1;margin-top:16px}.item-scroll{max-height:min(72vh,860px);overflow:auto;overscroll-behavior:contain;padding:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}.card{--rarity:#9b8053;min-width:0;background:#fffaf0;border:1px solid var(--line);border-left:4px solid var(--rarity);border-radius:8px;padding:10px;display:block;text-align:left;width:100%;min-height:122px}.card:hover,.card:focus{outline:2px solid var(--teal);outline-offset:1px}.card-top{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:center}.card img,.dialog-head img,td img,.mini-item img{object-fit:contain;image-rendering:pixelated}.card img{width:52px;height:52px;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px}.name{display:block;font-weight:800;font-size:14px;overflow-wrap:anywhere}.en{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere}.card-note{display:block;margin-top:7px;color:#614b35;font-size:12px;min-height:18px;overflow-wrap:anywhere}.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}.chip{display:inline-flex;align-items:center;border-radius:999px;background:var(--chip);color:#4b3924;padding:2px 7px;font-size:11px;line-height:18px;white-space:nowrap}.chip.keep{background:#dff1e4;color:#1f643d}.chip.synth{background:#e2eafe;color:#244f9d}.chip.sell{background:#f8e6b8;color:#68470b}.chip.warn{background:#f8d9d5;color:#8b2d25}.market{color:#68470b;background:#f8e6b8}.special{background:#ead8ff;color:#5c2f84}.rarity{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px;border:1px solid rgba(0,0,0,.25)}
+table{width:100%;border-collapse:separate;border-spacing:0;background:#fffaf0;border:1px solid var(--line);border-radius:8px;overflow:hidden}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#ead8b7;color:#4c3928}tr:last-child td{border-bottom:0}td img{width:34px;height:34px;vertical-align:middle;margin-right:8px}.table-wrap{overflow:auto;margin-top:10px}.scroll-table{max-height:430px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0}.market-scroll{max-height:min(70vh,780px)}.scroll-table table{border:0;border-radius:0}.scroll-table thead th{position:sticky;top:0;z-index:2}.table-item{display:grid;grid-template-columns:38px minmax(0,1fr);gap:8px;align-items:center;min-width:180px}.table-item img{width:34px;height:34px;margin:0;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px;object-fit:contain;image-rendering:pixelated}.effect-cell{font-weight:700;color:#3f2b1a}.effect-cell .en{margin-top:2px}.mini-items{display:flex;flex-wrap:wrap;gap:5px}.mini-item{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:2px 7px;background:#fffaf0;font-size:12px;white-space:nowrap}.mini-item img{width:22px;height:22px;margin:0}.socket-lane{display:grid;grid-template-columns:repeat(8,minmax(120px,1fr));gap:10px;overflow:auto;overscroll-behavior-x:contain;padding-bottom:4px}.socket-card{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:12px;min-width:120px}.socket-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}.socket-stats span{background:var(--chip);border-radius:6px;padding:5px 6px;text-align:center;font-size:12px}.material-bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}.material-band{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:14px}.material-band h3{display:flex;justify-content:space-between;gap:8px;align-items:center}.material-row{margin-top:10px}.material-row b{display:block;margin-bottom:5px;color:#4c3928;font-size:12px}
+.hero-card .skill-line{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.hero-card .loadout{color:#5b4229;font-size:13px;margin-bottom:8px}.price-note{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:#21181f;color:#f2e3c6;border:1px solid #5b3a23;border-radius:8px;padding:12px 14px;margin:8px 0 12px}.price-note strong{color:var(--gold)}.price-note span{font-size:12px;color:#d5c0a0}
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(19,12,8,.64);z-index:20}.modal.open{display:flex}.dialog{width:min(820px,100%);max-height:90vh;overflow:auto;background:#fffaf0;border-radius:8px;box-shadow:var(--shadow);border:1px solid var(--line-dark)}.dialog-head{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:16px;border-bottom:1px solid var(--line);background:#f2dfbd}.dialog-head img{width:72px;height:72px;background:#eadbc0;border:1px solid #d1ba92;border-radius:8px}.dialog-body{padding:16px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.close{font-size:20px;line-height:1;width:36px;height:36px;padding:0}footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
+@media(max-width:980px){.grid4,.grid3,.hero-grid,.source-list,.audit-grid{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}}@media(max-width:640px){body{background:linear-gradient(180deg,#151017 0,#261a13 520px,#f0e5cf 521px)}header{padding:12px 16px}header .wrap{width:calc(100vw - 32px);max-width:calc(100vw - 32px);min-width:0;margin:0}.nav{display:grid;width:calc(100vw - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.nav a{min-width:0;text-align:center;font-size:12px;padding:6px 7px;white-space:nowrap}main{width:100vw;max-width:100vw;min-width:0;margin:0;padding:14px 16px 36px;overflow-x:hidden}.wide-title{display:none}.compact-title{display:inline}.grid4,.grid3,.hero-grid,.source-list,.audit-grid{width:calc(100vw - 32px);max-width:calc(100vw - 32px);grid-template-columns:minmax(0,1fr)}.panel,.status-card,.hero-card,.item-workbench,.price-note,.table-wrap,.scroll-table,.material-band{max-width:calc(100vw - 32px);min-width:0}.toolbar{position:static}.cards{grid-template-columns:minmax(0,1fr)}input[type=search],select{width:100%;flex:1 1 100%}.count{width:100%;margin-left:0}.price-note{grid-template-columns:1fr}.item-scroll{max-height:68vh}.dialog-head{grid-template-columns:56px 1fr auto}.dialog-head img{width:56px;height:56px}h1,.sub,p,li{word-break:break-all;line-break:anywhere}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>レンジャー メモ</h1>
+    <p class="sub">装備、残す素材、特殊装備をキャラクター別に整理。</p>
+    <nav class="nav">
+      <a href="../index.html">一覧へ戻る</a><a href="#specials">特殊装備</a><a href="#items">関連アイテム</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="detail-grid">
+    <div class="panel keep">
+      <span class="rank">遠距離</span>
+      <h2>レンジャー</h2>
+      <p>素早い身のこなしと鋭い弓術の遠距離射手。安全な距離から敵の急所を狙う。</p>
+      <p class="loadout" style="margin-top:10px">弓・矢・攻撃速度系アクセ</p>
+      <div class="skill-line"><span class="chip">連射</span><span class="chip">散弾射撃</span><span class="chip">矢の雨</span><span class="chip">スウィフトサージ</span><span class="chip">ピアシングアロー</span><span class="chip">スキュワーショット</span></div>
+    </div>
+    <div class="panel synth">
+      <h2>残すもの</h2>
+      <p>物理ダメージ%、攻撃速度%、投射物、クリティカル、攻撃力%</p>
+      <h3 style="margin-top:14px">売却候補</h3>
+      <p>詠唱速度や魔法属性だけの素材。防御不足なら耐久素材は残す。</p>
+    </div>
+  </section>
+
+  <h2 id="specials">特殊装備</h2>
+  <div class="scroll-table"><table><thead><tr><th>装備</th><th>レベル</th><th>必要等級</th><th>部位</th><th>効果</th></tr></thead><tbody><tr>
+  <td><span class="table-item"><img src="../icons/BOW_310004.png" alt="コンポジットボウ"><span><strong>コンポジットボウ</strong></span></span></td>
+  <td>15</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">装備スキルの投射物 +1</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310007.png" alt="ダスクボウ"><span><strong>ダスクボウ</strong></span></span></td>
+  <td>30</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">スキュワーショットが出血中の敵へ2倍ダメージ</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310008.png" alt="ジェイドボウ"><span><strong>ジェイドボウ</strong></span></span></td>
+  <td>35</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">装備スキルの連続攻撃 +1</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310011.png" alt="ミスティックボウ"><span><strong>ミスティックボウ</strong></span></span></td>
+  <td>50</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310013.png" alt="エンシェントボウ"><span><strong>エンシェントボウ</strong></span></span></td>
+  <td>60</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">スキュワーショットが出血中の敵へ2倍ダメージ</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310015.png" alt="混沌の弓"><span><strong>混沌の弓</strong></span></span></td>
+  <td>70</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310019.png" alt="エターナルボウ"><span><strong>エターナルボウ</strong></span></span></td>
+  <td>90</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">スキュワーショットが出血中の敵へ2倍ダメージ</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOW_310019.png" alt="エターナルボウ"><span><strong>エターナルボウ</strong></span></span></td>
+  <td>90</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>弓</td>
+  <td><div class="effect-cell">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/ARROW_410004.png" alt="バーブドアロー"><span><strong>バーブドアロー</strong></span></span></td>
+  <td>15</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>矢</td>
+  <td><div class="effect-cell">装備スキルの発動に必要な基本攻撃 -1</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/ARROW_410004.png" alt="バーブドアロー"><span><strong>バーブドアロー</strong></span></span></td>
+  <td>15</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>矢</td>
+  <td><div class="effect-cell">装備スキルのクールダウン短縮</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/HELMET_500005.png" alt="チェインヘルム"><span><strong>チェインヘルム</strong></span></span></td>
+  <td>20</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>ヘルメット</td>
+  <td><div class="effect-cell">スキュワーショットが出血中の敵へ2倍ダメージ</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/HELMET_500009.png" alt="ルーンヘルメット"><span><strong>ルーンヘルメット</strong></span></span></td>
+  <td>40</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>ヘルメット</td>
+  <td><div class="effect-cell">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/HELMET_500011.png" alt="フェイトヘルメット"><span><strong>フェイトヘルメット</strong></span></span></td>
+  <td>50</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>ヘルメット</td>
+  <td><div class="effect-cell">スキュワーショットが出血中の敵へ2倍ダメージ</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/HELMET_500013.png" alt="ストームヘルメット"><span><strong>ストームヘルメット</strong></span></span></td>
+  <td>60</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>ヘルメット</td>
+  <td><div class="effect-cell">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/HELMET_500017.png" alt="次元のヘルメット"><span><strong>次元のヘルメット</strong></span></span></td>
+  <td>80</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>ヘルメット</td>
+  <td><div class="effect-cell">スキュワーショットが出血中の敵へ2倍ダメージ</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/HELMET_500017.png" alt="次元のヘルメット"><span><strong>次元のヘルメット</strong></span></span></td>
+  <td>80</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>ヘルメット</td>
+  <td><div class="effect-cell">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOOTS_530004.png" alt="ナイトブーツ"><span><strong>ナイトブーツ</strong></span></span></td>
+  <td>15</td>
+  <td><span class="chip"><span class="rarity" style="background:#fb86ff"></span>アルカナ</span></td>
+  <td>ブーツ</td>
+  <td><div class="effect-cell">ウェーブ間の移動速度がパーティ最速メンバー基準</div></td>
+</tr>
+<tr>
+  <td><span class="table-item"><img src="../icons/BOOTS_530008.png" alt="ヘビーブーツ"><span><strong>ヘビーブーツ</strong></span></span></td>
+  <td>35</td>
+  <td><span class="chip"><span class="rarity" style="background:#00f6ff"></span>セレスティアル</span></td>
+  <td>ブーツ</td>
+  <td><div class="effect-cell">ウェーブ間の移動速度がパーティ最遅メンバー基準</div></td>
+</tr></tbody></table></div>
+
+  <h2 id="items">関連アイテム</h2>
+  <section class="cards">
+<article class="card" style="--rarity:#ff0080">
+  <span class="card-top"><img src="../icons/Item_126003.png" alt="タイタンマロウ" loading="lazy"><span><span class="name">タイタンマロウ</span></span></span>
+  <span class="chips"><span class="chip keep">必要数を残す</span><span class="chip">彫刻素材</span><span class="chip"><span class="rarity" style="background:#ff0080"></span>ビヨンド</span><span class="chip">防御/耐久</span><span class="chip">付与</span></span>
+  <span class="card-note">武器: +50~70% 攻撃力 / +100~130% 火ダメージ / 防具: +35~40% 雷耐性 / +8.5~10% ダメージ軽減 / アクセ: +5~7 秒間体力回復 / +180~210 最大体力</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310001.png" alt="ショートボウ" loading="lazy"><span><span class="name">ショートボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 1</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310002.png" alt="ハンティングボウ" loading="lazy"><span><span class="name">ハンティングボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 5</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310003.png" alt="ロングボウ" loading="lazy"><span><span class="name">ロングボウ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">弓</span><span class="chip">レベル 10</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 13,579</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310004.png" alt="コンポジットボウ" loading="lazy"><span><span class="name">コンポジットボウ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">弓</span><span class="chip">レベル 15</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 11,500</span></span>
+  <span class="card-note">装備スキルの投射物 +1</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310005.png" alt="ウォーボウ" loading="lazy"><span><span class="name">ウォーボウ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">弓</span><span class="chip">レベル 20</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 31,214</span></span>
+  <span class="card-note">レベル 15-30</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310006.png" alt="スカーレットボウ" loading="lazy"><span><span class="name">スカーレットボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 25</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 15-30</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310007.png" alt="ダスクボウ" loading="lazy"><span><span class="name">ダスクボウ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">弓</span><span class="chip">レベル 30</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 252,584</span></span>
+  <span class="card-note">スキュワーショットが出血中の敵へ2倍ダメージ</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310008.png" alt="ジェイドボウ" loading="lazy"><span><span class="name">ジェイドボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 35</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">装備スキルの連続攻撃 +1</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310009.png" alt="エリートボウ" loading="lazy"><span><span class="name">エリートボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 40</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310010.png" alt="ルーンボウ" loading="lazy"><span><span class="name">ルーンボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 45</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310011.png" alt="ミスティックボウ" loading="lazy"><span><span class="name">ミスティックボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 50</span><span class="chip">物理/攻撃速度</span><span class="chip market">-</span></span>
+  <span class="card-note">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310012.png" alt="スウィフトボウ" loading="lazy"><span><span class="name">スウィフトボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 55</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 65</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310013.png" alt="エンシェントボウ" loading="lazy"><span><span class="name">エンシェントボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 60</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">スキュワーショットが出血中の敵へ2倍ダメージ</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310014.png" alt="リミットレスボウ" loading="lazy"><span><span class="name">リミットレスボウ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">弓</span><span class="chip">レベル 65</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 818</span></span>
+  <span class="card-note">レベル 65</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310015.png" alt="混沌の弓" loading="lazy"><span><span class="name">混沌の弓</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 70</span><span class="chip">魔法/属性</span></span>
+  <span class="card-note">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310016.png" alt="ストームボウ" loading="lazy"><span><span class="name">ストームボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 75</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310017.png" alt="シャドウボウ" loading="lazy"><span><span class="name">シャドウボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 80</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310018.png" alt="テンペストボウ" loading="lazy"><span><span class="name">テンペストボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 85</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310019.png" alt="エターナルボウ" loading="lazy"><span><span class="name">エターナルボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 90</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">スキュワーショットが出血中の敵へ2倍ダメージ</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOW_310020.png" alt="レイディアントボウ" loading="lazy"><span><span class="name">レイディアントボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">弓</span><span class="chip">レベル 95</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340001.png" alt="ショートクロスボウ" loading="lazy"><span><span class="name">ショートクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 1</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340002.png" alt="レザークロスボウ" loading="lazy"><span><span class="name">レザークロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 5</span><span class="chip">防御/耐久</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340003.png" alt="ロングクロスボウ" loading="lazy"><span><span class="name">ロングクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 10</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340004.png" alt="コンプリートクロスボウ" loading="lazy"><span><span class="name">コンプリートクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 15</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">装備スキルの投射物 +1</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340005.png" alt="卓越のクロスボウ" loading="lazy"><span><span class="name">卓越のクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 20</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">エクスプロージョンボルトのダメージとクールダウン -50%</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340006.png" alt="強化クロスボウ" loading="lazy"><span><span class="name">強化クロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 25</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">エクスプロージョンボルトで倒すとチャージトラップのクールダウン -1秒</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340007.png" alt="アイアンクロスボウ" loading="lazy"><span><span class="name">アイアンクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 30</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 15-30</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340008.png" alt="ウィングクロスボウ" loading="lazy"><span><span class="name">ウィングクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 35</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">クロスボウタレットのクールダウン -50%</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340009.png" alt="エリートクロスボウ" loading="lazy"><span><span class="name">エリートクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 40</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">クロスボウタレット最大数 +1</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340010.png" alt="ラージクロスボウ" loading="lazy"><span><span class="name">ラージクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 45</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340011.png" alt="ミスティッククロスボウ" loading="lazy"><span><span class="name">ミスティッククロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 50</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">エクスプロージョンボルトのダメージとクールダウン -50%</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340012.png" alt="ファストクロスボウ" loading="lazy"><span><span class="name">ファストクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 55</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">エクスプロージョンボルトで倒すとチャージトラップのクールダウン -1秒</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340013.png" alt="エンシェントクロスボウ" loading="lazy"><span><span class="name">エンシェントクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 60</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">クロスボウタレット最大数 +1</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340014.png" alt="リミットレスクロスボウ" loading="lazy"><span><span class="name">リミットレスクロスボウ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">クロスボウ</span><span class="chip">レベル 65</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 1,234</span></span>
+  <span class="card-note">クロスボウタレットのクールダウン -50%</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340015.png" alt="混沌のクロスボウ" loading="lazy"><span><span class="name">混沌のクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 70</span><span class="chip">魔法/属性</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340016.png" alt="パワークロスボウ" loading="lazy"><span><span class="name">パワークロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 75</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340017.png" alt="次元のクロスボウ" loading="lazy"><span><span class="name">次元のクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 80</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">エクスプロージョンボルトのダメージとクールダウン -50%</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340018.png" alt="シャドウクロスボウ" loading="lazy"><span><span class="name">シャドウクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 85</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">エクスプロージョンボルトで倒すとチャージトラップのクールダウン -1秒</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340019.png" alt="エターナルクロスボウ" loading="lazy"><span><span class="name">エターナルクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 90</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/CROSSBOW_340020.png" alt="レイディアントクロスボウ" loading="lazy"><span><span class="name">レイディアントクロスボウ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">クロスボウ</span><span class="chip">レベル 95</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410001.png" alt="ウッドアロー" loading="lazy"><span><span class="name">ウッドアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 1</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410002.png" alt="アイアンアロー" loading="lazy"><span><span class="name">アイアンアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 5</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410003.png" alt="ハンターアロー" loading="lazy"><span><span class="name">ハンターアロー</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">矢</span><span class="chip">レベル 10</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 7,384</span></span>
+  <span class="card-note">レベル 1-10</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410004.png" alt="バーブドアロー" loading="lazy"><span><span class="name">バーブドアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 15</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">装備スキルの発動に必要な基本攻撃 -1</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410005.png" alt="アズールアロー" loading="lazy"><span><span class="name">アズールアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 20</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 15-30</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410006.png" alt="ブルータルアロー" loading="lazy"><span><span class="name">ブルータルアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 25</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 15-30</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410007.png" alt="ゲイルアロー" loading="lazy"><span><span class="name">ゲイルアロー</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">矢</span><span class="chip">レベル 30</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 17,250</span></span>
+  <span class="card-note">レベル 15-30</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410008.png" alt="サーペントアロー" loading="lazy"><span><span class="name">サーペントアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 35</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410009.png" alt="ルーンアロー" loading="lazy"><span><span class="name">ルーンアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 40</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410010.png" alt="トライバルアロー" loading="lazy"><span><span class="name">トライバルアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 45</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410011.png" alt="フェイトアロー" loading="lazy"><span><span class="name">フェイトアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 50</span><span class="chip">物理/攻撃速度</span><span class="chip market">-</span></span>
+  <span class="card-note">レベル 40-50</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410012.png" alt="ストームアロー" loading="lazy"><span><span class="name">ストームアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 55</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 65</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410013.png" alt="オブシディアンアロー" loading="lazy"><span><span class="name">オブシディアンアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 60</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 65</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410014.png" alt="ヘイストアロー" loading="lazy"><span><span class="name">ヘイストアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 65</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 65</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410015.png" alt="ヴォイドアロー" loading="lazy"><span><span class="name">ヴォイドアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 70</span><span class="chip">魔法/属性</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410016.png" alt="ポイズンアロー" loading="lazy"><span><span class="name">ポイズンアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 75</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410017.png" alt="次元の矢" loading="lazy"><span><span class="name">次元の矢</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">矢</span><span class="chip">レベル 80</span><span class="chip">物理/攻撃速度</span><span class="chip market">¥ 17,719</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410018.png" alt="シャドウアロー" loading="lazy"><span><span class="name">シャドウアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 85</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410019.png" alt="エンシェントアロー" loading="lazy"><span><span class="name">エンシェントアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 90</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/ARROW_410020.png" alt="エグザルテッドアロー" loading="lazy"><span><span class="name">エグザルテッドアロー</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">矢</span><span class="chip">レベル 95</span><span class="chip">物理/攻撃速度</span></span>
+  <span class="card-note">レベル 80+</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/HELMET_500005.png" alt="チェインヘルム" loading="lazy"><span><span class="name">チェインヘルム</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">ヘルメット</span><span class="chip">レベル 20</span><span class="chip">防御/耐久</span><span class="chip market">¥ 3,450</span></span>
+  <span class="card-note">スキュワーショットが出血中の敵へ2倍ダメージ</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/HELMET_500009.png" alt="ルーンヘルメット" loading="lazy"><span><span class="name">ルーンヘルメット</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">ヘルメット</span><span class="chip">レベル 40</span><span class="chip">防御/耐久</span></span>
+  <span class="card-note">基本攻撃のクリティカルで矢の雨のクールダウン -0.5秒</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/HELMET_500011.png" alt="フェイトヘルメット" loading="lazy"><span><span class="name">フェイトヘルメット</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">ヘルメット</span><span class="chip">レベル 50</span><span class="chip">防御/耐久</span></span>
+  <span class="card-note">スキュワーショットが出血中の敵へ2倍ダメージ</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/HELMET_500013.png" alt="ストームヘルメット" loading="lazy"><span><span class="name">ストームヘルメット</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">ヘルメット</span><span class="chip">レベル 60</span><span class="chip">防御/耐久</span></span>
+  <span class="card-note">シールドチャージで倒すとクールダウンリセット</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/HELMET_500017.png" alt="次元のヘルメット" loading="lazy"><span><span class="name">次元のヘルメット</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">ヘルメット</span><span class="chip">レベル 80</span><span class="chip">防御/耐久</span><span class="chip market">¥ 6</span></span>
+  <span class="card-note">シールドチャージで倒すとクールダウンリセット</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOOTS_530004.png" alt="ナイトブーツ" loading="lazy"><span><span class="name">ナイトブーツ</span></span></span>
+  <span class="chips"><span class="chip warn">価格確認</span><span class="chip">ブーツ</span><span class="chip">レベル 15</span><span class="chip">防御/耐久</span><span class="chip market">¥ 31,214</span></span>
+  <span class="card-note">ウェーブ間の移動速度がパーティ最速メンバー基準</span>
+</article>
+
+
+<article class="card" style="--rarity:#a8894c">
+  <span class="card-top"><img src="../icons/BOOTS_530008.png" alt="ヘビーブーツ" loading="lazy"><span><span class="name">ヘビーブーツ</span></span></span>
+  <span class="chips"><span class="chip synth">ビルド/合成</span><span class="chip">ブーツ</span><span class="chip">レベル 35</span><span class="chip">防御/耐久</span></span>
+  <span class="card-note">ウェーブ間の移動速度がパーティ最遅メンバー基準</span>
+</article>
+</section>
+
+  <footer>データ: ゲーム内データ / 市場価格 / コミュニティガイド</footer>
+</main>
+</body>
+</html>
