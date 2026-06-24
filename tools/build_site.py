@@ -71,6 +71,12 @@ GEAR_PREFIX = {
     630: ("ブレーサー", "accessory universal", "BRACER"),
 }
 
+SUB_WEAPON_PREFIXES = {400, 410, 420, 430, 440, 450}
+BOOT_PREFIXES = {530}
+ACCESSORY_PREFIXES = {600, 610, 620, 630}
+CRAFTING_MATERIAL_PREFIXES = set(range(140, 150))
+HIGH_KEEP_MATERIAL_BANDS = ("レベル 65", "レベル 80+")
+
 GEAR_LEVEL_BY_INDEX = {
     1: 1,
     2: 5,
@@ -971,7 +977,7 @@ def html_template(data: dict) -> str:
     <h1><span class="wide-title">TBH 素材・装備メモ</span><span class="compact-title">TBH 素材・装備メモ</span></h1>
     <p class="sub">更新: __TODAY__ / 価格は日本円。ゲーム内データと市場情報を分けて整理。</p>
     <nav class="nav">
-      <a href="#heroes">キャラクター</a><a href="#tiers">判断表</a><a href="#stats">数値表</a><a href="#specials">特殊装備</a><a href="#items">アイテム</a><a href="#market">価格</a>
+      <a href="#heroes">キャラクター</a><a href="keep-materials.html">残す素材</a><a href="#stats">数値表</a><a href="#specials">特殊装備</a><a href="#items">アイテム</a><a href="#market">価格</a>
     </nav>
   </div>
 </header>
@@ -1296,6 +1302,145 @@ def static_affix_summary(rows: list[dict], limit: int = 14) -> str:
     return f'<div class="chips keep-list">{"".join(chips)}</div>'
 
 
+def level_value(item: dict) -> int | None:
+    level = item.get("level")
+    if isinstance(level, int):
+        return level
+    try:
+        return int(level)
+    except (TypeError, ValueError):
+        return None
+
+
+def row_level_text(item: dict) -> str:
+    level = level_value(item)
+    if level is not None:
+        return f"レベル {level}"
+    return item.get("tierBand") or "-"
+
+
+def keep_price(item: dict) -> str:
+    market = item.get("market") or []
+    if market:
+        return market[0].get("price") or "-"
+    return "-"
+
+
+def keep_use_text(item: dict) -> str:
+    uses = item.get("uses") or []
+    return " / ".join(uses[:2]) if uses else "-"
+
+
+def keep_material_row(item: dict, reason: str) -> str:
+    return f"""<tr>
+  <td><span class="table-item"><img src="{h(item['icon'])}" alt="{h(item['ja'])}"><span><strong>{h(item['ja'])}</strong></span></span></td>
+  <td>{h(item.get('category'))}</td>
+  <td>{h(row_level_text(item))}</td>
+  <td>{grade_chip_static(item.get('grade')) or '-'}</td>
+  <td>{h(reason)}</td>
+  <td>{h(keep_use_text(item))}</td>
+  <td>{h(keep_price(item))}</td>
+</tr>"""
+
+
+def keep_material_sections(items: list[dict]) -> list[dict]:
+    sections = [
+        {
+            "id": "accessories",
+            "title": "アクセサリー作成用（全レベル）",
+            "note": "キューブでアクセサリーを作る時に使うクラフト素材と、合成素材として残すアクセ装備。",
+            "rows": [],
+        },
+        {
+            "id": "sub-boots",
+            "title": "レベル10〜20 サブ武器/ブーツ",
+            "note": "序盤から作り直しやすい帯。サブ武器とブーツは合成素材として残す。",
+            "rows": [],
+        },
+        {
+            "id": "high",
+            "title": "レベル65〜80+ 素材全部",
+            "note": "ビヨンド/セレスティアル以降と、ディバイン/コズミック帯の素材は全部残す。",
+            "rows": [],
+        },
+    ]
+    by_section = {section["id"]: section for section in sections}
+    for item in items:
+        prefix = item["id"] // 1000
+        level = level_value(item)
+        if prefix in CRAFTING_MATERIAL_PREFIXES:
+            by_section["accessories"]["rows"].append((item, "アクセサリー作成用として全レベル残す"))
+        if prefix in ACCESSORY_PREFIXES:
+            by_section["accessories"]["rows"].append((item, "アクセ装備は全レベルを合成素材として残す"))
+        if prefix in SUB_WEAPON_PREFIXES and level in {10, 15, 20}:
+            by_section["sub-boots"]["rows"].append((item, "レベル10〜20のサブ武器素材として残す"))
+        if prefix in BOOT_PREFIXES and level in {10, 15, 20}:
+            by_section["sub-boots"]["rows"].append((item, "レベル10〜20のブーツ素材として残す"))
+        if (prefix not in GEAR_PREFIX and item.get("tierBand", "").startswith(HIGH_KEEP_MATERIAL_BANDS)) or (
+            prefix in GEAR_PREFIX and level is not None and 65 <= level <= 80
+        ):
+            by_section["high"]["rows"].append((item, "レベル65〜80+の素材は全部残す"))
+    for section in sections:
+        section["rows"] = sorted(
+            section["rows"],
+            key=lambda row: (
+                level_value(row[0]) if level_value(row[0]) is not None else 999,
+                row[0]["id"],
+            ),
+        )
+    return sections
+
+
+def keep_materials_page_template(data: dict) -> str:
+    section_html = []
+    for section in keep_material_sections(data["items"]):
+        rows = "\n".join(keep_material_row(item, reason) for item, reason in section["rows"])
+        if not rows:
+            rows = '<tr><td colspan="7">該当する素材はまだ整理中です。</td></tr>'
+        section_html.append(
+            f"""
+  <h2 id="{h(section['id'])}">{h(section['title'])}</h2>
+  <p class="section-note">{h(section['note'])}</p>
+  <div class="scroll-table"><table><thead><tr><th>素材/装備</th><th>分類</th><th>レベル帯</th><th>等級</th><th>残す理由</th><th>用途</th><th>価格</th></tr></thead><tbody>{rows}</tbody></table></div>
+"""
+        )
+    body = f"""<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>残す素材一覧 - TBH 素材・装備メモ</title>
+<style>{css()}</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>残す素材一覧</h1>
+    <p class="sub">アクセ作成、レベル10〜20のサブ武器/ブーツ、高レベル素材を残すための一覧。</p>
+    <nav class="nav">
+      <a href="index.html">一覧へ戻る</a><a href="#accessories">アクセ素材</a><a href="#sub-boots">サブ/ブーツ</a><a href="#high">高レベル</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="grid3">
+    <div class="panel keep"><h3>アクセ</h3><p>作成素材とアクセ装備は全レベル残す。</p></div>
+    <div class="panel synth"><h3>サブ/ブーツ</h3><p>レベル10、15、20のサブ武器とブーツを残す。</p></div>
+    <div class="panel warn"><h3>高レベル</h3><p>レベル65〜80+の素材は全部残す。</p></div>
+  </section>
+  {''.join(section_html)}
+  <footer>データ: ゲーム内データ / 市場価格 / コミュニティガイド</footer>
+</main>
+</body>
+</html>
+"""
+    return body
+
+
+def write_keep_materials_page(data: dict) -> None:
+    (ROOT / "keep-materials.html").write_text(keep_materials_page_template(data), encoding="utf-8", newline="\n")
+
+
 def character_page_template(data: dict, hero: dict) -> str:
     items = data["items"]
     related = hero_related_items(hero, items)
@@ -1333,7 +1478,7 @@ def character_page_template(data: dict, hero: dict) -> str:
     <h1>{h(hero["ja"])} メモ</h1>
     <p class="sub">装備、残す素材、特殊装備をキャラクター別に整理。</p>
     <nav class="nav">
-      <a href="../index.html">一覧へ戻る</a><a href="#items">関連アイテム</a><a href="#affixes">残す付与素材</a><a href="#specials">特殊装備</a>
+      <a href="../index.html">一覧へ戻る</a><a href="../keep-materials.html">残す素材</a><a href="#affixes">残す付与素材</a><a href="#specials">特殊装備</a>
     </nav>
   </div>
 </header>
@@ -1399,6 +1544,7 @@ def main() -> None:
         "gradeOrder": GRADE_ORDER,
     }
     (ROOT / "index.html").write_text(html_template(data), encoding="utf-8", newline="\n")
+    write_keep_materials_page(data)
     write_character_pages(data)
 
 
