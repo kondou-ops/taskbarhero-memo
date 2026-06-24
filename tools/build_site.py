@@ -116,11 +116,6 @@ SOURCE_LINKS = [
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3744134720",
         "note": "ステータス、ソケット、付与系の補助確認。コミュニティ情報なのでローカル表と照合して使用。",
     },
-    {
-        "name": "公式X",
-        "url": "https://x.com/TesseractStd",
-        "note": "Steam公式ページからリンクされている開発元X。ログインなしでは本文を安定取得できないため、確認リンク扱い。",
-    },
 ]
 
 SOURCE_AUDIT = [
@@ -229,19 +224,19 @@ BUILD_TABLE = [
     {
         "name": "物理/攻速",
         "classes": "剣・弓・クロスボウ・斧・ハチェット・矢・ボルト",
-        "keep": "Physical Damage%、Attack Speed%、Attack Damage%、Crit、Increase Projectile/Melee/Area",
+        "keep": "物理ダメージ%、攻撃速度%、攻撃力%、クリティカル、投射物/近接/範囲強化",
         "sell": "魔法属性だけに寄った素材や、使わない武器種の低等級重複",
     },
     {
         "name": "属性/魔法",
         "classes": "スタッフ・セプター・オーブ・トーム",
-        "keep": "Fire/Cold/Lightning/Chaos Damage%、Cast Speed、Cooldown、Increase Summon/Area",
+        "keep": "火/冷気/雷/混沌ダメージ%、詠唱速度、クールダウン短縮、召喚/範囲強化",
         "sell": "物理専用ステータスだけの低等級素材。耐久不足時は防御素材を優先して残す。",
     },
     {
         "name": "耐久/放置安定",
         "classes": "盾・ヘルメット・アーマー・グローブ・ブーツ・アクセサリー",
-        "keep": "Max HP、Resistance、Damage Reduction、Damage Absorption、Life Leech、HP per Hit",
+        "keep": "最大HP、耐性、ダメージ軽減、ダメージ吸収、ライフ吸収、ヒット時HP回復",
         "sell": "火力が十分で、同じ耐久素材が過剰な場合だけ処分。",
     },
 ]
@@ -250,13 +245,13 @@ CHARACTER_TIER_TABLE = [
     {
         "tier": "Tier 1",
         "heroes": "レンジャー",
-        "keep": "弓・矢、Physical Damage%、Attack Speed%、Crit、Projectile Damage、Area Damage、Rare以上の装飾/彫刻素材。",
-        "note": "ユーザー指定の最優先。放置周回と火力伸びを優先して素材を残す。",
+        "keep": "弓・矢、物理ダメージ、攻撃速度、クリティカル、投射物ダメージ、範囲ダメージ、Rare以上の装飾/彫刻素材。",
+        "note": "周回の主軸。放置周回と火力伸びを優先して素材を残す。",
     },
     {
         "tier": "Tier 2",
         "heroes": "ソーサラー",
-        "keep": "スタッフ・オーブ、Fire/Cold/Lightning、Cast Speed、Cooldown、Summon/Area、Arcana以上の特殊効果装備。",
+        "keep": "スタッフ・オーブ、火/冷気/雷、詠唱速度、クールダウン、召喚/範囲、Arcana以上の特殊効果装備。",
         "note": "火力素材は残す。サブ武器とブーツは特殊効果チェック対象。",
     },
     {
@@ -268,7 +263,7 @@ CHARACTER_TIER_TABLE = [
     {
         "tier": "ボス専用",
         "heroes": "プリースト",
-        "keep": "Skill Heal、Cast Speed、Resistance、Max HP、セプター/トームの高等級品。",
+        "keep": "スキル回復、詠唱速度、耐性、最大HP、セプター/トームの高等級品。",
         "note": "通常周回よりボス支援寄り。必要装備だけ残す。",
     },
 ]
@@ -277,37 +272,37 @@ HERO_BUILD_NOTES = {
     101: {
         "role": "前衛 / 盾",
         "gear": "剣・盾・防具",
-        "keep": "Physical Damage%、Attack Damage%、Max HP、Damage Reduction、Resistance",
+        "keep": "物理ダメージ%、攻撃力%、最大HP、ダメージ軽減、耐性",
         "sell": "魔法属性だけに寄った素材や、使わない遠距離武器の低等級重複。",
     },
     201: {
         "role": "Tier 1 / 遠距離",
         "gear": "弓・矢・攻撃速度系アクセ",
-        "keep": "Physical Damage%、Attack Speed%、Projectile、Crit、Attack Damage%",
+        "keep": "物理ダメージ%、攻撃速度%、投射物、クリティカル、攻撃力%",
         "sell": "詠唱速度や魔法属性だけの素材。防御不足なら耐久素材は残す。",
     },
     301: {
         "role": "Tier 2 / 範囲魔法",
         "gear": "スタッフ・オーブ・ブーツ",
-        "keep": "Fire/Cold/Lightning、Cast Speed、Area、Cooldown、魔法火力系",
+        "keep": "火/冷気/雷、詠唱速度、範囲、クールダウン短縮、魔法火力系",
         "sell": "物理専用素材や近接武器の低等級重複。サブ武器/ブーツの特殊効果は売却前に確認。",
     },
     401: {
         "role": "ボス専用 / 支援",
         "gear": "セプター・トーム・耐久アクセ",
-        "keep": "Heal/Support向き、Cast Speed、Max HP、Resistance、Lightning/Area",
+        "keep": "回復/支援向き、詠唱速度、最大HP、耐性、雷/範囲",
         "sell": "火力だけの余剰素材。支援運用なら耐久と詠唱系を優先。",
     },
     501: {
         "role": "罠 / クロスボウ",
         "gear": "クロスボウ・ボルト",
-        "keep": "Projectile、Attack Speed%、Fire/Cold/Lightning、Trap系、Crit",
+        "keep": "投射物、攻撃速度%、火/冷気/雷、罠系、クリティカル",
         "sell": "剣/盾専用の低等級重複。属性ボルト候補は残す。",
     },
     601: {
         "role": "近接火力",
         "gear": "斧・ハチェット・耐久装備",
-        "keep": "Physical Damage%、Attack Speed%、Melee/Area、Life Leech、Max HP",
+        "keep": "物理ダメージ%、攻撃速度%、近接/範囲、ライフ吸収、最大HP",
         "sell": "遠距離/魔法専用素材。高難度用の耐久素材は売りすぎない。",
     },
 }
@@ -514,14 +509,71 @@ def translate_unique_effect(effect: str) -> str:
         ("Snowstorm +100% dmg vs frozen", "Snowstormが凍結中の敵へ+100%ダメージ"),
         ("Wrath of Heaven: attacks also heal allies", "Wrath of Heaven中の攻撃で味方も回復"),
         ("Crossbow Turret max +1", "Crossbow Turret最大数 +1"),
+        ("Max Crossbow Turrets +1", "Crossbow Turret最大数 +1"),
         ("Crossbow Turret CD -50%", "Crossbow TurretのCD -50%"),
+        ("Explosive Bolt dmg & CD -50%", "Explosive BoltのダメージとCD -50%"),
+        ("Explosive Bolt kill → Charge Trap CD -1s", "Explosive Boltで倒すとCharge TrapのCD -1秒"),
+        ("Crit basic atk → Arrow Rain CD -0.5s", "基本攻撃のクリティカルでArrow RainのCD -0.5秒"),
+        ("Skewer Shot +2x dmg to bleeding", "Skewer Shotが出血中の敵へ2倍ダメージ"),
+        ("Kill w/ Shield Charge → resets CD", "Shield Chargeで倒すとCDリセット"),
         ("Attack Speed +1% per 1% missing HP", "失ったHP 1%ごとに攻撃速度 +1%"),
         ("Axe Spin → fire dmg, bleed → ignite", "Axe Spinが火属性化、出血が点火化"),
+        ("Axe Spin bleed chance → 50%", "Axe Spinの出血確率が50%"),
+        ("Walk between waves at fastest party member's speed", "ウェーブ間の移動速度がパーティ最速メンバー基準"),
+        ("Walk between waves at slowest party member's speed", "ウェーブ間の移動速度がパーティ最遅メンバー基準"),
     ]
     for en, ja in replacements:
         if effect == en:
             return ja
     return effect
+
+
+STAT_REPLACEMENTS = [
+    ("All Elemental Resistance", "全属性耐性"),
+    ("Cooldown Reduction", "クールダウン短縮"),
+    ("Damage Absorption", "ダメージ吸収"),
+    ("Damage Reduction", "ダメージ軽減"),
+    ("Area of Effect", "効果範囲"),
+    ("Projectile Count", "投射物数"),
+    ("Basic Attack Count", "基本攻撃回数"),
+    ("Cold Resistance", "冷気耐性"),
+    ("Fire Resistance", "火耐性"),
+    ("Lightning Resistance", "雷耐性"),
+    ("Chaos Resistance", "混沌耐性"),
+    ("Physical Resistance", "物理耐性"),
+    ("Physical Damage", "物理ダメージ"),
+    ("Attack Damage", "攻撃力"),
+    ("Attack Speed", "攻撃速度"),
+    ("Cast Speed", "詠唱速度"),
+    ("Crit Chance", "クリティカル率"),
+    ("Crit Damage", "クリティカルダメージ"),
+    ("Cold Damage", "冷気ダメージ"),
+    ("Fire Damage", "火ダメージ"),
+    ("Lightning Damage", "雷ダメージ"),
+    ("Chaos Damage", "混沌ダメージ"),
+    ("Projectile Damage", "投射物ダメージ"),
+    ("Melee Damage", "近接ダメージ"),
+    ("Area Damage", "範囲ダメージ"),
+    ("Summon Damage", "召喚ダメージ"),
+    ("Movement Speed", "移動速度"),
+    ("Block Chance", "ブロック率"),
+    ("Dodge Chance", "回避率"),
+    ("Life Leech", "ライフ吸収"),
+    ("HP Regen/sec", "秒間HP回復"),
+    ("HP per Hit", "ヒット時HP回復"),
+    ("Max HP", "最大HP"),
+    ("Armor", "防御力"),
+    ("Multistrike", "連続攻撃"),
+    ("Resistance", "耐性"),
+    ("Damage", "ダメージ"),
+]
+
+
+def translate_stat_text(text: str) -> str:
+    translated = text or ""
+    for en, ja in STAT_REPLACEMENTS:
+        translated = translated.replace(en, ja)
+    return translated
 
 
 def build_guide_effects() -> tuple[dict, dict[str, dict], dict[str, list[dict]]]:
@@ -531,20 +583,32 @@ def build_guide_effects() -> tuple[dict, dict[str, dict], dict[str, list[dict]]]
     )
     effect_by_name: dict[str, dict] = {}
     for row in guide.get("decorations", []):
+        row["WeaponJa"] = translate_stat_text(row.get("Weapon", ""))
+        row["ArmorJa"] = translate_stat_text(row.get("Armor", ""))
+        row["AccessoryJa"] = translate_stat_text(row.get("Accessory", ""))
         effect_by_name[row["Gem"]] = {
             "kind": "装飾",
             "grade": row.get("Grade", ""),
             "weapon": row.get("Weapon", ""),
             "armor": row.get("Armor", ""),
             "accessory": row.get("Accessory", ""),
+            "weaponJa": row.get("WeaponJa", ""),
+            "armorJa": row.get("ArmorJa", ""),
+            "accessoryJa": row.get("AccessoryJa", ""),
         }
     for row in guide.get("engravings", []):
+        row["WeaponJa"] = translate_stat_text(row.get("Weapon", ""))
+        row["ArmorJa"] = translate_stat_text(row.get("Armor", ""))
+        row["AccessoryJa"] = translate_stat_text(row.get("Accessory", ""))
         effect_by_name[row["Engraving"]] = {
             "kind": "彫刻",
             "grade": row.get("Grade", ""),
             "weapon": row.get("Weapon", ""),
             "armor": row.get("Armor", ""),
             "accessory": row.get("Accessory", ""),
+            "weaponJa": row.get("WeaponJa", ""),
+            "armorJa": row.get("ArmorJa", ""),
+            "accessoryJa": row.get("AccessoryJa", ""),
         }
 
     unique_by_item: dict[str, list[dict]] = {}
@@ -584,9 +648,9 @@ def effect_summary(effect: dict | None) -> str:
     return " / ".join(
         part
         for part in [
-            f'武器: {effect.get("weapon", "")}',
-            f'防具: {effect.get("armor", "")}',
-            f'アクセ: {effect.get("accessory", "")}',
+            f'武器: {effect.get("weaponJa") or effect.get("weapon", "")}',
+            f'防具: {effect.get("armorJa") or effect.get("armor", "")}',
+            f'アクセ: {effect.get("accessoryJa") or effect.get("accessory", "")}',
         ]
         if part.strip() not in {"武器:", "防具:", "アクセ:"}
     )
@@ -786,16 +850,16 @@ def build_items() -> tuple[list[dict], list[dict]]:
 def css() -> str:
     return r"""
 :root{--bg:#151017;--bg2:#261a13;--paper:#f8f0df;--paper2:#fffaf0;--ink:#241a14;--muted:#76695c;--line:#d5c3a4;--line-dark:#4a3425;--gold:#e3b35c;--gold2:#8c6127;--teal:#1f9b8c;--green:#2f8f5b;--blue:#3267ba;--red:#b4483f;--chip:#efe1c5;--shadow:0 20px 50px rgba(16,11,8,.28)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;padding-bottom:48px;font-family:Inter,"Noto Sans JP",Meiryo,system-ui,-apple-system,sans-serif;background:linear-gradient(180deg,#151017 0,#261a13 420px,#f0e5cf 421px);color:var(--ink);line-height:1.5;overflow-x:hidden}a{color:#6d4312;text-decoration:none}a:hover{text-decoration:underline}
-header{color:#fff;padding:24px 20px 20px;border-bottom:3px solid var(--gold);background:linear-gradient(135deg,#17111c 0%,#322016 55%,#102b28 100%)}header .wrap,main{max-width:1240px;margin:0 auto;width:100%}h1{margin:0 0 8px;font-size:clamp(22px,3vw,36px);letter-spacing:0;overflow-wrap:anywhere;line-break:anywhere}.compact-title{display:none}h2{margin:32px 0 12px;font-size:20px;letter-spacing:0}h3{margin:0 0 8px;font-size:15px}p,li,td,th{overflow-wrap:anywhere;word-break:break-word;line-break:anywhere}p{margin:0}.sub{color:#eadfc6;font-size:14px;max-width:940px;overflow-wrap:anywhere;line-break:anywhere}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.nav a{color:#fff;border:1px solid rgba(227,179,92,.5);background:rgba(0,0,0,.16);padding:6px 10px;border-radius:6px;font-size:13px}
-main{padding:18px 20px 46px}.section-note{color:var(--muted);font-size:13px;margin:-6px 0 12px}.status-strip,.grid4,.grid3,.hero-grid,.source-list,.audit-grid,.play-grid{display:grid;gap:12px}.status-strip{grid-template-columns:repeat(4,minmax(0,1fr));margin:0 0 18px}.grid4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.source-list,.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.play-grid{grid-template-columns:minmax(280px,380px) minmax(0,1fr);align-items:start}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,"Noto Sans JP",Meiryo,system-ui,-apple-system,sans-serif;background:linear-gradient(180deg,#151017 0,#261a13 420px,#f0e5cf 421px);color:var(--ink);line-height:1.5;overflow-x:hidden}a{color:#6d4312;text-decoration:none}a:hover{text-decoration:underline}
+header{position:sticky;top:0;z-index:18;color:#fff;padding:16px 20px 14px;border-bottom:3px solid var(--gold);background:linear-gradient(135deg,rgba(23,17,28,.98) 0%,rgba(50,32,22,.98) 55%,rgba(16,43,40,.98) 100%);box-shadow:0 8px 24px rgba(20,12,8,.24);backdrop-filter:blur(10px)}header .wrap,main{max-width:1240px;margin:0 auto;width:100%}h1{margin:0 0 6px;font-size:clamp(20px,2.4vw,32px);letter-spacing:0;overflow-wrap:anywhere;line-break:anywhere}.compact-title{display:none}h2{margin:32px 0 12px;font-size:20px;letter-spacing:0;scroll-margin-top:122px}h3{margin:0 0 8px;font-size:15px}p,li,td,th{overflow-wrap:anywhere;word-break:break-word;line-break:anywhere}p{margin:0}.sub{color:#eadfc6;font-size:13px;max-width:940px;overflow-wrap:anywhere;line-break:anywhere}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.nav a{color:#fff;border:1px solid rgba(227,179,92,.5);background:rgba(0,0,0,.16);padding:6px 10px;border-radius:6px;font-size:13px}
+main{padding:18px 20px 46px}.section-note{color:var(--muted);font-size:13px;margin:-6px 0 12px}#priority{display:inline-flex;max-width:100%;padding:3px 10px;border-radius:6px;background:rgba(24,17,18,.86);color:#f7e5bd;text-shadow:0 1px 0 #24150d}.grid4,.grid3,.hero-grid,.source-list,.audit-grid{display:grid;gap:12px}.grid4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.source-list,.audit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .panel,.status-card,.hero-card{min-width:0;background:var(--paper2);border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:0 2px 0 rgba(126,82,28,.08)}.status-card{background:#21181f;color:#fff;border-color:#5b3a23}.status-card b{display:block;color:var(--gold);font-size:22px;line-height:1.1}.status-card span{display:block;color:#d9c7a9;font-size:12px;margin-top:4px}.panel.keep,.hero-card.keep{border-left:5px solid var(--green)}.panel.synth,.hero-card.synth{border-left:5px solid var(--blue)}.panel.sell{border-left:5px solid var(--gold2)}.panel.warn{border-left:5px solid var(--red)}.small{color:var(--muted);font-size:13px}.rank{display:inline-flex;margin-bottom:8px;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--chip);font-size:11px;color:#5c4328}ul{padding-left:18px;margin:8px 0 0}li{margin:3px 0}
-#play{display:inline-flex;align-items:center;max-width:100%;padding:3px 10px;border-radius:6px;background:rgba(24,17,18,.86);color:#f7e5bd;text-shadow:0 1px 0 #24150d}.play-grid>div>h3{display:inline-flex;max-width:100%;padding:3px 9px;border-radius:6px;background:rgba(24,17,18,.86);color:#f7e5bd}.play-grid>div>.section-note{color:#7a6244}.game-slot{position:sticky;top:12px;background:#17111c;border:1px solid #6b4825;border-radius:8px;padding:12px;color:#f3e2bf;min-height:310px}.game-slot .section-note{color:#b9a487}.game-frame{border:1px dashed rgba(227,179,92,.75);border-radius:8px;background:#0f1315;aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;text-align:center;color:#c8b48b;margin-top:10px}.tier-mini{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tier-mini .panel{padding:10px}.toolbar{position:sticky;top:0;z-index:5;background:rgba(248,240,223,.98);border:1px solid var(--line);border-radius:8px 8px 0 0;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0}input[type=search],select{border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:14px;background:#fffdf6;color:var(--ink)}input[type=search]{flex:1 1 270px}select{flex:0 1 160px}button{border:1px solid var(--line);background:#fff8e8;color:var(--ink);border-radius:6px;padding:9px 11px;font-size:13px;cursor:pointer}button.active{background:#261a13;color:#fff;border-color:#261a13}.count{color:var(--muted);font-size:13px;margin-left:auto}.item-workbench{border:1px solid var(--line);border-radius:8px;background:#f0dfc1;margin-top:16px}.item-scroll{max-height:min(72vh,860px);overflow:auto;overscroll-behavior:contain;padding:10px}
+.tier-mini{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:20px}.tier-mini .panel{padding:12px}.toolbar{position:sticky;top:88px;z-index:5;background:rgba(248,240,223,.98);border:1px solid var(--line);border-radius:8px 8px 0 0;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0}input[type=search],select{border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:14px;background:#fffdf6;color:var(--ink)}input[type=search]{flex:1 1 270px}select{flex:0 1 160px}button{border:1px solid var(--line);background:#fff8e8;color:var(--ink);border-radius:6px;padding:9px 11px;font-size:13px;cursor:pointer}button.active{background:#261a13;color:#fff;border-color:#261a13}.count{color:var(--muted);font-size:13px;margin-left:auto}.item-workbench{border:1px solid var(--line);border-radius:8px;background:#f0dfc1;margin-top:16px}.item-scroll{max-height:min(72vh,860px);overflow:auto;overscroll-behavior:contain;padding:10px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}.card{--rarity:#9b8053;min-width:0;background:#fffaf0;border:1px solid var(--line);border-left:4px solid var(--rarity);border-radius:8px;padding:10px;display:block;text-align:left;width:100%;min-height:122px}.card:hover,.card:focus{outline:2px solid var(--teal);outline-offset:1px}.card-top{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:center}.card img,.dialog-head img,td img,.mini-item img{object-fit:contain;image-rendering:pixelated}.card img{width:52px;height:52px;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px}.name{display:block;font-weight:800;font-size:14px;overflow-wrap:anywhere}.en{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere}.card-note{display:block;margin-top:7px;color:#614b35;font-size:12px;min-height:18px;overflow-wrap:anywhere}.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}.chip{display:inline-flex;align-items:center;border-radius:999px;background:var(--chip);color:#4b3924;padding:2px 7px;font-size:11px;line-height:18px;white-space:nowrap}.chip.keep{background:#dff1e4;color:#1f643d}.chip.synth{background:#e2eafe;color:#244f9d}.chip.sell{background:#f8e6b8;color:#68470b}.chip.warn{background:#f8d9d5;color:#8b2d25}.market{color:#68470b;background:#f8e6b8}.special{background:#ead8ff;color:#5c2f84}.rarity{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px;border:1px solid rgba(0,0,0,.25)}
-table{width:100%;border-collapse:separate;border-spacing:0;background:#fffaf0;border:1px solid var(--line);border-radius:8px;overflow:hidden}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#ead8b7;color:#4c3928}tr:last-child td{border-bottom:0}td img{width:34px;height:34px;vertical-align:middle;margin-right:8px}.table-wrap{overflow:auto;margin-top:10px}.scroll-table{max-height:430px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0}.scroll-table table{border:0;border-radius:0}.scroll-table thead th{position:sticky;top:0;z-index:2}.mini-items{display:flex;flex-wrap:wrap;gap:5px}.mini-item{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:2px 7px;background:#fffaf0;font-size:12px;white-space:nowrap}.mini-item img{width:22px;height:22px;margin:0}
+table{width:100%;border-collapse:separate;border-spacing:0;background:#fffaf0;border:1px solid var(--line);border-radius:8px;overflow:hidden}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#ead8b7;color:#4c3928}tr:last-child td{border-bottom:0}td img{width:34px;height:34px;vertical-align:middle;margin-right:8px}.table-wrap{overflow:auto;margin-top:10px}.scroll-table{max-height:430px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0}.market-scroll{max-height:min(70vh,780px)}.scroll-table table{border:0;border-radius:0}.scroll-table thead th{position:sticky;top:0;z-index:2}.table-item{display:grid;grid-template-columns:38px minmax(0,1fr);gap:8px;align-items:center;min-width:180px}.table-item img{width:34px;height:34px;margin:0;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px;object-fit:contain;image-rendering:pixelated}.effect-cell{font-weight:700;color:#3f2b1a}.effect-cell .en{margin-top:2px}.mini-items{display:flex;flex-wrap:wrap;gap:5px}.mini-item{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:2px 7px;background:#fffaf0;font-size:12px;white-space:nowrap}.mini-item img{width:22px;height:22px;margin:0}.socket-lane{display:grid;grid-template-columns:repeat(8,minmax(120px,1fr));gap:10px;overflow:auto;overscroll-behavior-x:contain;padding-bottom:4px}.socket-card{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:12px;min-width:120px}.socket-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}.socket-stats span{background:var(--chip);border-radius:6px;padding:5px 6px;text-align:center;font-size:12px}.material-bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}.material-band{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:14px}.material-band h3{display:flex;justify-content:space-between;gap:8px;align-items:center}.material-row{margin-top:10px}.material-row b{display:block;margin-bottom:5px;color:#4c3928;font-size:12px}
 .hero-card .skill-line{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.hero-card .loadout{color:#5b4229;font-size:13px;margin-bottom:8px}.price-note{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:#21181f;color:#f2e3c6;border:1px solid #5b3a23;border-radius:8px;padding:12px 14px;margin:8px 0 12px}.price-note strong{color:var(--gold)}.price-note span{font-size:12px;color:#d5c0a0}
-.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(19,12,8,.64);z-index:20}.modal.open{display:flex}.dialog{width:min(820px,100%);max-height:90vh;overflow:auto;background:#fffaf0;border-radius:8px;box-shadow:var(--shadow);border:1px solid var(--line-dark)}.dialog-head{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:16px;border-bottom:1px solid var(--line);background:#f2dfbd}.dialog-head img{width:72px;height:72px;background:#eadbc0;border:1px solid #d1ba92;border-radius:8px}.dialog-body{padding:16px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.close{font-size:20px;line-height:1;width:36px;height:36px;padding:0}footer{position:fixed;left:0;right:0;bottom:0;z-index:15;margin:0;padding:10px 18px;background:rgba(22,16,18,.96);border-top:1px solid rgba(227,179,92,.38);color:#e4d0ac;font-size:12px;text-align:center;box-shadow:0 -4px 16px rgba(19,12,8,.22);backdrop-filter:blur(8px)}
-@media(max-width:980px){.status-strip,.grid4,.grid3,.hero-grid,.source-list,.audit-grid,.play-grid{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}.game-slot{position:static}}@media(max-width:640px){body{padding-bottom:58px;background:linear-gradient(180deg,#151017 0,#261a13 520px,#f0e5cf 521px)}header{padding:18px 16px}header .wrap{width:calc(100vw - 32px);max-width:calc(100vw - 32px);min-width:0;margin:0}.nav{display:grid;width:calc(100vw - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.nav a{min-width:0;text-align:center;font-size:12px;padding:6px 7px;white-space:nowrap}main{width:100vw;max-width:100vw;min-width:0;margin:0;padding:14px 16px 52px;overflow-x:hidden}.wide-title{display:none}.compact-title{display:inline}.status-strip,.grid4,.grid3,.hero-grid,.source-list,.audit-grid,.play-grid,.tier-mini{width:calc(100vw - 32px);max-width:calc(100vw - 32px);grid-template-columns:minmax(0,1fr)}.panel,.status-card,.hero-card,.game-slot,.item-workbench,.price-note,.table-wrap,.scroll-table{max-width:calc(100vw - 32px);min-width:0}.toolbar{position:static}.cards{grid-template-columns:minmax(0,1fr)}input[type=search],select{width:100%;flex:1 1 100%}.count{width:100%;margin-left:0}.price-note{grid-template-columns:1fr}.item-scroll{max-height:68vh}.dialog-head{grid-template-columns:56px 1fr auto}.dialog-head img{width:56px;height:56px}footer{padding:8px 12px;font-size:11px;line-height:1.35}h1,.sub,p,li{word-break:break-all;line-break:anywhere}}
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(19,12,8,.64);z-index:20}.modal.open{display:flex}.dialog{width:min(820px,100%);max-height:90vh;overflow:auto;background:#fffaf0;border-radius:8px;box-shadow:var(--shadow);border:1px solid var(--line-dark)}.dialog-head{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:16px;border-bottom:1px solid var(--line);background:#f2dfbd}.dialog-head img{width:72px;height:72px;background:#eadbc0;border:1px solid #d1ba92;border-radius:8px}.dialog-body{padding:16px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.close{font-size:20px;line-height:1;width:36px;height:36px;padding:0}footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
+@media(max-width:980px){.grid4,.grid3,.hero-grid,.source-list,.audit-grid{grid-template-columns:1fr 1fr}.tier-mini{grid-template-columns:repeat(2,minmax(0,1fr))}.detail-grid{grid-template-columns:1fr}}@media(max-width:640px){body{background:linear-gradient(180deg,#151017 0,#261a13 520px,#f0e5cf 521px)}header{padding:12px 16px}header .wrap{width:calc(100vw - 32px);max-width:calc(100vw - 32px);min-width:0;margin:0}.nav{display:grid;width:calc(100vw - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.nav a{min-width:0;text-align:center;font-size:12px;padding:6px 7px;white-space:nowrap}main{width:100vw;max-width:100vw;min-width:0;margin:0;padding:14px 16px 36px;overflow-x:hidden}.wide-title{display:none}.compact-title{display:inline}.grid4,.grid3,.hero-grid,.source-list,.audit-grid,.tier-mini{width:calc(100vw - 32px);max-width:calc(100vw - 32px);grid-template-columns:minmax(0,1fr)}.panel,.status-card,.hero-card,.item-workbench,.price-note,.table-wrap,.scroll-table,.material-band{max-width:calc(100vw - 32px);min-width:0}.toolbar{position:static}.cards{grid-template-columns:minmax(0,1fr)}input[type=search],select{width:100%;flex:1 1 100%}.count{width:100%;margin-left:0}.price-note{grid-template-columns:1fr}.item-scroll{max-height:68vh}.dialog-head{grid-template-columns:56px 1fr auto}.dialog-head img{width:56px;height:56px}h1,.sub,p,li{word-break:break-all;line-break:anywhere}}
 """
 
 
@@ -815,33 +879,21 @@ def html_template(data: dict) -> str:
     <h1><span class="wide-title">TBH: Task Bar Hero 素材・装備メモ</span><span class="compact-title">TBH 素材・装備メモ</span></h1>
     <p class="sub">更新: __TODAY__ / 価格は日本円。ローカル表、Steam公式、Market情報を分けて整理。</p>
     <nav class="nav">
-      <a href="#play">ゲーム置き場</a><a href="#heroes">キャラクター</a><a href="#tiers">ティア</a><a href="#stats">数値表</a><a href="#specials">特殊装備</a><a href="#items">アイテム</a><a href="#market">価格</a>
+      <a href="#priority">優先Tier</a><a href="#heroes">キャラクター</a><a href="#tiers">ティア</a><a href="#stats">数値表</a><a href="#specials">特殊装備</a><a href="#items">アイテム</a><a href="#market">価格</a>
     </nav>
   </div>
 </header>
 <main>
-  <section class="status-strip" id="statusStrip"></section>
-
-  <h2 id="play">ゲーム置き場</h2>
-  <section class="play-grid">
-    <aside class="game-slot">
-      <h3>TBH 小窓スペース</h3>
-      <p class="small">Steam版のゲーム本体はブラウザへ埋め込めないため、この枠を横置き目安として使う想定です。</p>
-      <div class="game-frame"><span>Task Bar Hero<br>game window</span></div>
-    </aside>
-    <div>
-      <h3>優先キャラTier</h3>
-      <p class="section-note">ユーザー指定の周回優先度。素材を迷った時はこの順で残す。</p>
-      <section class="tier-mini" id="characterTierCards"></section>
-    </div>
-  </section>
-
   <section id="rules" class="grid4">
     <div class="panel keep"><h3>残す</h3><p>進行素材・高等級・主力付与・高値品。</p></div>
     <div class="panel synth"><h3>合成</h3><p>同等級装備9個。Cosmicは合成不可。</p></div>
     <div class="panel sell"><h3>売却</h3><p>低級余剰、ビルド外重複、安値の付与なし装備。</p></div>
     <div class="panel warn"><h3>注意</h3><p>付与済み装備は取引不可。素材は戻らない。</p></div>
   </section>
+
+  <h2 id="priority">優先キャラTier</h2>
+  <p class="section-note">周回で素材を迷った時の優先度メモです。</p>
+  <section class="tier-mini" id="characterTierCards"></section>
 
   <h2 id="heroes">キャラクター別メモ</h2>
   <p class="section-note">キャラクター名・説明・スキル名は StringTable 由来。残すステータスは装備種とスキル傾向で分けています。</p>
@@ -861,7 +913,7 @@ def html_template(data: dict) -> str:
       <option value="decorations">装飾だけ</option>
       <option value="engravings">彫刻だけ</option>
     </select>
-    <input id="effectQ" type="search" placeholder="Physical / Attack Speed / Fire / Cast Speed など">
+    <input id="effectQ" type="search" placeholder="物理ダメージ / 攻撃速度 / 火ダメージ / 詠唱速度 など">
     <span class="count" id="effectCount"></span>
   </div>
   <div class="scroll-table"><table id="effectTable"><thead><tr><th>素材</th><th>種類</th><th>等級</th><th>武器/サブ武器</th><th>防具/ブーツ</th><th>アクセ</th></tr></thead><tbody></tbody></table></div>
@@ -879,18 +931,18 @@ def html_template(data: dict) -> str:
       <option value="knight">ナイト</option>
       <option value="universal">共通</option>
     </select>
-    <input id="specialQ" type="search" placeholder="Orb / Boots / Hydra / Projectile など">
+    <input id="specialQ" type="search" placeholder="オーブ / ブーツ / ヒドラ / 投射物 など">
     <span class="count" id="specialCount"></span>
   </div>
   <div class="scroll-table"><table id="specialTable"><thead><tr><th>クラス</th><th>装備</th><th>Lv</th><th>必要等級</th><th>効果</th></tr></thead><tbody></tbody></table></div>
 
   <h2>ソケット解放目安</h2>
   <p class="section-note">コミュニティガイドを補助情報として使った目安です。パッチ差分があるため、ゲーム内表示を優先してください。</p>
-  <div class="table-wrap"><table id="socketTable"><thead><tr><th>等級</th><th>装飾</th><th>彫刻</th><th>刻印</th></tr></thead><tbody></tbody></table></div>
+  <section class="socket-lane" id="socketCards"></section>
 
   <h2 id="materials">素材とレベル帯</h2>
   <p class="section-note">保持判断用の整理表です。個別要求数は静的ローカライズ表だけでは確定できないため、ゲーム内レシピ確認を前提にしています。</p>
-  <div class="table-wrap"><table id="materialTable"><thead><tr><th>帯</th><th>クラフト素材</th><th>装飾</th><th>彫刻</th><th>刻印</th><th>判断</th></tr></thead><tbody></tbody></table></div>
+  <section class="material-bands" id="materialBands"></section>
 
   <h2 id="items">素材・装備一覧</h2>
   <p class="section-note">この枠だけ独立スクロールします。ページ全体を動かしたい時は枠の外でスクロール。</p>
@@ -939,7 +991,7 @@ def html_template(data: dict) -> str:
 
   <h2 id="market">Steamマーケット価格</h2>
   <div class="price-note"><div><strong>日本円で定期更新</strong><br><span>最低価格・中央値・取引量はSteam Marketの公開エンドポイントから取得。現在の最高売注文は安定取得できないため、サイト上では未取得と表示します。</span></div><span id="marketUpdated"></span></div>
-  <div class="table-wrap"><table id="marketTable"><thead><tr><th>アイテム</th><th>分類</th><th>等級</th><th>最低価格</th><th>中央値</th><th>最高値</th><th>量/出品</th></tr></thead><tbody></tbody></table></div>
+  <div class="scroll-table market-scroll"><table id="marketTable"><thead><tr><th>アイテム</th><th>分類</th><th>等級</th><th>最低価格</th><th>中央値</th><th>最高値</th><th>量/出品</th></tr></thead><tbody></tbody></table></div>
 
   <h2 id="sources">情報の正確性メモ</h2>
   <section class="audit-grid" id="auditCards"></section>
@@ -947,7 +999,7 @@ def html_template(data: dict) -> str:
   <h2>情報元リンク</h2>
   <section class="source-list" id="sourceList"></section>
 
-  <footer>ローカルデータ: ItemTable/StringTable/sharedassets0。公開はGitHub Pagesで、Xserverは使用していません。</footer>
+  <footer>データ: ItemTable / StringTable / Steam Market / Steamコミュニティガイド</footer>
 </main>
 
 <div class="modal" id="modal" aria-hidden="true">
@@ -974,37 +1026,40 @@ const filters={category:'all',build:'all',grade:'all',action:'all'};
 const cards=document.getElementById('cards'),count=document.getElementById('count'),q=document.getElementById('q');
 const categoryFilter=document.getElementById('categoryFilter'),buildFilter=document.getElementById('buildFilter'),gradeFilter=document.getElementById('gradeFilter'),actionFilter=document.getElementById('actionFilter');
 const modal=document.getElementById('modal'), modalClose=document.getElementById('modalClose');
+const itemByEn=new Map(ITEMS.map(it=>[it.en,it]));
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function actionClass(a){if(a.includes('必ず')||a.includes('残'))return 'keep';if(a.includes('合成')||a.includes('ビルド'))return 'synth';if(a.includes('価格')||a.includes('祈願'))return 'warn';return 'sell';}
 function gradeChip(g){return g?`<span class="chip"><span class="rarity" style="background:${rarityColor[g]||'#ddd'}"></span>${esc(gradeJa[g]||g)}</span>`:'';}
+function itemForName(name){return itemByEn.get(String(name||'').replace(/ \\(.+\\)$/,''));}
+function tableItem(it,fallback){return `<span class="table-item">${it?.icon?`<img src="${esc(it.icon)}" alt="">`:''}<span><strong>${esc(it?.ja||fallback||'-')}</strong>${it?.en?`<span class="en">${esc(it.en)}</span>`:''}</span></span>`;}
+function effectCell(ja,en){return `<div class="effect-cell">${esc(ja||en||'-')}</div>`;}
 function categoryMatch(it){const c=filters.category;if(c==='all')return true;if(c==='marketed')return it.marketCount>0;if(c==='special')return it.specialCount>0;if(c==='weapon')return it.class.includes('gear weapon');if(c==='armor')return it.class.includes('armor');if(c==='accessory')return it.class.includes('accessory');return it.class.includes(c);}
 function buildMatch(it){const b=filters.build;if(b==='all')return true;const rec=(it.recommended||[]).join(' ');if(b==='ranger')return rec.includes('レンジャー');if(b==='sorcerer')return rec.includes('ソーサラー');if(b==='priest')return rec.includes('プリースト');if(b==='hunter')return rec.includes('ハンター');if(b==='slayer')return rec.includes('スレイヤー');if(b==='physical')return it.tags.includes('物理/攻撃速度');if(b==='magic')return it.tags.includes('魔法/属性');if(b==='defense')return it.tags.includes('防御/耐久');return true;}
 function passFilter(it){return categoryMatch(it)&&buildMatch(it)&&(filters.grade==='all'||it.grade===filters.grade)&&(filters.action==='all'||actionClass(it.action)===filters.action);}
 function searchable(it){return [it.ja,it.en,it.category,it.action,it.grade,gradeJa[it.grade],it.sellAdvice,it.tierBand,it.desc,it.effectText,(it.recommended||[]).join(' '),...(it.tags||[]),...(it.uses||[]),...(it.specials||[]).map(s=>`${s.class} ${s.item} ${s.effect} ${s.grade} ${s.level}`)].join(' ').toLowerCase();}
 function renderMiniItems(ids){return `<div class="mini-items">${ids.map(id=>{const it=ITEMS.find(x=>x.id===id);return it?`<span class="mini-item" title="${esc(it.en)}"><img src="${esc(it.icon)}" alt="">${esc(it.ja)}</span>`:'';}).join('')}</div>`;}
-function renderStatusStrip(){const priced=MARKET.filter(m=>String(m.price).includes('¥')).length;const highValue=MARKET[0]?.price||'-';const special=ITEMS.filter(it=>it.specialCount>0).length;document.getElementById('statusStrip').innerHTML=`<div class="status-card"><b>${ITEMS.length}</b><span>画像付きアイテム</span></div><div class="status-card"><b>${MARKET.length}</b><span>市場掲載アイテム</span></div><div class="status-card"><b>${priced}</b><span>円建て価格あり</span></div><div class="status-card"><b>${special}</b><span>特殊効果装備</span></div>`;document.getElementById('marketUpdated').textContent=DATA.marketUpdatedAt?`最終取得: ${DATA.marketUpdatedAt}`:'価格取得日: 未記録';}
 function renderCharacterTierCards(){document.getElementById('characterTierCards').innerHTML=CHARACTER_TIER.map((t,i)=>`<div class="panel ${i===0?'keep':i===1?'synth':i===3?'warn':'sell'}"><span class="rank">${esc(t.tier)}</span><h3>${esc(t.heroes)}</h3><p>${esc(t.keep)}</p><p class="small" style="margin-top:8px">${esc(t.note)}</p></div>`).join('');}
 function renderHeroCards(){document.getElementById('heroCards').innerHTML=HEROES.map((h,i)=>`<article class="hero-card ${i%3===0?'keep':i%3===1?'synth':'warn'}"><span class="rank">${esc(h.role)}</span><h3>${esc(h.ja)} <span class="en">${esc(h.en)}</span></h3><p class="loadout">${esc(h.gear)}</p><p class="small">${esc(h.desc)}</p><div class="skill-line">${h.skills.map(s=>`<span class="chip">${esc(s.ja)}</span>`).join('')}</div><ul><li>残す: ${esc(h.keep)}</li><li>売却候補: ${esc(h.sell)}</li></ul></article>`).join('');}
 function renderTierCards(){document.getElementById('tierCards').innerHTML=TIER_TABLE.map(t=>`<div class="panel ${t.tier==='S'?'keep':t.tier==='A'?'synth':t.tier==='B'?'sell':'warn'}"><span class="rank">${esc(t.tier)}</span><h3>${esc(t.label)}</h3><p>${esc(t.target)}</p><p class="small" style="margin-top:8px">${esc(t.reason)}</p></div>`).join('');}
 function renderBuildCards(){document.getElementById('buildCards').innerHTML=BUILD_TABLE.map(b=>`<div class="panel"><h3>${esc(b.name)}</h3><p class="small">${esc(b.classes)}</p><ul><li>残す: ${esc(b.keep)}</li><li>売却候補: ${esc(b.sell)}</li></ul></div>`).join('');}
-function renderSocketTable(){document.querySelector('#socketTable tbody').innerHTML=SOCKET_TABLE.map(r=>`<tr><td>${gradeChip(r.grade)}</td><td>${r.deco}</td><td>${r.engraving||'-'}</td><td>${r.inscription||'-'}</td></tr>`).join('');}
-function renderMaterialTable(){document.querySelector('#materialTable tbody').innerHTML=MATERIAL_BANDS.map(b=>`<tr><td><strong>${esc(b.range)}</strong><div class="small">${esc(b.tier)}</div></td><td>${renderMiniItems(b.crafting)}</td><td>${renderMiniItems(b.deco)}</td><td>${renderMiniItems(b.engraving)}</td><td>${renderMiniItems(b.inscription)}</td><td>${esc(b.advice)}</td></tr>`).join('');}
-function effectRows(){return [...(GUIDE.decorations||[]).map(r=>({kind:'装飾',name:r.Gem,grade:r.Grade,weapon:r.Weapon,armor:r.Armor,accessory:r.Accessory})),...(GUIDE.engravings||[]).map(r=>({kind:'彫刻',name:r.Engraving,grade:r.Grade,weapon:r.Weapon,armor:r.Armor,accessory:r.Accessory}))];}
-function specialRows(){return Object.entries(GUIDE.uniqueMods||{}).flatMap(([classKey,rows])=>rows.map(r=>({classKey,className:({knight:'ナイト',universal:'共通',ranger:'レンジャー',sorcerer:'ソーサラー',priest:'プリースト',hunter:'ハンター',slayer:'スレイヤー'}[classKey]||classKey),...r})));}
-function renderEffectTable(){const kind=document.getElementById('effectKindFilter').value;const term=document.getElementById('effectQ').value.trim().toLowerCase();const rows=effectRows().filter(r=>kind==='all'||(kind==='decorations'?r.kind==='装飾':r.kind==='彫刻')).filter(r=>!term||[r.name,r.kind,r.grade,r.weapon,r.armor,r.accessory].join(' ').toLowerCase().includes(term));document.querySelector('#effectTable tbody').innerHTML=rows.map(r=>`<tr><td>${esc(r.name)}</td><td>${esc(r.kind)}</td><td>${gradeChip(r.grade)||esc(r.grade)}</td><td>${esc(r.weapon)}</td><td>${esc(r.armor)}</td><td>${esc(r.accessory)}</td></tr>`).join('');document.getElementById('effectCount').textContent=`${rows.length}件`;}
-function renderSpecialTable(){const cls=document.getElementById('specialClassFilter').value;const term=document.getElementById('specialQ').value.trim().toLowerCase();const rows=specialRows().filter(r=>cls==='all'||r.classKey===cls).filter(r=>!term||[r.className,r.Item,r.Lv,r.Grade,r.Effect,r.EffectJa].join(' ').toLowerCase().includes(term));document.querySelector('#specialTable tbody').innerHTML=rows.map(r=>`<tr><td>${esc(r.className)}</td><td>${esc(r.Item)}</td><td>${esc(r.Lv)}</td><td>${gradeChip(r.Grade)||esc(r.Grade)}</td><td>${esc(r.EffectJa||r.Effect)}</td></tr>`).join('');document.getElementById('specialCount').textContent=`${rows.length}件`;}
+function renderSocketTable(){document.getElementById('socketCards').innerHTML=SOCKET_TABLE.map(r=>`<article class="socket-card">${gradeChip(r.grade)}<div class="socket-stats"><span>装飾<br><b>${r.deco}</b></span><span>彫刻<br><b>${r.engraving||0}</b></span><span>刻印<br><b>${r.inscription||0}</b></span></div></article>`).join('');}
+function renderMaterialTable(){document.getElementById('materialBands').innerHTML=MATERIAL_BANDS.map(b=>`<article class="material-band"><h3>${esc(b.range)} <span class="rank">${esc(b.tier)}</span></h3><div class="material-row"><b>クラフト素材</b>${renderMiniItems(b.crafting)}</div><div class="material-row"><b>装飾</b>${renderMiniItems(b.deco)}</div><div class="material-row"><b>彫刻</b>${renderMiniItems(b.engraving)}</div><div class="material-row"><b>刻印</b>${renderMiniItems(b.inscription)}</div><p class="small" style="margin-top:10px">${esc(b.advice)}</p></article>`).join('');}
+function effectRows(){return [...(GUIDE.decorations||[]).map(r=>{const it=itemForName(r.Gem);return {kind:'装飾',name:r.Gem,item:it,grade:r.Grade,weapon:r.Weapon,armor:r.Armor,accessory:r.Accessory,weaponJa:r.WeaponJa||r.Weapon,armorJa:r.ArmorJa||r.Armor,accessoryJa:r.AccessoryJa||r.Accessory};}),...(GUIDE.engravings||[]).map(r=>{const it=itemForName(r.Engraving);return {kind:'彫刻',name:r.Engraving,item:it,grade:r.Grade,weapon:r.Weapon,armor:r.Armor,accessory:r.Accessory,weaponJa:r.WeaponJa||r.Weapon,armorJa:r.ArmorJa||r.Armor,accessoryJa:r.AccessoryJa||r.Accessory};})];}
+function specialRows(){return Object.entries(GUIDE.uniqueMods||{}).flatMap(([classKey,rows])=>rows.map(r=>{const it=itemForName(r.Item);return {classKey,className:({knight:'ナイト',universal:'共通',ranger:'レンジャー',sorcerer:'ソーサラー',priest:'プリースト',hunter:'ハンター',slayer:'スレイヤー'}[classKey]||classKey),itemData:it,...r};}));}
+function renderEffectTable(){const kind=document.getElementById('effectKindFilter').value;const term=document.getElementById('effectQ').value.trim().toLowerCase();const rows=effectRows().filter(r=>kind==='all'||(kind==='decorations'?r.kind==='装飾':r.kind==='彫刻')).filter(r=>!term||[r.item?.ja,r.name,r.kind,r.grade,r.weapon,r.armor,r.accessory,r.weaponJa,r.armorJa,r.accessoryJa].join(' ').toLowerCase().includes(term));document.querySelector('#effectTable tbody').innerHTML=rows.map(r=>`<tr><td>${tableItem(r.item,r.name)}</td><td>${esc(r.kind)}</td><td>${gradeChip(r.grade)||esc(r.grade)}</td><td>${effectCell(r.weaponJa,r.weapon)}</td><td>${effectCell(r.armorJa,r.armor)}</td><td>${effectCell(r.accessoryJa,r.accessory)}</td></tr>`).join('');document.getElementById('effectCount').textContent=`${rows.length}件`;}
+function renderSpecialTable(){const cls=document.getElementById('specialClassFilter').value;const term=document.getElementById('specialQ').value.trim().toLowerCase();const rows=specialRows().filter(r=>cls==='all'||r.classKey===cls).filter(r=>!term||[r.className,r.itemData?.ja,r.Item,r.Lv,r.Grade,r.Effect,r.EffectJa].join(' ').toLowerCase().includes(term));document.querySelector('#specialTable tbody').innerHTML=rows.map(r=>`<tr><td>${esc(r.className)}</td><td>${tableItem(r.itemData,r.Item)}</td><td>${esc(r.Lv)}</td><td>${gradeChip(r.Grade)||esc(r.Grade)}</td><td>${effectCell(r.EffectJa||r.Effect,r.Effect)}</td></tr>`).join('');document.getElementById('specialCount').textContent=`${rows.length}件`;}
 function setupGradeFilter(){gradeOrder.forEach(g=>{const opt=document.createElement('option');opt.value=g;opt.textContent=`等級: ${gradeJa[g]||g}`;gradeFilter.appendChild(opt);});}
 function renderCards(){const term=q.value.trim().toLowerCase();const list=ITEMS.filter(it=>passFilter(it)).filter(it=>!term||searchable(it).includes(term));cards.innerHTML=list.map(it=>{const market=it.market.slice(0,2).map(m=>`<span class="chip market"><span class="rarity" style="background:#${esc(m.color||'ddd')}"></span>${esc(m.price)}</span>`).join('');const rec=(it.recommended||[]).slice(0,2).map(r=>`<span class="chip">${esc(r)}</span>`).join('');const special=it.specialCount?`<span class="chip special">特殊${it.specialCount}</span>`:'';const note=it.effectText||it.specials?.[0]?.effectJa||it.tierBand||it.uses[0]||it.sellAdvice;return `<button class="card" data-id="${it.id}" style="--rarity:${rarityColor[it.grade]||'#a8894c'}"><span class="card-top"><img src="${esc(it.icon)}" alt="${esc(it.ja)}" loading="lazy"><span><span class="name">${esc(it.ja)}</span><span class="en">${esc(it.en)} / ID ${it.id}</span></span></span><span class="chips"><span class="chip ${actionClass(it.action)}">${esc(it.action)}</span><span class="chip">${esc(it.category)}</span>${gradeChip(it.grade)}${rec}${special}${it.tags.slice(0,2).map(t=>`<span class="chip">${esc(t)}</span>`).join('')}${market}</span><span class="card-note">${esc(note)}</span></button>`;}).join('');count.textContent=`${list.length} / ${ITEMS.length}件`;}
-function renderMarket(){document.querySelector('#marketTable tbody').innerHTML=MARKET.map(m=>`<tr><td>${m.image?`<img src="${esc(m.image)}" alt="">`:''}${esc(m.name)}<div class="en">${esc(m.base)}</div></td><td>${esc(m.type)}</td><td>${gradeChip(m.grade)||'-'}</td><td>${esc(m.price)}</td><td>${esc(m.medianPrice||'-')}</td><td title="${esc(m.highestNote||'公開API未取得')}">${esc(m.highestPrice||'未取得')}</td><td>${esc(m.volume||'-')} / ${esc(m.listings)}</td></tr>`).join('');}
+function renderMarket(){document.getElementById('marketUpdated').textContent=DATA.marketUpdatedAt?`最終取得: ${DATA.marketUpdatedAt}`:'価格取得日: 未記録';document.querySelector('#marketTable tbody').innerHTML=MARKET.map(m=>`<tr><td><span class="table-item">${m.image?`<img src="${esc(m.image)}" alt="">`:''}<span><strong>${esc(m.name)}</strong><span class="en">${esc(m.base)}</span></span></span></td><td>${esc(m.type)}</td><td>${gradeChip(m.grade)||'-'}</td><td>${esc(m.price)}</td><td>${esc(m.medianPrice||'-')}</td><td title="${esc(m.highestNote||'公開API未取得')}">${esc(m.highestPrice||'未取得')}</td><td>${esc(m.volume||'-')} / ${esc(m.listings)}</td></tr>`).join('');}
 function renderAuditCards(){document.getElementById('auditCards').innerHTML=SOURCE_AUDIT.map(s=>`<div class="panel"><span class="rank">${esc(s.rank)}</span><h3>${esc(s.source)}</h3><p>${esc(s.checks)}</p><p class="small" style="margin-top:8px">${esc(s.note)}</p></div>`).join('');}
 function renderSources(){document.getElementById('sourceList').innerHTML=SOURCES.map(s=>`<div class="panel"><h3><a href="${esc(s.url)}" target="_blank" rel="noreferrer">${esc(s.name)}</a></h3><p class="small">${esc(s.note)}</p></div>`).join('');}
-function openDetail(id){const it=ITEMS.find(x=>x.id===Number(id));if(!it)return;document.getElementById('modalIcon').src=it.icon;document.getElementById('modalIcon').alt=it.ja;document.getElementById('modalTitle').textContent=it.ja;document.getElementById('modalSub').textContent=`${it.en} / ID ${it.id} / ${it.category}${it.level?' / Lv '+it.level:''}`;document.getElementById('modalChips').innerHTML=`<span class="chip ${actionClass(it.action)}">${esc(it.action)}</span>${gradeChip(it.grade)}${(it.recommended||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join('')}${it.specialCount?`<span class="chip special">特殊${it.specialCount}</span>`:''}${it.tags.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}`;const effectHtml=it.effect?`<div class="panel" style="margin-top:12px"><h3>${esc(it.effect.kind)}の数値</h3><table><thead><tr><th>武器/サブ</th><th>防具/ブーツ</th><th>アクセ</th></tr></thead><tbody><tr><td>${esc(it.effect.weapon)}</td><td>${esc(it.effect.armor)}</td><td>${esc(it.effect.accessory)}</td></tr></tbody></table></div>`:'';const specialHtml=it.specials?.length?`<div class="panel" style="margin-top:12px"><h3>特殊効果</h3><table><thead><tr><th>対象</th><th>Lv</th><th>必要等級</th><th>効果</th></tr></thead><tbody>${it.specials.map(s=>`<tr><td>${esc(s.class)} / ${esc(s.slot)}</td><td>${esc(s.level)}</td><td>${gradeChip(s.grade)||esc(s.grade)}</td><td>${esc(s.effectJa||s.effect)}</td></tr>`).join('')}</tbody></table></div>`:'';const marketHtml=it.market.length?`<div class="table-wrap"><table><thead><tr><th>市場名</th><th>最低</th><th>中央値</th><th>最高</th><th>量/出品</th></tr></thead><tbody>${it.market.map(m=>`<tr><td>${esc(m.name)}</td><td>${esc(m.price)}</td><td>${esc(m.medianPrice||'-')}</td><td title="${esc(m.highestNote||'公開API未取得')}">${esc(m.highestPrice||'未取得')}</td><td>${esc(m.volume||'-')} / ${esc(m.listings)}</td></tr>`).join('')}</tbody></table></div>`:'<p class="small">現在の取得データではマーケット掲載なし。</p>';document.getElementById('modalBody').innerHTML=`<div class="detail-grid"><div class="panel"><h3>用途</h3><ul>${it.uses.map(u=>`<li>${esc(u)}</li>`).join('')}</ul></div><div class="panel"><h3>売却判断</h3><p>${esc(it.sellAdvice)}</p><p class="small" style="margin-top:8px">関連帯: ${esc(it.tierBand||'-')}</p></div></div>${effectHtml}${specialHtml}${it.desc?`<div class="panel" style="margin-top:12px"><h3>ゲーム内説明</h3><p>${esc(it.desc)}</p></div>`:''}<div class="panel" style="margin-top:12px"><h3>マーケット</h3>${marketHtml}</div>`;modal.classList.add('open');modal.setAttribute('aria-hidden','false');modalClose.focus();}
+function openDetail(id){const it=ITEMS.find(x=>x.id===Number(id));if(!it)return;document.getElementById('modalIcon').src=it.icon;document.getElementById('modalIcon').alt=it.ja;document.getElementById('modalTitle').textContent=it.ja;document.getElementById('modalSub').textContent=`${it.en} / ID ${it.id} / ${it.category}${it.level?' / Lv '+it.level:''}`;document.getElementById('modalChips').innerHTML=`<span class="chip ${actionClass(it.action)}">${esc(it.action)}</span>${gradeChip(it.grade)}${(it.recommended||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join('')}${it.specialCount?`<span class="chip special">特殊${it.specialCount}</span>`:''}${it.tags.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}`;const effectHtml=it.effect?`<div class="panel" style="margin-top:12px"><h3>${esc(it.effect.kind)}の数値</h3><table><thead><tr><th>武器/サブ</th><th>防具/ブーツ</th><th>アクセ</th></tr></thead><tbody><tr><td>${effectCell(it.effect.weaponJa,it.effect.weapon)}</td><td>${effectCell(it.effect.armorJa,it.effect.armor)}</td><td>${effectCell(it.effect.accessoryJa,it.effect.accessory)}</td></tr></tbody></table></div>`:'';const specialHtml=it.specials?.length?`<div class="panel" style="margin-top:12px"><h3>特殊効果</h3><table><thead><tr><th>対象</th><th>Lv</th><th>必要等級</th><th>効果</th></tr></thead><tbody>${it.specials.map(s=>`<tr><td>${esc(s.class)} / ${esc(s.slot)}</td><td>${esc(s.level)}</td><td>${gradeChip(s.grade)||esc(s.grade)}</td><td>${effectCell(s.effectJa||s.effect,s.effect)}</td></tr>`).join('')}</tbody></table></div>`:'';const marketHtml=it.market.length?`<div class="table-wrap"><table><thead><tr><th>市場名</th><th>最低</th><th>中央値</th><th>最高</th><th>量/出品</th></tr></thead><tbody>${it.market.map(m=>`<tr><td>${esc(m.name)}</td><td>${esc(m.price)}</td><td>${esc(m.medianPrice||'-')}</td><td title="${esc(m.highestNote||'公開API未取得')}">${esc(m.highestPrice||'未取得')}</td><td>${esc(m.volume||'-')} / ${esc(m.listings)}</td></tr>`).join('')}</tbody></table></div>`:'<p class="small">現在の取得データではマーケット掲載なし。</p>';document.getElementById('modalBody').innerHTML=`<div class="detail-grid"><div class="panel"><h3>用途</h3><ul>${it.uses.map(u=>`<li>${esc(u)}</li>`).join('')}</ul></div><div class="panel"><h3>売却判断</h3><p>${esc(it.sellAdvice)}</p><p class="small" style="margin-top:8px">関連帯: ${esc(it.tierBand||'-')}</p></div></div>${effectHtml}${specialHtml}${it.desc?`<div class="panel" style="margin-top:12px"><h3>ゲーム内説明</h3><p>${esc(it.desc)}</p></div>`:''}<div class="panel" style="margin-top:12px"><h3>マーケット</h3>${marketHtml}</div>`;modal.classList.add('open');modal.setAttribute('aria-hidden','false');modalClose.focus();}
 cards.addEventListener('click',e=>{const btn=e.target.closest('.card');if(btn)openDetail(btn.dataset.id);});
 [categoryFilter,buildFilter,gradeFilter,actionFilter].forEach(el=>el.addEventListener('change',()=>{filters.category=categoryFilter.value;filters.build=buildFilter.value;filters.grade=gradeFilter.value;filters.action=actionFilter.value;renderCards();}));
 document.getElementById('resetFilters').addEventListener('click',()=>{q.value='';categoryFilter.value=buildFilter.value=gradeFilter.value=actionFilter.value='all';filters.category=filters.build=filters.grade=filters.action='all';renderCards();});
 q.addEventListener('input',renderCards);document.getElementById('effectKindFilter').addEventListener('change',renderEffectTable);document.getElementById('effectQ').addEventListener('input',renderEffectTable);document.getElementById('specialClassFilter').addEventListener('change',renderSpecialTable);document.getElementById('specialQ').addEventListener('input',renderSpecialTable);
 modalClose.addEventListener('click',()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true');});modal.addEventListener('click',e=>{if(e.target===modal)modalClose.click();});window.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open'))modalClose.click();});
-setupGradeFilter();renderStatusStrip();renderCharacterTierCards();renderHeroCards();renderTierCards();renderBuildCards();renderEffectTable();renderSpecialTable();renderSocketTable();renderMaterialTable();renderCards();renderMarket();renderAuditCards();renderSources();
+setupGradeFilter();renderCharacterTierCards();renderHeroCards();renderTierCards();renderBuildCards();renderEffectTable();renderSpecialTable();renderSocketTable();renderMaterialTable();renderCards();renderMarket();renderAuditCards();renderSources();
 </script>
 </body>
 </html>
