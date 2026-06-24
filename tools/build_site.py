@@ -110,12 +110,12 @@ HERO_SLUGS = {
 }
 
 HERO_ICON_BY_ID = {
-    101: "icons/SWORD_300001.png",
-    201: "icons/BOW_310001.png",
-    301: "icons/STAFF_320001.png",
-    401: "icons/SCEPTER_330001.png",
-    501: "icons/CROSSBOW_340001.png",
-    601: "icons/AXE_350001.png",
+    101: "images/heroes/knight.svg",
+    201: "images/heroes/ranger.svg",
+    301: "images/heroes/sorcerer.svg",
+    401: "images/heroes/priest.svg",
+    501: "images/heroes/hunter.svg",
+    601: "images/heroes/slayer.svg",
 }
 
 MATERIAL_TIER_BY_PREFIX = {
@@ -1341,8 +1341,44 @@ def keep_use_text(item: dict) -> str:
     return " / ".join(uses[:2]) if uses else "-"
 
 
+KEEP_CATEGORY_LABEL = {
+    "装飾素材": "装飾素材",
+    "彫刻素材": "彫刻素材",
+    "刻印素材": "刻印素材",
+    "クラフト素材": "制作素材",
+}
+
+
+KEEP_CATEGORY_SECTIONS = [
+    {
+        "id": "decoration",
+        "category": "装飾素材",
+        "title": "装飾素材",
+        "note": "キューブの装飾で使う素材。武器・防具・アクセサリーで付く数値が変わります。",
+    },
+    {
+        "id": "engraving",
+        "category": "彫刻素材",
+        "title": "彫刻素材",
+        "note": "キューブの彫刻で使う素材。複数の付与候補をまとめて確認できます。",
+    },
+    {
+        "id": "inscription",
+        "category": "刻印素材",
+        "title": "刻印素材",
+        "note": "刻印スロット付き装備に使う巻物系素材。レベル帯ごとに残します。",
+    },
+    {
+        "id": "craft",
+        "category": "クラフト素材",
+        "title": "制作素材",
+        "note": "キューブの制作で使う素材。サブ武器・ブーツ・高レベル装備のために残します。",
+    },
+]
+
+
 def keep_material_icon(item: dict) -> str:
-    details = [item.get("category", "")]
+    details = [KEEP_CATEGORY_LABEL.get(item.get("category", ""), item.get("category", ""))]
     if item.get("tierBand"):
         details.append(item["tierBand"])
     if item.get("effectText"):
@@ -1375,24 +1411,20 @@ def material_band_items(items_by_id: dict[int, dict], ranges: set[str], keys: tu
 
 
 def keep_material_sections(items: list[dict]) -> list[dict]:
-    material_items = sorted(
-        [item for item in items if item.get("category") in {"装飾素材", "彫刻素材", "刻印素材", "クラフト素材"}],
-        key=lambda item: item["id"],
-    )
-    sections = [
-        {
-            "id": "all",
-            "title": "全部",
-            "note": "残す素材をまとめた一覧。カーソルを合わせるかクリックすると詳細が出ます。",
-            "items": material_items,
-        },
-    ]
+    sections = []
+    for section in KEEP_CATEGORY_SECTIONS:
+        section_items = sorted(
+            [item for item in items if item.get("category") == section["category"]],
+            key=lambda item: item["id"],
+        )
+        sections.append({**section, "items": section_items})
     return sections
 
 
 def keep_materials_page_template(data: dict) -> str:
     section_html = []
-    for section in keep_material_sections(data["items"]):
+    sections = keep_material_sections(data["items"])
+    for section in sections:
         icons = "\n".join(keep_material_icon(item) for item in section["items"])
         if not icons:
             icons = '<p class="small">該当する素材はまだ整理中です。</p>'
@@ -1403,6 +1435,7 @@ def keep_materials_page_template(data: dict) -> str:
   <section class="keep-icon-grid">{icons}</section>
 """
         )
+    nav_links = "".join(f'<a href="#{h(section["id"])}">{h(section["title"])}</a>' for section in sections)
     body = f"""<!doctype html>
 <html lang="ja">
 <head>
@@ -1415,9 +1448,9 @@ def keep_materials_page_template(data: dict) -> str:
 <header>
   <div class="wrap">
     <h1>残す素材一覧</h1>
-    <p class="sub">残す素材だけをアイコンでまとめた一覧。ホバー/クリックで詳細表示。</p>
+    <p class="sub">装飾・彫刻・刻印・制作素材をアイコンで分類。ホバー/クリックで詳細表示。</p>
     <nav class="nav">
-      <a href="index.html">一覧へ戻る</a><a href="#all">全部</a>
+      <a href="index.html">一覧へ戻る</a>{nav_links}
     </nav>
   </div>
 </header>
