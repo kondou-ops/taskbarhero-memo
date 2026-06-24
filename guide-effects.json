@@ -1,0 +1,1319 @@
+{
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3744134720",
+  "source_note": "Fan-made Steam Community guide, Patch ver 1.00.17. Extracted for compact lookup; local game tables remain primary for item names.",
+  "socketUnlocks": [
+    {
+      "Rarity": "Rare",
+      "Yellow (Decoration)": "1",
+      "Green (Engraving)": "—",
+      "Purple (Inscription)": "—"
+    },
+    {
+      "Rarity": "Legendary",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "—",
+      "Purple (Inscription)": "—"
+    },
+    {
+      "Rarity": "Immortal",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "1",
+      "Purple (Inscription)": "—"
+    },
+    {
+      "Rarity": "Arcana",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "1",
+      "Purple (Inscription)": "1"
+    },
+    {
+      "Rarity": "Beyond",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "2",
+      "Purple (Inscription)": "1"
+    },
+    {
+      "Rarity": "Celestial",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "2",
+      "Purple (Inscription)": "2"
+    },
+    {
+      "Rarity": "Divine",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "2",
+      "Purple (Inscription)": "2"
+    },
+    {
+      "Rarity": "Cosmic",
+      "Yellow (Decoration)": "2",
+      "Green (Engraving)": "2",
+      "Purple (Inscription)": "2"
+    }
+  ],
+  "decorations": [
+    {
+      "Gem": "Minor Ruby",
+      "Grade": "Common",
+      "Weapon": "+20~30% Fire Damage",
+      "Armor": "+5~10% Fire Resistance",
+      "Accessory": "+1~2 Attack Damage"
+    },
+    {
+      "Gem": "Minor Sapphire",
+      "Grade": "Common",
+      "Weapon": "+20~30% Cold Damage",
+      "Armor": "+25~50 Armor",
+      "Accessory": "+10~15% Crit Chance"
+    },
+    {
+      "Gem": "Minor Topaz",
+      "Grade": "Common",
+      "Weapon": "+20~30% Lightning Damage",
+      "Armor": "+10~15% Armor",
+      "Accessory": "+8~10% Cast Speed"
+    },
+    {
+      "Gem": "Minor Emerald",
+      "Grade": "Common",
+      "Weapon": "+5~6% Attack Speed",
+      "Armor": "+1% Damage Absorption",
+      "Accessory": "+10~15% Movement Speed"
+    },
+    {
+      "Gem": "Minor Amethyst",
+      "Grade": "Common",
+      "Weapon": "+20~30% Physical Damage",
+      "Armor": "+10~30 Max HP",
+      "Accessory": "+1~2.5% Cooldown Reduction"
+    },
+    {
+      "Gem": "Obsidian Shard",
+      "Grade": "Uncommon",
+      "Weapon": "+3~6 Attack Damage",
+      "Armor": "+3.5~4.5% Block Chance",
+      "Accessory": "+10~15% Attack Damage"
+    },
+    {
+      "Gem": "Coral Piece",
+      "Grade": "Uncommon",
+      "Weapon": "+1~2 HP per Hit",
+      "Armor": "+1.5~2 HP Regen/sec",
+      "Accessory": "+1.5~2.5% Life Leech"
+    },
+    {
+      "Gem": "Jade Stone",
+      "Grade": "Uncommon",
+      "Weapon": "+20~25% Crit Chance",
+      "Armor": "+3.5~4.5% Dodge Chance",
+      "Accessory": "+5~6% Attack Speed"
+    },
+    {
+      "Gem": "Amber Gem",
+      "Grade": "Uncommon",
+      "Weapon": "+20~25% Crit Damage",
+      "Armor": "+8~11% Max HP",
+      "Accessory": "+8~9% Area of Effect"
+    },
+    {
+      "Gem": "Ruby",
+      "Grade": "Rare",
+      "Weapon": "+30~40% Fire Damage",
+      "Armor": "+15~20% Fire Resistance",
+      "Accessory": "+3~6 Attack Damage"
+    },
+    {
+      "Gem": "Sapphire",
+      "Grade": "Rare",
+      "Weapon": "+30~40% Cold Damage",
+      "Armor": "+15~20% Cold Resistance",
+      "Accessory": "+20~25% Crit Chance"
+    },
+    {
+      "Gem": "Topaz",
+      "Grade": "Rare",
+      "Weapon": "+30~40% Lightning Damage",
+      "Armor": "+15~20% Lightning Resistance",
+      "Accessory": "+12~14% Cast Speed"
+    },
+    {
+      "Gem": "Emerald",
+      "Grade": "Rare",
+      "Weapon": "+7~9% Attack Speed",
+      "Armor": "+15~20% Chaos Resistance",
+      "Accessory": "+20~25% Movement Speed"
+    },
+    {
+      "Gem": "Amethyst",
+      "Grade": "Rare",
+      "Weapon": "+30~40% Physical Damage",
+      "Armor": "+60~90 Max HP",
+      "Accessory": "+4~5.5% Cooldown Reduction"
+    },
+    {
+      "Gem": "Crystal Quartz",
+      "Grade": "Legendary",
+      "Weapon": "+10~15 Attack Damage",
+      "Armor": "+2.5~3 HP Regen/sec",
+      "Accessory": "+25~30% Crit Damage"
+    },
+    {
+      "Gem": "Pearl",
+      "Grade": "Legendary",
+      "Weapon": "+7~8.5% Cooldown Reduction",
+      "Armor": "+4~5.5% Damage Reduction",
+      "Accessory": "+25~30% Crit Chance"
+    },
+    {
+      "Gem": "Turquoise",
+      "Grade": "Legendary",
+      "Weapon": "+30~35% Crit Chance",
+      "Armor": "+5.5~7% Cooldown Reduction",
+      "Accessory": "+90~120 Max HP"
+    },
+    {
+      "Gem": "Garnet",
+      "Grade": "Legendary",
+      "Weapon": "+30~40% Crit Damage",
+      "Armor": "+25~30% Armor",
+      "Accessory": "+7~9% Attack Speed"
+    },
+    {
+      "Gem": "Diamond",
+      "Grade": "Immortal",
+      "Weapon": "+15~30 Attack Damage",
+      "Armor": "+13~15% All Elemental Resistance",
+      "Accessory": "+12~14% Area of Effect"
+    },
+    {
+      "Gem": "Opal",
+      "Grade": "Immortal",
+      "Weapon": "+11~13% Attack Speed",
+      "Armor": "+17~20% Max HP",
+      "Accessory": "+3~4 HP Regen/sec"
+    },
+    {
+      "Gem": "Lapis Lazuli",
+      "Grade": "Immortal",
+      "Weapon": "+35~40% Crit Chance",
+      "Armor": "+7~9% Dodge Chance",
+      "Accessory": "+30~35% Movement Speed"
+    },
+    {
+      "Gem": "Black Pearl",
+      "Grade": "Immortal",
+      "Weapon": "+14~17% Area of Effect",
+      "Armor": "+7~9% Block Chance",
+      "Accessory": "+16~20% Cast Speed"
+    },
+    {
+      "Gem": "Arcane Crystal",
+      "Grade": "Arcana",
+      "Weapon": "+25~30% Cast Speed",
+      "Armor": "+8.5~10% Cooldown Reduction",
+      "Accessory": "+40~50% Crit Damage"
+    },
+    {
+      "Gem": "Mystic Topaz",
+      "Grade": "Arcana",
+      "Weapon": "+80~100% Lightning Damage",
+      "Armor": "+30~35% Lightning Resistance",
+      "Accessory": "+20~25% Cast Speed"
+    },
+    {
+      "Gem": "Enchanted Ruby",
+      "Grade": "Arcana",
+      "Weapon": "+80~100% Fire Damage",
+      "Armor": "+30~35% Fire Resistance",
+      "Accessory": "+15~30 Attack Damage"
+    },
+    {
+      "Gem": "Starlight Sapphire",
+      "Grade": "Arcana",
+      "Weapon": "+80~100% Cold Damage",
+      "Armor": "+30~35% Cold Resistance",
+      "Accessory": "+35~40% Crit Chance"
+    },
+    {
+      "Gem": "Void Opal",
+      "Grade": "Beyond",
+      "Weapon": "+11.5~13% Cooldown Reduction",
+      "Armor": "+25~30% Max HP",
+      "Accessory": "+180~210 Max HP"
+    },
+    {
+      "Gem": "Astral Diamond",
+      "Grade": "Beyond",
+      "Weapon": "+50~100 Attack Damage",
+      "Armor": "+17~19% All Elemental Resistance",
+      "Accessory": "+17~20% Area of Effect"
+    },
+    {
+      "Gem": "Phantom Emerald",
+      "Grade": "Beyond",
+      "Weapon": "+15~17% Attack Speed",
+      "Armor": "+35~40% Chaos Resistance",
+      "Accessory": "+40~45% Movement Speed"
+    },
+    {
+      "Gem": "Twilight Amethyst",
+      "Grade": "Beyond",
+      "Weapon": "+100~130% Physical Damage",
+      "Armor": "+180~210 Max HP",
+      "Accessory": "+8.5~10% Cooldown Reduction"
+    },
+    {
+      "Gem": "Celestial Pearl",
+      "Grade": "Celestial",
+      "Weapon": "+50~55% Crit Chance",
+      "Armor": "+4~5% Damage Absorption",
+      "Accessory": "+40~45% Crit Chance"
+    },
+    {
+      "Gem": "Dragonite Crystal",
+      "Grade": "Celestial",
+      "Weapon": "+80~100% Crit Damage",
+      "Armor": "+45~50% Armor",
+      "Accessory": "+60~80% Crit Damage"
+    },
+    {
+      "Gem": "Void Crystal",
+      "Grade": "Divine",
+      "Weapon": "+100~150% Attack Damage",
+      "Armor": "+13~14.5% Cooldown Reduction",
+      "Accessory": "+70~100% Attack Damage"
+    },
+    {
+      "Gem": "Abyssal Pearl",
+      "Grade": "Divine",
+      "Weapon": "+10~12 HP per Hit",
+      "Armor": "+10~15 HP Regen/sec",
+      "Accessory": "+5~6% Life Leech"
+    },
+    {
+      "Gem": "Ethereal Gem",
+      "Grade": "Cosmic",
+      "Weapon": "+1 Multistrike +1",
+      "Armor": "+14~16% Damage Reduction",
+      "Accessory": "+1 Basic Attack Count -1"
+    },
+    {
+      "Gem": "Chaos Diamond",
+      "Grade": "Cosmic",
+      "Weapon": "+1 Projectile Count +1",
+      "Armor": "+25~30% All Elemental Resistance",
+      "Accessory": "+100~150% Crit Damage"
+    }
+  ],
+  "engravings": [
+    {
+      "Engraving": "Goblin Hide",
+      "Grade": "Common",
+      "Weapon": "+20~30% Fire Damage / +20~30% Lightning Damage",
+      "Armor": "+5~10% Cold Resistance / +5~10% Fire Resistance",
+      "Accessory": "+4~5% Attack Speed / +10~30 Max HP"
+    },
+    {
+      "Engraving": "Skeleton Bone",
+      "Grade": "Common",
+      "Weapon": "+15~20% Crit Damage / +20~30% Fire Damage",
+      "Armor": "+25~50 Armor / +10~15% Armor",
+      "Accessory": "+1~2 HP per Hit / +4~5% Attack Speed"
+    },
+    {
+      "Engraving": "Slime Jelly",
+      "Grade": "Common",
+      "Weapon": "+5~6% Attack Speed / +2~3 Attack Damage",
+      "Armor": "+1% Damage Absorption / +2.5~3.5% Block Chance",
+      "Accessory": "+10~30 Max HP / +10~15% Crit Chance"
+    },
+    {
+      "Engraving": "Wolf Fang",
+      "Grade": "Uncommon",
+      "Weapon": "+9~10% Area of Effect / +20~25% Crit Chance",
+      "Armor": "+10~15% Lightning Resistance / +15~20% Armor",
+      "Accessory": "+2~4 HP per Hit / +2~3 Attack Damage"
+    },
+    {
+      "Engraving": "Spider Silk",
+      "Grade": "Uncommon",
+      "Weapon": "+9~10% Area of Effect / +30~40% Physical Damage",
+      "Armor": "+10~15% Cold Resistance / +2.5~4% Cooldown Reduction",
+      "Accessory": "+2.5~4% Cooldown Reduction / +30~60 Max HP"
+    },
+    {
+      "Engraving": "Poisonous Herb",
+      "Grade": "Uncommon",
+      "Weapon": "+2~3% Life Leech / +30~40% Lightning Damage",
+      "Armor": "+50~100 Armor / +1~1.4% Damage Absorption",
+      "Accessory": "+2~3 Attack Damage / +15~20% Movement Speed"
+    },
+    {
+      "Engraving": "Healing Herb",
+      "Grade": "Uncommon",
+      "Weapon": "+30~40% Fire Damage / +30~40% Cold Damage",
+      "Armor": "+3.5~4.5% Dodge Chance / +8~11% Max HP",
+      "Accessory": "+15~20% Crit Chance / +2~3 Attack Damage"
+    },
+    {
+      "Engraving": "Bat Wing Membrane",
+      "Grade": "Rare",
+      "Weapon": "+40~50% Lightning Damage / +40~50% Fire Damage",
+      "Armor": "+3~4% Damage Reduction / +60~90 Max HP",
+      "Accessory": "+20~25% Crit Damage / +1~2 HP per Hit"
+    },
+    {
+      "Engraving": "Ogre Blood",
+      "Grade": "Rare",
+      "Weapon": "+10~12% Area of Effect / +20~25% Attack Damage",
+      "Armor": "+2~2.5 HP Regen/sec / +15~20% Cold Resistance",
+      "Accessory": "+60~90 Max HP / +3~6 Attack Damage"
+    },
+    {
+      "Engraving": "Mushroom Spore",
+      "Grade": "Rare",
+      "Weapon": "+5.5~7% Cooldown Reduction / +4~6 HP per Hit",
+      "Armor": "+4.5~5.5% Block Chance / +15~20% Lightning Resistance",
+      "Accessory": "+2~2.5 HP Regen/sec / +60~90 Max HP"
+    },
+    {
+      "Engraving": "Ancient Tree Sap",
+      "Grade": "Rare",
+      "Weapon": "+25~30% Crit Damage / +10~12% Area of Effect",
+      "Armor": "+2~2.5 HP Regen/sec / +3~4% Damage Reduction",
+      "Accessory": "+20~25% Crit Damage / +6~7% Attack Speed"
+    },
+    {
+      "Engraving": "Skull",
+      "Grade": "Legendary",
+      "Weapon": "+7~8.5% Cooldown Reduction / +50~60% Lightning Damage",
+      "Armor": "+20~25% Lightning Resistance / +20~25% Chaos Resistance",
+      "Accessory": "+14~16% Cast Speed / +25~30% Crit Damage"
+    },
+    {
+      "Engraving": "Harpy Feather",
+      "Grade": "Legendary",
+      "Weapon": "+50~60% Fire Damage / +25~30% Attack Damage",
+      "Armor": "+5.5~7% Block Chance / +4~5.5% Damage Reduction",
+      "Accessory": "+6~10 Attack Damage / +90~120 Max HP"
+    },
+    {
+      "Engraving": "Mandrake Root",
+      "Grade": "Legendary",
+      "Weapon": "+5~7 HP per Hit / +50~60% Fire Damage",
+      "Armor": "+20~25% Cold Resistance / +90~120 Max HP",
+      "Accessory": "+2.5~3.5% Life Leech / +2.5~3 HP Regen/sec"
+    },
+    {
+      "Engraving": "Nightshade Extract",
+      "Grade": "Legendary",
+      "Weapon": "+25~30% Attack Damage / +30~35% Crit Chance",
+      "Armor": "+20~25% Lightning Resistance / +20~25% Cold Resistance",
+      "Accessory": "+4~6 HP per Hit / +25~30% Crit Damage"
+    },
+    {
+      "Engraving": "Basilisk Scale",
+      "Grade": "Immortal",
+      "Weapon": "+3.5~4.5% Life Leech / +15~30 Attack Damage",
+      "Armor": "+120~150 Max HP / +5.5~7% Damage Reduction",
+      "Accessory": "+30~35% Movement Speed / +16~20% Cast Speed"
+    },
+    {
+      "Engraving": "Wyvern Claw",
+      "Grade": "Immortal",
+      "Weapon": "+60~80% Cold Damage / +6~8 HP per Hit",
+      "Armor": "+25~30% Cold Resistance / +200~250 Armor",
+      "Accessory": "+30~35% Crit Chance / +3~4 HP Regen/sec"
+    },
+    {
+      "Engraving": "Dice",
+      "Grade": "Immortal",
+      "Weapon": "+60~80% Physical Damage / +60~80% Cold Damage",
+      "Armor": "+2.2~2.6% Damage Absorption / +7~9% Block Chance",
+      "Accessory": "+7~8.5% Cooldown Reduction / +30~35% Movement Speed"
+    },
+    {
+      "Engraving": "Demon Blood",
+      "Grade": "Immortal",
+      "Weapon": "+14~17% Area of Effect / +60~80% Lightning Damage",
+      "Armor": "+7~9% Block Chance / +7~9% Dodge Chance",
+      "Accessory": "+3~4% Life Leech / +30~35% Crit Chance"
+    },
+    {
+      "Engraving": "Minotaur Horn",
+      "Grade": "Arcana",
+      "Weapon": "+80~100% Cold Damage / +13~15% Attack Speed",
+      "Armor": "+30~35% Lightning Resistance / +4~5 HP Regen/sec",
+      "Accessory": "+14~17% Area of Effect / +8.5~10% Cooldown Reduction"
+    },
+    {
+      "Engraving": "Griffin Beak",
+      "Grade": "Arcana",
+      "Weapon": "+80~100% Cold Damage / +30~50 Attack Damage",
+      "Armor": "+30~35% Lightning Resistance / +20~25% Max HP",
+      "Accessory": "+20~25% Cast Speed / +40~50% Crit Damage"
+    },
+    {
+      "Engraving": "Phoenix Ash",
+      "Grade": "Arcana",
+      "Weapon": "+40~45% Crit Chance / +30~50 Attack Damage",
+      "Armor": "+2.6~3% Damage Absorption / +7~8.5% Damage Reduction",
+      "Accessory": "+11~13% Attack Speed / +40~50% Crit Damage"
+    },
+    {
+      "Engraving": "Dragon Bile",
+      "Grade": "Arcana",
+      "Weapon": "+50~60% Crit Damage / +40~45% Crit Chance",
+      "Armor": "+9~11% Dodge Chance / +9~11% Block Chance",
+      "Accessory": "+35~40% Crit Chance / +6~8 HP per Hit"
+    },
+    {
+      "Engraving": "Wraith Essence",
+      "Grade": "Beyond",
+      "Weapon": "+60~80% Crit Damage / +100~130% Fire Damage",
+      "Armor": "+11~13% Block Chance / +180~210 Max HP",
+      "Accessory": "+7~9 HP per Hit / +50~60% Crit Damage"
+    },
+    {
+      "Engraving": "Kraken Ink",
+      "Grade": "Beyond",
+      "Weapon": "+100~130% Cold Damage / +20~23% Area of Effect",
+      "Armor": "+35~40% Lightning Resistance / +11~13% Dodge Chance",
+      "Accessory": "+7~9 HP per Hit / +30~50 Attack Damage"
+    },
+    {
+      "Engraving": "Titan Marrow",
+      "Grade": "Beyond",
+      "Weapon": "+50~70% Attack Damage / +100~130% Fire Damage",
+      "Armor": "+35~40% Lightning Resistance / +8.5~10% Damage Reduction",
+      "Accessory": "+5~7 HP Regen/sec / +180~210 Max HP"
+    },
+    {
+      "Engraving": "Void Ichor",
+      "Grade": "Beyond",
+      "Weapon": "+45~50% Crit Chance / +8~10 HP per Hit",
+      "Armor": "+8.5~10% Damage Reduction / +35~40% Cold Resistance",
+      "Accessory": "+40~45% Movement Speed / +40~45% Crit Chance"
+    },
+    {
+      "Engraving": "Abyssal Mucus",
+      "Grade": "Celestial",
+      "Weapon": "+130~180% Fire Damage / +13~14.5% Cooldown Reduction",
+      "Armor": "+45~50% Armor / +13~16% Block Chance",
+      "Accessory": "+15~17% Attack Speed / +45~50% Movement Speed"
+    },
+    {
+      "Engraving": "Chaos Spore",
+      "Grade": "Celestial",
+      "Weapon": "+130~180% Physical Damage / +100~150 Attack Damage",
+      "Armor": "+40~45% Cold Resistance / +40~45% Chaos Resistance",
+      "Accessory": "+45~50% Movement Speed / +7~10 HP Regen/sec"
+    },
+    {
+      "Engraving": "Primordial Sap",
+      "Grade": "Divine",
+      "Weapon": "+28~35% Area of Effect / +180~250% Fire Damage",
+      "Armor": "+45~50% Chaos Resistance / +10~15 HP Regen/sec",
+      "Accessory": "+35~40% Cast Speed / +50~55% Movement Speed"
+    },
+    {
+      "Engraving": "Eldritch Venom",
+      "Grade": "Divine",
+      "Weapon": "+10~12 HP per Hit / +20~25% Attack Speed",
+      "Armor": "+16~20% Block Chance / +50~55% Armor",
+      "Accessory": "+50~55% Crit Chance / +13~14.5% Cooldown Reduction"
+    },
+    {
+      "Engraving": "Chaso Dice",
+      "Grade": "Cosmic",
+      "Weapon": "+25~30% Crit Chance / +150~300 Attack Damage",
+      "Armor": "+270~300 Max HP / +6~8% Damage Absorption",
+      "Accessory": "+40~50% Cast Speed / +150~300 Attack Damage"
+    },
+    {
+      "Engraving": "Void Tendril",
+      "Grade": "Cosmic",
+      "Weapon": "+100~150% Attack Damage / +100~150% Crit Damage",
+      "Armor": "+50~55% Fire Resistance / +14.5~16% Cooldown Reduction",
+      "Accessory": "+270~300 Max HP / +55~60% Crit Chance"
+    }
+  ],
+  "uniqueMods": {
+    "knight": [
+      {
+        "Item": "Heater Shield (Shield)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Heater Shield (Shield)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Heavy Shield (Shield)",
+        "Lv": "20",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Heavy Shield (Shield)",
+        "Lv": "20",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Forest Shield (Shield)",
+        "Lv": "25",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "War Shield (Shield)",
+        "Lv": "30",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Barrier Shield (Shield)",
+        "Lv": "35",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Barrier Shield (Shield)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Commander's Sword (Sword)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Elite Shield (Shield)",
+        "Lv": "40",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Elite Shield (Shield)",
+        "Lv": "40",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Crimson Shield (Shield)",
+        "Lv": "45",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Crimson Shield (Shield)",
+        "Lv": "45",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Mystic Shield (Shield)",
+        "Lv": "50",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Mystic Shield (Shield)",
+        "Lv": "50",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Grand Shield (Shield)",
+        "Lv": "55",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Grand Shield (Shield)",
+        "Lv": "55",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Grand Shield (Shield)",
+        "Lv": "55",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Ancient Shield (Shield)",
+        "Lv": "60",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Ancient Shield (Shield)",
+        "Lv": "60",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Ancient Shield (Shield)",
+        "Lv": "60",
+        "Grade": "Cosmic",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Storm Helmet (Helmet)",
+        "Lv": "60",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Storm Sword (Sword)",
+        "Lv": "60",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Radiant Shield (Shield)",
+        "Lv": "65",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Radiant Shield (Shield)",
+        "Lv": "65",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Radiant Shield (Shield)",
+        "Lv": "65",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Void Blade (Sword)",
+        "Lv": "70",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Void Helmet (Helmet)",
+        "Lv": "70",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Void Shield (Shield)",
+        "Lv": "70",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Void Shield (Shield)",
+        "Lv": "70",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Void Shield (Shield)",
+        "Lv": "70",
+        "Grade": "Cosmic",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Divine Shield (Shield)",
+        "Lv": "75",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Divine Shield (Shield)",
+        "Lv": "75",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Divine Shield (Shield)",
+        "Lv": "75",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Dimensional Helmet (Helmet)",
+        "Lv": "80",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Dimensional Shield (Shield)",
+        "Lv": "80",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Dimensional Shield (Shield)",
+        "Lv": "80",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Dimensional Shield (Shield)",
+        "Lv": "80",
+        "Grade": "Cosmic",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Dimensional Sword (Sword)",
+        "Lv": "80",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Shadow Shield (Shield)",
+        "Lv": "85",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Shadow Shield (Shield)",
+        "Lv": "85",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Shadow Shield (Shield)",
+        "Lv": "85",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Eternal Helmet (Helmet)",
+        "Lv": "90",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      },
+      {
+        "Item": "Eternal Shield (Shield)",
+        "Lv": "90",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Eternal Shield (Shield)",
+        "Lv": "90",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Eternal Shield (Shield)",
+        "Lv": "90",
+        "Grade": "Cosmic",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Eternal Sword (Sword)",
+        "Lv": "90",
+        "Grade": "Cosmic",
+        "Effect": "Kill w/ Shield Charge → resets CD"
+      }
+    ],
+    "universal": [
+      {
+        "Item": "Knight Boots (Boots)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Walk between waves at fastest party member's speed"
+      },
+      {
+        "Item": "Heavy Boots (Boots)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Walk between waves at slowest party member's speed"
+      }
+    ],
+    "ranger": [
+      {
+        "Item": "Barbed Arrow (Arrow)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill -1 basic attack to trigger"
+      },
+      {
+        "Item": "Barbed Arrow (Arrow)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Composite Bow (Bow)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill projectile +1"
+      },
+      {
+        "Item": "Chain Helmet (Helmet)",
+        "Lv": "20",
+        "Grade": "Arcana",
+        "Effect": "Skewer Shot +2x dmg to bleeding"
+      },
+      {
+        "Item": "Dusk Bow (Bow)",
+        "Lv": "30",
+        "Grade": "Arcana",
+        "Effect": "Skewer Shot +2x dmg to bleeding"
+      },
+      {
+        "Item": "Jade Bow (Bow)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Rune Helmet (Helmet)",
+        "Lv": "40",
+        "Grade": "Celestial",
+        "Effect": "Crit basic atk → Arrow Rain CD -0.5s"
+      },
+      {
+        "Item": "Fate Helmet (Helmet)",
+        "Lv": "50",
+        "Grade": "Arcana",
+        "Effect": "Skewer Shot +2x dmg to bleeding"
+      },
+      {
+        "Item": "Mystic Bow (Bow)",
+        "Lv": "50",
+        "Grade": "Celestial",
+        "Effect": "Crit basic atk → Arrow Rain CD -0.5s"
+      },
+      {
+        "Item": "Ancient Bow (Bow)",
+        "Lv": "60",
+        "Grade": "Arcana",
+        "Effect": "Skewer Shot +2x dmg to bleeding"
+      },
+      {
+        "Item": "Storm Helmet (Helmet)",
+        "Lv": "60",
+        "Grade": "Celestial",
+        "Effect": "Crit basic atk → Arrow Rain CD -0.5s"
+      },
+      {
+        "Item": "Chaos Bow (Bow)",
+        "Lv": "70",
+        "Grade": "Celestial",
+        "Effect": "Crit basic atk → Arrow Rain CD -0.5s"
+      },
+      {
+        "Item": "Dimensional Helmet (Helmet)",
+        "Lv": "80",
+        "Grade": "Arcana",
+        "Effect": "Skewer Shot +2x dmg to bleeding"
+      },
+      {
+        "Item": "Dimensional Helmet (Helmet)",
+        "Lv": "80",
+        "Grade": "Celestial",
+        "Effect": "Crit basic atk → Arrow Rain CD -0.5s"
+      },
+      {
+        "Item": "Eternal Bow (Bow)",
+        "Lv": "90",
+        "Grade": "Arcana",
+        "Effect": "Skewer Shot +2x dmg to bleeding"
+      },
+      {
+        "Item": "Eternal Bow (Bow)",
+        "Lv": "90",
+        "Grade": "Celestial",
+        "Effect": "Crit basic atk → Arrow Rain CD -0.5s"
+      }
+    ],
+    "sorcerer": [
+      {
+        "Item": "Frozen Orb (Orb)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill CD reduced"
+      },
+      {
+        "Item": "Witch Staff (Staff)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Hydra attack speed +200%"
+      },
+      {
+        "Item": "Witch Staff (Staff)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Lightning skills shock on hit"
+      },
+      {
+        "Item": "Azure Staff (Staff)",
+        "Lv": "20",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill projectile +1"
+      },
+      {
+        "Item": "War Helmet (Helmet)",
+        "Lv": "30",
+        "Grade": "Arcana",
+        "Effect": "Ice Orb 30% freeze chilled enemies"
+      },
+      {
+        "Item": "Emperor Helmet (Helmet)",
+        "Lv": "35",
+        "Grade": "Arcana",
+        "Effect": "Hydra attack speed +200%"
+      },
+      {
+        "Item": "Mystic Staff (Staff)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Snowstorm +100% dmg vs frozen"
+      },
+      {
+        "Item": "Mystic Staff (Staff)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill element changes"
+      },
+      {
+        "Item": "Comet Staff (Staff)",
+        "Lv": "40",
+        "Grade": "Arcana",
+        "Effect": "Ice Orb 30% freeze chilled enemies"
+      },
+      {
+        "Item": "Crystal Staff (Staff)",
+        "Lv": "45",
+        "Grade": "Arcana",
+        "Effect": "Hydra attack speed +200%"
+      },
+      {
+        "Item": "Red Helmet (Helmet)",
+        "Lv": "45",
+        "Grade": "Celestial",
+        "Effect": "Snowstorm +100% dmg vs frozen"
+      },
+      {
+        "Item": "Conqueror Staff (Staff)",
+        "Lv": "55",
+        "Grade": "Celestial",
+        "Effect": "Snowstorm +100% dmg vs frozen"
+      },
+      {
+        "Item": "Storm Helmet (Helmet)",
+        "Lv": "60",
+        "Grade": "Arcana",
+        "Effect": "Ice Orb 30% freeze chilled enemies"
+      },
+      {
+        "Item": "Fighter's Helmet (Helmet)",
+        "Lv": "65",
+        "Grade": "Arcana",
+        "Effect": "Hydra attack speed +200%"
+      },
+      {
+        "Item": "Fighter's Helmet (Helmet)",
+        "Lv": "65",
+        "Grade": "Celestial",
+        "Effect": "Snowstorm +100% dmg vs frozen"
+      },
+      {
+        "Item": "Abyssal Staff (Staff)",
+        "Lv": "70",
+        "Grade": "Arcana",
+        "Effect": "Ice Orb 30% freeze chilled enemies"
+      },
+      {
+        "Item": "Chaos Staff (Staff)",
+        "Lv": "75",
+        "Grade": "Arcana",
+        "Effect": "Hydra attack speed +200%"
+      },
+      {
+        "Item": "Chaos Staff (Staff)",
+        "Lv": "75",
+        "Grade": "Celestial",
+        "Effect": "Snowstorm +100% dmg vs frozen"
+      },
+      {
+        "Item": "Shadow Helmet (Helmet)",
+        "Lv": "85",
+        "Grade": "Celestial",
+        "Effect": "Snowstorm +100% dmg vs frozen"
+      },
+      {
+        "Item": "Eternal Helmet (Helmet)",
+        "Lv": "90",
+        "Grade": "Arcana",
+        "Effect": "Ice Orb 30% freeze chilled enemies"
+      }
+    ],
+    "priest": [
+      {
+        "Item": "Great Helmet (Helmet)",
+        "Lv": "55",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Hero Scepter (Scepter)",
+        "Lv": "55",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Fighter's Helmet (Helmet)",
+        "Lv": "65",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Limitless Scepter (Scepter)",
+        "Lv": "65",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Crystal Helmet (Helmet)",
+        "Lv": "75",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Power Scepter (Scepter)",
+        "Lv": "75",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Shadow Helmet (Helmet)",
+        "Lv": "85",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      },
+      {
+        "Item": "Shadow Scepter (Scepter)",
+        "Lv": "85",
+        "Grade": "Cosmic",
+        "Effect": "Wrath of Heaven: attacks also heal allies"
+      }
+    ],
+    "hunter": [
+      {
+        "Item": "Complete Crossbow (Crossbow)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Equipped skill projectile +1"
+      },
+      {
+        "Item": "Knight Helmet (Helmet)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt kill → Charge Trap CD -1s"
+      },
+      {
+        "Item": "Exceptional Crossbow (Crossbow)",
+        "Lv": "20",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt dmg & CD -50%"
+      },
+      {
+        "Item": "Medium Helmet (Helmet)",
+        "Lv": "25",
+        "Grade": "Arcana",
+        "Effect": "Crossbow Turret CD -50%"
+      },
+      {
+        "Item": "Reinforced Crossbow (Crossbow)",
+        "Lv": "25",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt kill → Charge Trap CD -1s"
+      },
+      {
+        "Item": "Wing Crossbow (Crossbow)",
+        "Lv": "35",
+        "Grade": "Arcana",
+        "Effect": "Crossbow Turret CD -50%"
+      },
+      {
+        "Item": "Wing Crossbow (Crossbow)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill element changes"
+      },
+      {
+        "Item": "Elite Crossbow (Crossbow)",
+        "Lv": "40",
+        "Grade": "Celestial",
+        "Effect": "Max Crossbow Turrets +1"
+      },
+      {
+        "Item": "Rune Helmet (Helmet)",
+        "Lv": "40",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt dmg & CD -50%"
+      },
+      {
+        "Item": "Red Helmet (Helmet)",
+        "Lv": "45",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt kill → Charge Trap CD -1s"
+      },
+      {
+        "Item": "Fate Helmet (Helmet)",
+        "Lv": "50",
+        "Grade": "Celestial",
+        "Effect": "Max Crossbow Turrets +1"
+      },
+      {
+        "Item": "Mystic Crossbow (Crossbow)",
+        "Lv": "50",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt dmg & CD -50%"
+      },
+      {
+        "Item": "Fast Crossbow (Crossbow)",
+        "Lv": "55",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt kill → Charge Trap CD -1s"
+      },
+      {
+        "Item": "Great Helmet (Helmet)",
+        "Lv": "55",
+        "Grade": "Arcana",
+        "Effect": "Crossbow Turret CD -50%"
+      },
+      {
+        "Item": "Ancient Crossbow (Crossbow)",
+        "Lv": "60",
+        "Grade": "Celestial",
+        "Effect": "Max Crossbow Turrets +1"
+      },
+      {
+        "Item": "Limitless Crossbow (Crossbow)",
+        "Lv": "65",
+        "Grade": "Arcana",
+        "Effect": "Crossbow Turret CD -50%"
+      },
+      {
+        "Item": "Void Helmet (Helmet)",
+        "Lv": "70",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt dmg & CD -50%"
+      },
+      {
+        "Item": "Void Helmet (Helmet)",
+        "Lv": "70",
+        "Grade": "Celestial",
+        "Effect": "Max Crossbow Turrets +1"
+      },
+      {
+        "Item": "Crystal Helmet (Helmet)",
+        "Lv": "75",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt kill → Charge Trap CD -1s"
+      },
+      {
+        "Item": "Dimensional Crossbow (Crossbow)",
+        "Lv": "80",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt dmg & CD -50%"
+      },
+      {
+        "Item": "Dimensional Crossbow (Crossbow)",
+        "Lv": "80",
+        "Grade": "Celestial",
+        "Effect": "Max Crossbow Turrets +1"
+      },
+      {
+        "Item": "Shadow Crossbow (Crossbow)",
+        "Lv": "85",
+        "Grade": "Arcana",
+        "Effect": "Explosive Bolt kill → Charge Trap CD -1s"
+      },
+      {
+        "Item": "Shadow Helmet (Helmet)",
+        "Lv": "85",
+        "Grade": "Arcana",
+        "Effect": "Crossbow Turret CD -50%"
+      },
+      {
+        "Item": "Eternal Helmet (Helmet)",
+        "Lv": "90",
+        "Grade": "Celestial",
+        "Effect": "Max Crossbow Turrets +1"
+      }
+    ],
+    "slayer": [
+      {
+        "Item": "Steel Axe (Axe)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Attack Speed +1% per 1% missing HP"
+      },
+      {
+        "Item": "Steel Axe (Axe)",
+        "Lv": "15",
+        "Grade": "Arcana",
+        "Effect": "Axe Spin → fire dmg, bleed → ignite"
+      },
+      {
+        "Item": "Emperor Helmet (Helmet)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Axe Spin bleed chance → 50%"
+      },
+      {
+        "Item": "Heavy Axe (Axe)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill multistrike +1"
+      },
+      {
+        "Item": "Heavy Axe (Axe)",
+        "Lv": "35",
+        "Grade": "Celestial",
+        "Effect": "Equipped skill element changes"
+      },
+      {
+        "Item": "Legend Axe (Axe)",
+        "Lv": "45",
+        "Grade": "Celestial",
+        "Effect": "Axe Spin bleed chance → 50%"
+      },
+      {
+        "Item": "Great Helmet (Helmet)",
+        "Lv": "55",
+        "Grade": "Celestial",
+        "Effect": "Axe Spin bleed chance → 50%"
+      },
+      {
+        "Item": "Limitless Axe (Axe)",
+        "Lv": "65",
+        "Grade": "Celestial",
+        "Effect": "Axe Spin bleed chance → 50%"
+      },
+      {
+        "Item": "Crystal Helmet (Helmet)",
+        "Lv": "75",
+        "Grade": "Celestial",
+        "Effect": "Axe Spin bleed chance → 50%"
+      },
+      {
+        "Item": "Shadow Axe (Axe)",
+        "Lv": "85",
+        "Grade": "Celestial",
+        "Effect": "Axe Spin bleed chance → 50%"
+      }
+    ]
+  }
+}
