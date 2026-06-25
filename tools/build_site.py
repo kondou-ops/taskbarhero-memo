@@ -966,8 +966,9 @@ main{padding:18px 20px 46px}.section-note{color:var(--muted);font-size:13px;marg
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}.card{--rarity:#9b8053;min-width:0;background:#fffaf0;border:1px solid var(--line);border-left:4px solid var(--rarity);border-radius:8px;padding:10px;display:block;text-align:left;width:100%;min-height:122px}.card:hover,.card:focus{outline:2px solid var(--teal);outline-offset:1px}.card-top{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:center}.card img,.dialog-head img,td img,.mini-item img{object-fit:contain;image-rendering:pixelated}.card img{width:52px;height:52px;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px}.name{display:block;font-weight:800;font-size:14px;overflow-wrap:anywhere}.en{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere}.card-note{display:block;margin-top:7px;color:#614b35;font-size:12px;min-height:18px;overflow-wrap:anywhere}.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}.chip{display:inline-flex;align-items:center;border-radius:999px;background:var(--chip);color:#4b3924;padding:2px 7px;font-size:11px;line-height:18px;white-space:nowrap}.chip.keep{background:#dff1e4;color:#1f643d}.chip.synth{background:#e2eafe;color:#244f9d}.chip.sell{background:#f8e6b8;color:#68470b}.chip.warn{background:#f8d9d5;color:#8b2d25}.market{color:#68470b;background:#f8e6b8}.special{background:#ead8ff;color:#5c2f84}.rarity{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px;border:1px solid rgba(0,0,0,.25)}
 table{width:100%;border-collapse:separate;border-spacing:0;background:#fffaf0;border:1px solid var(--line);border-radius:8px;overflow:hidden}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#ead8b7;color:#4c3928}tr:last-child td{border-bottom:0}td img{width:34px;height:34px;vertical-align:middle;margin-right:8px}.table-wrap{overflow:auto;margin-top:10px}.scroll-table{max-height:430px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:8px;background:#fffaf0}.market-scroll{max-height:min(70vh,780px)}.scroll-table table{border:0;border-radius:0}.scroll-table thead th{position:sticky;top:0;z-index:2}.table-item{display:grid;grid-template-columns:38px minmax(0,1fr);gap:8px;align-items:center;min-width:180px}.table-item img{width:34px;height:34px;margin:0;background:#eadbc0;border:1px solid #d1ba92;border-radius:6px;object-fit:contain;image-rendering:pixelated}.effect-cell{font-weight:700;color:#3f2b1a}.effect-cell .en{margin-top:2px}.mini-items{display:flex;flex-wrap:wrap;gap:5px}.mini-item{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:2px 7px;background:#fffaf0;font-size:12px;white-space:nowrap}.mini-item img{width:22px;height:22px;margin:0}.keep-icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:9px;border:1px solid var(--line);border-radius:8px;background:#fffaf0;padding:12px;overflow:visible}.keep-icon{position:relative;display:grid;place-items:center;aspect-ratio:1;border:1px solid var(--line);border-radius:8px;background:#f2e4c8;padding:0;cursor:pointer}.keep-icon:hover,.keep-icon:focus{outline:2px solid var(--teal);outline-offset:2px;z-index:4}.keep-icon img{width:42px;height:42px;object-fit:contain;image-rendering:pixelated}.keep-tip{position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);width:min(280px,82vw);padding:10px 12px;border:1px solid var(--line-dark);border-radius:8px;background:#241a14;color:#fff;box-shadow:var(--shadow);opacity:0;pointer-events:none;z-index:30;text-align:left;font-size:12px;line-height:1.45}.keep-tip b{display:block;color:var(--gold);font-size:13px;margin-bottom:4px}.keep-tip span{display:block;color:#eadfc6}.keep-icon:hover .keep-tip,.keep-icon:focus .keep-tip{opacity:1}.socket-lane{display:grid;grid-template-columns:repeat(8,minmax(120px,1fr));gap:10px;overflow:auto;overscroll-behavior-x:contain;padding-bottom:4px}.socket-card{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:12px;min-width:120px}.socket-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}.socket-stats span{background:var(--chip);border-radius:6px;padding:5px 6px;text-align:center;font-size:12px}.material-bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}.material-band{background:#fffaf0;border:1px solid var(--line);border-radius:8px;padding:14px}.material-band h3{display:flex;justify-content:space-between;gap:8px;align-items:center}.material-row{margin-top:10px}.material-row b{display:block;margin-bottom:5px;color:#4c3928;font-size:12px}
 .hero-card .skill-line{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.hero-card .loadout{color:#5b4229;font-size:13px;margin-bottom:8px}.hero-visual{display:grid;place-items:center;min-height:118px;margin:8px 0 10px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(135deg,#f4e8ce,#fffaf0)}.hero-visual img{width:88px;height:88px;object-fit:contain;image-rendering:pixelated}.hero-detail-visual{min-height:210px}.hero-detail-visual img{width:148px;height:148px}.price-note{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:#21181f;color:#f2e3c6;border:1px solid #5b3a23;border-radius:8px;padding:12px 14px;margin:8px 0 12px}.price-note strong{color:var(--gold)}.price-note span{font-size:12px;color:#d5c0a0}
+.effect-goals{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:12px 0}.effect-goal{min-width:0;text-align:left;background:#fffaf0;border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:8px;padding:10px}.effect-goal b{display:block;font-size:15px}.effect-goal span{display:block;color:var(--muted);font-size:12px;margin-top:4px}.effect-goal.active{background:#241a14;color:#fff;border-color:#241a14}.effect-goal.active span{color:#e4d2b6}.slot-stats{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}.slot-stats span{border:1px solid var(--line);border-radius:999px;background:#fffaf0;padding:4px 9px;font-size:12px}.effect-search-table th:nth-child(2),.effect-search-table td:nth-child(2){min-width:58px;white-space:nowrap}.effect-search-table th:nth-child(3),.effect-search-table td:nth-child(3){min-width:108px}.effect-hit{background:#e5f2e2}.focus-badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}.focus-badge{display:inline-flex;border-radius:999px;background:#dff1e4;color:#1f643d;padding:1px 6px;font-size:11px;line-height:17px}.effect-empty{padding:18px;color:var(--muted)}
 .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(19,12,8,.64);z-index:20}.modal.open{display:flex}.dialog{width:min(820px,100%);max-height:90vh;overflow:auto;background:#fffaf0;border-radius:8px;box-shadow:var(--shadow);border:1px solid var(--line-dark)}.dialog-head{display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center;padding:16px;border-bottom:1px solid var(--line);background:#f2dfbd}.dialog-head img{width:72px;height:72px;background:#eadbc0;border:1px solid #d1ba92;border-radius:8px}.dialog-body{padding:16px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.close{font-size:20px;line-height:1;width:36px;height:36px;padding:0}footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
-@media(max-width:980px){.grid4,.grid3,.hero-grid,.source-list,.audit-grid{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}}@media(max-width:640px){body{background:linear-gradient(180deg,#151017 0,#261a13 520px,#f0e5cf 521px)}header{padding:12px 16px}header .wrap{width:calc(100vw - 32px);max-width:calc(100vw - 32px);min-width:0;margin:0}.nav{display:grid;width:calc(100vw - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.nav a{min-width:0;text-align:center;font-size:12px;padding:6px 7px;white-space:nowrap}main{width:100vw;max-width:100vw;min-width:0;margin:0;padding:14px 16px 36px;overflow-x:hidden}.wide-title{display:none}.compact-title{display:inline}.grid4,.grid3,.hero-grid,.source-list,.audit-grid{width:calc(100vw - 32px);max-width:calc(100vw - 32px);grid-template-columns:minmax(0,1fr)}.panel,.status-card,.hero-card,.item-workbench,.price-note,.table-wrap,.scroll-table,.material-band{max-width:calc(100vw - 32px);min-width:0}.toolbar{position:static}.cards{grid-template-columns:minmax(0,1fr)}input[type=search],select{width:100%;flex:1 1 100%}.count{width:100%;margin-left:0}.price-note{grid-template-columns:1fr}.item-scroll{max-height:68vh}.dialog-head{grid-template-columns:56px 1fr auto}.dialog-head img{width:56px;height:56px}h1,.sub,p,li{word-break:break-all;line-break:anywhere}}
+@media(max-width:980px){.grid4,.grid3,.hero-grid,.source-list,.audit-grid,.effect-goals{grid-template-columns:1fr 1fr}.detail-grid{grid-template-columns:1fr}}@media(max-width:640px){body{background:linear-gradient(180deg,#151017 0,#261a13 520px,#f0e5cf 521px)}header{padding:12px 16px}header .wrap{width:calc(100vw - 32px);max-width:calc(100vw - 32px);min-width:0;margin:0}.nav{display:grid;width:calc(100vw - 32px);grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.nav a{min-width:0;text-align:center;font-size:12px;padding:6px 7px;white-space:nowrap}main{width:100vw;max-width:100vw;min-width:0;margin:0;padding:14px 16px 36px;overflow-x:hidden}.wide-title{display:none}.compact-title{display:inline}.grid4,.grid3,.hero-grid,.source-list,.audit-grid,.effect-goals{width:calc(100vw - 32px);max-width:calc(100vw - 32px);grid-template-columns:minmax(0,1fr)}.panel,.status-card,.hero-card,.item-workbench,.price-note,.table-wrap,.scroll-table,.material-band{max-width:calc(100vw - 32px);min-width:0}.toolbar{position:static}.cards{grid-template-columns:minmax(0,1fr)}input[type=search],select{width:100%;flex:1 1 100%}.count{width:100%;margin-left:0}.price-note{grid-template-columns:1fr}.item-scroll{max-height:68vh}.dialog-head{grid-template-columns:56px 1fr auto}.dialog-head img{width:56px;height:56px}h1,.sub,p,li{word-break:break-all;line-break:anywhere}}
 """
 
 
@@ -987,7 +988,7 @@ def html_template(data: dict) -> str:
     <h1><span class="wide-title">TBH 素材・装備メモ</span><span class="compact-title">TBH 素材・装備メモ</span></h1>
     <p class="sub">更新: __TODAY__ / 価格は日本円。ゲーム内データと市場情報を分けて整理。</p>
     <nav class="nav">
-      <a href="#heroes">キャラクター</a><a href="keep-materials.html">残す素材</a><a href="#stats">数値表</a><a href="#specials">特殊装備</a><a href="#items">アイテム</a><a href="#market">価格</a>
+      <a href="#heroes">キャラクター</a><a href="keep-materials.html">残す素材</a><a href="effects.html">効果検索</a><a href="#stats">数値表</a><a href="#specials">特殊装備</a><a href="#items">アイテム</a><a href="#market">価格</a>
     </nav>
   </div>
 </header>
@@ -1450,7 +1451,7 @@ def keep_materials_page_template(data: dict) -> str:
     <h1>残す素材一覧</h1>
     <p class="sub">装飾・彫刻・刻印・制作素材をアイコンで分類。ホバー/クリックで詳細表示。</p>
     <nav class="nav">
-      <a href="index.html">一覧へ戻る</a>{nav_links}
+      <a href="index.html">一覧へ戻る</a><a href="effects.html">効果検索</a>{nav_links}
     </nav>
   </div>
 </header>
@@ -1466,6 +1467,174 @@ def keep_materials_page_template(data: dict) -> str:
 
 def write_keep_materials_page(data: dict) -> None:
     (ROOT / "keep-materials.html").write_text(keep_materials_page_template(data), encoding="utf-8", newline="\n")
+
+
+EFFECT_FOCUS = [
+    {
+        "id": "physical",
+        "label": "物理ダメージ",
+        "short": "物理",
+        "terms": ("物理ダメージ", "Physical Damage"),
+    },
+    {
+        "id": "area",
+        "label": "効果範囲",
+        "short": "範囲",
+        "terms": ("効果範囲", "Area of Effect"),
+    },
+    {
+        "id": "attackSpeed",
+        "label": "攻撃速度",
+        "short": "攻速",
+        "terms": ("攻撃速度", "Attack Speed"),
+    },
+    {
+        "id": "attackDamage",
+        "label": "攻撃力増加",
+        "short": "攻撃力",
+        "terms": ("攻撃力", "Attack Damage"),
+    },
+    {
+        "id": "moveSpeed",
+        "label": "移動速度",
+        "short": "移動",
+        "terms": ("移動速度", "Movement Speed"),
+    },
+]
+
+
+def focus_tags_for_effect(text: str) -> list[str]:
+    result = []
+    for focus in EFFECT_FOCUS:
+        if any(term in text for term in focus["terms"]):
+            result.append(focus["id"])
+    return result
+
+
+def effect_finder_rows(data: dict) -> list[dict]:
+    guide = data["guideEffects"]
+    items_by_en = {item["en"]: item for item in data["items"]}
+    rows = []
+    for source_key, name_key, kind in (
+        ("decorations", "Gem", "装飾"),
+        ("engravings", "Engraving", "彫刻"),
+    ):
+        for row in guide.get(source_key, []):
+            name = row.get(name_key, "")
+            item = items_by_en.get(name, {})
+            slot_data = {}
+            for slot, key in (("weapon", "Weapon"), ("armor", "Armor"), ("accessory", "Accessory")):
+                text = row.get(f"{key}Ja") or translate_stat_text(row.get(key, ""))
+                slot_data[slot] = {
+                    "text": text,
+                    "tags": focus_tags_for_effect(text),
+                }
+            rows.append(
+                {
+                    "kind": kind,
+                    "name": name,
+                    "ja": item.get("ja", name),
+                    "icon": item.get("icon", ""),
+                    "grade": row.get("Grade", item.get("grade", "")),
+                    "tierBand": item.get("tierBand", ""),
+                    **slot_data,
+                }
+            )
+    return rows
+
+
+def effects_page_template(data: dict) -> str:
+    rows_json = json.dumps(effect_finder_rows(data), ensure_ascii=False, separators=(",", ":"))
+    focus_json = json.dumps(EFFECT_FOCUS, ensure_ascii=False, separators=(",", ":"))
+    rarity_json = json.dumps(RARITY_COLOR, ensure_ascii=False, separators=(",", ":"))
+    body = f"""<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>装飾・彫刻 効果検索 - TBH 素材・装備メモ</title>
+<style>{css()}</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>装飾・彫刻 効果検索</h1>
+    <p class="sub">武器・防具・アクセサリー別に、目的の効果を付けられる素材を絞り込み。</p>
+    <nav class="nav">
+      <a href="index.html">一覧へ戻る</a><a href="keep-materials.html">残す素材</a><a href="#finder">効果検索</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="panel" id="finder">
+    <h2>目的で探す</h2>
+    <p class="section-note">防具で移動速度を探す場合は、部位を「防具」、目的を「移動速度」にします。該当がなければ0件として分かります。</p>
+    <div class="effect-goals" id="goalCards"></div>
+    <div class="toolbar">
+      <select id="finderKind">
+        <option value="all">装飾 + 彫刻</option>
+        <option value="装飾">装飾素材</option>
+        <option value="彫刻">彫刻素材</option>
+      </select>
+      <select id="finderSlot">
+        <option value="all">全部位</option>
+        <option value="weapon">武器</option>
+        <option value="armor">防具</option>
+        <option value="accessory">アクセサリー</option>
+      </select>
+      <select id="finderGoal">
+        <option value="all">全効果</option>
+        <option value="physical">物理ダメージ</option>
+        <option value="area">効果範囲</option>
+        <option value="attackSpeed">攻撃速度</option>
+        <option value="attackDamage">攻撃力増加</option>
+        <option value="moveSpeed">移動速度</option>
+      </select>
+      <input id="finderQ" type="search" placeholder="素材名・効果名で検索">
+      <span class="count" id="finderCount"></span>
+    </div>
+    <div class="slot-stats" id="slotStats"></div>
+  </section>
+
+  <div class="scroll-table market-scroll">
+    <table class="effect-search-table">
+      <thead><tr><th>素材</th><th>種類</th><th>等級</th><th>武器</th><th>防具</th><th>アクセサリー</th></tr></thead>
+      <tbody id="finderRows"></tbody>
+    </table>
+  </div>
+  <footer>データ: ゲーム内データ / コミュニティガイド</footer>
+</main>
+<script>
+const ROWS={rows_json};
+const GOALS={focus_json};
+const RARITY={rarity_json};
+const SLOT_LABEL={{weapon:'武器',armor:'防具',accessory:'アクセサリー'}};
+const SLOTS=['weapon','armor','accessory'];
+const goalMap=Object.fromEntries(GOALS.map(g=>[g.id,g]));
+const kindEl=document.getElementById('finderKind'),slotEl=document.getElementById('finderSlot'),goalEl=document.getElementById('finderGoal'),qEl=document.getElementById('finderQ');
+function esc(v){{return String(v??'').replace(/[&<>"']/g,m=>({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[m]));}}
+function gradeChip(grade){{const color=RARITY[grade]||'ddd';return `<span class="chip"><span class="rarity" style="background:${{esc(color)}}"></span>${{esc(grade)}}</span>`;}}
+function rowText(r){{return [r.ja,r.name,r.kind,r.grade,r.tierBand,...SLOTS.map(s=>r[s].text)].join(' ').toLowerCase();}}
+function cellHasGoal(r,slot,goal){{return goal==='all'?r[slot].tags.length>0:r[slot].tags.includes(goal);}}
+function rowHasGoal(r,goal,slot){{if(goal==='all')return true;if(slot!=='all')return cellHasGoal(r,slot,goal);return SLOTS.some(s=>cellHasGoal(r,s,goal));}}
+function filteredBase(){{const kind=kindEl.value,term=qEl.value.trim().toLowerCase();return ROWS.filter(r=>(kind==='all'||r.kind===kind)).filter(r=>!term||rowText(r).includes(term));}}
+function rowPasses(r){{return rowHasGoal(r,goalEl.value,slotEl.value);}}
+function itemCell(r){{const img=r.icon?`<img src="${{esc(r.icon)}}" alt="${{esc(r.ja)}}">`:'';return `<span class="table-item">${{img}}<span><strong>${{esc(r.ja)}}</strong><span class="en">${{esc(r.tierBand||r.name)}}</span></span></span>`;}}
+function effectCell(r,slot){{const cell=r[slot],goal=goalEl.value,selectedSlot=slotEl.value;const hit=(goal!=='all'&&cell.tags.includes(goal))||(goal==='all'&&selectedSlot===slot&&cell.tags.length>0);const badges=cell.tags.map(t=>`<span class="focus-badge">${{esc(goalMap[t]?.short||t)}}</span>`).join('');return `<td class="${{hit?'effect-hit':''}}"><div class="effect-cell">${{esc(cell.text)}}</div>${{badges?`<div class="focus-badges">${{badges}}</div>`:''}}</td>`;}}
+function renderGoalCards(){{const base=filteredBase();document.getElementById('goalCards').innerHTML=GOALS.map(g=>{{const n=base.filter(r=>rowHasGoal(r,g.id,'all')).length;return `<button class="effect-goal ${{goalEl.value===g.id?'active':''}}" type="button" data-goal="${{esc(g.id)}}"><b>${{esc(g.label)}}</b><span>${{n}}件</span></button>`;}}).join('');document.querySelectorAll('.effect-goal').forEach(btn=>btn.addEventListener('click',()=>{{goalEl.value=btn.dataset.goal;renderFinder();}}));}}
+function renderSlotStats(base){{const goal=goalEl.value;document.getElementById('slotStats').innerHTML=SLOTS.map(slot=>{{const n=base.filter(r=>goal==='all'?r[slot].tags.length>0:cellHasGoal(r,slot,goal)).length;return `<span>${{SLOT_LABEL[slot]}}: ${{n}}件</span>`;}}).join('');}}
+function renderFinder(){{const base=filteredBase();const rows=base.filter(rowPasses);renderGoalCards();renderSlotStats(base);document.getElementById('finderCount').textContent=`${{rows.length}}件`;document.getElementById('finderRows').innerHTML=rows.length?rows.map(r=>`<tr><td>${{itemCell(r)}}</td><td>${{esc(r.kind)}}</td><td>${{gradeChip(r.grade)}}</td>${{SLOTS.map(s=>effectCell(r,s)).join('')}}</tr>`).join(''):`<tr><td colspan="6" class="effect-empty">該当する素材はありません。</td></tr>`;}}
+[kindEl,slotEl,goalEl,qEl].forEach(el=>el.addEventListener(el===qEl?'input':'change',renderFinder));
+renderFinder();
+</script>
+</body>
+</html>
+"""
+    return body
+
+
+def write_effects_page(data: dict) -> None:
+    (ROOT / "effects.html").write_text(effects_page_template(data), encoding="utf-8", newline="\n")
 
 
 def character_page_template(data: dict, hero: dict) -> str:
@@ -1505,7 +1674,7 @@ def character_page_template(data: dict, hero: dict) -> str:
     <h1>{h(hero["ja"])} メモ</h1>
     <p class="sub">装備、残す素材、特殊装備をキャラクター別に整理。</p>
     <nav class="nav">
-      <a href="../index.html">一覧へ戻る</a><a href="../keep-materials.html">残す素材</a><a href="#affixes">残す付与素材</a><a href="#specials">特殊装備</a>
+      <a href="../index.html">一覧へ戻る</a><a href="../keep-materials.html">残す素材</a><a href="../effects.html">効果検索</a><a href="#affixes">残す付与素材</a><a href="#specials">特殊装備</a>
     </nav>
   </div>
 </header>
@@ -1568,6 +1737,7 @@ def main() -> None:
     }
     (ROOT / "index.html").write_text(html_template(data), encoding="utf-8", newline="\n")
     write_keep_materials_page(data)
+    write_effects_page(data)
     write_character_pages(data)
 
 
